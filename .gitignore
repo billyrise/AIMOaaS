@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE / Editor
+.cursor/
+.vscode/
+.idea/
+*.sublime-*
+
+# Dependencies (if added later)
+node_modules/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs / cache
+*.log
+.cache/
+
+# Build output (if build step added later)
+dist/
+build/
+.next/
+out/
+
+# Local / temporary
+*.local
+tmp/
+temp/
