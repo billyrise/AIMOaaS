@@ -7,25 +7,25 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <title>AIMOaaS™ | AIガバナンスと運用代行の専門オフィス</title>
+        <title>AIMOaaS™ | シャドーAI対策・AIガバナンス運用代行の専門オフィス</title>
         <meta
             name="description"
-            content="シャドーAIの可視化から、自律型エージェントの24時間監視まで。企業のAIガバナンスを丸ごと代行する「AIMOaaS™」で、リスクを経営資源に変えませんか？AIMO Standard 完全準拠で EU AI Act・ISO 42001・NIST 対応を省力化。" />
+            content="リスクを経営資源に。シャドーAI対策から24時間監視まで、AIガバナンス運用代行で一元対応。AIMO Standard 完全準拠・EU AI Act・ISO 42001・NIST 対応。無料相談あり。" />
         <meta name="robots" content="index, follow" />
-        <meta name="keywords" content="シャドーAI, 野良AI, AIガバナンス, AI監査, AIMO Standard, EU AI Act, ISO 42001, NIST AI RMF" />
+        <meta name="keywords" content="シャドーAI対策, シャドーAI検知, AIガバナンス運用代行, AI監査, AIMO Standard, EU AI Act, ISO 42001, NIST AI RMF" />
         <link rel="canonical" href="https://aimoaas.com/ja/" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://aimoaas.com/ja/" />
-        <meta property="og:title" content="AIMOaaS™ | AIガバナンスと運用代行の専門オフィス" />
-        <meta property="og:description" content="シャドーAIの可視化から自律型エージェントの24時間監視まで。AIMO Standard 完全準拠で EU AI Act・ISO 42001・NIST 対応を省力化。" />
+        <meta property="og:title" content="AIMOaaS™ | シャドーAI対策・AIガバナンス運用代行の専門オフィス" />
+        <meta property="og:description" content="リスクを経営資源に。シャドーAI対策・24時間監視・AIMO Standard 完全準拠。EU AI Act・ISO 42001・NIST 対応。無料相談あり。" />
         <meta property="og:image" content="https://aimoaas.com/assets/aimo-standard-unifying-regulations.png" />
         <meta property="og:image:alt" content="AIMO Standard - EU AI Act・ISO 42001・NIST AI RMF を統合" />
         <meta name="twitter:image:alt" content="AIMO Standard - EU AI Act・ISO 42001・NIST AI RMF を統合" />
         <meta property="og:locale" content="ja_JP" />
         <meta property="og:site_name" content="AIMOaaS™" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AIMOaaS™ | AIガバナンスと運用代行の専門オフィス" />
-        <meta name="twitter:description" content="シャドーAIの可視化から24時間監視まで。AIMO Standard 完全準拠で EU AI Act・ISO 42001・NIST 対応。" />
+        <meta name="twitter:title" content="AIMOaaS™ | シャドーAI対策・AIガバナンス運用代行の専門オフィス" />
+        <meta name="twitter:description" content="リスクを経営資源に。シャドーAI対策・24時間監視・AIMO Standard 完全準拠。EU AI Act・ISO 42001・NIST 対応。" />
         <meta name="twitter:image" content="https://aimoaas.com/assets/aimo-standard-unifying-regulations.png" />
         <link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/" />
         <link rel="alternate" hreflang="en" href="https://aimoaas.com/" />
@@ -121,7 +121,7 @@
             #mobile-menu .mobile-cta:hover, #mobile-menu .mobile-cta:focus { box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4); }
             #mobile-menu .mobile-cta:active { transform: scale(0.98); }
         </style>
-        <!-- 構造化データ: 1ページに FAQPage は1つだけ（重複するとリッチリザルト無効） -->
+        <!-- 構造化データ: Organization, WebSite, Service, FAQPage（1ページにFAQPageは1つのみ） -->
         <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -129,12 +129,32 @@
                 {"@type":"Organization","@id":"https://aimoaas.com/#organization","name":"ライズバイ株式会社","url":"https://riseby.net"},
                 {"@type":"WebSite","@id":"https://aimoaas.com/#website","url":"https://aimoaas.com/ja","name":"AIMOaaS™","description":"AIガバナンスと運用代行。シャドーAI可視化、24時間監視、AIMO Standard 完全準拠。","publisher":{"@id":"https://aimoaas.com/#organization"},"inLanguage":"ja"},
                 {
+                    "@type": "Service",
+                    "@id": "https://aimoaas.com/ja/#service",
+                    "name": "AIMOaaS™",
+                    "description": "AI Management Office as a Service。シャドーAI発見、ガバナンス設計、24/365マネージド運用。AIMO Standard・EU AI Act・ISO 42001・NIST AI RMF 準拠。",
+                    "provider": {"@id": "https://aimoaas.com/#organization"},
+                    "serviceType": "AIガバナンス・運用代行",
+                    "hasOfferCatalog": {
+                        "@type": "OfferCatalog",
+                        "name": "AIMOaaS ティア",
+                        "itemListElement": [
+                            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tier 1: シャドーAI監査（ディスカバリー監査）"}},
+                            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tier 2: ガバナンス構築（ガバナンス設計）"}},
+                            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tier 3: マネージドAIMO（24/365運用代行）"}}
+                        ]
+                    }
+                },
+                {
                     "@type": "FAQPage",
                     "@id": "https://aimoaas.com/ja/#faq",
                     "mainEntity": [
                         {"@type":"Question","name":"AIMOaaS™とは何ですか？","acceptedAnswer":{"@type":"Answer","text":"AIガバナンスと運用を丸ごと代行するサービスです。シャドーAIの可視化、24時間監視、AIMO Standard 準拠の監査・運用を提供します。"}},
                         {"@type":"Question","name":"導入までどのくらいかかりますか？","acceptedAnswer":{"@type":"Answer","text":"シャドーAI監査（Tier 1）は最短4週間で完了するプログラムをご用意しています。"}},
-                        {"@type":"Question","name":"無料相談はありますか？","acceptedAnswer":{"@type":"Answer","text":"はい。毎月5社限定で簡易ログ診断を実施しています。メールでお問い合わせください。"}}
+                        {"@type":"Question","name":"他社の監視ツールとの違いは？","acceptedAnswer":{"@type":"Answer","text":"AIMOaaS™は、49,000種以上のAIアプリ検知とCASB連携などの技術に加え、専門家による24/365の運用監視とHuman-in-the-Loop（人間による確認）をセットで提供します。ツール単体ではなく、AIMO Standard・EU AI Act・ISO 42001・NIST に準拠した運用代行まで含みます。"}},
+                        {"@type":"Question","name":"Human-in-the-Loopとは？","acceptedAnswer":{"@type":"Answer","text":"重要な判断（高リスクなAI利用の遮断やインシデントのエスカレーションなど）を、専門家が確認・承認する仕組みです。検知や定型処理は自動化しつつ、責任の所在は人が持つ設計にしています。"}},
+                        {"@type":"Question","name":"AIMO Standard と ISO 42001 の関係は？","acceptedAnswer":{"@type":"Answer","text":"AIMO Standard は、ISO/IEC 42001（AIマネジメントシステム）・EU AI法・NIST AI RMF を一つのコントロールと証拠の枠組みにまとめたオープンな仕様です。ISO 42001 の要件を満たしつつ他規制とも整合するため、一つの証拠ベースで複数の制度に対応できます。"}},
+                        {"@type":"Question","name":"無料相談はありますか？","acceptedAnswer":{"@type":"Answer","text":"はい。お問い合わせいただくと、専門家が簡易ログ診断のご案内をします。メールでお問い合わせください。"}}
                     ]
                 }
             ]
@@ -156,6 +176,7 @@
                         <a href="#problem" class="hover:text-indigo-600 transition whitespace-nowrap">リスクとコスト</a>
                         <a href="#solution" class="hover:text-indigo-600 transition whitespace-nowrap">サービス概要</a>
                         <a href="aimo-standard/" class="hover:text-indigo-600 transition whitespace-nowrap">AIMO Standard</a>
+                        <a href="resources/ai-governance-guide/" class="hover:text-indigo-600 transition whitespace-nowrap">リソース</a>
                         <a href="#features" class="hover:text-indigo-600 transition whitespace-nowrap">特徴</a>
                         <a href="#plans" class="hover:text-indigo-600 transition whitespace-nowrap">導入プラン</a>
                         <a href="#faq" class="hover:text-indigo-600 transition whitespace-nowrap">よくある質問</a>
@@ -184,7 +205,7 @@
                     <a
                         href="mailto:contact@aimoaas.com?subject=AIMOaaS問い合わせ&body=このままメールを送信してください。後ほど、資料をお届けします。"
                         class="hidden sm:inline-flex bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2.5 rounded-full text-sm font-bold transition shadow-lg hover:shadow-indigo-500/30 flex-shrink-0 whitespace-nowrap">
-                        無料相談・診断
+                        無料相談
                     </a>
                     <button type="button" id="hamburger-btn" class="min-[1024px]:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 cursor-pointer inline-flex items-center justify-center border-0 bg-transparent" aria-label="メニューを開く" aria-controls="mobile-menu" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
@@ -200,12 +221,13 @@
                     <a href="#problem" class="mobile-nav-link">リスクとコスト</a>
                     <a href="#solution" class="mobile-nav-link">サービス概要</a>
                     <a href="aimo-standard/" class="mobile-nav-link">AIMO Standard</a>
+                    <a href="resources/ai-governance-guide/" class="mobile-nav-link">リソース</a>
                     <a href="#features" class="mobile-nav-link">特徴</a>
                     <a href="#plans" class="mobile-nav-link">導入プラン</a>
                     <a href="#faq" class="mobile-nav-link">よくある質問</a>
                 </nav>
                 <div class="mobile-cta-wrap">
-                    <a href="mailto:contact@aimoaas.com?subject=AIMOaaS問い合わせ&body=このままメールを送信してください。後ほど、資料をお届けします。" class="mobile-cta">無料相談・診断</a>
+                    <a href="mailto:contact@aimoaas.com?subject=AIMOaaS問い合わせ&body=このままメールを送信してください。後ほど、資料をお届けします。" class="mobile-cta">無料相談</a>
                 </div>
                 <div class="mobile-nav-divider" role="presentation"></div>
                 <div>
@@ -264,9 +286,9 @@
                     <p class="text-slate-400 text-sm">AIMOは AI Management Office（AI管理オフィス）の略称です。</p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <a
-                            href="mailto:contact@aimoaas.com?subject=AIMOaaS問い合わせ&body=このままメールを送信してください。後ほど、資料をお届けします。"
-                            class="flex items-center justify-center gap-2 bg-white text-indigo-900 px-8 py-4 rounded-lg font-bold hover:bg-indigo-50 transition shadow-xl">
-                            シャドーAI無料診断を受ける
+                        href="mailto:contact@aimoaas.com?subject=AIMOaaS問い合わせ&body=このままメールを送信してください。後ほど、資料をお届けします。"
+                        class="flex items-center justify-center gap-2 bg-white text-indigo-900 px-8 py-4 rounded-lg font-bold hover:bg-indigo-50 transition shadow-xl">
+                            無料相談・診断のご案内を申し込む
                             <i data-lucide="arrow-right" class="w-5 h-5"></i>
                         </a>
                         <a
@@ -873,8 +895,32 @@
             </div>
         </section>
 
+        <!-- 事例紹介 -->
+        <section id="case-studies" class="py-24 bg-white border-t border-slate-200">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <span class="text-indigo-600 font-bold tracking-wider text-sm uppercase">導入事例</span>
+                    <h2 class="text-3xl font-bold text-slate-900 mt-2">事例紹介</h2>
+                    <p class="text-slate-600 mt-4 max-w-2xl mx-auto">
+                        シャドーAI監査・ガバナンス設計・運用代行で、可視化とガバナンスを実現した事例をご紹介します。
+                    </p>
+                </div>
+                <div class="max-w-2xl mx-auto">
+                    <div class="bg-slate-50 rounded-xl border border-slate-200 p-6 md:p-8">
+                        <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">製造業</p>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3">「見えないAI利用」から「ガバナンスされた利用」へ</h3>
+                        <p class="text-slate-600 mb-4">グローバル製造企業が、Tier 1監査とTier 2ガバナンス構築により、AI利用の全容把握・ポリシー整備・内部監査向け証跡を実現した事例です。</p>
+                        <a href="/ja/resources/case-studies/" class="inline-flex items-center gap-2 text-indigo-600 font-medium hover:underline">事例を読む <span aria-hidden="true">→</span></a>
+                    </div>
+                </div>
+                <p class="text-center mt-8">
+                    <a href="/ja/resources/case-studies/" class="text-indigo-600 font-medium hover:underline">事例一覧を見る</a>
+                </p>
+            </div>
+        </section>
+
         <!-- よくある質問（FAQPage はこのページに1つだけ） -->
-        <section id="faq" class="py-24 bg-white border-t border-slate-200">
+        <section id="faq" class="py-24 bg-slate-50 border-t border-slate-200">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl font-bold text-slate-900 text-center mb-12">よくある質問</h2>
                 <div class="max-w-2xl mx-auto space-y-6">
@@ -894,10 +940,31 @@
                     </details>
                     <details class="group bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
                         <summary class="p-5 font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between gap-2">
+                            他社の監視ツールとの違いは？
+                            <i data-lucide="chevron-down" class="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform shrink-0"></i>
+                        </summary>
+                        <p class="px-5 pb-5 pt-0 text-slate-600">AIMOaaS™は、49,000種以上のAIアプリ検知とCASB連携などの技術に加え、専門家による24/365の運用監視とHuman-in-the-Loop（人間による確認）をセットで提供します。ツール単体ではなく、AIMO Standard・EU AI Act・ISO 42001・NIST に準拠した運用代行まで含みます。</p>
+                    </details>
+                    <details class="group bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                        <summary class="p-5 font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between gap-2">
+                            Human-in-the-Loopとは？
+                            <i data-lucide="chevron-down" class="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform shrink-0"></i>
+                        </summary>
+                        <p class="px-5 pb-5 pt-0 text-slate-600">重要な判断（高リスクなAI利用の遮断やインシデントのエスカレーションなど）を、専門家が確認・承認する仕組みです。検知や定型処理は自動化しつつ、責任の所在は人が持つ設計にしています。</p>
+                    </details>
+                    <details class="group bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                        <summary class="p-5 font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between gap-2">
+                            AIMO Standard と ISO 42001 の関係は？
+                            <i data-lucide="chevron-down" class="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform shrink-0"></i>
+                        </summary>
+                        <p class="px-5 pb-5 pt-0 text-slate-600">AIMO Standard は、ISO/IEC 42001（AIマネジメントシステム）・EU AI法・NIST AI RMF を一つのコントロールと証拠の枠組みにまとめたオープンな仕様です。ISO 42001 の要件を満たしつつ他規制とも整合するため、一つの証拠ベースで複数の制度に対応できます。</p>
+                    </details>
+                    <details class="group bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                        <summary class="p-5 font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between gap-2">
                             無料相談はありますか？
                             <i data-lucide="chevron-down" class="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform shrink-0"></i>
                         </summary>
-                        <p class="px-5 pb-5 pt-0 text-slate-600">はい。毎月5社限定で簡易ログ診断を実施しています。メールでお問い合わせください。</p>
+                        <p class="px-5 pb-5 pt-0 text-slate-600">はい。お問い合わせいただくと、専門家が簡易ログ診断のご案内をします。メールでお問い合わせください。</p>
                     </details>
                 </div>
             </div>
@@ -917,8 +984,8 @@
                         今すぐ、見えないリスクを止めましょう。
                     </h2>
                     <p class="text-indigo-100 mb-10 text-lg relative z-10">
-                        毎月5社限定で「簡易ログ診断」を実施しています。<br />
-                        まずは現状のリスクレベルをご確認ください。
+                        お問い合わせいただいた方に、毎月限定で専門家による簡易ログ診断のご案内をしています。<br />
+                        まずは現状のリスクレベルをご相談ください。
                     </p>
 
                     <div class="flex flex-col sm:flex-row gap-4 justify-center relative z-10">
@@ -950,6 +1017,9 @@
                     </a>
                     <div class="flex flex-wrap gap-6 text-sm">
                         <a href="aimo-standard/" class="hover:text-white transition">AIMO Standard</a>
+                        <a href="resources/ai-governance-guide/" class="hover:text-white transition">リソース</a>
+                        <a href="resources/case-studies/" class="hover:text-white transition">事例紹介</a>
+                        <a href="resources/maturity-checklist/" class="hover:text-white transition">成熟度チェック</a>
                         <a
                             href="https://riseby.net"
                             target="_blank"

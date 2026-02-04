@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="canonical" href="https://aimoaas.com/ja/resources/human-in-the-loop/" />
+        <title>Human-in-the-Loop：責任の所在と対応フロー | AIMOaaS™</title>
+        <meta name="description" content="AIMOaaS™におけるHuman-in-the-Loopの考え方。インシデント対応フロー、承認プロセス、責任の所在を明文化。重要判断は人が承認し、検知は自動化。" />
+        <meta name="robots" content="index, follow" />
+        <link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/human-in-the-loop/" />
+        <link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/human-in-the-loop/" />
+        <link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/human-in-the-loop/" />
+        <link rel="preconnect" href="https://cdn.tailwindcss.com" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+        <style>body { font-family: "Noto Sans JP", sans-serif; scroll-behavior: smooth; }</style>
+        <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://aimoaas.com/ja/"},{"@type":"ListItem","position":2,"name":"リソース","item":"https://aimoaas.com/ja/resources/ai-governance-guide/"},{"@type":"ListItem","position":3,"name":"Human-in-the-Loop","item":"https://aimoaas.com/ja/resources/human-in-the-loop/"}]}
+        </script>
+    </head>
+    <body class="bg-slate-50 text-slate-800 antialiased">
+        <header class="fixed w-full z-50 bg-white/95 border-b border-slate-200">
+            <div class="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
+                <a href="../../" class="flex items-center gap-2 flex-shrink-0"><span class="font-bold tracking-tight text-slate-900">AIMO<span class="text-indigo-600">aaS</span>™</span></a>
+                <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+                    <a href="../../#solution" class="hover:text-indigo-600">サービス概要</a>
+                    <a href="../../aimo-standard/" class="hover:text-indigo-600">AIMO Standard</a>
+                    <a href="../../#faq" class="hover:text-indigo-600">よくある質問</a>
+                    <a href="../ai-governance-guide/" class="hover:text-indigo-600">AIガバナンスガイド</a>
+                    <a href="../glossary/" class="hover:text-indigo-600">用語集</a>
+                    <span class="text-slate-400">|</span>
+                    <a href="../../../resources/human-in-the-loop/" class="hover:text-indigo-600">English</a>
+                </nav>
+                <a href="mailto:contact@aimoaas.com?subject=AIMOaaS%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B" class="hidden sm:inline-flex bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-bold hover:bg-indigo-700">お問い合わせ</a>
+            </div>
+        </header>
+        <main class="pt-24 pb-16">
+            <div class="container mx-auto px-6 max-w-3xl">
+                <nav class="text-sm text-slate-500 mb-8">
+                    <a href="../../" class="hover:text-indigo-600">ホーム</a><span class="mx-2">/</span>
+                    <a href="../ai-governance-guide/" class="hover:text-indigo-600">リソース</a><span class="mx-2">/</span>
+                    <span class="text-slate-700">Human-in-the-Loop</span>
+                </nav>
+                <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Human-in-the-Loop：責任の所在と対応フロー</h1>
+                <p class="text-lg text-slate-600 mb-10">AIMOaaS™では、検知と定型チェックは自動化し、重要な判断は専門家が確認・承認します。ここではインシデント時の対応フロー、承認プロセス、責任の所在を説明します。</p>
+                <div class="prose prose-slate max-w-none space-y-8">
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">Human-in-the-Loopとは</h2>
+                        <p class="text-slate-600">Human-in-the-Loop（HITL）とは、高リスクなAI利用の遮断、インシデントのエスカレーション、ポリシー変更といった「重要な判断」を、訓練されたアナリストがレビューし承認する仕組みです。検知とアラートは自動化できますが、「誰がいつ何を承認したか」は人が記録し、責任を持ちます。</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">インシデント時の対応フロー</h2>
+                        <p class="text-slate-600 mb-4">システムがリスク（機密データのアップロード、異常なAPI利用など）を検知した場合の流れは以下のとおりです。</p>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-600">
+                            <li><strong>検知・アラート</strong> — エンジンがイベントを検知し、コントロールタワーにアラートを生成します。</li>
+                            <li><strong>アナリストによる確認</strong> — アナリストが文脈・重大度・ポリシーを評価し、遮断・エスカレーション・許可（例：誤検知）のいずれかを判断します。</li>
+                            <li><strong>実行・ログ</strong> — 選択したアクション（遮断、通知など）を実行し、日時と担当者を記録して監査証跡を残します。</li>
+                            <li><strong>フォローアップ</strong> — 必要に応じて、御社の窓口へ報告し、是正措置を支援します。</li>
+                        </ol>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">承認プロセス</h2>
+                        <p class="text-slate-600">部門単位のAI利用遮断やリスク区分の変更など、重要なアクションはアナリストの明示的な承認を必要とします。人の確認なしに自動で適用することはありません。承認フローとエスカレーション経路は、ガバナンス設計（Tier 2）時に御社と合意し、運用手順に反映しています。</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">責任の所在</h2>
+                        <p class="text-slate-600">AIMOaaS™は、御社の「AI管理機能」をアウトソースする形で運用します。監視・レビュー・対応の実行について、契約範囲内の責任は当社が負います。AIガバナンスの方針や戦略的な意思決定の責任は御社にあり、当社は運用レイヤーと証拠（ログ・レポート）を提供し、監査・規制当局への説明責任を果たしやすくします。</p>
+                    </section>
+                </div>
+                <div class="mt-12 pt-8 border-t border-slate-200">
+                    <p class="text-sm text-slate-500 mb-2">関連ページ</p>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="../ai-governance-guide/" class="text-indigo-600 hover:underline">AIガバナンス完全ガイド</a>
+                        <a href="../aimo-analysis-engine/" class="text-indigo-600 hover:underline">AIMO Analysis Engine</a>
+                        <a href="../glossary/" class="text-indigo-600 hover:underline">用語集</a>
+                        <a href="../../#faq" class="text-indigo-600 hover:underline">よくある質問</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800">
+            <div class="container mx-auto px-6 flex flex-wrap justify-between items-center gap-4 text-sm">
+                <a href="../../" class="font-bold text-slate-200 hover:text-white">AIMOaaS™</a>
+                <div class="flex gap-6">
+                    <a href="../../aimo-standard/" class="hover:text-white">AIMO Standard</a>
+                    <a href="https://riseby.net" target="_blank" rel="noopener noreferrer" class="hover:text-white">ライズバイ株式会社</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

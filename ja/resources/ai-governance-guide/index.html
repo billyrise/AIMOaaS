@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="canonical" href="https://aimoaas.com/ja/resources/ai-governance-guide/" />
+        <title>AIガバナンス完全ガイド：規制・リスク・運用 | AIMOaaS™</title>
+        <meta name="description" content="AIガバナンスの全体像：シャドーAIリスク、EU AI法、ISO 42001、NIST AI RMF、運用代行による対応。AIMO Standard 準拠。" />
+        <meta name="robots" content="index, follow" />
+        <link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/ai-governance-guide/" />
+        <link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/ai-governance-guide/" />
+        <link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/ai-governance-guide/" />
+        <link rel="preconnect" href="https://cdn.tailwindcss.com" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+        <style>body { font-family: "Noto Sans JP", sans-serif; scroll-behavior: smooth; }</style>
+        <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://aimoaas.com/ja/"},{"@type":"ListItem","position":2,"name":"リソース","item":"https://aimoaas.com/ja/"},{"@type":"ListItem","position":3,"name":"AIガバナンス完全ガイド","item":"https://aimoaas.com/ja/resources/ai-governance-guide/"}]}
+        </script>
+    </head>
+    <body class="bg-slate-50 text-slate-800 antialiased">
+        <header class="fixed w-full z-50 bg-white/95 border-b border-slate-200">
+            <div class="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
+                <a href="../../" class="flex items-center gap-2 font-bold text-slate-900">
+                    <span class="font-bold tracking-tight text-slate-900">AIMO<span class="text-indigo-600">aaS</span>™</span>
+                </a>
+                <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+                    <a href="../../#solution" class="hover:text-indigo-600">サービス概要</a>
+                    <a href="../../aimo-standard/" class="hover:text-indigo-600">AIMO Standard</a>
+                    <a href="../../#faq" class="hover:text-indigo-600">よくある質問</a>
+                    <a href="../shadow-ai/" class="hover:text-indigo-600">シャドーAI</a>
+                    <a href="../glossary/" class="hover:text-indigo-600">用語集</a>
+                    <span class="text-slate-400">|</span>
+                    <a href="../../../resources/ai-governance-guide/" class="hover:text-indigo-600">English</a>
+                </nav>
+                <a href="mailto:contact@aimoaas.com?subject=AIMOaaS%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B" class="hidden sm:inline-flex bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-bold hover:bg-indigo-700">お問い合わせ</a>
+            </div>
+        </header>
+        <main class="pt-24 pb-16">
+            <div class="container mx-auto px-6 max-w-3xl">
+                <nav class="text-sm text-slate-500 mb-8">
+                    <a href="../../" class="hover:text-indigo-600">ホーム</a>
+                    <span class="mx-2">/</span>
+                    <a href="../ai-governance-guide/" class="hover:text-indigo-600">リソース</a>
+                    <span class="mx-2">/</span>
+                    <span class="text-slate-700">AIガバナンス完全ガイド</span>
+                </nav>
+                <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">AIガバナンス完全ガイド</h1>
+                <p class="text-lg text-slate-600 mb-10">
+                    AIガバナンスの重要性、主要な規制（EU AI法・ISO 42001・NIST AI RMF）、シャドーAIリスク、そして運用代行による対応の全体像をまとめました。
+                </p>
+                <div class="prose prose-slate max-w-none space-y-8">
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">なぜAIガバナンスが必要か</h2>
+                        <p class="text-slate-600">管理されないAI利用は、情報漏洩・コスト浪費・規制リスクを招きます。ガバナンスは「禁止」だけでなく、安全で追跡可能な利用を可能にし、国際標準に合わせた体制づくりが目的です。</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">主な規制・標準</h2>
+                        <p class="text-slate-600 mb-4">EU AI法、ISO/IEC 42001（AIマネジメントシステム）、NIST AI RMF は要件が重なります。<a href="../../aimo-standard/" class="text-indigo-600 hover:underline">AIMO Standard</a>はこれらを一つの枠組みにまとめ、証拠資料の整備を省力化します。<a href="../eu-ai-act/" class="text-indigo-600 hover:underline">EU AI法</a>・<a href="../glossary/" class="text-indigo-600 hover:underline">用語集</a>も参照ください。</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">シャドーAIと可視化</h2>
+                        <p class="text-slate-600">シャドーAIは、許可されていないAIツールの利用です。ログやCASBによる発見のうえ、ガバナンス設計と24時間監視で対応する流れをAIMOaaS™は支援します。詳しくは<a href="../shadow-ai/" class="text-indigo-600 hover:underline">シャドーAI</a>ページへ。</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">次のステップ</h2>
+                        <p class="text-slate-600">まずは可視化（シャドーAI監査）から。その後、ポリシー策定と必要に応じた運用代行へ。<a href="mailto:contact@aimoaas.com" class="text-indigo-600 font-medium hover:underline">お問い合わせ</a>で無料診断のご案内をします。</p>
+                    </section>
+                </div>
+                <div class="mt-12 pt-8 border-t border-slate-200">
+                    <p class="text-sm text-slate-500 mb-2">関連ページ</p>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="../shadow-ai/" class="text-indigo-600 hover:underline">シャドーAI</a>
+                        <a href="../eu-ai-act/" class="text-indigo-600 hover:underline">EU AI法</a>
+                        <a href="../glossary/" class="text-indigo-600 hover:underline">用語集</a>
+                        <a href="../aimo-analysis-engine/" class="text-indigo-600 hover:underline">AIMO Analysis Engine</a>
+                        <a href="../governance-as-code/" class="text-indigo-600 hover:underline">Governance as Code</a>
+                        <a href="../human-in-the-loop/" class="text-indigo-600 hover:underline">Human-in-the-Loop</a>
+                        <a href="../case-studies/" class="text-indigo-600 hover:underline">事例紹介</a>
+                        <a href="../shadow-ai-governance-guide/" class="text-indigo-600 hover:underline">シャドーAI対策ガイド</a>
+                        <a href="../maturity-checklist/" class="text-indigo-600 hover:underline">成熟度チェックリスト</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800">
+            <div class="container mx-auto px-6 flex flex-wrap justify-between items-center gap-4 text-sm">
+                <a href="../../" class="font-bold text-slate-200 hover:text-white">AIMOaaS™</a>
+                <div class="flex gap-6">
+                    <a href="../../aimo-standard/" class="hover:text-white">AIMO Standard</a>
+                    <a href="https://riseby.net" target="_blank" rel="noopener noreferrer" class="hover:text-white">ライズバイ株式会社</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

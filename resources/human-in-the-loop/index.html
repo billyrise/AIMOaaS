@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="canonical" href="https://aimoaas.com/resources/human-in-the-loop/" />
+        <title>Human-in-the-Loop: How We Keep Accountability in AI Governance | AIMOaaS™</title>
+        <meta name="description" content="How AIMOaaS™ uses Human-in-the-Loop: incident response flow, approval process, and clear accountability. Expert review for critical decisions; automation for detection." />
+        <meta name="robots" content="index, follow" />
+        <link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/human-in-the-loop/" />
+        <link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/human-in-the-loop/" />
+        <link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/human-in-the-loop/" />
+        <link rel="preconnect" href="https://cdn.tailwindcss.com" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <style>body { font-family: "Inter", system-ui, sans-serif; scroll-behavior: smooth; }</style>
+        <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aimoaas.com/"},{"@type":"ListItem","position":2,"name":"Resources","item":"https://aimoaas.com/resources/ai-governance-guide/"},{"@type":"ListItem","position":3,"name":"Human-in-the-Loop","item":"https://aimoaas.com/resources/human-in-the-loop/"}]}
+        </script>
+    </head>
+    <body class="bg-slate-50 text-slate-800 antialiased">
+        <header class="fixed w-full z-50 bg-white/95 border-b border-slate-200">
+            <div class="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
+                <a href="../../" class="flex items-center gap-2 flex-shrink-0"><span class="font-bold tracking-tight text-slate-900">AIMO<span class="text-indigo-600">aaS</span>™</span></a>
+                <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+                    <a href="../../#solution" class="hover:text-indigo-600">Solution</a>
+                    <a href="../../aimo-standard/" class="hover:text-indigo-600">AIMO Standard</a>
+                    <a href="../../#faq" class="hover:text-indigo-600">FAQ</a>
+                    <a href="../../resources/ai-governance-guide/" class="hover:text-indigo-600">AI Governance Guide</a>
+                    <a href="../../resources/glossary/" class="hover:text-indigo-600">Glossary</a>
+                    <span class="text-slate-400">|</span>
+                    <a href="../../ja/resources/human-in-the-loop/" class="hover:text-indigo-600">日本語</a>
+                </nav>
+                <a href="mailto:contact@aimoaas.com?subject=AIMOaaS%20Inquiry" class="hidden sm:inline-flex bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-bold hover:bg-indigo-700">Contact</a>
+            </div>
+        </header>
+        <main class="pt-24 pb-16">
+            <div class="container mx-auto px-6 max-w-3xl">
+                <nav class="text-sm text-slate-500 mb-8">
+                    <a href="../../" class="hover:text-indigo-600">Home</a><span class="mx-2">/</span>
+                    <a href="../../resources/ai-governance-guide/" class="hover:text-indigo-600">Resources</a><span class="mx-2">/</span>
+                    <span class="text-slate-700">Human-in-the-Loop</span>
+                </nav>
+                <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Human-in-the-Loop: How We Keep Accountability</h1>
+                <p class="text-lg text-slate-600 mb-10">In AIMOaaS™, automation handles detection and routine checks; experts review and approve critical decisions. This page explains our incident response flow, approval process, and where accountability sits.</p>
+                <div class="prose prose-slate max-w-none space-y-8">
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">What is Human-in-the-Loop?</h2>
+                        <p class="text-slate-600">Human-in-the-Loop (HITL) means that high-impact decisions—such as blocking a high-risk AI use, escalating an incident, or changing a policy—are reviewed and approved by trained analysts. Detection and alerting can be automated; the decision to act and the record of who approved it remain with people.</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">Incident response flow</h2>
+                        <p class="text-slate-600 mb-4">When our systems detect a potential risk (e.g. confidential data upload, unusual API usage), the following happens:</p>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-600">
+                            <li><strong>Detection &amp; alert</strong> — The engine flags the event and creates an alert in the Control Tower.</li>
+                            <li><strong>Analyst review</strong> — An analyst assesses context, severity, and policy. They decide whether to block, escalate, or allow (e.g. false positive).</li>
+                            <li><strong>Action &amp; log</strong> — The chosen action (block, notify, etc.) is executed, and the decision is logged with timestamp and analyst identity for audit.</li>
+                            <li><strong>Follow-up</strong> — If needed, we report to your designated contacts and support remediation.</li>
+                        </ol>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">Approval process</h2>
+                        <p class="text-slate-600">Critical actions (e.g. blocking a department’s AI access, changing a risk classification) require explicit analyst approval. We do not auto-apply such changes without human review. Approval workflows and escalation paths are defined with you during governance design (Tier 2) and reflected in our operating procedures.</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">Where accountability sits</h2>
+                        <p class="text-slate-600">AIMOaaS™ operates as your outsourced AI management function. Our team is accountable for the execution of monitoring, review, and response within the scope agreed in the contract. Your organization retains overall responsibility for AI governance policy and strategic decisions; we provide the operational layer and evidence (logs, reports) so you can demonstrate due diligence to auditors and regulators.</p>
+                    </section>
+                </div>
+                <div class="mt-12 pt-8 border-t border-slate-200">
+                    <p class="text-sm text-slate-500 mb-2">Related</p>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="../../resources/ai-governance-guide/" class="text-indigo-600 hover:underline">AI Governance Guide</a>
+                        <a href="../../resources/aimo-analysis-engine/" class="text-indigo-600 hover:underline">AIMO Analysis Engine</a>
+                        <a href="../../resources/glossary/" class="text-indigo-600 hover:underline">Glossary</a>
+                        <a href="../../#faq" class="text-indigo-600 hover:underline">FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800">
+            <div class="container mx-auto px-6 flex flex-wrap justify-between items-center gap-4 text-sm">
+                <a href="../../" class="font-bold text-slate-200 hover:text-white">AIMOaaS™</a>
+                <div class="flex gap-6">
+                    <a href="../../aimo-standard/" class="hover:text-white">AIMO Standard</a>
+                    <a href="https://riseby.net" target="_blank" rel="noopener noreferrer" class="hover:text-white">RISEby inc.</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

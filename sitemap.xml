@@ -48,6 +48,156 @@
         <priority>0.85</priority>
     </url>
     <url>
+        <loc>https://aimoaas.com/resources/ai-governance-guide/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/ai-governance-guide/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/ai-governance-guide/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/ai-governance-guide/"/>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/resources/shadow-ai/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/shadow-ai/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/shadow-ai/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/shadow-ai/"/>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/resources/eu-ai-act/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/eu-ai-act/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/eu-ai-act/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/eu-ai-act/"/>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/resources/glossary/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/glossary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/glossary/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/glossary/"/>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/resources/aimo-analysis-engine/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/aimo-analysis-engine/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/aimo-analysis-engine/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/aimo-analysis-engine/"/>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/resources/governance-as-code/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/governance-as-code/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/governance-as-code/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/governance-as-code/"/>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/resources/human-in-the-loop/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/human-in-the-loop/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/human-in-the-loop/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/human-in-the-loop/"/>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/resources/case-studies/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/case-studies/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/case-studies/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/case-studies/"/>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/resources/shadow-ai-governance-guide/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/shadow-ai-governance-guide/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/shadow-ai-governance-guide/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/shadow-ai-governance-guide/"/>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/resources/maturity-checklist/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/maturity-checklist/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/maturity-checklist/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/maturity-checklist/"/>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/ai-governance-guide/</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/shadow-ai/</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/eu-ai-act/</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/glossary/</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/aimo-analysis-engine/</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/governance-as-code/</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/human-in-the-loop/</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/case-studies/</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/shadow-ai-governance-guide/</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/maturity-checklist/</loc>
+        <lastmod>2025-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
         <loc>https://aimoaas.com/es/</loc>
         <lastmod>2025-02-04</lastmod>
         <changefreq>monthly</changefreq>

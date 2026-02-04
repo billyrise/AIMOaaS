@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="canonical" href="https://aimoaas.com/resources/shadow-ai-governance-guide/" />
+        <title>Shadow AI Response Guide: Steps & Checklist | AIMOaaS™</title>
+        <meta name="description" content="A practical guide to tackling Shadow AI: discover, assess risk, define policy, build an allowlist, and monitor. Step-by-step and checklist for AI governance." />
+        <meta name="robots" content="index, follow" />
+        <link rel="alternate" hreflang="en" href="https://aimoaas.com/resources/shadow-ai-governance-guide/" />
+        <link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/resources/shadow-ai-governance-guide/" />
+        <link rel="alternate" hreflang="x-default" href="https://aimoaas.com/resources/shadow-ai-governance-guide/" />
+        <link rel="preconnect" href="https://cdn.tailwindcss.com" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <style>body { font-family: "Inter", system-ui, sans-serif; scroll-behavior: smooth; }</style>
+        <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aimoaas.com/"},{"@type":"ListItem","position":2,"name":"Resources","item":"https://aimoaas.com/resources/ai-governance-guide/"},{"@type":"ListItem","position":3,"name":"Shadow AI Response Guide","item":"https://aimoaas.com/resources/shadow-ai-governance-guide/"}]}
+        </script>
+    </head>
+    <body class="bg-slate-50 text-slate-800 antialiased">
+        <header class="fixed w-full z-50 bg-white/95 border-b border-slate-200">
+            <div class="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
+                <a href="../../" class="flex items-center gap-2 flex-shrink-0"><span class="font-bold tracking-tight text-slate-900">AIMO<span class="text-indigo-600">aaS</span>™</span></a>
+                <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+                    <a href="../../#solution" class="hover:text-indigo-600">Solution</a>
+                    <a href="../../aimo-standard/" class="hover:text-indigo-600">AIMO Standard</a>
+                    <a href="../../#faq" class="hover:text-indigo-600">FAQ</a>
+                    <a href="../../resources/ai-governance-guide/" class="hover:text-indigo-600">AI Governance Guide</a>
+                    <a href="../../resources/glossary/" class="hover:text-indigo-600">Glossary</a>
+                    <span class="text-slate-400">|</span>
+                    <a href="../../ja/resources/shadow-ai-governance-guide/" class="hover:text-indigo-600">日本語</a>
+                </nav>
+                <a href="mailto:contact@aimoaas.com?subject=AIMOaaS%20Inquiry" class="hidden sm:inline-flex bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-bold hover:bg-indigo-700">Contact</a>
+            </div>
+        </header>
+        <main class="pt-24 pb-16">
+            <div class="container mx-auto px-6 max-w-3xl">
+                <nav class="text-sm text-slate-500 mb-8">
+                    <a href="../../" class="hover:text-indigo-600">Home</a><span class="mx-2">/</span>
+                    <a href="../../resources/ai-governance-guide/" class="hover:text-indigo-600">Resources</a><span class="mx-2">/</span>
+                    <span class="text-slate-700">Shadow AI Response Guide</span>
+                </nav>
+                <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Shadow AI Response Guide: Steps & Checklist</h1>
+                <p class="text-lg text-slate-600 mb-10">A practical guide to tackling unsanctioned AI use: from discovery and risk assessment to policy, allowlist, and ongoing monitoring. Use this as a roadmap and checklist for your AI governance.</p>
+                <div class="prose prose-slate max-w-none space-y-8">
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">Step 1: Discover</h2>
+                        <p class="text-slate-600">Map where AI is used without central approval. Use CASB, network and browser logs, or a dedicated Shadow AI audit (e.g. scan for 49,000+ AI app patterns). Identify business units, high-risk apps, and data exposure.</p>
+                        <ul class="list-disc pl-6 text-slate-600 space-y-1 mt-3">
+                            <li>Inventory AI tools in use (consumer apps, APIs, embedded features).</li>
+                            <li>Tag by risk: data sensitivity, regulatory impact, cost.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">Step 2: Assess risk</h2>
+                        <p class="text-slate-600">Prioritize by data leakage, compliance (e.g. EU AI Act, sector rules), and cost. Decide which uses are acceptable with controls and which must be blocked or migrated to approved tools.</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">Step 3: Define policy</h2>
+                        <p class="text-slate-600">Write a clear AI use policy: what is allowed, what requires approval, what is prohibited. Include data handling, acceptable use, and escalation. Align with AIMO Standard, EU AI Act, ISO 42001, or NIST AI RMF as needed.</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">Step 4: Allowlist and request flow</h2>
+                        <p class="text-slate-600">Maintain an allowlist (whitelist) of approved AI tools and use cases. Define a lightweight request flow so new tools can be evaluated and approved without blocking innovation. Use a digital register instead of spreadsheets where possible.</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">Step 5: Monitor and iterate</h2>
+                        <p class="text-slate-600">Run periodic discovery and monitoring to catch new Shadow AI. Optionally use 24/365 monitoring with Human-in-the-Loop for high-risk decisions. Update the allowlist and policy as tools and regulations change.</p>
+                    </section>
+                    <section>
+                        <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">Checklist summary</h2>
+                        <ul class="list-none space-y-2 text-slate-600">
+                            <li class="flex items-start gap-2"><span class="text-indigo-600 font-bold">□</span> Discovery completed (audit or log-based scan).</li>
+                            <li class="flex items-start gap-2"><span class="text-indigo-600 font-bold">□</span> Risk assessment and prioritization done.</li>
+                            <li class="flex items-start gap-2"><span class="text-indigo-600 font-bold">□</span> AI use policy documented and communicated.</li>
+                            <li class="flex items-start gap-2"><span class="text-indigo-600 font-bold">□</span> Allowlist and request flow in place.</li>
+                            <li class="flex items-start gap-2"><span class="text-indigo-600 font-bold">□</span> Monitoring and review cycle defined.</li>
+                        </ul>
+                    </section>
+                    <p class="text-slate-600 mt-8">AIMOaaS™ supports Tier 1 (Shadow AI audit), Tier 2 (governance build), and Tier 3 (managed operations). <a href="mailto:contact@aimoaas.com" class="text-indigo-600 font-medium hover:underline">Contact us</a> for a free assessment.</p>
+                </div>
+                <div class="mt-12 pt-8 border-t border-slate-200">
+                    <p class="text-sm text-slate-500 mb-2">Related</p>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="../../resources/shadow-ai/" class="text-indigo-600 hover:underline">Shadow AI</a>
+                        <a href="../../resources/ai-governance-guide/" class="text-indigo-600 hover:underline">AI Governance Guide</a>
+                        <a href="../../resources/eu-ai-act/" class="text-indigo-600 hover:underline">EU AI Act</a>
+                        <a href="../../resources/human-in-the-loop/" class="text-indigo-600 hover:underline">Human-in-the-Loop</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800">
+            <div class="container mx-auto px-6 flex flex-wrap justify-between items-center gap-4 text-sm">
+                <a href="../../" class="font-bold text-slate-200 hover:text-white">AIMOaaS™</a>
+                <div class="flex gap-6">
+                    <a href="../../aimo-standard/" class="hover:text-white">AIMO Standard</a>
+                    <a href="https://riseby.net" target="_blank" rel="noopener noreferrer" class="hover:text-white">RISEby inc.</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
