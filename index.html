@@ -12,6 +12,7 @@
             name="description"
             content="From Shadow AI discovery to 24/7 agent monitoring: AIMOaaS™ delivers full AI governance as a service. Fully aligned with AIMO Standard for EU AI Act, ISO 42001, and NIST AI RMF." />
         <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="Shadow AI, AI governance, AI audit, AI compliance, managed AI operations, EU AI Act, ISO 42001, NIST AI RMF, AIMO Standard" />
         <link rel="canonical" href="https://aimoaas.com/" />
         <!-- Open Graph -->
         <meta property="og:type" content="website" />
@@ -45,7 +46,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="preconnect" href="https://cdn.tailwindcss.com" />
 
-        <!-- Tailwind CSS -->
+        <!-- Tailwind CSS (CDN: 開発用。本番では PostCSS または Tailwind CLI でビルド推奨: npm install -D tailwindcss / npx tailwindcss -o output.css) -->
         <script src="https://cdn.tailwindcss.com"></script>
 
         <!-- Google Fonts -->
@@ -53,9 +54,21 @@
             href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
             rel="stylesheet" />
 
-        <!-- Lucide Icons -->
-        <script src="https://unpkg.com/lucide@latest"></script>
-
+        <!-- Hamburger: capture-phase listener before Lucide so click is not swallowed -->
+        <script>
+            document.addEventListener('click', function(e) {
+                var btn = document.getElementById('hamburger-btn');
+                var menu = document.getElementById('mobile-menu');
+                if (!btn || !menu) return;
+                if (e.target === btn || btn.contains(e.target)) {
+                    var open = menu.classList.toggle('is-open');
+                    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+                    menu.setAttribute('aria-hidden', open ? 'false' : 'true');
+                    e.preventDefault();
+                    e.stopPropagation();
+                }
+            }, true);
+        </script>
         <style>
             body {
                 font-family: "Inter", system-ui, sans-serif;
@@ -81,6 +94,12 @@
                 background-size: 40px 40px;
                 background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
                     linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+            }
+            /* Hamburger: class-based toggle (Tailwind-safe, same as lp.aimoaas.com pattern) */
+            #mobile-menu { display: none !important; }
+            #mobile-menu.is-open { display: flex !important; }
+            @media (min-width: 1024px) {
+                #mobile-menu { display: none !important; }
             }
         </style>
         <!-- JSON-LD: Organization + WebSite -->
@@ -112,44 +131,103 @@
     <body class="bg-slate-50 text-slate-800 antialiased">
         <!-- Header -->
         <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
-            <div class="container mx-auto px-6 h-16 flex items-center justify-between">
-                <a href="./" class="flex items-center gap-2">
+            <div class="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between gap-3">
+                <a href="./" class="flex items-center gap-2 flex-shrink-0">
                     <i data-lucide="shield-check" class="text-indigo-600 w-8 h-8"></i>
                     <span class="text-xl font-bold tracking-tight text-slate-900"
                         >AIMO<span class="text-indigo-600">aaS</span>™</span
                     >
                 </a>
-                <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
-                    <a href="#problem" class="hover:text-indigo-600 transition">Risks</a>
-                    <a href="#solution" class="hover:text-indigo-600 transition">Solution</a>
-                    <a href="aimo-standard/" class="hover:text-indigo-600 transition">AIMO Standard</a>
-                    <a href="#features" class="hover:text-indigo-600 transition">Why Us</a>
-                    <a href="#plans" class="hover:text-indigo-600 transition">Plans</a>
-                    <span class="text-slate-400">|</span>
-                    <a href="./" class="text-indigo-600 font-semibold">EN</a>
-                    <a href="ja/" class="hover:text-indigo-600 transition">日本語</a>
-                    <a href="es/" class="hover:text-indigo-600 transition">ES</a>
-                    <a href="fr/" class="hover:text-indigo-600 transition">FR</a>
-                    <a href="de/" class="hover:text-indigo-600 transition">DE</a>
-                    <a href="zh-CN/" class="hover:text-indigo-600 transition">简中</a>
-                    <a href="zh-TW/" class="hover:text-indigo-600 transition">繁中</a>
-                    <a href="ko/" class="hover:text-indigo-600 transition">KO</a>
-                    <a href="pt/" class="hover:text-indigo-600 transition">PT</a>
-                    <a href="it/" class="hover:text-indigo-600 transition">IT</a>
+                <!-- Desktop nav -->
+                <nav class="hidden min-[1024px]:flex items-center flex-1 min-w-0 justify-end gap-3 lg:gap-4 text-sm font-medium text-slate-600">
+                    <div class="flex items-center gap-3 lg:gap-5 flex-shrink-0">
+                        <a href="#problem" class="hover:text-indigo-600 transition whitespace-nowrap">Risks</a>
+                        <a href="#solution" class="hover:text-indigo-600 transition whitespace-nowrap">Solution</a>
+                        <a href="aimo-standard/" class="hover:text-indigo-600 transition whitespace-nowrap">AIMO Standard</a>
+                        <a href="#features" class="hover:text-indigo-600 transition whitespace-nowrap">Why Us</a>
+                        <a href="#plans" class="hover:text-indigo-600 transition whitespace-nowrap">Plans</a>
+                    </div>
+                    <span class="text-slate-400 flex-shrink-0">|</span>
+                    <div class="relative flex-shrink-0" id="lang-dropdown-wrap">
+                        <button type="button" id="lang-dropdown-btn" class="flex items-center gap-1 rounded-md px-2.5 py-1.5 text-slate-600 hover:bg-slate-100 text-sm font-medium" aria-expanded="false" aria-haspopup="true" aria-label="Select language">
+                            <span id="lang-dropdown-label">English</span>
+                            <i data-lucide="chevron-down" class="w-4 h-4 text-slate-500"></i>
+                        </button>
+                        <div id="lang-dropdown-panel" class="absolute right-0 top-full mt-1 w-48 rounded-lg border border-slate-200 bg-white py-1 shadow-lg z-50 hidden" role="menu">
+                            <a href="./" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="en">English</a>
+                            <a href="ja/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="ja">日本語</a>
+                            <a href="es/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="es">Español</a>
+                            <a href="fr/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="fr">Français</a>
+                            <a href="de/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="de">Deutsch</a>
+                            <a href="pt/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="pt">Português</a>
+                            <a href="it/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="it">Italiano</a>
+                            <a href="zh-CN/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="zh-CN">简体中文</a>
+                            <a href="zh-TW/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="zh-TW">繁體中文</a>
+                            <a href="ko/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="ko">한국어</a>
+                        </div>
+                    </div>
                 </nav>
-                <a
-                    href="mailto:contact@aimoaas.com?subject=AIMOaaS%20Inquiry&body=Please%20send%20this%20email.%20We%20will%20follow%20up%20with%20materials."
-                    class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-full text-sm font-bold transition shadow-lg hover:shadow-indigo-500/30">
-                    Free Consultation
-                </a>
+                <div class="flex items-center gap-2">
+                    <a
+                        href="mailto:contact@aimoaas.com?subject=AIMOaaS%20Inquiry&body=Please%20send%20this%20email.%20We%20will%20follow%20up%20with%20materials."
+                        class="hidden sm:inline-flex bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2.5 rounded-full text-sm font-bold transition shadow-lg hover:shadow-indigo-500/30 flex-shrink-0 whitespace-nowrap">
+                        Free Consultation
+                    </a>
+                    <button type="button" id="hamburger-btn" class="min-[1024px]:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 cursor-pointer inline-flex items-center justify-center border-0 bg-transparent" aria-label="Toggle menu" aria-controls="mobile-menu" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile menu (language dropdown + nav + CTA) -->
+            <div id="mobile-menu" class="min-[1024px]:hidden fixed inset-x-0 top-16 bottom-0 z-40 bg-white border-t border-slate-200 overflow-y-auto flex flex-col" aria-hidden="true">
+                <div class="container mx-auto px-4 py-6 flex flex-col gap-6 text-sm font-medium">
+                    <div>
+                        <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Language</p>
+                        <div class="flex flex-wrap gap-2">
+                            <a href="./" class="text-indigo-600 font-semibold px-3 py-1.5 rounded-lg bg-indigo-50">English</a>
+                            <a href="ja/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">日本語</a>
+                            <a href="es/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">Español</a>
+                            <a href="fr/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">Français</a>
+                            <a href="de/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">Deutsch</a>
+                            <a href="pt/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">Português</a>
+                            <a href="it/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">Italiano</a>
+                            <a href="zh-CN/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">简体中文</a>
+                            <a href="zh-TW/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">繁體中文</a>
+                            <a href="ko/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">한국어</a>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-200 pt-4">
+                        <a href="#problem" class="block py-2 text-slate-600 hover:text-indigo-600">Risks</a>
+                        <a href="#solution" class="block py-2 text-slate-600 hover:text-indigo-600">Solution</a>
+                        <a href="aimo-standard/" class="block py-2 text-slate-600 hover:text-indigo-600">AIMO Standard</a>
+                        <a href="#features" class="block py-2 text-slate-600 hover:text-indigo-600">Why Us</a>
+                        <a href="#plans" class="block py-2 text-slate-600 hover:text-indigo-600">Plans</a>
+                    </div>
+                    <a href="mailto:contact@aimoaas.com?subject=AIMOaaS%20Inquiry&body=Please%20send%20this%20email.%20We%20will%20follow%20up%20with%20materials." class="sm:hidden block w-full text-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-3 rounded-full font-bold">Free Consultation</a>
+                </div>
             </div>
         </header>
+        <script>
+            (function() {
+                var menu = document.getElementById('mobile-menu');
+                var btn = document.getElementById('hamburger-btn');
+                if (menu && btn) {
+                    window.addEventListener('resize', function() {
+                        if (window.matchMedia('(min-width: 1024px)').matches) {
+                            menu.classList.remove('is-open');
+                            btn.setAttribute('aria-expanded', 'false');
+                            menu.setAttribute('aria-hidden', 'true');
+                        }
+                    });
+                }
+            })();
+        </script>
 
         <!-- Hero Section -->
-        <section class="hero-bg min-h-screen flex items-center pt-20 relative">
+        <section class="hero-bg pt-10 pb-10 relative">
             <div class="absolute inset-0 grid-bg opacity-30"></div>
             <div class="container mx-auto px-6 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
-                <div class="text-white space-y-8">
+                <div class="text-white space-y-4">
                     <div
                         class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-500/30 text-indigo-200 text-xs font-bold uppercase tracking-wider">
                         <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
@@ -191,8 +269,8 @@
                     </div>
                 </div>
 
-                <!-- Dashboard Mockup -->
-                <div class="relative hidden lg:block">
+                <!-- Dashboard Mockup (stacks below text on narrow viewports) -->
+                <div class="relative">
                     <div
                         class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-pink-600 rounded-2xl blur opacity-30"></div>
                     <div
@@ -767,6 +845,52 @@
             </div>
         </footer>
 
-        <script>lucide.createIcons();</script>
+        <!-- Lucide Icons: DOM 読み込み後に body 末尾で読み込み -->
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script>
+            lucide.createIcons();
+            function initHeader() {
+                var menu = document.getElementById('mobile-menu');
+                var btn = document.getElementById('hamburger-btn');
+                if (menu && btn) {
+                    menu.querySelectorAll('a').forEach(function(a) {
+                        a.addEventListener('click', function() {
+                            menu.classList.remove('is-open');
+                            btn.setAttribute('aria-expanded', 'false');
+                            menu.setAttribute('aria-hidden', 'true');
+                        });
+                    });
+                }
+                var langBtn = document.getElementById('lang-dropdown-btn');
+                var langPanel = document.getElementById('lang-dropdown-panel');
+                var langLabel = document.getElementById('lang-dropdown-label');
+                if (langBtn && langPanel && langLabel) {
+                    langBtn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        var isHidden = langPanel.classList.toggle('hidden');
+                        langBtn.setAttribute('aria-expanded', isHidden ? 'false' : 'true');
+                    });
+                    document.querySelectorAll('.lang-option').forEach(function(a) {
+                        a.addEventListener('click', function() {
+                            langLabel.textContent = this.textContent.trim();
+                            langPanel.classList.add('hidden');
+                            langBtn.setAttribute('aria-expanded', 'false');
+                        });
+                    });
+                    document.addEventListener('click', function(e) {
+                        var wrap = document.getElementById('lang-dropdown-wrap');
+                        if (wrap && !wrap.contains(e.target)) {
+                            langPanel.classList.add('hidden');
+                            langBtn.setAttribute('aria-expanded', 'false');
+                        }
+                    });
+                }
+            }
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initHeader);
+            } else {
+                initHeader();
+            }
+        </script>
     </body>
 </html>
