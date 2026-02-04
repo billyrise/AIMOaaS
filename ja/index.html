@@ -121,8 +121,24 @@
             #mobile-menu .mobile-cta:hover, #mobile-menu .mobile-cta:focus { box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4); }
             #mobile-menu .mobile-cta:active { transform: scale(0.98); }
         </style>
+        <!-- 構造化データ: 1ページに FAQPage は1つだけ（重複するとリッチリザルト無効） -->
         <script type="application/ld+json">
-        {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://aimoaas.com/#organization","name":"ライズバイ株式会社","url":"https://riseby.net"},{"@type":"WebSite","@id":"https://aimoaas.com/#website","url":"https://aimoaas.com/ja","name":"AIMOaaS™","description":"AIガバナンスと運用代行。シャドーAI可視化、24時間監視、AIMO Standard 完全準拠。","publisher":{"@id":"https://aimoaas.com/#organization"},"inLanguage":"ja"}]}
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {"@type":"Organization","@id":"https://aimoaas.com/#organization","name":"ライズバイ株式会社","url":"https://riseby.net"},
+                {"@type":"WebSite","@id":"https://aimoaas.com/#website","url":"https://aimoaas.com/ja","name":"AIMOaaS™","description":"AIガバナンスと運用代行。シャドーAI可視化、24時間監視、AIMO Standard 完全準拠。","publisher":{"@id":"https://aimoaas.com/#organization"},"inLanguage":"ja"},
+                {
+                    "@type": "FAQPage",
+                    "@id": "https://aimoaas.com/ja/#faq",
+                    "mainEntity": [
+                        {"@type":"Question","name":"AIMOaaS™とは何ですか？","acceptedAnswer":{"@type":"Answer","text":"AIガバナンスと運用を丸ごと代行するサービスです。シャドーAIの可視化、24時間監視、AIMO Standard 準拠の監査・運用を提供します。"}},
+                        {"@type":"Question","name":"導入までどのくらいかかりますか？","acceptedAnswer":{"@type":"Answer","text":"シャドーAI監査（Tier 1）は最短4週間で完了するプログラムをご用意しています。"}},
+                        {"@type":"Question","name":"無料相談はありますか？","acceptedAnswer":{"@type":"Answer","text":"はい。毎月5社限定で簡易ログ診断を実施しています。メールでお問い合わせください。"}}
+                    ]
+                }
+            ]
+        }
         </script>
     </head>
     <body class="bg-slate-50 text-slate-800 antialiased">
@@ -142,6 +158,7 @@
                         <a href="aimo-standard/" class="hover:text-indigo-600 transition whitespace-nowrap">AIMO Standard</a>
                         <a href="#features" class="hover:text-indigo-600 transition whitespace-nowrap">特徴</a>
                         <a href="#plans" class="hover:text-indigo-600 transition whitespace-nowrap">導入プラン</a>
+                        <a href="#faq" class="hover:text-indigo-600 transition whitespace-nowrap">よくある質問</a>
                     </div>
                     <span class="text-slate-400 flex-shrink-0">|</span>
                     <div class="relative flex-shrink-0" id="lang-dropdown-wrap">
@@ -185,6 +202,7 @@
                     <a href="aimo-standard/" class="mobile-nav-link">AIMO Standard</a>
                     <a href="#features" class="mobile-nav-link">特徴</a>
                     <a href="#plans" class="mobile-nav-link">導入プラン</a>
+                    <a href="#faq" class="mobile-nav-link">よくある質問</a>
                 </nav>
                 <div class="mobile-cta-wrap">
                     <a href="mailto:contact@aimoaas.com?subject=AIMOaaS問い合わせ&body=このままメールを送信してください。後ほど、資料をお届けします。" class="mobile-cta">無料相談・診断</a>
@@ -851,6 +869,36 @@
                             </li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- よくある質問（FAQPage はこのページに1つだけ） -->
+        <section id="faq" class="py-24 bg-white border-t border-slate-200">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-slate-900 text-center mb-12">よくある質問</h2>
+                <div class="max-w-2xl mx-auto space-y-6">
+                    <details class="group bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                        <summary class="p-5 font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between gap-2">
+                            AIMOaaS™とは何ですか？
+                            <i data-lucide="chevron-down" class="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform shrink-0"></i>
+                        </summary>
+                        <p class="px-5 pb-5 pt-0 text-slate-600">AIガバナンスと運用を丸ごと代行するサービスです。シャドーAIの可視化、24時間監視、AIMO Standard 準拠の監査・運用を提供します。</p>
+                    </details>
+                    <details class="group bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                        <summary class="p-5 font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between gap-2">
+                            導入までどのくらいかかりますか？
+                            <i data-lucide="chevron-down" class="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform shrink-0"></i>
+                        </summary>
+                        <p class="px-5 pb-5 pt-0 text-slate-600">シャドーAI監査（Tier 1）は最短4週間で完了するプログラムをご用意しています。</p>
+                    </details>
+                    <details class="group bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                        <summary class="p-5 font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between gap-2">
+                            無料相談はありますか？
+                            <i data-lucide="chevron-down" class="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform shrink-0"></i>
+                        </summary>
+                        <p class="px-5 pb-5 pt-0 text-slate-600">はい。毎月5社限定で簡易ログ診断を実施しています。メールでお問い合わせください。</p>
+                    </details>
                 </div>
             </div>
         </section>
