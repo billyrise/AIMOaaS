@@ -48,6 +48,24 @@
                 background-image: radial-gradient(circle at 20% 30%, rgba(79, 70, 229, 0.15) 0%, transparent 50%),
                     radial-gradient(circle at 80% 70%, rgba(236, 72, 153, 0.15) 0%, transparent 50%); z-index: 0; }
             .grid-bg { background-size: 40px 40px; background-image: linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px); }
+            /* === FIX: Mobile menu === */
+            #mobile-menu { position: fixed !important; left: 0; right: 0; top: 64px; bottom: 0; width: 100vw; height: calc(100vh - 64px); display: none !important; flex-direction: column; background: #fff; border-top: 1px solid #e2e8f0; z-index: 9999 !important; overflow-y: auto; }
+            #mobile-menu.is-open { display: flex !important; }
+            @media (min-width: 1024px) { #mobile-menu { display: none !important; } }
+            header { position: fixed; z-index: 1000; }
+            #mobile-menu { background: linear-gradient(180deg, #f8fafc 0%, #ffffff 24px); }
+            #mobile-menu .mobile-menu-inner { flex: 1; min-height: 0; padding: 1.5rem 1.25rem 1.75rem; display: flex; flex-direction: column; gap: 1.25rem; }
+            #mobile-menu .mobile-lang-label { font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.12em; color: #64748b; margin-bottom: 0.75rem; }
+            #mobile-menu .mobile-lang-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; }
+            #mobile-menu .mobile-lang-grid a { padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500; transition: background-color 0.15s, color 0.15s; }
+            #mobile-menu .mobile-nav-divider { height: 1px; background: linear-gradient(90deg, transparent, #e2e8f0 8%, #e2e8f0 92%, transparent); margin: 0.25rem 0 0; }
+            #mobile-menu .mobile-nav-section { padding-top: 0.25rem; }
+            #mobile-menu .mobile-nav-link { display: block; padding: 0.875rem 1rem; font-size: 1rem; font-weight: 500; color: #334155; border-radius: 0.5rem; transition: background-color 0.15s, color 0.15s; }
+            #mobile-menu .mobile-nav-link:hover, #mobile-menu .mobile-nav-link:focus { background-color: #f1f5f9; color: #4f46e5; }
+            #mobile-menu .mobile-cta-wrap { padding-top: 0.5rem; border-top: 1px solid #e2e8f0; }
+            #mobile-menu .mobile-cta { display: block; width: 100%; text-align: center; padding: 1rem 1.25rem; font-size: 1rem; font-weight: 700; color: #fff; background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%); border-radius: 0.75rem; box-shadow: 0 4px 14px rgba(79, 70, 229, 0.35); transition: box-shadow 0.2s, transform 0.1s; }
+            #mobile-menu .mobile-cta:hover, #mobile-menu .mobile-cta:focus { box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4); }
+            #mobile-menu .mobile-cta:active { transform: scale(0.98); }
         </style>
         <script type="application/ld+json">
         {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://aimoaas.com/#organization","name":"RISEby inc.","url":"https://riseby.net"},{"@type":"WebSite","@id":"https://aimoaas.com/#website","url":"https://aimoaas.com/pt","name":"AIMOaaS™","description":"Governança de IA e operações geridas. Lei de IA UE, ISO 42001, NIST. AIMO Standard.","publisher":{"@id":"https://aimoaas.com/#organization"},"inLanguage":"pt"}]}
@@ -90,39 +108,54 @@
                 </nav>
                 <div class="flex items-center gap-2">
                     <a href="mailto:contact@aimoaas.com?subject=AIMOaaS%20Consulta&body=Envie%20este%20email.%20Enviaremos%20material." class="hidden sm:inline-flex bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2.5 rounded-full text-sm font-bold transition shadow-lg flex-shrink-0 whitespace-nowrap">Consulta gratuita</a>
-                    <button type="button" id="menu-toggle" class="min-[1024px]:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu" onclick="var m=document.getElementById('mobile-menu');var t=this;if(m){m.style.display=(m.style.display==='flex')?'none':'flex';t.setAttribute('aria-expanded',m.style.display==='flex');t.setAttribute('aria-label',m.style.display==='flex'?'Fechar menu':'Abrir menu');} return false;">
+                    <button type="button" id="hamburger-btn" class="min-[1024px]:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 cursor-pointer inline-flex items-center justify-center border-0 bg-transparent" aria-label="Abrir menu" aria-controls="mobile-menu" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
                     </button>
                 </div>
             </div>
-            <div id="mobile-menu" class="min-[1024px]:hidden fixed inset-x-0 top-16 bottom-0 z-40 bg-white border-t border-slate-200 overflow-y-auto flex flex-col" aria-hidden="true" style="display: none;">
-                <div class="container mx-auto px-4 py-6 flex flex-col gap-6 text-sm font-medium">
-                    <div>
-                        <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Idioma</p>
-                        <div class="flex flex-wrap gap-2">
-                            <a href="../" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">English</a>
-                            <a href="../ja/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">日本語</a>
-                            <a href="../es/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">Español</a>
-                            <a href="../fr/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">Français</a>
-                            <a href="../de/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">Deutsch</a>
-                            <a href="./" class="text-indigo-600 font-semibold px-3 py-1.5 rounded-lg bg-indigo-50">Português</a>
-                            <a href="../it/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">Italiano</a>
-                            <a href="../zh-CN/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">简体中文</a>
-                            <a href="../zh-TW/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">繁體中文</a>
-                            <a href="../ko/" class="text-slate-600 hover:bg-slate-100 px-3 py-1.5 rounded-lg">한국어</a>
-                        </div>
+        </header>
+
+        <!-- Mobile menu moved outside header -->
+        <div id="mobile-menu" class="min-[1024px]:hidden fixed inset-x-0 top-16 bottom-0 z-40 border-t border-slate-200/80 overflow-y-auto flex flex-col shadow-[0_-4px_24px_rgba(15,23,42,0.08)]" aria-hidden="true">
+            <div class="mobile-menu-inner">
+                <nav class="mobile-nav-section" aria-label="Navegação principal">
+                    <a href="#problem" class="mobile-nav-link">Riscos</a>
+                    <a href="#solution" class="mobile-nav-link">Solução</a>
+                    <a href="aimo-standard/" class="mobile-nav-link">AIMO Standard</a>
+                    <a href="#features" class="mobile-nav-link">Porquê nós</a>
+                    <a href="#plans" class="mobile-nav-link">Planos</a>
+                </nav>
+                <div class="mobile-cta-wrap">
+                    <a href="mailto:contact@aimoaas.com?subject=AIMOaaS%20Consulta&body=Envie%20este%20email.%20Enviaremos%20material." class="mobile-cta">Consulta gratuita</a>
+                </div>
+                <div class="mobile-nav-divider" role="presentation"></div>
+                <div>
+                    <p class="mobile-lang-label">Idioma</p>
+                    <div class="mobile-lang-grid">
+                        <a href="../" class="bg-slate-100 text-slate-700 hover:bg-slate-200">English</a>
+                        <a href="../ja/" class="bg-slate-100 text-slate-700 hover:bg-slate-200">日本語</a>
+                        <a href="../es/" class="bg-slate-100 text-slate-700 hover:bg-slate-200">Español</a>
+                        <a href="../fr/" class="bg-slate-100 text-slate-700 hover:bg-slate-200">Français</a>
+                        <a href="../de/" class="bg-slate-100 text-slate-700 hover:bg-slate-200">Deutsch</a>
+                        <a href="./" class="bg-indigo-100 text-indigo-700">Português</a>
+                        <a href="../it/" class="bg-slate-100 text-slate-700 hover:bg-slate-200">Italiano</a>
+                        <a href="../zh-CN/" class="bg-slate-100 text-slate-700 hover:bg-slate-200">简体中文</a>
+                        <a href="../zh-TW/" class="bg-slate-100 text-slate-700 hover:bg-slate-200">繁體中文</a>
+                        <a href="../ko/" class="bg-slate-100 text-slate-700 hover:bg-slate-200">한국어</a>
                     </div>
-                    <div class="border-t border-slate-200 pt-4">
-                        <a href="#problem" class="block py-2 text-slate-600 hover:text-indigo-600">Riscos</a>
-                        <a href="#solution" class="block py-2 text-slate-600 hover:text-indigo-600">Solução</a>
-                        <a href="aimo-standard/" class="block py-2 text-slate-600 hover:text-indigo-600">AIMO Standard</a>
-                        <a href="#features" class="block py-2 text-slate-600 hover:text-indigo-600">Porquê nós</a>
-                        <a href="#plans" class="block py-2 text-slate-600 hover:text-indigo-600">Planos</a>
-                    </div>
-                    <a href="mailto:contact@aimoaas.com?subject=AIMOaaS%20Consulta&body=Envie%20este%20email.%20Enviaremos%20material." class="sm:hidden block w-full text-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-3 rounded-full font-bold">Consulta gratuita</a>
                 </div>
             </div>
-        </header>
+        </div>
+        <script>
+            (function() {
+                var menu = document.getElementById('mobile-menu');
+                var btn = document.getElementById('hamburger-btn');
+                if (menu && btn) {
+                    btn.addEventListener('click', function(e) { e.preventDefault(); var open = menu.classList.toggle('is-open'); btn.setAttribute('aria-expanded', open ? 'true' : 'false'); menu.setAttribute('aria-hidden', open ? 'false' : 'true'); });
+                    window.addEventListener('resize', function() { if (window.matchMedia('(min-width: 1024px)').matches) { menu.classList.remove('is-open'); btn.setAttribute('aria-expanded', 'false'); menu.setAttribute('aria-hidden', 'true'); } });
+                }
+            })();
+        </script>
 
         <section class="hero-bg pt-10 pb-10 relative">
             <div class="absolute inset-0 grid-bg opacity-30"></div>
@@ -305,34 +338,10 @@
         <script>
             lucide.createIcons();
             function initHeader() {
-                var toggle = document.getElementById('menu-toggle');
                 var menu = document.getElementById('mobile-menu');
-                if (toggle && menu) {
-                    function openMenu() {
-                        menu.style.display = 'flex';
-                        menu.setAttribute('aria-hidden', 'false');
-                        toggle.setAttribute('aria-expanded', 'true');
-                        toggle.setAttribute('aria-label', 'Fechar menu');
-                    }
-                    function closeMenu() {
-                        menu.style.display = 'none';
-                        menu.setAttribute('aria-hidden', 'true');
-                        toggle.setAttribute('aria-expanded', 'false');
-                        toggle.setAttribute('aria-label', 'Abrir menu');
-                    }
-                    document.body.addEventListener('click', function(e) {
-                        var btn = e.target && e.target.closest && e.target.closest('#menu-toggle');
-                        if (!btn) return;
-                        e.preventDefault();
-                        e.stopPropagation();
-                        var isHidden = menu.style.display === 'none' || menu.style.display === '';
-                        if (isHidden) openMenu();
-                        else closeMenu();
-                    });
+                if (menu) {
+                    function closeMenu() { menu.classList.remove('is-open'); var btn = document.getElementById('hamburger-btn'); if (btn) { btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-label', 'Abrir menu'); } menu.setAttribute('aria-hidden', 'true'); }
                     menu.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', closeMenu); });
-                    window.addEventListener('resize', function() {
-                        if (window.matchMedia('(min-width: 1024px)').matches) closeMenu();
-                    });
                 }
                 var langBtn = document.getElementById('lang-dropdown-btn');
                 var langPanel = document.getElementById('lang-dropdown-panel');
