@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://aimoaas.com/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://aimoaas.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://aimoaas.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://aimoaas.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://aimoaas.com/zh-CN/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://aimoaas.com/zh-TW/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://aimoaas.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://aimoaas.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://aimoaas.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/"/>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/aimo-standard/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aimoaas.com/aimo-standard/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://aimoaas.com/ja/aimo-standard/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://aimoaas.com/es/aimo-standard/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://aimoaas.com/fr/aimo-standard/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://aimoaas.com/de/aimo-standard/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://aimoaas.com/zh-CN/aimo-standard/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://aimoaas.com/zh-TW/aimo-standard/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://aimoaas.com/ko/aimo-standard/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://aimoaas.com/pt/aimo-standard/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://aimoaas.com/it/aimo-standard/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://aimoaas.com/aimo-standard/"/>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/aimo-standard/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/es/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/es/aimo-standard/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/fr/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/fr/aimo-standard/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/de/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/de/aimo-standard/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/zh-CN/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/zh-CN/aimo-standard/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/zh-TW/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/zh-TW/aimo-standard/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ko/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ko/aimo-standard/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/pt/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/pt/aimo-standard/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/it/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/it/aimo-standard/</loc>
+        <lastmod>2025-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+</urlset>
