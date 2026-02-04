@@ -105,7 +105,7 @@
                 overflow-y: auto;
             }
             #mobile-menu.is-open { display: flex !important; }
-            @media (min-width: 1024px) { #mobile-menu { display: none !important; } }
+            @media (min-width: 1280px) { #mobile-menu { display: none !important; } }
             header { position: fixed; z-index: 1000; }
             #mobile-menu { background: linear-gradient(180deg, #f8fafc 0%, #ffffff 24px); }
             #mobile-menu .mobile-menu-inner { flex: 1; min-height: 0; padding: 1.5rem 1.25rem 1.75rem; display: flex; flex-direction: column; gap: 1.25rem; }
@@ -171,7 +171,7 @@
                         >AIMO<span class="text-indigo-600">aaS</span>™</span
                     >
                 </a>
-                <nav class="hidden min-[1024px]:flex items-center flex-1 min-w-0 justify-end gap-3 lg:gap-4 text-sm font-medium text-slate-600">
+                <nav class="hidden xl:flex items-center flex-1 min-w-0 justify-end gap-3 lg:gap-4 text-sm font-medium text-slate-600">
                     <div class="flex items-center gap-3 lg:gap-5 flex-shrink-0">
                         <a href="#problem" class="hover:text-indigo-600 transition whitespace-nowrap">リスクとコスト</a>
                         <a href="#solution" class="hover:text-indigo-600 transition whitespace-nowrap">サービス概要</a>
@@ -207,7 +207,7 @@
                         class="hidden sm:inline-flex bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2.5 rounded-full text-sm font-bold transition shadow-lg hover:shadow-indigo-500/30 flex-shrink-0 whitespace-nowrap">
                         無料相談
                     </a>
-                    <button type="button" id="hamburger-btn" class="min-[1024px]:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 cursor-pointer inline-flex items-center justify-center border-0 bg-transparent" aria-label="メニューを開く" aria-controls="mobile-menu" aria-expanded="false">
+                    <button type="button" id="hamburger-btn" class="xl:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 cursor-pointer inline-flex items-center justify-center border-0 bg-transparent" aria-label="メニューを開く" aria-controls="mobile-menu" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
                     </button>
                 </div>
@@ -215,7 +215,7 @@
         </header>
 
         <!-- Mobile menu moved outside header to avoid backdrop-filter stacking/containing-block issues -->
-        <div id="mobile-menu" class="min-[1024px]:hidden fixed inset-x-0 top-16 bottom-0 z-40 border-t border-slate-200/80 overflow-y-auto flex flex-col shadow-[0_-4px_24px_rgba(15,23,42,0.08)]" aria-hidden="true">
+        <div id="mobile-menu" class="xl:hidden fixed inset-x-0 top-16 bottom-0 z-40 border-t border-slate-200/80 overflow-y-auto flex flex-col shadow-[0_-4px_24px_rgba(15,23,42,0.08)]" aria-hidden="true">
             <div class="mobile-menu-inner">
                 <nav class="mobile-nav-section" aria-label="メインメニュー">
                     <a href="#problem" class="mobile-nav-link">リスクとコスト</a>
@@ -254,7 +254,7 @@
                 if (menu && btn) {
                     btn.addEventListener('click', function(e) { e.preventDefault(); var open = menu.classList.toggle('is-open'); btn.setAttribute('aria-expanded', open ? 'true' : 'false'); menu.setAttribute('aria-hidden', open ? 'false' : 'true'); });
                     window.addEventListener('resize', function() {
-                        if (window.matchMedia('(min-width: 1024px)').matches) { menu.classList.remove('is-open'); btn.setAttribute('aria-expanded', 'false'); menu.setAttribute('aria-hidden', 'true'); }
+                        if (window.matchMedia('(min-width: 1280px)').matches) { menu.classList.remove('is-open'); btn.setAttribute('aria-expanded', 'false'); menu.setAttribute('aria-hidden', 'true'); }
                     });
                 }
             })();
