@@ -113,6 +113,38 @@ function loadSimilarityReport(): Map<string, { content_max: number; content_with
   return m;
 }
 
+/** PR-C: duplicate_report の near_duplicate 件数。0 超で fail */
+function loadDuplicateReportFail(): string | null {
+  const fp = join(DATA_PSEO, "artifacts", "report", "duplicate_report.json");
+  if (!existsSync(fp)) return null;
+  const data = JSON.parse(readFileSync(fp, "utf-8")) as { summary?: { near_duplicate_pairs?: number } };
+  const n = data.summary?.near_duplicate_pairs ?? 0;
+  if (n > 0) return `duplicate_report: near_duplicate_pairs=${n} (must be 0). Run phase0:duplicate-report and fix or noindex duplicates.`;
+  return null;
+}
+
+/** PR-C: MECE — 同一 intent_id で index 可能なのは1本まで */
+function loadMeceFail(indexAllowlist: Set<string>): string | null {
+  const fp = join(DATA_PSEO, "artifacts", "report", "search_intent_taxonomy.json");
+  if (!existsSync(fp)) return null;
+  const data = JSON.parse(readFileSync(fp, "utf-8")) as { pages?: Array<{ slug: string; intent_id: string }> };
+  if (!data.pages) return null;
+  const slugToIntent = new Map<string, string>();
+  for (const p of data.pages) slugToIntent.set(p.slug, p.intent_id);
+  const byIntent = new Map<string, string[]>();
+  for (const slug of indexAllowlist) {
+    const intent = slugToIntent.get(slug);
+    if (!intent) continue;
+    if (!byIntent.has(intent)) byIntent.set(intent, []);
+    byIntent.get(intent)!.push(slug);
+  }
+  for (const [intent, slugs] of byIntent) {
+    if (slugs.length > 1)
+      return `MECE: intent_id=${intent} has ${slugs.length} indexable pages (max 1). Slugs: ${slugs.join(", ")}. Run phase0:search-intent and adjust index_allowlist.`;
+  }
+  return null;
+}
+
 function extractCanonical(html: string): string {
   const m = html.match(/<link\s+rel="canonical"\s+href=["']([^"']+)["']/i);
   return m ? m[1].trim().replace(/\/*$/, "") + "/" : "";
@@ -378,10 +410,16 @@ async function main(): Promise<void> {
   const reportPath = join(ROOT, "generation-report.json");
   const qualityReportPath = join(DATA_PSEO, "artifacts", "report", "pseo_quality_report.json");
 
-  const results: ValidationPageResult[] = [];
-  const pagesToValidate = catalog.pages.filter((p) => p.lang === "ja");
   const pseoMap = loadPseoPagesMap();
   const indexAllowlist = loadIndexAllowlist();
+  const globalReasons: string[] = [];
+  const dupFail = loadDuplicateReportFail();
+  if (dupFail) globalReasons.push(dupFail);
+  const meceFail = loadMeceFail(indexAllowlist);
+  if (meceFail) globalReasons.push(meceFail);
+
+  const results: ValidationPageResult[] = [];
+  const pagesToValidate = catalog.pages.filter((p) => p.lang === "ja");
   const redirectsSet = loadRedirects();
   const similarityByPage = loadSimilarityReport();
 
@@ -464,6 +502,11 @@ async function main(): Promise<void> {
   writeFileSync(qualityReportPath, JSON.stringify(qualityReport, null, 2), "utf8");
   console.log(`Quality report: ${qualityReportPath}`);
 
+  if (globalReasons.length > 0) {
+    console.error("Validation FAIL (PR-C gates):");
+    globalReasons.forEach((r) => console.error("  " + r));
+    process.exit(1);
+  }
   if (failed > 0) {
     for (const r of results.filter((x) => x.fail)) {
       console.error(`FAIL ${r.page_id}: ${r.reasons.join("; ")}`);

@@ -61,6 +61,12 @@ export interface ArtifactContext {
   maturity?: string;
 }
 
+/** E-E-A-T: 著者（Article 構造化データ・表示用） */
+export interface CatalogAuthor {
+  name: string;
+  url?: string;
+}
+
 /** catalog.yaml の 1 ページ定義 */
 export interface CatalogPage {
   id: string;
@@ -74,6 +80,14 @@ export interface CatalogPage {
   related_pages: string[];
   /** 成果物テンプレ内の {{industry}} {{standard}} {{maturity}} を差し替え */
   artifact_context?: ArtifactContext;
+  /** E-E-A-T: 初版日（YYYY-MM-DD）。未指定時はビルド日 */
+  date_published?: string;
+  /** E-E-A-T: 更新日（YYYY-MM-DD）。未指定時はビルド日 */
+  date_modified?: string;
+  /** E-E-A-T: 著者。未指定時は Organization RISEby */
+  author?: CatalogAuthor | string;
+  /** canonical を他ページへ向ける場合の path または final_slug（統合時のみ） */
+  canonical_target?: string;
 }
 
 export interface Catalog {

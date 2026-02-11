@@ -1,0 +1,18 @@
+{
+  "section_summaries": {
+    "証拠パック・Evidence Pack": "監査提出物の構成・目次・形式・最小要件と、Evidence Bundle の観点を整理。CISO・監査担当が証跡を揃える際の指針となります。",
+    "監査・統制・最小要件": "AI監査・統制の実務で求められる最小証拠、統制カタログ、監査質問との対応を整理。規制・監査要請に応じた準備を支援します。",
+    "申請・審査・例外・ワークフロー": "AI利用の申請・審査・例外・更新のワークフローとRACI。運用で揉れない役割定義と手順の観点を提供します。",
+    "棚卸・継続監査": "AI利用の棚卸、継続監査、定期レビューのサイクル設計。Evidence readiness を回す運用KPIの観点を含みます。",
+    "責任分界・SLA・契約": "Proof（証跡生成）とAssurance（保証結論）の責任分界、SLA・契約で明文化すべき観点。監査法人との協業モデルを整理します。",
+    "シャドーAI・最小証拠": "未許可AIの検知・棚卸と、Shadow AI 向けの最小証拠要件。許可/禁止ポリシーと例外設計の観点を提供します。",
+    "Coverage Map": "ISO/IEC 42001、NIST AI RMF、EU AI Act など規格・規制への対応観点をマッピング。必要証跡の整理に役立ちます。",
+    "その他": "上記以外の監査・統制・証跡に関する実務コンテンツです。"
+  },
+  "pillar_slugs": [
+    "evidence-pack-ai-audit-evidence-pack",
+    "proof-assurance-boundary-ai-audit-evidence-bundle-structure",
+    "ai-audit-controls-inventory-continuous-audit-workflow"
+  ],
+  "items_per_page": 20
+}

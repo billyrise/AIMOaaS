@@ -10,7 +10,7 @@ import { dirname, join, resolve } from "path";
 import { fileURLToPath } from "url";
 import yaml from "js-yaml";
 import { marked } from "marked";
-import type { CatalogPage, Catalog, GeminiOutput, ModuleOutline } from "./types.js";
+import type { CatalogPage, Catalog, CatalogAuthor, GeminiOutput, ModuleOutline } from "./types.js";
 import { generateEditingArtifacts } from "./gemini.js";
 import { renderArtifactsMinTwo } from "./render_artifacts.js";
 import { deduplicateH2Sections } from "./quality/dedup_headings.js";
@@ -191,12 +191,28 @@ function getOgImageForPageType(pageType: string | undefined, baseUrl: string): s
   return defaultImg;
 }
 
+/** Article 用の著者オブジェクトを Schema.org 用に正規化 */
+function normalizeArticleAuthor(author: CatalogAuthor | string | undefined): { "@type": "Organization" | "Person"; name: string; url?: string } {
+  if (!author) return { "@type": "Organization", name: "RISEby inc.", url: "https://riseby.net" };
+  if (typeof author === "string") return { "@type": "Organization", name: author };
+  return { "@type": "Organization", name: author.name, url: author.url };
+}
+
 function renderPageHtml(
   page: CatalogPage,
   bodyHtml: string,
   gemini: GeminiOutput,
   baseUrl: string,
-  options?: { canonicalUrl?: string; pseoRobots?: string; emitFaqSchema?: boolean; internalLinksHtml?: string }
+  options?: {
+    canonicalUrl?: string;
+    pseoRobots?: string;
+    emitFaqSchema?: boolean;
+    internalLinksHtml?: string;
+    articleDatePublished?: string;
+    articleDateModified?: string;
+    articleAuthor?: CatalogAuthor | string;
+    dateModifiedDisplay?: string;
+  }
 ): string {
   const canonical = (options?.canonicalUrl ?? `${baseUrl}${page.slug.replace(/\/$/, "")}`).replace(/\/?$/, "/");
   const ogImage = getOgImageForPageType(page.page_type, baseUrl);
@@ -206,14 +222,16 @@ function renderPageHtml(
   const faqSchema = emitFaqSchema && gemini.jsonld.faqPage
     ? `<script type="application/ld+json">${JSON.stringify(gemini.jsonld.faqPage)}</script>`
     : "";
-  // E-E-A-T: Article に datePublished/dateModified/author/publisher を付与（AI低価値シグナル軽減）
   const buildDate = new Date().toISOString().slice(0, 10);
+  const datePublished = options?.articleDatePublished ?? page.date_published ?? buildDate;
+  const dateModified = options?.articleDateModified ?? page.date_modified ?? buildDate;
+  const authorObj = normalizeArticleAuthor(options?.articleAuthor ?? page.author);
   const articleEnriched = gemini.jsonld.article
     ? {
         ...gemini.jsonld.article,
-        datePublished: buildDate,
-        dateModified: buildDate,
-        author: { "@type": "Organization" as const, name: "RISEby inc.", url: "https://riseby.net" },
+        datePublished,
+        dateModified,
+        author: authorObj,
         publisher: { "@id": `${baseUrl}/#organization` },
       }
     : null;
@@ -232,8 +250,12 @@ function renderPageHtml(
   };
   const jsonLdBreadcrumb = `<script type="application/ld+json">${JSON.stringify(breadcrumbSchema)}</script>`;
 
-  const [y, m, d] = buildDate.split("-").map(Number);
-  const dateModifiedDisplay = `${y}年${m}月${d}日`;
+  const dateModifiedDisplay =
+    options?.dateModifiedDisplay ??
+    (() => {
+      const [y, m, d] = dateModified.split("-").map(Number);
+      return `${y}年${m}月${d}日`;
+    })();
 
   const faqHtml = gemini.faqs
     .map(
@@ -296,6 +318,32 @@ function loadPseoPagesMap(): Map<string, { final_url: string; final_slug: string
   const { pages } = JSON.parse(readFileSync(fp, "utf-8")) as { pages: Array<{ id: string; final_url: string; final_slug: string }> };
   const m = new Map<string, { final_url: string; final_slug: string }>();
   for (const p of pages) m.set(p.id, { final_url: p.final_url, final_slug: p.final_slug });
+  return m;
+}
+
+/** final_slug -> final_url（canonical_target 解決用） */
+function loadFinalSlugToUrl(): Map<string, string> {
+  const fp = join(DATA_PSEO, "pseo_pages.json");
+  if (!existsSync(fp)) return new Map();
+  const { pages } = JSON.parse(readFileSync(fp, "utf-8")) as { pages: Array<{ final_slug: string; final_url: string }> };
+  const m = new Map<string, string>();
+  for (const p of pages) m.set(p.final_slug, p.final_url.replace(/\/?$/, "/"));
+  return m;
+}
+
+interface PseoMetaRow {
+  date_published?: string;
+  date_modified?: string;
+  author?: CatalogAuthor | string;
+  canonical_target?: string;
+}
+
+function loadPseoMeta(): Map<string, PseoMetaRow> {
+  const fp = join(DATA_PSEO, "pseo_meta.json");
+  if (!existsSync(fp)) return new Map();
+  const raw = JSON.parse(readFileSync(fp, "utf-8")) as { pages?: Record<string, PseoMetaRow> };
+  const m = new Map<string, PseoMetaRow>();
+  if (raw.pages) for (const [id, row] of Object.entries(raw.pages)) m.set(id, row);
   return m;
 }
 
@@ -376,11 +424,14 @@ async function main(): Promise<void> {
   const onlyId = process.argv[2]; // optional: npm run generate -- pseo-evidence-pack
 
   const pseoPagesMap = loadPseoPagesMap();
+  const finalSlugToUrl = loadFinalSlugToUrl();
+  const pseoMeta = loadPseoMeta();
   const indexAllowlist = loadIndexAllowlist();
   const faqSchemaAllowlist = loadFaqSchemaAllowlist();
   const linkMap = loadLinkMap();
   const slugToTopic = loadSlugToTopic();
   const h2FixupsByPage = new Map<string, string[]>();
+  const buildDate = new Date().toISOString().slice(0, 10);
 
   /** Phase 1–4: ja のみ生成（i18n-policy.md） */
   const pagesToGenerate = catalog.pages.filter((p) => p.lang === "ja");
@@ -390,11 +441,33 @@ async function main(): Promise<void> {
 
     const slugSegment = page.slug.replace(/^\//, "").replace(/\/$/, "").split("/").pop() ?? page.id;
     const pseoRecord = pseoPagesMap.get(slugSegment);
-    const canonicalUrl = pseoRecord ? baseUrl + pseoRecord.final_url.replace(/\/?$/, "/") : undefined;
     const outDirSlug = pseoRecord?.final_slug ?? slugSegment;
     const finalSlugForAllowlist = pseoRecord?.final_slug ?? slugSegment;
+    const metaRow = pseoMeta.get(page.id);
+
+    const canonicalTarget = metaRow?.canonical_target ?? page.canonical_target;
+    let canonicalUrl: string | undefined;
+    if (canonicalTarget) {
+      if (canonicalTarget.startsWith("/")) {
+        canonicalUrl = baseUrl + canonicalTarget.replace(/\/?$/, "/");
+      } else {
+        const targetUrl = finalSlugToUrl.get(canonicalTarget) ?? `/ja/resources/pseo/${canonicalTarget}/`;
+        canonicalUrl = baseUrl + targetUrl.replace(/^\/?/, "/");
+      }
+    } else {
+      canonicalUrl = pseoRecord ? baseUrl + pseoRecord.final_url.replace(/\/?$/, "/") : undefined;
+    }
+
     const pseoRobots = indexAllowlist.has(finalSlugForAllowlist) ? "index,follow" : "noindex,follow";
     const emitFaqSchema = faqSchemaAllowlist.has(finalSlugForAllowlist);
+
+    const articleDatePublished = metaRow?.date_published ?? page.date_published ?? buildDate;
+    const articleDateModified = metaRow?.date_modified ?? page.date_modified ?? buildDate;
+    const articleAuthor = metaRow?.author ?? page.author;
+    const dateModifiedDisplay = (() => {
+      const [y, m, d] = articleDateModified.split("-").map(Number);
+      return `${y}年${m}月${d}日`;
+    })();
 
     console.log(`Generating: ${page.id} (${page.slug})`);
 
@@ -432,6 +505,10 @@ async function main(): Promise<void> {
       pseoRobots,
       emitFaqSchema,
       internalLinksHtml,
+      articleDatePublished,
+      articleDateModified,
+      articleAuthor,
+      dateModifiedDisplay,
     });
     html = html
       .replace(/本ページでは/g, "ここでは")

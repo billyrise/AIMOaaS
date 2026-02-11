@@ -1,10 +1,9 @@
 /**
  * PSEO ディレクトリトップ（/ja/resources/pseo/index.html）を生成する。
- * pseo_pages.json を読み、トピック別にグループ化して一覧ページを出力。
- * 専門家向け・実務的なデザインで、既存 PSEO 記事と違和感の少ない UI。
+ * PR-D: ナビ＋ハブ。トピック別グループ・セクション要約・まず読むべき3本・フィルタ・ページネーション。
  */
 
-import { readFileSync, writeFileSync, mkdirSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import { join, resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import { renderHeaderStatic, renderFooter } from "./layout.js";
@@ -12,6 +11,7 @@ import { renderHeaderStatic, renderFooter } from "./layout.js";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..", "..");
 const DATA_PSEO = join(ROOT, "data", "pseo");
+const REPORT_DIR = join(DATA_PSEO, "artifacts", "report");
 const OUT_PATH = join(ROOT, "ja", "resources", "pseo", "index.html");
 const BASE_URL = process.env.BASE_URL || "https://aimoaas.com";
 
@@ -25,6 +25,43 @@ interface PseoPage {
 
 interface PseoPagesJson {
   pages: PseoPage[];
+}
+
+interface HubConfig {
+  section_summaries?: Record<string, string>;
+  pillar_slugs?: string[];
+  items_per_page?: number;
+}
+
+interface TaxonomyPage {
+  slug: string;
+  intent_id: string;
+  intent_label: string;
+  audience_tags?: string[];
+  scope_tags?: string[];
+}
+
+function loadHubConfig(): HubConfig {
+  const fp = join(DATA_PSEO, "hub_config.json");
+  if (!existsSync(fp)) return {};
+  return JSON.parse(readFileSync(fp, "utf-8")) as HubConfig;
+}
+
+function loadTaxonomyBySlug(): Map<string, TaxonomyPage> {
+  const fp = join(REPORT_DIR, "search_intent_taxonomy.json");
+  if (!existsSync(fp)) return new Map();
+  const data = JSON.parse(readFileSync(fp, "utf-8")) as { pages?: TaxonomyPage[] };
+  const m = new Map<string, TaxonomyPage>();
+  if (data.pages) for (const p of data.pages) m.set(p.slug, p);
+  return m;
+}
+
+/** 掲載OK（index 許可）の final_slug 一覧。一覧ページにはこの slug のみ表示する。 */
+function loadIndexAllowlist(): Set<string> {
+  const fp = join(DATA_PSEO, "index_allowlist.json");
+  if (!existsSync(fp)) return new Set();
+  const data = JSON.parse(readFileSync(fp, "utf-8")) as { allow?: string[] };
+  return new Set(data.allow || []);
 }
 
 /** トピック配列から表示用セクション名を決定（順序は下の SECTION_ORDER で制御） */
@@ -63,7 +100,14 @@ function escapeHtml(s: string): string {
 function main(): void {
   const raw = readFileSync(join(DATA_PSEO, "pseo_pages.json"), "utf8");
   const data = JSON.parse(raw) as PseoPagesJson;
-  const pages = data.pages || [];
+  const allPages = data.pages || [];
+  const indexAllowlist = loadIndexAllowlist();
+  const pages = allPages.filter((p) => indexAllowlist.has(p.final_slug));
+  const hubConfig = loadHubConfig();
+  const taxonomyBySlug = loadTaxonomyBySlug();
+  const sectionSummaries = hubConfig.section_summaries || {};
+  const pillarSlugs = hubConfig.pillar_slugs || [];
+  const itemsPerPage = hubConfig.items_per_page ?? 20;
 
   const bySection = new Map<string, PseoPage[]>();
   for (const p of pages) {
@@ -76,20 +120,37 @@ function main(): void {
     arr.sort((a, b) => a.title.localeCompare(b.title, "ja"));
   }
 
+  const slugToPage = new Map<string, PseoPage>();
+  for (const p of pages) slugToPage.set(p.final_slug, p);
+
+  const pillarBlocks = pillarSlugs
+    .filter((slug) => slugToPage.has(slug))
+    .slice(0, 3)
+    .map((slug) => {
+      const p = slugToPage.get(slug)!;
+      return `<a href="${BASE_URL}${p.final_url}" class="block p-4 rounded-lg border border-indigo-200 bg-indigo-50/50 hover:bg-indigo-50 text-slate-800">${escapeHtml(p.title)}</a>`;
+    });
+
   const sections = SECTION_ORDER.filter((s) => bySection.has(s));
   const sectionBlocks = sections.map((sectionName, idx) => {
     const secId = `sec-${idx}`;
+    const summary = sectionSummaries[sectionName];
     const items = bySection.get(sectionName) || [];
-    const lis = items
-      .map(
-        (p) =>
-          `        <li class="border-b border-slate-100 last:border-0"><a href="${BASE_URL}${p.final_url}" class="block py-3 px-1 text-slate-700 hover:text-indigo-600 hover:bg-slate-50 rounded transition">${escapeHtml(p.title)}</a></li>`
-      )
-      .join("\n");
-    return `      <section class="mb-10" aria-labelledby="${secId}">
-        <h2 id="${secId}" class="text-lg font-semibold text-slate-800 mb-3 pb-2 border-b border-slate-200">${escapeHtml(sectionName)}</h2>
+    const lis = items.map((p, itemIdx) => {
+      const tax = taxonomyBySlug.get(p.final_slug);
+      const intentId = tax?.intent_id ?? "";
+      const audience = (tax?.audience_tags ?? [])[0] ?? "";
+      const labels: string[] = [];
+      if (intentId) labels.push(`<span class="text-xs text-slate-500">${escapeHtml(intentId)}</span>`);
+      if (audience) labels.push(`<span class="text-xs text-slate-500">${escapeHtml(audience)}</span>`);
+      const labelHtml = labels.length ? `<div class="flex gap-2 mt-1">${labels.join("")}</div>` : "";
+      return `        <li class="pseo-hub-item border-b border-slate-100 last:border-0" data-intent="${escapeHtml(intentId)}" data-audience="${escapeHtml(audience)}" data-page-index="${sections.slice(0, idx).reduce((acc, _, i) => acc + (bySection.get(SECTION_ORDER[i])?.length ?? 0), 0) + itemIdx}"><a href="${BASE_URL}${p.final_url}" class="block py-3 px-1 text-slate-700 hover:text-indigo-600 hover:bg-slate-50 rounded transition">${escapeHtml(p.title)}</a>${labelHtml}</li>`;
+    });
+    const summaryHtml = summary ? `\n        <p class="text-sm text-slate-600 mb-3">${escapeHtml(summary)}</p>` : "";
+    return `      <section class="mb-10 pseo-hub-section" aria-labelledby="${secId}" data-section="${escapeHtml(sectionName)}">
+        <h2 id="${secId}" class="text-lg font-semibold text-slate-800 mb-2 pb-2 border-b border-slate-200">${escapeHtml(sectionName)}</h2>${summaryHtml}
         <ul class="divide-y divide-slate-100">
-${lis}
+${lis.join("\n")}
         </ul>
       </section>`;
   });
@@ -101,8 +162,48 @@ ${lis}
     )
     .join(' <span class="text-slate-300" aria-hidden="true">|</span> ');
 
+  const filterScript = `
+(function(){
+  var items = document.querySelectorAll('.pseo-hub-item');
+  var perPage = ${itemsPerPage};
+  var currentPage = 1;
+  var filterIntent = '';
+  var filterAudience = '';
+  function show(){
+    items.forEach(function(el){
+      var intent = (el.getAttribute('data-intent')||'').trim();
+      var audience = (el.getAttribute('data-audience')||'').trim();
+      var match = (!filterIntent || intent===filterIntent) && (!filterAudience || audience===filterAudience);
+      el.style.display = match ? '' : 'none';
+    });
+    var visible = Array.from(items).filter(function(el){ return el.style.display !== 'none'; });
+    var maxPage = Math.max(1, Math.ceil(visible.length / perPage));
+    if(currentPage > maxPage) currentPage = maxPage;
+    var start = (currentPage-1)*perPage;
+    var end = start+perPage;
+    visible.forEach(function(el, i){ el.style.display = (i>=start&&i<end) ? '' : 'none'; });
+    var nav = document.getElementById('pseo-hub-pagination');
+    if(nav){ nav.innerHTML = visible.length + '件中 ' + (start+1) + '-' + Math.min(end, visible.length) + '件目' + (maxPage>1 ? ' <button type="button" class="ml-2 text-indigo-600" id="pseo-prev">前へ</button> <button type="button" class="text-indigo-600" id="pseo-next">次へ</button>' : ''); }
+  }
+  show();
+  document.getElementById('pseo-prev')&&document.getElementById('pseo-prev').addEventListener('click', function(){ if(currentPage>1){ currentPage--; show(); } });
+  document.getElementById('pseo-next')&&document.getElementById('pseo-next').addEventListener('click', function(){ currentPage++; show(); });
+})();
+`;
+
   const headerHtml = renderHeaderStatic("ja", "main_lp", BASE_URL);
   const footerHtml = renderFooter("ja", BASE_URL, { showPracticeGuide: true });
+
+  const pillarHtml =
+    pillarBlocks.length > 0
+      ? `
+    <section class="mb-8 p-4 bg-slate-50 rounded-lg border border-slate-200" aria-label="まず読むべき">
+      <h2 class="text-lg font-semibold text-slate-800 mb-3">まず読むべき</h2>
+      <div class="grid gap-2 sm:grid-cols-3">
+        ${pillarBlocks.join("\n        ")}
+      </div>
+    </section>`
+      : "";
 
   const html = `<!doctype html>
 <html lang="ja">
@@ -154,7 +255,9 @@ ${lis}
         ${navLinks}
       </div>
     </header>
+${pillarHtml}
 
+    <div id="pseo-hub-pagination" class="mb-4 text-sm text-slate-600"></div>
     <main class="space-y-2">
 ${sectionBlocks.join("\n\n")}
     </main>
@@ -163,13 +266,14 @@ ${sectionBlocks.join("\n\n")}
   </div>
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>try { lucide.createIcons(); } catch (e) {}</script>
+  <script>${filterScript}</script>
 </body>
 </html>
 `;
 
   mkdirSync(dirname(OUT_PATH), { recursive: true });
   writeFileSync(OUT_PATH, html, "utf8");
-  console.log(`Wrote ${OUT_PATH} (${pages.length} pages, ${sections.length} sections)`);
+  console.log(`Wrote ${OUT_PATH} (${pages.length} pages, ${sections.length} sections, hub config: ${pillarBlocks.length} pillars)`);
 }
 
 main();

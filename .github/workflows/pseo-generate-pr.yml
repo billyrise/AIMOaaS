@@ -46,7 +46,11 @@ jobs:
           BASE_URL: https://aimoaas.com
         run: npm run generate
 
-      - name: Validate
+      - name: Phase0 (SSOT, duplicate report, taxonomy)
+        working-directory: scripts/pseo
+        run: npm run phase0
+
+      - name: Validate (includes MECE + duplicate gates)
         working-directory: scripts/pseo
         run: npm run validate
 

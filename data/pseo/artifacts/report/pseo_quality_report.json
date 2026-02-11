@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T05:57:31.569Z",
+  "generated_at": "2026-02-11T12:34:53.076Z",
   "summary": {
     "total": 100,
     "passed": 100,
@@ -41,17 +41,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -92,17 +87,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -114,13 +104,11 @@
       "warns": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3386034255599473,
@@ -143,17 +131,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -193,17 +176,12 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 10,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -243,17 +221,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 10,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -294,17 +267,12 @@
         "intake-review-approve"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 10,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -345,17 +313,12 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -367,14 +330,12 @@
       "warns": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
       "warn_reasons": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
@@ -397,17 +358,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -445,19 +401,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 10,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -498,19 +449,14 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -522,14 +468,12 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
@@ -553,19 +497,14 @@
         "evidence-readiness"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 6,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -577,14 +516,12 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
@@ -608,19 +545,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 8,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 4,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -632,14 +564,12 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
@@ -663,19 +593,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 4,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -716,19 +641,14 @@
         "evidence-readiness"
       ],
       "artifact_types_count": 2,
-      "references_count": 13,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 11,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -769,19 +689,14 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -822,19 +737,14 @@
         "inventory"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 10,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -846,14 +756,12 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
@@ -877,19 +785,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 4,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -901,14 +804,12 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 1 < 2"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 1 < 2"
       ],
@@ -932,19 +833,14 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -983,19 +879,14 @@
         "inventory"
       ],
       "artifact_types_count": 2,
-      "references_count": 13,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 11,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1036,19 +927,14 @@
         "inventory"
       ],
       "artifact_types_count": 2,
-      "references_count": 13,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 11,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1060,14 +946,12 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 3 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 1 < 2"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 3 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 1 < 2"
       ],
@@ -1091,17 +975,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 3,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1142,17 +1021,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1164,14 +1038,12 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 3 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 1 < 2"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 3 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 1 < 2"
       ],
@@ -1195,17 +1067,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 3,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1217,14 +1084,12 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 1 < 2"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 1 < 2"
       ],
@@ -1244,20 +1109,15 @@
       },
       "topic": [],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1269,14 +1129,12 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3",
         "intent_keywords_matched 0 < 2"
       ],
@@ -1298,20 +1156,15 @@
         "proof-assurance"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 4,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1350,17 +1203,12 @@
         "proof-assurance"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1398,17 +1246,12 @@
         "evidence-pack"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1447,17 +1290,12 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 10,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1496,17 +1334,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1518,13 +1351,11 @@
       "warns": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3386034255599473,
@@ -1547,17 +1378,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 5,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1596,17 +1422,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1618,13 +1439,11 @@
       "warns": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.37834691501746215,
@@ -1646,17 +1465,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 5,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1695,17 +1509,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 10,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1744,17 +1553,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1766,13 +1570,11 @@
       "warns": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3705761918689675,
@@ -1795,17 +1597,12 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 6,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1843,17 +1640,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1891,17 +1683,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1913,13 +1700,11 @@
       "warns": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 11 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3353159851301115,
@@ -1942,17 +1727,12 @@
         "evidence-readiness"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -1991,17 +1771,12 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2039,17 +1814,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 10,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2088,19 +1858,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2112,13 +1877,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.361810551558753,
@@ -2141,19 +1904,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2165,13 +1923,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.36040914560770154,
@@ -2194,19 +1950,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 6,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2218,13 +1969,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.37079345476999076,
@@ -2247,19 +1996,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 5,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2271,13 +2015,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 2 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 2 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3513986013986014,
@@ -2300,19 +2042,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 2,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2324,13 +2061,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.35178316690442224,
@@ -2353,19 +2088,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2404,19 +2134,14 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2428,13 +2153,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3637447823494335,
@@ -2457,19 +2180,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2481,13 +2199,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.37323279924599434,
@@ -2510,19 +2226,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 6,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2534,13 +2245,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3191603875134553,
@@ -2563,19 +2272,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2587,13 +2291,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.35550996483001174,
@@ -2616,19 +2318,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 5,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2640,13 +2337,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 2 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 2 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3331452750352609,
@@ -2669,19 +2364,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 2,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2693,13 +2383,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3601543942992874,
@@ -2722,19 +2410,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 6,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2746,13 +2429,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3637447823494335,
@@ -2775,19 +2456,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2799,13 +2475,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3562980484920166,
@@ -2828,19 +2502,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 5,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2852,13 +2521,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.30051150895140666,
@@ -2881,19 +2548,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 4,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2905,13 +2567,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.34762321376494604,
@@ -2934,19 +2594,14 @@
         "proof-assurance"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -2985,19 +2640,14 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 10,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3036,19 +2686,14 @@
         "proof-assurance"
       ],
       "artifact_types_count": 2,
-      "references_count": 13,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 11,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3060,13 +2705,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3242499311863474,
@@ -3089,19 +2732,14 @@
         "exceptions"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 5,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3140,19 +2778,14 @@
         "proof-assurance"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3191,19 +2824,14 @@
         "policy-training-attestation"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3242,19 +2870,14 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 10,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3266,13 +2889,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3242499311863474,
@@ -3295,19 +2916,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3319,13 +2935,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3572062740455756,
@@ -3348,19 +2962,14 @@
         "proof-assurance"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 5,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3399,19 +3008,14 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 13,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 11,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3450,19 +3054,14 @@
         "intake-review-approve"
       ],
       "artifact_types_count": 2,
-      "references_count": 13,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 11,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3501,19 +3100,14 @@
         "exceptions"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3552,19 +3146,14 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3603,19 +3192,14 @@
         "policy-training-attestation"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3654,17 +3238,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3676,13 +3255,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.39293785310734464,
@@ -3705,17 +3282,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3754,17 +3326,12 @@
         "proof-assurance"
       ],
       "artifact_types_count": 2,
-      "references_count": 12,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3776,13 +3343,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3775422515038671,
@@ -3805,17 +3370,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 5,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3827,13 +3387,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3738342659205969,
@@ -3856,17 +3414,12 @@
         "evidence-readiness"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 6,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3905,17 +3458,12 @@
         "proof-assurance"
       ],
       "artifact_types_count": 2,
-      "references_count": 13,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 10,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3927,13 +3475,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.41846446700507617,
@@ -3956,17 +3502,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 4,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -3978,13 +3519,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3863969510407505,
@@ -4007,17 +3546,12 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4029,13 +3563,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.41846446700507617,
@@ -4058,17 +3590,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 6,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4080,13 +3607,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.35568360398114196,
@@ -4109,17 +3634,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4131,13 +3651,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.39677222898903775,
@@ -4160,17 +3678,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 6,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4209,17 +3722,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 11,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4231,13 +3739,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 5 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3658129175946548,
@@ -4260,17 +3766,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 9,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 5,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4282,13 +3783,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.39293785310734464,
@@ -4311,17 +3810,12 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4333,13 +3827,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.4165625,
@@ -4362,17 +3854,12 @@
         "proof-assurance"
       ],
       "artifact_types_count": 2,
-      "references_count": 10,
+      "references_count": 28,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
-        "References",
-        "References",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4411,20 +3898,15 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 13,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4463,20 +3945,15 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 14,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4488,13 +3965,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 6 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3247365501941209,
@@ -4517,20 +3992,15 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 14,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 6,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4542,13 +4012,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 4 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.3050847457627119,
@@ -4570,20 +4038,15 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 14,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 4,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4622,20 +4085,15 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 14,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4674,20 +4132,15 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 14,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4726,20 +4179,15 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 13,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4778,20 +4226,15 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 14,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4830,20 +4273,15 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 14,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4881,20 +4319,15 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 14,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4906,13 +4339,11 @@
       "warns": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "warn_reasons": [
         "table: 10 tables, max 8 rows (warn: >= 10)",
         "faq_count 1 < 8",
-        "internal_links_count 7 < 8",
         "page_types_in_links 0 < 3"
       ],
       "content_similarity": 0.32161073825503356,
@@ -4935,20 +4366,15 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 13,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 7,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -4986,20 +4412,15 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 16,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 11,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -5038,20 +4459,15 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 13,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 8,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -5090,20 +4506,15 @@
         "controls"
       ],
       "artifact_types_count": 2,
-      "references_count": 14,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     },
     {
@@ -5142,20 +4553,15 @@
         "ai-audit"
       ],
       "artifact_types_count": 2,
-      "references_count": 14,
+      "references_count": 31,
       "faq_count": 1,
-      "internal_links_count": 9,
+      "internal_links_count": 15,
       "fixups": [
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
         "注意",
-        "References",
-        "注意",
-        "References"
+        "注意"
       ]
     }
   ]

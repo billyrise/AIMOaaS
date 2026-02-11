@@ -1,0 +1,520 @@
+{
+  "generated_at": "2026-02-11T12:34:52.594Z",
+  "thresholds": {
+    "near_duplicate": 0.85,
+    "approximate": 0.7
+  },
+  "summary": {
+    "total_pages": 100,
+    "near_duplicate_pairs": 0,
+    "approximate_pairs": 0,
+    "independent_pages": 100,
+    "approximate_pages": 0,
+    "near_duplicate_pages": 0
+  },
+  "by_page": {
+    "ai-audit-controls-e-164": {
+      "content_max": 0.37102552619794,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-e-173",
+      "tier": "independent"
+    },
+    "ai-audit-controls-e-170": {
+      "content_max": 0.38640824337585866,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-e-163",
+      "tier": "independent"
+    },
+    "ai-audit-controls-evidence-pack-minimum": {
+      "content_max": 0.48651960784313725,
+      "content_with": "ai-audit-evidence-pack-a-102",
+      "tier": "independent"
+    },
+    "ai-audit-controls-inventory-continuous-audit-workflow": {
+      "content_max": 0.40524854907898056,
+      "content_with": "proof-assurance-boundary-intake-review-approve-c-138",
+      "tier": "independent"
+    },
+    "ai-audit-evidence-pack-a-102": {
+      "content_max": 0.48651960784313725,
+      "content_with": "ai-audit-controls-evidence-pack-minimum",
+      "tier": "independent"
+    },
+    "ai-audit-monitoring-inventory-inventory-review-cycle": {
+      "content_max": 0.4251621271076524,
+      "content_with": "proof-assurance-boundary-ai-audit-policy-c-137",
+      "tier": "independent"
+    },
+    "ai-governance-audit-evidence-controls-workflow-coverage-map": {
+      "content_max": 0.2722793487574979,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-e-171",
+      "tier": "independent"
+    },
+    "evidence-pack-ai-audit-a-112": {
+      "content_max": 0.42529711375212226,
+      "content_with": "evidence-pack-proof-assurance-boundary-ai-a-105",
+      "tier": "independent"
+    },
+    "evidence-pack-ai-audit-controls-a-110": {
+      "content_max": 0.4727272727272727,
+      "content_with": "evidence-pack-ai-audit-controls-a-114",
+      "tier": "independent"
+    },
+    "evidence-pack-ai-audit-controls-a-114": {
+      "content_max": 0.4753234307618591,
+      "content_with": "evidence-pack-proof-assurance-boundary-ai-a-108",
+      "tier": "independent"
+    },
+    "evidence-pack-ai-audit-controls-evidence-gaps-remediation": {
+      "content_max": 0.4332350463352991,
+      "content_with": "evidence-pack-proof-assurance-boundary-evidence-a-113",
+      "tier": "independent"
+    },
+    "evidence-pack-ai-audit-evidence-pack": {
+      "content_max": 0.45742981054553755,
+      "content_with": "evidence-pack-ai-audit-controls-a-110",
+      "tier": "independent"
+    },
+    "evidence-pack-evidence-readiness-ai-audit-evidence-pack-formats": {
+      "content_max": 0.45064874884151995,
+      "content_with": "evidence-pack-ai-audit-controls-a-114",
+      "tier": "independent"
+    },
+    "evidence-pack-evidence-readiness-proof-assurance-a-101": {
+      "content_max": 0.4406095921111609,
+      "content_with": "evidence-pack-ai-audit-controls-a-110",
+      "tier": "independent"
+    },
+    "evidence-pack-proof-assurance-boundary-ai-a-105": {
+      "content_max": 0.43854189819959993,
+      "content_with": "evidence-pack-proof-assurance-boundary-ai-evidence-pack-index",
+      "tier": "independent"
+    },
+    "evidence-pack-proof-assurance-boundary-ai-a-108": {
+      "content_max": 0.4753234307618591,
+      "content_with": "evidence-pack-ai-audit-controls-a-114",
+      "tier": "independent"
+    },
+    "evidence-pack-proof-assurance-boundary-ai-a-109": {
+      "content_max": 0.43696915511846224,
+      "content_with": "evidence-pack-proof-assurance-boundary-ai-evidence-pack-index",
+      "tier": "independent"
+    },
+    "evidence-pack-proof-assurance-boundary-ai-evidence-pack-index": {
+      "content_max": 0.43854189819959993,
+      "content_with": "evidence-pack-proof-assurance-boundary-ai-a-105",
+      "tier": "independent"
+    },
+    "evidence-pack-proof-assurance-boundary-evidence-a-113": {
+      "content_max": 0.4332350463352991,
+      "content_with": "evidence-pack-ai-audit-controls-evidence-gaps-remediation",
+      "tier": "independent"
+    },
+    "evidence-readiness-intake-review-approve-proof-c-134": {
+      "content_max": 0.39898348157560354,
+      "content_with": "proof-assurance-boundary-intake-review-approve-c-138",
+      "tier": "independent"
+    },
+    "evidence-readiness-proof-assurance-boundary-ai-c-133": {
+      "content_max": 0.40584964950447183,
+      "content_with": "proof-assurance-boundary-evidence-readiness-intake-c-142",
+      "tier": "independent"
+    },
+    "evidence-readiness-proof-assurance-boundary-ai-e-161": {
+      "content_max": 0.38372093023255816,
+      "content_with": "ai-audit-controls-e-170",
+      "tier": "independent"
+    },
+    "evidence-readiness-proof-assurance-boundary-ai-e-162": {
+      "content_max": 0.4028436018957346,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-e-166",
+      "tier": "independent"
+    },
+    "evidence-readiness-proof-assurance-boundary-ai-e-175": {
+      "content_max": 0.3860217542235594,
+      "content_with": "proof-assurance-boundary-ai-audit-e-172",
+      "tier": "independent"
+    },
+    "evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai": {
+      "content_max": 0.4104031209362809,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-124",
+      "tier": "independent"
+    },
+    "intake-review-approve-ai-audit-controls-c-131": {
+      "content_max": 0.36705936705936704,
+      "content_with": "intake-review-approve-ai-audit-exceptions-c-135",
+      "tier": "independent"
+    },
+    "intake-review-approve-ai-audit-controls-c-139": {
+      "content_max": 0.3928923988153998,
+      "content_with": "intake-review-approve-ai-audit-exceptions-c-135",
+      "tier": "independent"
+    },
+    "intake-review-approve-ai-audit-controls-request-review-exception": {
+      "content_max": 0.40005092946269416,
+      "content_with": "intake-review-approve-ai-audit-inventory-operating-workflow-renewal",
+      "tier": "independent"
+    },
+    "intake-review-approve-ai-audit-exceptions-c-135": {
+      "content_max": 0.3928923988153998,
+      "content_with": "intake-review-approve-ai-audit-controls-c-139",
+      "tier": "independent"
+    },
+    "intake-review-approve-ai-audit-exceptions-c-143": {
+      "content_max": 0.36784295396120587,
+      "content_with": "intake-review-approve-ai-audit-inventory-operating-workflow-renewal",
+      "tier": "independent"
+    },
+    "intake-review-approve-ai-audit-inventory-operating-workflow-renewal": {
+      "content_max": 0.40005092946269416,
+      "content_with": "intake-review-approve-ai-audit-controls-request-review-exception",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-a-107": {
+      "content_max": 0.4798657718120805,
+      "content_with": "proof-assurance-boundary-ai-audit-evidence-bundle-structure",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-a-111": {
+      "content_max": 0.44632639047837036,
+      "content_with": "ai-audit-evidence-pack-a-102",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-a-115": {
+      "content_max": 0.44160985265009894,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-a-103",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-a-103": {
+      "content_max": 0.5023199023199023,
+      "content_with": "proof-assurance-boundary-ai-audit-evidence-formats-standards",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-116": {
+      "content_max": 0.4023101499139838,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-129",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-117": {
+      "content_max": 0.43466737344288364,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-control-evidence-frequency",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-118": {
+      "content_max": 0.4322820037105751,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-129",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-119": {
+      "content_max": 0.44400675295441755,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-124",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-120": {
+      "content_max": 0.4227979274611399,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-117",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-121": {
+      "content_max": 0.42098609355246525,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-118",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-123": {
+      "content_max": 0.43806009488666314,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-129",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-124": {
+      "content_max": 0.44416804864566056,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-control-evidence-frequency",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-125": {
+      "content_max": 0.3882494004796163,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-129",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-126": {
+      "content_max": 0.42599843382928737,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-119",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-127": {
+      "content_max": 0.4093420391762933,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-129",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-128": {
+      "content_max": 0.4309479799313441,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-119",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-129": {
+      "content_max": 0.43806009488666314,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-123",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-b-130": {
+      "content_max": 0.42756460454189504,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-129",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-c-141": {
+      "content_max": 0.43106691749529696,
+      "content_with": "proof-assurance-boundary-intake-review-approve-c-138",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-control-evidence-frequency": {
+      "content_max": 0.44416804864566056,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-124",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-d-153": {
+      "content_max": 0.45703644586326153,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-154",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-e-163": {
+      "content_max": 0.3903756444880923,
+      "content_with": "proof-assurance-boundary-coverage-map-iso42001",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-e-165": {
+      "content_max": 0.3491031390134529,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-e-163",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-e-166": {
+      "content_max": 0.4028436018957346,
+      "content_with": "evidence-readiness-proof-assurance-boundary-ai-e-162",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-e-167": {
+      "content_max": 0.3795309168443497,
+      "content_with": "ai-audit-controls-e-170",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-e-168": {
+      "content_max": 0.39619918210247773,
+      "content_with": "evidence-readiness-proof-assurance-boundary-ai-e-162",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-e-169": {
+      "content_max": 0.35967669510552314,
+      "content_with": "proof-assurance-boundary-coverage-map-iso42001",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-e-171": {
+      "content_max": 0.39028475711892796,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-e-173",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-e-173": {
+      "content_max": 0.39596655189375307,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-e-166",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-e-174": {
+      "content_max": 0.33642785065590314,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-e-165",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-controls-evidence-requirements-table": {
+      "content_max": 0.39955357142857145,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-129",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-e-172": {
+      "content_max": 0.3963920039005363,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-e-166",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-evidence-audit-questions-pack": {
+      "content_max": 0.4326487063216858,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-119",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-evidence-bundle-structure": {
+      "content_max": 0.4798657718120805,
+      "content_with": "proof-assurance-boundary-ai-audit-a-107",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-evidence-formats-standards": {
+      "content_max": 0.5023199023199023,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-a-103",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-intake-audit-submission-checklist": {
+      "content_max": 0.45590994371482174,
+      "content_with": "proof-assurance-boundary-ai-audit-a-107",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-policy-c-137": {
+      "content_max": 0.4302203567681007,
+      "content_with": "responsibility-boundary-evidence-readiness-proof-assurance-c-140",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-ai-audit-policy-c-145": {
+      "content_max": 0.3914004914004914,
+      "content_with": "responsibility-boundary-evidence-readiness-proof-assurance-c-136",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-controls-evidence-readiness-internal-audit-evidence": {
+      "content_max": 0.4161258112830754,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-129",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-controls-minimum-evidence-requirements": {
+      "content_max": 0.44081632653061226,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-119",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-coverage-map-iso42001": {
+      "content_max": 0.3903756444880923,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-e-163",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-evidence-pack-ai-a-104": {
+      "content_max": 0.4683606156853164,
+      "content_with": "ai-audit-evidence-pack-a-102",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-evidence-pack-ai-a-106": {
+      "content_max": 0.4660821412090448,
+      "content_with": "proof-assurance-boundary-ai-audit-evidence-formats-standards",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-evidence-readiness-ai-b-122": {
+      "content_max": 0.43672922252010726,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-b-119",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-evidence-readiness-ai-d-147": {
+      "content_max": 0.46069103655483223,
+      "content_with": "proof-assurance-boundary-responsibility-boundary-ai-d-159",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-evidence-readiness-intake-c-142": {
+      "content_max": 0.4127473657157543,
+      "content_with": "proof-assurance-boundary-ai-audit-policy-c-137",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-intake-review-approve-c-138": {
+      "content_max": 0.43106691749529696,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-c-141",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-responsibility-boundary-ai-d-159": {
+      "content_max": 0.46069103655483223,
+      "content_with": "proof-assurance-boundary-evidence-readiness-ai-d-147",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-responsibility-boundary-ai-proof-vs-assurance": {
+      "content_max": 0.4524110073213835,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-146",
+      "tier": "independent"
+    },
+    "proof-assurance-boundary-responsibility-boundary-ai-responsibility-boundary": {
+      "content_max": 0.4198509973564047,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-154",
+      "tier": "independent"
+    },
+    "responsibility-boundary-evidence-readiness-proof-assurance-c-132": {
+      "content_max": 0.41865904365904366,
+      "content_with": "proof-assurance-boundary-intake-review-approve-c-138",
+      "tier": "independent"
+    },
+    "responsibility-boundary-evidence-readiness-proof-assurance-c-136": {
+      "content_max": 0.417910447761194,
+      "content_with": "proof-assurance-boundary-ai-audit-controls-c-141",
+      "tier": "independent"
+    },
+    "responsibility-boundary-evidence-readiness-proof-assurance-c-140": {
+      "content_max": 0.4302203567681007,
+      "content_with": "proof-assurance-boundary-ai-audit-policy-c-137",
+      "tier": "independent"
+    },
+    "responsibility-boundary-evidence-readiness-proof-assurance-d-148": {
+      "content_max": 0.4635306553911205,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-154",
+      "tier": "independent"
+    },
+    "responsibility-boundary-evidence-readiness-proof-assurance-d-151": {
+      "content_max": 0.4389513108614232,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-154",
+      "tier": "independent"
+    },
+    "responsibility-boundary-evidence-readiness-proof-assurance-d-160": {
+      "content_max": 0.4865162355531095,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-154",
+      "tier": "independent"
+    },
+    "responsibility-boundary-intake-review-approve-ai-operating-workflow": {
+      "content_max": 0.38899950223992036,
+      "content_with": "responsibility-boundary-evidence-readiness-proof-assurance-c-136",
+      "tier": "independent"
+    },
+    "responsibility-boundary-intake-review-approve-ai-raci-governance": {
+      "content_max": 0.4074074074074074,
+      "content_with": "proof-assurance-boundary-ai-audit-policy-c-137",
+      "tier": "independent"
+    },
+    "responsibility-boundary-proof-assurance-boundary-ai-c-144": {
+      "content_max": 0.4032176973353444,
+      "content_with": "proof-assurance-boundary-intake-review-approve-c-138",
+      "tier": "independent"
+    },
+    "responsibility-boundary-proof-assurance-boundary-ai-d-146": {
+      "content_max": 0.45778466305189774,
+      "content_with": "proof-assurance-boundary-responsibility-boundary-ai-d-159",
+      "tier": "independent"
+    },
+    "responsibility-boundary-proof-assurance-boundary-ai-d-149": {
+      "content_max": 0.4459425082676164,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-152",
+      "tier": "independent"
+    },
+    "responsibility-boundary-proof-assurance-boundary-ai-d-152": {
+      "content_max": 0.4891243725599554,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-154",
+      "tier": "independent"
+    },
+    "responsibility-boundary-proof-assurance-boundary-ai-d-154": {
+      "content_max": 0.4891243725599554,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-152",
+      "tier": "independent"
+    },
+    "responsibility-boundary-proof-assurance-boundary-ai-d-155": {
+      "content_max": 0.42229492872166396,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-146",
+      "tier": "independent"
+    },
+    "responsibility-boundary-proof-assurance-boundary-ai-d-156": {
+      "content_max": 0.46670247046186897,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-152",
+      "tier": "independent"
+    },
+    "responsibility-boundary-proof-assurance-boundary-ai-d-157": {
+      "content_max": 0.41662796098467253,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-146",
+      "tier": "independent"
+    },
+    "responsibility-boundary-proof-assurance-boundary-ai-d-158": {
+      "content_max": 0.4337797619047619,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-152",
+      "tier": "independent"
+    },
+    "responsibility-boundary-proof-assurance-boundary-ai-sla-responsibility-matrix": {
+      "content_max": 0.44301563287947554,
+      "content_with": "responsibility-boundary-proof-assurance-boundary-ai-d-154",
+      "tier": "independent"
+    },
+    "responsibility-boundary-proof-assurance-boundary-evidence-d-150": {
+      "content_max": 0.44021868314713575,
+      "content_with": "proof-assurance-boundary-responsibility-boundary-ai-d-159",
+      "tier": "independent"
+    }
+  },
+  "pairs_near_duplicate": [],
+  "pairs_approximate": [],
+  "cluster_duplicate_map": {}
+}

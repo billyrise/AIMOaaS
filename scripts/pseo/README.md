@@ -38,14 +38,18 @@ npm run generate -- pseo-evidence-pack
 
 ## 検証（CI）
 
-生成後に `npm run validate` で品質ゲート。**1件でも fail すると exit(1)**。
+**推奨フロー**: Phase0 → Validate。CI では `phase0` の後に `validate` を実行する。
 
 ```bash
-npm run pseo:similarity   # 先に実行すると content_similarity を参照
+npm run phase0            # SSOT・重複レポート・Search Intent タクソノミー生成
 npm run validate
 ```
 
+（従来）`npm run pseo:similarity` を先に実行すると content_similarity を参照。
+
 **必須ルール (fail)**: H1 が 1 回・H2 同名重複 0・canonical/og:url が final_url・robots が allowlist に基づく・CTA 1 本以上（#contact）・禁止主張パターンのみ（保証/合格/準拠断言）・legacy_url 時は _redirects に 301・content_similarity 同一=fail。
+
+**PR-C ゲート**: (1) **MECE**: 同一 intent_id で index するページは1本まで。`index_allowlist.json` の allow が複数 intent にまたがる場合は、意図ごとに1本だけ残すよう調整する（段階解放時は Pillar のみ index にすると CI が通りやすい）。(2) **重複**: `duplicate_report.json` の near_duplicate_pairs が 0 であること。
 
 **参考 (warn)**: 表行数・FAQ 数・内部リンク数・成果物数など（レポートに記載、fail にはしない）。
 
@@ -80,6 +84,11 @@ PV ではなく **CTA（クリック／フォーム送信）** を KPI にし、
   9. `npx tsx release_candidates.ts` — 解放候補を `index_candidates.md` に出力（人間承認後に allowlist 更新）。
 - **既存 HTML のみ修正する場合**（generate を走らせない）: `npm run postprocess:h2-dedup` → `npm run inject:assets` → `npm run postprocess:claims` の順。H2 重複除去を先に行わないと inject した data-unique ブロックが消える。
 - **noindex 段階解放**: `data/pseo/index_allowlist.json` の `allow` に final_slug を追加すると、そのページのみ `index,follow`。初期は空（全 PSEO `noindex,follow`）。FAQPage JSON-LD は `faq_schema_allowlist.json` で制御。**allowlist 更新は人間承認のみ。**
+- **canonical / Article / 日付・著者（PR-B）**:
+  - **robots**: 上記 allowlist で制御。`postprocess:robots` で既存 HTML に一括反映可能。
+  - **canonical**: 原則 self。統合時のみ `catalog.yaml` の `canonical_target` または `data/pseo/pseo_meta.json` の `canonical_target` で代表 URL（path または final_slug）を指定可能。
+  - **Article 構造化データ**: `datePublished` / `dateModified` / `author` は、catalog の `date_published` / `date_modified` / `author`、または `pseo_meta.json` の同キーで上書き可能。未指定時はビルド日・Organization RISEby。
+  - **pseo_meta.json**: 任意。`data/pseo/pseo_meta.example.json` をコピーして `pseo_meta.json` を作成し、catalog の page id をキーに `date_published`, `date_modified`, `author`, `canonical_target` を指定可能。
 - **Cloudflare Pages `_redirects` 上限**: 静的リダイレクトは **2,100 ルール**（[Cloudflare Docs](https://developers.cloudflare.com/pages/configuration/redirects/)）。PSEO 100 件では問題ないが、件数が増えた場合は Bulk Redirects や動的ルールの検討を推奨。`redirects.ts` は PSEO ブロックを重複追加せず、既存ブロックを1つ置換する。
 - **slugger 自己テスト**: `npm run slugger:smoke`
 

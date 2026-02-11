@@ -1,0 +1,1651 @@
+{
+  "generated_at": "2026-02-11T12:34:52.769Z",
+  "intent_definitions": {
+    "A": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+    "B": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+    "C": "実装手順が欲しい（手順/ワークフロー/運用設計/KPI）",
+    "D": "マッピングが欲しい（ISO/EU AI Act/NIST等への対応表）",
+    "E": "設計思想が知りたい（概念整理・用語定義・全体像）",
+    "F": "事例が知りたい（失敗/監査指摘/是正/業界別）"
+  },
+  "audience_tags": [
+    "CISO/情報シス",
+    "監査法人/内部監査",
+    "法務/コンプラ",
+    "セキュリティベンダー",
+    "事業部/プロダクト"
+  ],
+  "scope_tags": [
+    "Shadow AI",
+    "AI agent governance",
+    "Evidence readiness",
+    "Continuous Controls Monitoring",
+    "AI-BOM/サプライチェーン",
+    "ログ保全/改ざん防止",
+    "データ保護"
+  ],
+  "by_intent": {
+    "D": [
+      "ai-audit-controls-e-164",
+      "ai-audit-controls-e-170"
+    ],
+    "E": [
+      "ai-audit-controls-evidence-pack-minimum"
+    ],
+    "C": [
+      "ai-audit-controls-inventory-continuous-audit-workflow",
+      "ai-governance-audit-evidence-controls-workflow-coverage-map",
+      "evidence-readiness-intake-review-approve-proof-c-134"
+    ],
+    "A": [
+      "ai-audit-evidence-pack-a-102",
+      "evidence-pack-ai-audit-a-112",
+      "evidence-pack-ai-audit-controls-a-110",
+      "evidence-pack-ai-audit-controls-a-114",
+      "evidence-pack-ai-audit-evidence-pack",
+      "evidence-pack-evidence-readiness-ai-audit-evidence-pack-formats",
+      "evidence-pack-proof-assurance-boundary-ai-a-108",
+      "evidence-pack-proof-assurance-boundary-ai-evidence-pack-index",
+      "proof-assurance-boundary-ai-audit-intake-audit-submission-checklist",
+      "proof-assurance-boundary-evidence-pack-ai-a-104",
+      "proof-assurance-boundary-evidence-pack-ai-a-106"
+    ],
+    "B": [
+      "ai-audit-monitoring-inventory-inventory-review-cycle",
+      "evidence-pack-evidence-readiness-proof-assurance-a-101",
+      "evidence-pack-proof-assurance-boundary-ai-a-105",
+      "evidence-pack-proof-assurance-boundary-ai-a-109",
+      "evidence-pack-proof-assurance-boundary-evidence-a-113",
+      "evidence-readiness-proof-assurance-boundary-ai-c-133",
+      "evidence-readiness-proof-assurance-boundary-ai-e-161",
+      "evidence-readiness-proof-assurance-boundary-ai-e-162",
+      "evidence-readiness-proof-assurance-boundary-ai-e-175",
+      "evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai",
+      "intake-review-approve-ai-audit-controls-c-131",
+      "intake-review-approve-ai-audit-controls-c-139",
+      "intake-review-approve-ai-audit-controls-request-review-exception",
+      "intake-review-approve-ai-audit-exceptions-c-135",
+      "intake-review-approve-ai-audit-exceptions-c-143",
+      "intake-review-approve-ai-audit-inventory-operating-workflow-renewal",
+      "proof-assurance-boundary-ai-audit-a-107",
+      "proof-assurance-boundary-ai-audit-a-111",
+      "proof-assurance-boundary-ai-audit-a-115",
+      "proof-assurance-boundary-ai-audit-controls-a-103",
+      "proof-assurance-boundary-ai-audit-controls-b-116",
+      "proof-assurance-boundary-ai-audit-controls-b-117",
+      "proof-assurance-boundary-ai-audit-controls-b-118",
+      "proof-assurance-boundary-ai-audit-controls-b-119",
+      "proof-assurance-boundary-ai-audit-controls-b-120",
+      "proof-assurance-boundary-ai-audit-controls-b-121",
+      "proof-assurance-boundary-ai-audit-controls-b-123",
+      "proof-assurance-boundary-ai-audit-controls-b-124",
+      "proof-assurance-boundary-ai-audit-controls-b-125",
+      "proof-assurance-boundary-ai-audit-controls-b-126",
+      "proof-assurance-boundary-ai-audit-controls-b-127",
+      "proof-assurance-boundary-ai-audit-controls-b-128",
+      "proof-assurance-boundary-ai-audit-controls-b-129",
+      "proof-assurance-boundary-ai-audit-controls-b-130",
+      "proof-assurance-boundary-ai-audit-controls-c-141",
+      "proof-assurance-boundary-ai-audit-controls-control-evidence-frequency",
+      "proof-assurance-boundary-ai-audit-controls-d-153",
+      "proof-assurance-boundary-ai-audit-controls-e-163",
+      "proof-assurance-boundary-ai-audit-controls-e-165",
+      "proof-assurance-boundary-ai-audit-controls-e-166",
+      "proof-assurance-boundary-ai-audit-controls-e-167",
+      "proof-assurance-boundary-ai-audit-controls-e-168",
+      "proof-assurance-boundary-ai-audit-controls-e-169",
+      "proof-assurance-boundary-ai-audit-controls-e-171",
+      "proof-assurance-boundary-ai-audit-controls-e-173",
+      "proof-assurance-boundary-ai-audit-controls-e-174",
+      "proof-assurance-boundary-ai-audit-controls-evidence-requirements-table",
+      "proof-assurance-boundary-ai-audit-e-172",
+      "proof-assurance-boundary-ai-audit-evidence-audit-questions-pack",
+      "proof-assurance-boundary-ai-audit-evidence-bundle-structure",
+      "proof-assurance-boundary-ai-audit-evidence-formats-standards",
+      "proof-assurance-boundary-ai-audit-policy-c-137",
+      "proof-assurance-boundary-ai-audit-policy-c-145",
+      "proof-assurance-boundary-controls-evidence-readiness-internal-audit-evidence",
+      "proof-assurance-boundary-controls-minimum-evidence-requirements",
+      "proof-assurance-boundary-coverage-map-iso42001",
+      "proof-assurance-boundary-evidence-readiness-ai-b-122",
+      "proof-assurance-boundary-evidence-readiness-ai-d-147",
+      "proof-assurance-boundary-evidence-readiness-intake-c-142",
+      "proof-assurance-boundary-intake-review-approve-c-138",
+      "proof-assurance-boundary-responsibility-boundary-ai-d-159",
+      "proof-assurance-boundary-responsibility-boundary-ai-proof-vs-assurance",
+      "proof-assurance-boundary-responsibility-boundary-ai-responsibility-boundary",
+      "responsibility-boundary-evidence-readiness-proof-assurance-c-132",
+      "responsibility-boundary-evidence-readiness-proof-assurance-c-136",
+      "responsibility-boundary-evidence-readiness-proof-assurance-c-140",
+      "responsibility-boundary-evidence-readiness-proof-assurance-d-148",
+      "responsibility-boundary-evidence-readiness-proof-assurance-d-151",
+      "responsibility-boundary-evidence-readiness-proof-assurance-d-160",
+      "responsibility-boundary-intake-review-approve-ai-operating-workflow",
+      "responsibility-boundary-intake-review-approve-ai-raci-governance",
+      "responsibility-boundary-proof-assurance-boundary-ai-c-144",
+      "responsibility-boundary-proof-assurance-boundary-ai-d-146",
+      "responsibility-boundary-proof-assurance-boundary-ai-d-149",
+      "responsibility-boundary-proof-assurance-boundary-ai-d-152",
+      "responsibility-boundary-proof-assurance-boundary-ai-d-154",
+      "responsibility-boundary-proof-assurance-boundary-ai-d-155",
+      "responsibility-boundary-proof-assurance-boundary-ai-d-156",
+      "responsibility-boundary-proof-assurance-boundary-ai-d-157",
+      "responsibility-boundary-proof-assurance-boundary-ai-d-158",
+      "responsibility-boundary-proof-assurance-boundary-ai-sla-responsibility-matrix",
+      "responsibility-boundary-proof-assurance-boundary-evidence-d-150"
+    ],
+    "F": [
+      "evidence-pack-ai-audit-controls-evidence-gaps-remediation"
+    ]
+  },
+  "pages": [
+    {
+      "slug": "ai-audit-controls-e-164",
+      "id": "e-164",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-e-164/",
+      "intent_id": "D",
+      "intent_label": "マッピングが欲しい（ISO/EU AI Act/NIST等への対応表）",
+      "cluster_id": "ai-audit",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "ai-audit-controls-e-170",
+      "id": "e-170",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-e-170/",
+      "intent_id": "D",
+      "intent_label": "マッピングが欲しい（ISO/EU AI Act/NIST等への対応表）",
+      "cluster_id": "ai-audit",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "ai-audit-controls-evidence-pack-minimum",
+      "id": "evidence-pack-minimum",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-evidence-pack-minimum/",
+      "intent_id": "E",
+      "intent_label": "設計思想が知りたい（概念整理・用語定義・全体像）",
+      "cluster_id": "evidence-pack",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "ai-audit-controls-inventory-continuous-audit-workflow",
+      "id": "continuous-audit-workflow",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-inventory-continuous-audit-workflow/",
+      "intent_id": "C",
+      "intent_label": "実装手順が欲しい（手順/ワークフロー/運用設計/KPI）",
+      "cluster_id": "inventory-review",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Shadow AI",
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "ai-audit-evidence-pack-a-102",
+      "id": "a-102",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-evidence-pack-a-102/",
+      "intent_id": "A",
+      "intent_label": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+      "cluster_id": "evidence-pack",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "ai-audit-monitoring-inventory-inventory-review-cycle",
+      "id": "inventory-review-cycle",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-monitoring-inventory-inventory-review-cycle/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "inventory-review",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Shadow AI",
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "ai-governance-audit-evidence-controls-workflow-coverage-map",
+      "id": "coverage-map",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-governance-audit-evidence-controls-workflow-coverage-map/",
+      "intent_id": "C",
+      "intent_label": "実装手順が欲しい（手順/ワークフロー/運用設計/KPI）",
+      "cluster_id": "coverage-map",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-ai-audit-a-112",
+      "id": "a-112",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-a-112/",
+      "intent_id": "A",
+      "intent_label": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+      "cluster_id": "evidence-pack",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-ai-audit-controls-a-110",
+      "id": "a-110",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-controls-a-110/",
+      "intent_id": "A",
+      "intent_label": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+      "cluster_id": "evidence-pack",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-ai-audit-controls-a-114",
+      "id": "a-114",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-controls-a-114/",
+      "intent_id": "A",
+      "intent_label": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+      "cluster_id": "evidence-pack",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-ai-audit-controls-evidence-gaps-remediation",
+      "id": "evidence-gaps-remediation",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-controls-evidence-gaps-remediation/",
+      "intent_id": "F",
+      "intent_label": "事例が知りたい（失敗/監査指摘/是正/業界別）",
+      "cluster_id": "evidence-pack",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-ai-audit-evidence-pack",
+      "id": "evidence-pack",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "intent_id": "A",
+      "intent_label": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+      "cluster_id": "evidence-pack",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-evidence-readiness-ai-audit-evidence-pack-formats",
+      "id": "evidence-pack-formats",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-evidence-readiness-ai-audit-evidence-pack-formats/",
+      "intent_id": "A",
+      "intent_label": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+      "cluster_id": "evidence-pack",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-evidence-readiness-proof-assurance-a-101",
+      "id": "a-101",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-evidence-readiness-proof-assurance-a-101/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-proof-assurance-boundary-ai-a-105",
+      "id": "a-105",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-105/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-proof-assurance-boundary-ai-a-108",
+      "id": "a-108",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-108/",
+      "intent_id": "A",
+      "intent_label": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-proof-assurance-boundary-ai-a-109",
+      "id": "a-109",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-109/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-proof-assurance-boundary-ai-evidence-pack-index",
+      "id": "evidence-pack-index",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-evidence-pack-index/",
+      "intent_id": "A",
+      "intent_label": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-pack-proof-assurance-boundary-evidence-a-113",
+      "id": "a-113",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-evidence-a-113/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-readiness-intake-review-approve-proof-c-134",
+      "id": "c-134",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-intake-review-approve-proof-c-134/",
+      "intent_id": "C",
+      "intent_label": "実装手順が欲しい（手順/ワークフロー/運用設計/KPI）",
+      "cluster_id": "intake-review-approve",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-readiness-proof-assurance-boundary-ai-c-133",
+      "id": "c-133",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-c-133/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-readiness-proof-assurance-boundary-ai-e-161",
+      "id": "e-161",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-161/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-readiness-proof-assurance-boundary-ai-e-162",
+      "id": "e-162",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-162/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-readiness-proof-assurance-boundary-ai-e-175",
+      "id": "e-175",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-175/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai",
+      "id": "minimum-evidence-shadow-ai",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Shadow AI",
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "intake-review-approve-ai-audit-controls-c-131",
+      "id": "c-131",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-c-131/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "intake-review-approve",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "intake-review-approve-ai-audit-controls-c-139",
+      "id": "c-139",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-c-139/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "intake-review-approve",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "intake-review-approve-ai-audit-controls-request-review-exception",
+      "id": "request-review-exception",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "intake-review-approve",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "intake-review-approve-ai-audit-exceptions-c-135",
+      "id": "c-135",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-exceptions-c-135/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "intake-review-approve",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "intake-review-approve-ai-audit-exceptions-c-143",
+      "id": "c-143",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-exceptions-c-143/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "intake-review-approve",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "intake-review-approve-ai-audit-inventory-operating-workflow-renewal",
+      "id": "operating-workflow-renewal",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-inventory-operating-workflow-renewal/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "intake-review-approve",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Shadow AI",
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-a-107",
+      "id": "a-107",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-107/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-a-111",
+      "id": "a-111",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-111/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-a-115",
+      "id": "a-115",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-115/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-a-103",
+      "id": "a-103",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-a-103/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-116",
+      "id": "b-116",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-116/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-117",
+      "id": "b-117",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-117/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-118",
+      "id": "b-118",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-118/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness",
+        "ログ保全/改ざん防止"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-119",
+      "id": "b-119",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-119/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-120",
+      "id": "b-120",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-120/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-121",
+      "id": "b-121",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-121/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-123",
+      "id": "b-123",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-123/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-124",
+      "id": "b-124",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-124/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-125",
+      "id": "b-125",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-125/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-126",
+      "id": "b-126",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-126/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness",
+        "ログ保全/改ざん防止"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-127",
+      "id": "b-127",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-127/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-128",
+      "id": "b-128",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-128/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-129",
+      "id": "b-129",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-129/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-b-130",
+      "id": "b-130",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-130/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness",
+        "ログ保全/改ざん防止"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-c-141",
+      "id": "c-141",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-c-141/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness",
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-control-evidence-frequency",
+      "id": "control-evidence-frequency",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness",
+        "ログ保全/改ざん防止"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-d-153",
+      "id": "d-153",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-d-153/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-e-163",
+      "id": "e-163",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-163/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-e-165",
+      "id": "e-165",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-165/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-e-166",
+      "id": "e-166",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-166/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-e-167",
+      "id": "e-167",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-167/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-e-168",
+      "id": "e-168",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-168/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-e-169",
+      "id": "e-169",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-169/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-e-171",
+      "id": "e-171",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-171/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-e-173",
+      "id": "e-173",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-173/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-e-174",
+      "id": "e-174",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-174/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-controls-evidence-requirements-table",
+      "id": "evidence-requirements-table",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-evidence-requirements-table/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-e-172",
+      "id": "e-172",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-e-172/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-evidence-audit-questions-pack",
+      "id": "audit-questions-pack",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-audit-questions-pack/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-evidence-bundle-structure",
+      "id": "evidence-bundle-structure",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-bundle-structure/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-evidence-formats-standards",
+      "id": "evidence-formats-standards",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-formats-standards/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-intake-audit-submission-checklist",
+      "id": "audit-submission-checklist",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-intake-audit-submission-checklist/",
+      "intent_id": "A",
+      "intent_label": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-policy-c-137",
+      "id": "c-137",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-policy-c-137/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-ai-audit-policy-c-145",
+      "id": "c-145",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-policy-c-145/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-controls-evidence-readiness-internal-audit-evidence",
+      "id": "internal-audit-evidence",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-controls-evidence-readiness-internal-audit-evidence/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-controls-minimum-evidence-requirements",
+      "id": "minimum-evidence-requirements",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-controls-minimum-evidence-requirements/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-coverage-map-iso42001",
+      "id": "coverage-map-iso42001",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-coverage-map-iso42001/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-evidence-pack-ai-a-104",
+      "id": "a-104",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-pack-ai-a-104/",
+      "intent_id": "A",
+      "intent_label": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-evidence-pack-ai-a-106",
+      "id": "a-106",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-pack-ai-a-106/",
+      "intent_id": "A",
+      "intent_label": "成果物が欲しい（テンプレ/チェックリスト/目次/フォーム）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-evidence-readiness-ai-b-122",
+      "id": "b-122",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-ai-b-122/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness",
+        "ログ保全/改ざん防止"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-evidence-readiness-ai-d-147",
+      "id": "d-147",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-ai-d-147/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-evidence-readiness-intake-c-142",
+      "id": "c-142",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-intake-c-142/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-intake-review-approve-c-138",
+      "id": "c-138",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-intake-review-approve-c-138/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness",
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-responsibility-boundary-ai-d-159",
+      "id": "d-159",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-d-159/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-responsibility-boundary-ai-proof-vs-assurance",
+      "id": "proof-vs-assurance",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-proof-vs-assurance/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "proof-assurance-boundary-responsibility-boundary-ai-responsibility-boundary",
+      "id": "responsibility-boundary",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-responsibility-boundary/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-evidence-readiness-proof-assurance-c-132",
+      "id": "c-132",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-132/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Shadow AI",
+        "Evidence readiness",
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-evidence-readiness-proof-assurance-c-136",
+      "id": "c-136",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-136/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Shadow AI",
+        "Evidence readiness",
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-evidence-readiness-proof-assurance-c-140",
+      "id": "c-140",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-140/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Shadow AI",
+        "Evidence readiness",
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-evidence-readiness-proof-assurance-d-148",
+      "id": "d-148",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-148/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-evidence-readiness-proof-assurance-d-151",
+      "id": "d-151",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-151/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-evidence-readiness-proof-assurance-d-160",
+      "id": "d-160",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-160/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-intake-review-approve-ai-operating-workflow",
+      "id": "operating-workflow",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-operating-workflow/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Shadow AI",
+        "Continuous Controls Monitoring",
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-intake-review-approve-ai-raci-governance",
+      "id": "raci-governance",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス",
+        "法務/コンプラ"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-proof-assurance-boundary-ai-c-144",
+      "id": "c-144",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-c-144/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Shadow AI",
+        "Evidence readiness",
+        "Continuous Controls Monitoring"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-proof-assurance-boundary-ai-d-146",
+      "id": "d-146",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-146/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-proof-assurance-boundary-ai-d-149",
+      "id": "d-149",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-149/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-proof-assurance-boundary-ai-d-152",
+      "id": "d-152",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-152/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-proof-assurance-boundary-ai-d-154",
+      "id": "d-154",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-154/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-proof-assurance-boundary-ai-d-155",
+      "id": "d-155",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-155/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-proof-assurance-boundary-ai-d-156",
+      "id": "d-156",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-156/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-proof-assurance-boundary-ai-d-157",
+      "id": "d-157",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-157/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-proof-assurance-boundary-ai-d-158",
+      "id": "d-158",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-158/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-proof-assurance-boundary-ai-sla-responsibility-matrix",
+      "id": "sla-responsibility-matrix",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-sla-responsibility-matrix/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情報シス"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    },
+    {
+      "slug": "responsibility-boundary-proof-assurance-boundary-evidence-d-150",
+      "id": "d-150",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-evidence-d-150/",
+      "intent_id": "B",
+      "intent_label": "判断基準が欲しい（OK/NG基準、例外条件、RACI、責任分界）",
+      "cluster_id": "proof-vs-assurance",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "scope_tags": [
+        "Evidence readiness"
+      ]
+    }
+  ]
+}
