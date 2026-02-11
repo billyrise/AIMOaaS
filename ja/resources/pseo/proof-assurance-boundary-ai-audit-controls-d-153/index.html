@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,follow" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>AI監査・統制の実務：AIMOaaSによる証憑と証跡の整理支援 | AIMOaaS™</title>
+  <meta name="description" content="AIMOaaSは、AIモデルの監査・統制に必要な証跡の整備を支援します。証憑提供者と保証結論者の役割分担、監査で求められる証跡と質問、SLAや契約での責任分界、欠落と是正の観点を整理し、効果的な監査対応をサポートします。" />
+  <link rel="canonical" href="https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-d-153/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-d-153/" />
+  <meta property="og:title" content="AI監査・統制の実務：AIMOaaSによる証憑と証跡の整理支援" />
+  <meta property="og:description" content="AIMOaaSは、AIモデルの監査・統制に必要な証跡の整備を支援します。証憑提供者と保証結論者の役割分担、監査で求められる証跡と質問、SLAや契約での責任分界、欠落と是正の観点を整理し、効果的な監査対応をサポートします。" />
+  <meta property="og:image" content="https://aimoaas.com/assets/aimo-standard-unifying-regulations.png" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:site_name" content="AIMOaaS™" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI監査・統制の実務：AIMOaaSによる証憑と証跡の整理支援" />
+  <meta name="twitter:description" content="AIMOaaSは、AIモデルの監査・統制に必要な証跡の整備を支援します。証憑提供者と保証結論者の役割分担、監査で求められる証跡と質問、SLAや契約での責任分界、欠落と是正の観点を整理し、効果的な監査対応をサポートします。" />
+  <meta name="twitter:image" content="https://aimoaas.com/assets/aimo-standard-unifying-regulations.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>body { font-family: 'Noto Sans JP', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <header class="mb-6 text-sm">
+      <a href="https://aimoaas.com/ja/" class="text-indigo-600 hover:underline">AIMOaaS™</a>
+      <span class="text-slate-400 mx-1">/</span>
+      <span class="text-slate-600">リソース</span>
+    </header>
+
+    <main>
+      <!-- above-the-fold: TL;DR + CTA（意思決定の入口） -->
+      <section class="above-the-fold mb-10" aria-label="要点とアクション">
+        <h1 class="text-3xl font-bold text-slate-900 mb-4">AI監査・統制の実務：AIMOaaSによる証憑と証跡の整理支援</h1>
+        <div class="tldr-box p-5 bg-white rounded-lg border border-slate-200 shadow-sm mb-6">
+          <p class="text-slate-700 leading-relaxed">AIMOaaSは、AIモデルの監査・統制プロセスにおいて、必要な証跡の収集、分析、そして目次の整備を支援します。私たちは「Proof（証憑）」の提供主体として、お客様が監査法人からの「Assurance（保証結論）」を得るための実務的な観点を提供します。本ページでは、証跡の流れ、責任分界、SLAでの整理ポイント、監査で聞かれやすい質問と対応する証跡、さらにはEvidence Packのテンプレートまで、監査対応を円滑に進めるための具体的な情報とフレームワークを整理して提示します。保証結論は監査人や保証提供者の責任であり、AIMOaaSはあくまでその準備と説明可能性の向上を支援する立場です。</p>
+        </div>
+        <!-- CTA partial: primary_cta に応じて文言・遷移を切替。謙虚に、伴走姿勢。 -->
+<!-- プレースホルダ: 1か月 BPR・証跡最小要件整備の相談を申し込む https://aimoaas.com/ja/#contact （mid 用の短い補足。空でも可） -->
+<section class="pseo-cta" aria-label="次のアクション">
+  <p class="mb-4">
+    <a href="https://aimoaas.com/ja/#contact" class="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition">
+      1か月 BPR・証跡最小要件整備の相談を申し込む
+    </a>
+  </p>
+  
+</section>
+
+      </section>
+
+      <!-- main: SSOT 本文（表・チェックリスト・フロー・RACI） -->
+      <section class="pseo-main mb-10" aria-label="本文">
+        <div class="prose prose-slate prose-lg max-w-none"><h2>責任分界—Proof（証憑）と Assurance（保証結論）</h2>
+
+<h2>役割の整理（断定なし）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>主体</th>
+<th>提供・実施するもの</th>
+<th>判断・観点の整理・支援であり、保証は行いませんもの</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AIMOaaS</td>
+<td>ログに基づく証跡の生成、Evidence Pack の雛形・目次、運用記録の整備支援</td>
+<td>—</td>
+<td>証憑（Proof）の提供。保証結論は出さない。</td>
+</tr>
+<tr>
+<td>利用企業</td>
+<td>方針決定、例外承認、運用の実施、証跡の保管・提出</td>
+<td>自社の統制の有効性に関する説明責任</td>
+<td>監査人への説明は企業の責任。</td>
+</tr>
+<tr>
+<td>監査法人・保証提供者</td>
+<td>監査計画・証跡の受領・検証</td>
+<td>保証結論（意見）</td>
+<td>Assurance は監査法人等の責任。</td>
+</tr>
+</tbody></table></div>
+
+<h2>フロー（証跡の流れ）</h2>
+<ol>
+<li>AIMOaaS：ログ収集・分析 → 証跡の生成・目次の整備支援</li>
+<li>企業：証跡の確認・採用判断・監査調書への貼付判断</li>
+<li>監査法人：証跡の受領・検証・保証結論</li>
+</ol>
+
+<h2>許容表現（使用してよい）</h2>
+<ul>
+<li>「AIMO＝証憑、貴社／貴法人＝保証結論」</li>
+<li>「証跡整備を支援する」「監査で説明可能にするための観点を整理する」</li>
+<li>「保証は監査法人等の責任範囲です」</li>
+</ul>
+
+<section class="my-6 p-4 bg-slate-50 rounded-lg border border-slate-200" data-unique="case-study" aria-label="申請・承認ログの監査観点">
+<h3 class="text-lg font-semibold text-slate-900 mb-2">申請・承認ログの監査観点</h3>
+<p class="text-slate-700 mb-2">例外申請の証跡が求められた場面 承認者・日付・理由がログに残っておらず指摘された。</p>
+<ul class="list-disc list-inside text-slate-700 mb-2"><li>申請ログ</li><li>承認記録</li><li>有効期限</li></ul>
+<p class="text-slate-600 text-sm">証跡の目次・取得観点の整理支援です。合格保証は行いません。</p>
+</section>
+
+<section class="my-6 p-4 bg-white rounded-lg border border-slate-200" data-unique="checklist" aria-label="証跡提出前の確認観点">
+<h3 class="text-lg font-semibold text-slate-900 mb-2">証跡提出前の確認観点</h3>
+<ul class="list-disc list-inside text-slate-700"><li>目次と実物が対応している</li><li>版・日付が分かる</li><li>責任分界が説明できる</li></ul>
+</section>
+
+<section class="my-6 p-4 bg-amber-50 rounded-lg border border-amber-200" data-unique="findings-fixes" aria-label="指摘と是正観点">
+<h3 class="text-lg font-semibold text-slate-900 mb-2">指摘と是正の観点（例）</h3>
+<p class="text-slate-700"><strong>指摘例:</strong> 例外の期限が未設定</p>
+<p class="text-slate-700 mt-1"><strong>是正観点:</strong> 期限と再審査手順を定義し、承認ログに残す観点で整えます。保証はしません。</p>
+</section>
+
+<section class="my-6 overflow-x-auto" data-unique="artifact-block" aria-label="Proof / Assurance 整理例">
+<h3 class="text-lg font-semibold text-slate-900 mb-2">Proof / Assurance 整理例</h3>
+<div class="table-wrap"><table class="min-w-full border border-slate-200"><thead><tr><th class="border px-2 py-1 text-left">範囲</th><th class="border px-2 py-1 text-left">例</th></tr></thead><tbody><tr><td class="border px-2 py-1">Proof</td><td class="border px-2 py-1">証跡目次・雛形・ログ整理</td></tr><tr><td class="border px-2 py-1">Assurance</td><td class="border px-2 py-1">監査結論・保証判断（御社・監査側）</td></tr></tbody></table></div>
+</section>
+
+<section class="my-6 p-4 border-l-4 border-indigo-200 bg-slate-50" data-unique="audit-q" aria-label="監査観点">
+<h3 class="text-lg font-semibold text-slate-900 mb-1">監査人は申請・承認の何を見ますか？</h3>
+<p class="text-slate-700">誰が・いつ・何を承認したかが追えること、例外の有効期限と再審査が分かることがよく聞かれます。断定はしません。</p>
+</section>
+
+<h2>References</h2>
+<ul>
+<li><a href="https://aimoaas.com/ja/aimo-standard/">AIMO Standard</a></li>
+<li><a href="https://aimoaas.com/ja/audit-firms/">監査法人の皆さまへ</a></li>
+<li>表現規約：<code>_policy/content-claims.md</code></li>
+</ul>
+
+<h2>Proof と Assurance の対応表</h2>
+
+<h2>対応表（断定なし）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>主体</th>
+<th>役割の観点</th>
+<th>提供・判断するもの</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AIMOaaS</td>
+<td>証跡の生成・整備支援</td>
+<td>ログに基づく証跡、Evidence Pack 雛形・目次。保証結論は出さない。</td>
+</tr>
+<tr>
+<td>利用企業</td>
+<td>運用の実施・説明責任</td>
+<td>方針決定、証跡の採用・提出、監査人への説明。保証結論は出さない。</td>
+</tr>
+<tr>
+<td>監査法人・保証提供者</td>
+<td>保証結論</td>
+<td>証跡の受領・検証・保証意見。Assurance は当該主体の責任。</td>
+</tr>
+</tbody></table></div>
+
+<h2>許容表現</h2>
+<ul>
+<li>「AIMO＝証憑、貴社／貴法人＝保証結論」</li>
+<li>「証跡整備を支援する」「監査で説明可能にする観点を整理する」</li>
+</ul>
+
+<h2>SLA と責任のマトリクス観点</h2>
+
+<h2>責任のマトリクス（観点）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>AIMOaaS の役割の例</th>
+<th>企業の役割の例</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>証跡の生成</td>
+<td>ログに基づく証跡・目次の整備支援</td>
+<td>—</td>
+<td>保証はしない</td>
+</tr>
+<tr>
+<td>証跡の採用・提出</td>
+<td>—</td>
+<td>採用判断、監査調書への貼付</td>
+<td>企業の責任</td>
+</tr>
+<tr>
+<td>保証結論</td>
+<td>出さない</td>
+<td>出さない</td>
+<td>監査法人等の責任</td>
+</tr>
+<tr>
+<td>更新頻度・形式</td>
+<td>契約・SLA で定義</td>
+<td>要請・受領・確認</td>
+<td>明文化を推奨</td>
+</tr>
+</tbody></table></div>
+
+<h2>契約・SLA で整理する観点（例）</h2>
+<ul>
+<li>成果物の範囲（目次・形式・サンプル等）</li>
+<li>納品・更新のタイミング</li>
+<li>責任分界（Proof / Assurance）の記載</li>
+<li>秘密保持・データ取り扱い</li>
+</ul>
+
+<h2>よくある欠落と是正の観点</h2>
+
+<h2>欠落と是正の観点（例）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>よくある欠落の例</th>
+<th>是正の観点（例）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>証跡の頻度不足</td>
+<td>規制・監査要請に合わせた取得頻度の定義と記録</td>
+</tr>
+<tr>
+<td>形式・項目の不備</td>
+<td>目次・形式のテンプレート整備と運用での遵守</td>
+</tr>
+<tr>
+<td>責任者・承認者の不明確さ</td>
+<td>RACI の明文化、申請・承認ログの一貫した記録</td>
+</tr>
+<tr>
+<td>例外の記録漏れ</td>
+<td>例外申請・理由・有効期限・承認者を必ず記録する手順</td>
+</tr>
+<tr>
+<td>棚卸とログの突合不足</td>
+<td>棚卸周期とログ集計の紐づけ、突合結果の記録</td>
+</tr>
+<tr>
+<td>方針と実態の乖離</td>
+<td>棚卸・レビューで乖離を検知し、方針更新または運用是正</td>
+</tr>
+<tr>
+<td>更新サイクルの未定義</td>
+<td>方針・リスト・証跡の更新頻度を定義し記録</td>
+</tr>
+</tbody></table></div>
+
+<h2>注意</h2>
+<ul>
+<li>「必ず是正すれば合格」等の保証はしない。組織の状況・規制に応じて必要な対策は異なる。</li>
+</ul>
+
+<h2>監査で聞かれる質問と必要証跡の対応表</h2>
+
+<h2>質問と証跡の観点（例）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>監査で聞かれやすい質問（例）</th>
+<th>説明に使う証跡・記録の観点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>利用している AI は何か、どこで使っているか</td>
+<td>棚卸一覧、ログに基づく利用可視化</td>
+</tr>
+<tr>
+<td>方針はあるか、周知されているか</td>
+<td>方針文書、教育・同意の記録</td>
+</tr>
+<tr>
+<td>誰が承認しているか、例外はどう管理しているか</td>
+<td>申請・承認ログ、例外一覧・承認者</td>
+</tr>
+<tr>
+<td>変更は記録されているか</td>
+<td>変更履歴、版管理された手順</td>
+</tr>
+<tr>
+<td>定期的に見直しているか</td>
+<td>棚卸・レビュー記録、更新日付</td>
+</tr>
+</tbody></table></div>
+
+<h2>Evidence Pack 表テンプレート（項目・形式・保持期間）</h2>
+
+<h2>表テンプレート（観点）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>形式の例</th>
+<th>保持期間の例</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>棚卸一覧</td>
+<td>一覧表（CSV/スプレッドシート等）</td>
+<td>規制・契約による</td>
+<td>更新日を記録</td>
+</tr>
+<tr>
+<td>変更履歴</td>
+<td>日付・変更内容・承認者</td>
+<td>規制・契約による</td>
+<td>証跡と紐づけ可能に</td>
+</tr>
+<tr>
+<td>方針・手順</td>
+<td>版管理された文書</td>
+<td>有効期間＋α</td>
+<td>廃止版も保管する場合あり</td>
+</tr>
+<tr>
+<td>ログ・利用記録</td>
+<td>ログまたは集計結果（改ざん防止の観点）</td>
+<td>規制・監査要請による</td>
+<td>誰が・いつ・何を利用したかの再構成可能性</td>
+</tr>
+<tr>
+<td>申請・承認記録</td>
+<td>申請ID、日付、承認者、条件</td>
+<td>事象＋保持期間</td>
+<td>例外は有効期限を明示</td>
+</tr>
+<tr>
+<td>レビュー・棚卸記録</td>
+<td>実施日、担当、結果サマリ</td>
+<td>監査周期に合わせる</td>
+<td></td>
+</tr>
+</tbody></table></div>
+
+<h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">最小要件表</h2>
+  <p class="text-sm text-slate-600 mb-3">組織・規制により要否は異なる。頻度は例。</p>
+  <div class="overflow-x-auto">
+    <div class="table-wrap"><table class="min-w-full border border-slate-200 text-sm">
+      <thead>
+        <tr class="bg-slate-100">
+          <th class="border border-slate-200 px-3 py-2 text-left">統制項目</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">必要証跡の観点</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">ログ／運用記録</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">頻度の例</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">利用の可視化</td>
+          <td class="border border-slate-200 px-3 py-2">誰が・何を・いつ利用したかの説明可能性</td>
+          <td class="border border-slate-200 px-3 py-2">ログ、集計レポート</td>
+          <td class="border border-slate-200 px-3 py-2">継続または定期</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">方針の周知</td>
+          <td class="border border-slate-200 px-3 py-2">周知・同意の記録</td>
+          <td class="border border-slate-200 px-3 py-2">教育記録、同意ログ</td>
+          <td class="border border-slate-200 px-3 py-2">導入時・更新時</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">申請・承認</td>
+          <td class="border border-slate-200 px-3 py-2">申請と承認の記録</td>
+          <td class="border border-slate-200 px-3 py-2">申請ログ、承認者・日付</td>
+          <td class="border border-slate-200 px-3 py-2">事象ごと</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">例外管理</td>
+          <td class="border border-slate-200 px-3 py-2">例外の理由・期限・承認者</td>
+          <td class="border border-slate-200 px-3 py-2">例外一覧、承認記録</td>
+          <td class="border border-slate-200 px-3 py-2">事象ごと</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">変更管理</td>
+          <td class="border border-slate-200 px-3 py-2">変更内容・承認</td>
+          <td class="border border-slate-200 px-3 py-2">変更履歴、版管理</td>
+          <td class="border border-slate-200 px-3 py-2">変更ごと</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">棚卸</td>
+          <td class="border border-slate-200 px-3 py-2">実態の把握と方針との整合</td>
+          <td class="border border-slate-200 px-3 py-2">棚卸一覧、突合結果</td>
+          <td class="border border-slate-200 px-3 py-2">四半期等、組織で定義</td>
+        </tr>
+      </tbody>
+    </table></div></div>
+</section>
+<section class="pseo-artifact audit-questions-excerpt" data-artifact="audit-questions">
+  <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">監査質問集（抜粋）</h2>
+  <p class="text-sm text-slate-600 mb-3">観点の整理。保証・合格を約束するものではない。</p>
+  <div class="overflow-x-auto">
+    <table class="min-w-full border border-slate-200 text-sm">
+      <thead>
+        <tr class="bg-slate-100">
+          <th class="border border-slate-200 px-3 py-2 text-left">監査で聞かれやすい質問（例）</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">説明に使う証跡・記録の観点</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">利用している AI は何か、どこで使っているか</td>
+          <td class="border border-slate-200 px-3 py-2">棚卸一覧、ログに基づく利用可視化</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">方針はあるか、周知されているか</td>
+          <td class="border border-slate-200 px-3 py-2">方針文書、教育・同意の記録</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">誰が承認しているか、例外はどう管理しているか</td>
+          <td class="border border-slate-200 px-3 py-2">申請・承認ログ、例外一覧・承認者</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">変更は記録されているか</td>
+          <td class="border border-slate-200 px-3 py-2">変更履歴、版管理された手順</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">定期的に見直しているか</td>
+          <td class="border border-slate-200 px-3 py-2">棚卸・レビュー記録、更新日付</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">証跡は監査調書に貼付可能な形式か</td>
+          <td class="border border-slate-200 px-3 py-2">Evidence Pack 目次・形式の整備</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<section class="pseo-artifact raci-simple" data-artifact="raci">
+  <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">RACI（簡易）</h2>
+  <p class="text-sm text-slate-600 mb-3">組織の体制に合わせて定義する。</p>
+  <div class="overflow-x-auto">
+    <table class="min-w-full border border-slate-200 text-sm">
+      <thead>
+        <tr class="bg-slate-100">
+          <th class="border border-slate-200 px-3 py-2 text-left">アクティビティ</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">R（実行）</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">A（説明責任）</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">C（相談）</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">I（報告）</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">新規利用の申請</td>
+          <td class="border border-slate-200 px-3 py-2">申請者（利用部門）</td>
+          <td class="border border-slate-200 px-3 py-2">部門責任者</td>
+          <td class="border border-slate-200 px-3 py-2">情シス・法務</td>
+          <td class="border border-slate-200 px-3 py-2">ガバナンス担当</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">リスク評価・審査</td>
+          <td class="border border-slate-200 px-3 py-2">情シス／ガバナンス</td>
+          <td class="border border-slate-200 px-3 py-2">審査責任者</td>
+          <td class="border border-slate-200 px-3 py-2">法務・リスク</td>
+          <td class="border border-slate-200 px-3 py-2">申請者</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">承認・却下</td>
+          <td class="border border-slate-200 px-3 py-2">承認権限者</td>
+          <td class="border border-slate-200 px-3 py-2">承認権限者</td>
+          <td class="border border-slate-200 px-3 py-2">—</td>
+          <td class="border border-slate-200 px-3 py-2">申請者・ガバナンス</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">例外の申請</td>
+          <td class="border border-slate-200 px-3 py-2">申請者</td>
+          <td class="border border-slate-200 px-3 py-2">部門責任者</td>
+          <td class="border border-slate-200 px-3 py-2">情シス</td>
+          <td class="border border-slate-200 px-3 py-2">ガバナンス</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">例外の承認</td>
+          <td class="border border-slate-200 px-3 py-2">例外承認権限者</td>
+          <td class="border border-slate-200 px-3 py-2">例外承認権限者</td>
+          <td class="border border-slate-200 px-3 py-2">法務・コンプラ</td>
+          <td class="border border-slate-200 px-3 py-2">ガバナンス</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">棚卸・レビュー</td>
+          <td class="border border-slate-200 px-3 py-2">ガバナンス／情シス</td>
+          <td class="border border-slate-200 px-3 py-2">ガバナンス責任者</td>
+          <td class="border border-slate-200 px-3 py-2">監査・法務</td>
+          <td class="border border-slate-200 px-3 py-2">経営層</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+        </div>
+      </section>
+
+      <!-- mid-cta: 同じ CTA を再掲（ボタン＋短い補足） -->
+      <section class="mid-cta my-10 py-8 border-y border-slate-200">
+        <!-- CTA partial: primary_cta に応じて文言・遷移を切替。謙虚に、伴走姿勢。 -->
+<!-- プレースホルダ: 1か月 BPR・証跡最小要件整備の相談を申し込む https://aimoaas.com/ja/#contact <p class="text-sm text-slate-600 mt-2">短期で証跡の棚卸と最小要件の整理を、伴走して支援します。</p>（mid 用の短い補足。空でも可） -->
+<section class="pseo-cta" aria-label="次のアクション">
+  <p class="mb-4">
+    <a href="https://aimoaas.com/ja/#contact" class="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition">
+      1か月 BPR・証跡最小要件整備の相談を申し込む
+    </a>
+  </p>
+  <p class="text-sm text-slate-600 mt-2">短期で証跡の棚卸と最小要件の整理を、伴走して支援します。</p>
+</section>
+
+      </section>
+
+      <!-- trust-block: 責任分界（Proof/Assurance）、断定しない -->
+      <!-- Trust block: 責任分界の整理。断定禁止。 -->
+<section class="pseo-trust-block border border-slate-200 rounded-lg bg-slate-50 p-6 my-8" aria-label="役割の整理">
+  <h2 class="text-xl font-bold text-slate-900 mb-3">役割分担の整理</h2>
+  <p class="text-slate-700 mb-3">
+    AIMOaaS は <strong>Proof（証跡の生成・整備支援）</strong>を提供します。監査で説明可能にするための証拠の目次や雛形、ログに基づく可視化を整えるお手伝いをします。
+  </p>
+  <p class="text-slate-700 mb-0">
+    <strong>保証判断（Assurance）</strong>は、御社および監査法人等の責任範囲です。当社は保証結論を出しません。役割分担を明確にしたうえで、証跡整備を伴走支援します。
+  </p>
+</section>
+
+
+      <!-- faq: 8問以上 -->
+      <section class="pseo-faq mb-10" aria-label="よくある質問">
+        <h2 class="text-2xl font-bold text-slate-900 mb-4">よくある質問</h2>
+        <div class="bg-white rounded-lg border border-slate-200 divide-y divide-slate-200">
+          <section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">AIMOaaSは監査において具体的に何を支援してくれますか？</h3><p class="mt-2 text-slate-700">AIMOaaSは、AIモデルのログ収集・分析を通じて、監査に必要な証跡の生成と目次の整備を支援します。これにより、お客様が監査対応を円滑に進めるための実務的な観点を提供します。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">監査における「保証結論」は誰の責任ですか？</h3><p class="mt-2 text-slate-700">「保証結論（Assurance）」は、証跡を受領・検証する監査法人などの保証提供者の責任範囲です。AIMOaaSは「Proof（証憑）」の提供と整理を支援する立場です。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">AIMOaaSのサービスを利用すれば、監査は必ず合格しますか？</h3><p class="mt-2 text-slate-700">監査の結論は監査人・保証提供者の責任であり、AIMOaaSが「合格」を保証するものではありません。本サービスは、監査で説明可能にするための観点整理と証跡整備の支援に特化しています。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">証跡の提供責任はAIMOaaSと顧客のどちらにありますか？</h3><p class="mt-2 text-slate-700">証跡の生成・目次整備はAIMOaaSが支援しますが、その確認・採用判断、監査調書への貼付判断は最終的にお客様の責任となります。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">契約やSLAにはどのような監査関連の観点を盛り込むべきですか？</h3><p class="mt-2 text-slate-700">成果物の範囲（目次・形式・サンプル等）、納品・更新タイミング、責任分界（Proof / Assurance）、秘密保持・データ取り扱いといった観点を明文化することを推奨します。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">監査で指摘されやすい欠落点にはどのようなものがありますか？</h3><p class="mt-2 text-slate-700">責任分界の不明確さ、証跡の不備、説明の一貫性欠如などが挙げられます。本ページでは、これらへの是正観点も整理しています。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">証跡の保持期間はどのくらいが適切ですか？</h3><p class="mt-2 text-slate-700">証跡の保持期間は、お客様の組織が準拠する規制、契約内容、または監査方針によって異なります。AIMOaaSは、これらを考慮したテンプレートの観点を提供します。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">シャドーAI（野良AI）も監査の対象となりますか？</h3><p class="mt-2 text-slate-700">はい、シャドーAIは多くの場合、統制の欠如と見なされ監査の重要な対象となり得ます。AIMOaaSの関連リソースもご参照ください。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">監査で聞かれる質問への回答準備はどのように進めればよいですか？</h3><p class="mt-2 text-slate-700">内部監査・外部監査で問われやすい質問と、その説明に用いるべき証跡の観点を対応表で整理しています。これを参考に準備を進めることができます。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">AIMOaaSの提供するEvidence Packテンプレートは必須ですか？</h3><p class="mt-2 text-slate-700">テンプレートは、提出物の項目・形式・保持期間を揃えるための「観点」を提供します。「必須」かどうかは組織や規制に依存するため、お客様の状況に合わせてご活用ください。</p></section>
+        </div>
+      </section>
+
+      <!-- bottom-cta: CTA 再掲 -->
+      <section class="bottom-cta my-10">
+        <!-- CTA partial: primary_cta に応じて文言・遷移を切替。謙虚に、伴走姿勢。 -->
+<!-- プレースホルダ: 1か月 BPR・証跡最小要件整備の相談を申し込む https://aimoaas.com/ja/#contact （mid 用の短い補足。空でも可） -->
+<section class="pseo-cta" aria-label="次のアクション">
+  <p class="mb-4">
+    <a href="https://aimoaas.com/ja/#contact" class="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition">
+      1か月 BPR・証跡最小要件整備の相談を申し込む
+    </a>
+  </p>
+  
+</section>
+
+      </section>
+
+      <!-- internal-links: 次に読む（8本以上） -->
+      <section class="internal-links mb-10" aria-label="次に読む">
+        <h2 class="text-2xl font-bold text-slate-900 mb-4">次に読む</h2>
+        <div class="text-slate-700">
+          <a href="https://aimoaas.com/ja/aimo-standard/" class="text-indigo-600 hover:underline">AIMO Standardについて知る</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/audit-firms/" class="text-indigo-600 hover:underline">監査法人の皆様への情報</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/human-in-the-loop/" class="text-indigo-600 hover:underline">Human-in-the-Loopの概念を理解する</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/shadow-ai/" class="text-indigo-600 hover:underline">シャドーAIへの対策とリソース</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/content-claims-policy/" class="text-indigo-600 hover:underline">コンテンツ表現規約</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/responsibility-boundary-proof-assurance/" class="text-indigo-600 hover:underline">責任分界点の詳細</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/" class="text-indigo-600 hover:underline">AIMOaaS トップページ</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/ai-governance-and-control/" class="text-indigo-600 hover:underline">AIガバナンスと統制リソース一覧</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/improving-evidence-quality/" class="text-indigo-600 hover:underline">証跡の品質向上ガイド</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/ai-model-evaluation-and-validation/" class="text-indigo-600 hover:underline">AIモデルの評価と検証</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-12 pt-6 border-t border-slate-200 text-sm text-slate-500">
+      <p>
+        <a href="https://aimoaas.com/ja/" class="text-indigo-600 hover:underline">ホーム</a>
+        <span class="mx-2">|</span>
+        <a href="https://aimoaas.com/ja/aimo-standard/" class="text-indigo-600 hover:underline">AIMO Standard</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- JSON-LD: FAQPage + Article -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"AIMOaaSは監査において具体的に何を支援してくれますか？","acceptedAnswer":{"@type":"Answer","text":"AIMOaaSは、AIモデルのログ収集・分析を通じて、監査に必要な証跡の生成と目次の整備を支援します。これにより、お客様が監査対応を円滑に進めるための実務的な観点を提供します。"}},{"@type":"Question","name":"監査における「保証結論」は誰の責任ですか？","acceptedAnswer":{"@type":"Answer","text":"「保証結論（Assurance）」は、証跡を受領・検証する監査法人などの保証提供者の責任範囲です。AIMOaaSは「Proof（証憑）」の提供と整理を支援する立場です。"}},{"@type":"Question","name":"AIMOaaSのサービスを利用すれば、監査は必ず合格しますか？","acceptedAnswer":{"@type":"Answer","text":"監査の結論は監査人・保証提供者の責任であり、AIMOaaSが「合格」を保証するものではありません。本サービスは、監査で説明可能にするための観点整理と証跡整備の支援に特化しています。"}},{"@type":"Question","name":"証跡の提供責任はAIMOaaSと顧客のどちらにありますか？","acceptedAnswer":{"@type":"Answer","text":"証跡の生成・目次整備はAIMOaaSが支援しますが、その確認・採用判断、監査調書への貼付判断は最終的にお客様の責任となります。"}},{"@type":"Question","name":"契約やSLAにはどのような監査関連の観点を盛り込むべきですか？","acceptedAnswer":{"@type":"Answer","text":"成果物の範囲（目次・形式・サンプル等）、納品・更新タイミング、責任分界（Proof / Assurance）、秘密保持・データ取り扱いといった観点を明文化することを推奨します。"}},{"@type":"Question","name":"監査で指摘されやすい欠落点にはどのようなものがありますか？","acceptedAnswer":{"@type":"Answer","text":"責任分界の不明確さ、証跡の不備、説明の一貫性欠如などが挙げられます。本ページでは、これらへの是正観点も整理しています。"}},{"@type":"Question","name":"証跡の保持期間はどのくらいが適切ですか？","acceptedAnswer":{"@type":"Answer","text":"証跡の保持期間は、お客様の組織が準拠する規制、契約内容、または監査方針によって異なります。AIMOaaSは、これらを考慮したテンプレートの観点を提供します。"}},{"@type":"Question","name":"シャドーAI（野良AI）も監査の対象となりますか？","acceptedAnswer":{"@type":"Answer","text":"はい、シャドーAIは多くの場合、統制の欠如と見なされ監査の重要な対象となり得ます。AIMOaaSの関連リソースもご参照ください。"}},{"@type":"Question","name":"監査で聞かれる質問への回答準備はどのように進めればよいですか？","acceptedAnswer":{"@type":"Answer","text":"内部監査・外部監査で問われやすい質問と、その説明に用いるべき証跡の観点を対応表で整理しています。これを参考に準備を進めることができます。"}},{"@type":"Question","name":"AIMOaaSの提供するEvidence Packテンプレートは必須ですか？","acceptedAnswer":{"@type":"Answer","text":"テンプレートは、提出物の項目・形式・保持期間を揃えるための「観点」を提供します。「必須」かどうかは組織や規制に依存するため、お客様の状況に合わせてご活用ください。"}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"AI監査・統制の実務：AIMOaaSによる証憑と証跡の整理支援","description":"AIMOaaSは、AIモデルの監査・統制に必要な証跡の整備を支援します。証憑提供者と保証結論者の役割分担、監査で求められる証跡と質問、SLAや契約での責任分界、欠落と是正の観点を整理し、効果的な監査対応をサポートします。"}</script>
+</body>
+</html>

@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index,follow" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>AI利用のRACI責任分担と申請・承認フロー：監査・統制実務ガイド | AIMOaaS™</title>
+  <meta name="description" content="AIシステム利用の申請・承認・例外処理から継続的な棚卸、監査対応まで、RACIモデルに基づいた責任分担とワークフローを詳細に解説。効果的なガバナンス構築と規制遵守を支援する実践的な観点を提供します。" />
+  <link rel="canonical" href="https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/" />
+  <meta property="og:title" content="AI利用のRACI責任分担と申請・承認フロー：監査・統制実務ガイド" />
+  <meta property="og:description" content="AIシステム利用の申請・承認・例外処理から継続的な棚卸、監査対応まで、RACIモデルに基づいた責任分担とワークフローを詳細に解説。効果的なガバナンス構築と規制遵守を支援する実践的な観点を提供します。" />
+  <meta property="og:image" content="https://aimoaas.com/assets/aimo-standard-unifying-regulations.png" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:site_name" content="AIMOaaS™" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI利用のRACI責任分担と申請・承認フロー：監査・統制実務ガイド" />
+  <meta name="twitter:description" content="AIシステム利用の申請・承認・例外処理から継続的な棚卸、監査対応まで、RACIモデルに基づいた責任分担とワークフローを詳細に解説。効果的なガバナンス構築と規制遵守を支援する実践的な観点を提供します。" />
+  <meta name="twitter:image" content="https://aimoaas.com/assets/aimo-standard-unifying-regulations.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>body { font-family: 'Noto Sans JP', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <header class="mb-6 text-sm">
+      <a href="https://aimoaas.com/ja/" class="text-indigo-600 hover:underline">AIMOaaS™</a>
+      <span class="text-slate-400 mx-1">/</span>
+      <span class="text-slate-600">リソース</span>
+    </header>
+
+    <main>
+      <!-- above-the-fold: TL;DR + CTA（意思決定の入口） -->
+      <section class="above-the-fold mb-10" aria-label="要点とアクション">
+        <h1 class="text-3xl font-bold text-slate-900 mb-4">AI利用のRACI責任分担と申請・承認フロー：監査・統制実務ガイド</h1>
+        <div class="tldr-box p-5 bg-white rounded-lg border border-slate-200 shadow-sm mb-6">
+          <p class="text-slate-700 leading-relaxed">本ページでは、企業におけるAIシステム利用の適切な監査と統制を実現するための実務フローを提示します。AI利用の申請、審査、例外承認、更新、棚卸、そして継続監査に至る一連のプロセスを解説。特に、RACIモデルを用いた責任分担の明確化に焦点を当て、各ステップにおける役割と責任を明確にします。また、棚卸や方針レビューのサイクル、監査で指摘されやすい欠落への是正観点、内部・外部監査で問われる質問と必要証跡の対応表を提供。AIガバナンスの実装と運用を支援するための実践的な観点整理を行います。</p>
+        </div>
+        <!-- CTA partial: primary_cta に応じて文言・遷移を切替。謙虚に、伴走姿勢。 -->
+<!-- プレースホルダ: 1か月 BPR・証跡最小要件整備の相談を申し込む https://aimoaas.com/ja/#contact （mid 用の短い補足。空でも可） -->
+<section class="pseo-cta" aria-label="次のアクション">
+  <p class="mb-4">
+    <a href="https://aimoaas.com/ja/#contact" class="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition">
+      1か月 BPR・証跡最小要件整備の相談を申し込む
+    </a>
+  </p>
+  
+</section>
+
+      </section>
+
+      <!-- main: SSOT 本文（表・チェックリスト・フロー・RACI） -->
+      <section class="pseo-main mb-10" aria-label="本文">
+        <div class="prose prose-slate prose-lg max-w-none"><h2>運用ワークフロー—申請・審査・例外・更新</h2>
+
+<h2>フロー（番号付きステップ）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>段階</th>
+<th>主なアクティビティ</th>
+<th>残す証跡の観点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1. 申請</td>
+<td>新規利用・ツール導入の申請</td>
+<td>申請者、日付、用途、データ範囲</td>
+</tr>
+<tr>
+<td>2. 審査</td>
+<td>リスク評価・承認・却下</td>
+<td>審査者、結論、条件</td>
+</tr>
+<tr>
+<td>3. 例外</td>
+<td>一時的例外の申請・承認</td>
+<td>理由、有効期限、承認者</td>
+</tr>
+<tr>
+<td>4. 更新</td>
+<td>方針・リスト・設定の定期更新</td>
+<td>版、変更内容、承認</td>
+</tr>
+<tr>
+<td>5. 棚卸</td>
+<td>利用実態の棚卸</td>
+<td>一覧、突合結果、担当</td>
+</tr>
+<tr>
+<td>6. 継続監査</td>
+<td>内部監査・外部監査への証跡提供</td>
+<td>Evidence Pack 等</td>
+</tr>
+</tbody></table></div>
+
+<h2>運用サイクル（例）</h2>
+<ul>
+<li>申請・例外：事象ベースで記録。</li>
+<li>棚卸・更新：四半期または年次など、組織で定義した頻度。規制・監査の要請に応じて調整。</li>
+</ul>
+
+<section class="my-6 p-4 bg-slate-50 rounded-lg border border-slate-200" data-unique="case-study" aria-label="Proof と Assurance の責任分界">
+<h3 class="text-lg font-semibold text-slate-900 mb-2">Proof と Assurance の責任分界</h3>
+<p class="text-slate-700 mb-2">監査法人との役割確認 証跡整備支援と保証結論の範囲を文書で整理した。</p>
+<ul class="list-disc list-inside text-slate-700 mb-2"><li>責任分界の文書</li><li>契約・SOW</li></ul>
+<p class="text-slate-600 text-sm">Proof 側の範囲を明確にする整理を支援します。保証判断は監査・御社側です。</p>
+</section>
+
+<section class="my-6 p-4 bg-white rounded-lg border border-slate-200" data-unique="checklist" aria-label="申請・承認ログの監査観点">
+<h3 class="text-lg font-semibold text-slate-900 mb-2">申請・承認ログの監査観点</h3>
+<ul class="list-disc list-inside text-slate-700"><li>申請者・承認者が識別できる</li><li>日付・理由が記録されている</li><li>例外の有効期限が分かる</li><li>再審査手順が定義されている</li></ul>
+</section>
+
+<section class="my-6 p-4 bg-amber-50 rounded-lg border border-amber-200" data-unique="findings-fixes" aria-label="指摘と是正観点">
+<h3 class="text-lg font-semibold text-slate-900 mb-2">指摘と是正の観点（例）</h3>
+<p class="text-slate-700"><strong>指摘例:</strong> 保証と証跡支援の範囲が混同されやすい</p>
+<p class="text-slate-700 mt-1"><strong>是正観点:</strong> 責任分界を明文化し、Proof は証跡整備・Assurance は御社・監査側と整理します。</p>
+</section>
+
+<section class="my-6 overflow-x-auto" data-unique="artifact-block" aria-label="SLA観点サンプル（抜粋）">
+<h3 class="text-lg font-semibold text-slate-900 mb-2">SLA観点サンプル（抜粋）</h3>
+<div class="table-wrap"><table class="min-w-full border border-slate-200"><thead><tr><th class="border px-2 py-1 text-left">項目</th><th class="border px-2 py-1 text-left">観点</th><th class="border px-2 py-1 text-left">備考</th></tr></thead><tbody><tr><td class="border px-2 py-1">ログ取得</td><td class="border px-2 py-1">頻度・保持期間</td><td class="border px-2 py-1">規制・契約による</td></tr><tr><td class="border px-2 py-1">承認</td><td class="border px-2 py-1">誰が・いつ</td><td class="border px-2 py-1">記録が残るように</td></tr></tbody></table></div>
+</section>
+
+<section class="my-6 p-4 border-l-4 border-indigo-200 bg-slate-50" data-unique="audit-q" aria-label="監査観点">
+<h3 class="text-lg font-semibold text-slate-900 mb-1">AIMOaaS は保証を提供しますか？</h3>
+<p class="text-slate-700">いいえ。Proof（証跡の整備支援）を提供し、保証結論は出しません。保証は御社および監査側の範囲です。</p>
+</section>
+
+<h2>References</h2>
+<ul>
+<li><a href="https://aimoaas.com/ja/resources/human-in-the-loop/">Human-in-the-Loop</a></li>
+<li><a href="https://aimoaas.com/ja/aimo-standard/">AIMO Standard</a></li>
+</ul>
+
+<h2>RACI—申請・承認・例外の責任</h2>
+
+<h2>RACI（例。組織により役割は異なる）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>アクティビティ</th>
+<th>R（実行）</th>
+<th>A（説明責任）</th>
+<th>C（相談）</th>
+<th>I（報告）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>新規利用の申請</td>
+<td>申請者（利用部門）</td>
+<td>部門責任者</td>
+<td>情シス・法務</td>
+<td>ガバナンス担当</td>
+</tr>
+<tr>
+<td>リスク評価・審査</td>
+<td>情シス／ガバナンス</td>
+<td>審査責任者</td>
+<td>法務・リスク</td>
+<td>申請者</td>
+</tr>
+<tr>
+<td>承認・却下</td>
+<td>承認権限者</td>
+<td>承認権限者</td>
+<td>—</td>
+<td>申請者・ガバナンス</td>
+</tr>
+<tr>
+<td>例外の申請</td>
+<td>申請者</td>
+<td>部門責任者</td>
+<td>情シス</td>
+<td>ガバナンス</td>
+</tr>
+<tr>
+<td>例外の承認</td>
+<td>例外承認権限者</td>
+<td>例外承認権限者</td>
+<td>法務・コンプラ</td>
+<td>ガバナンス</td>
+</tr>
+<tr>
+<td>棚卸・レビュー</td>
+<td>ガバナンス／情シス</td>
+<td>ガバナンス責任者</td>
+<td>監査・法務</td>
+<td>経営層</td>
+</tr>
+</tbody></table></div>
+
+<h2>注意</h2>
+<ul>
+<li>上記は観点の例。組織の体制に合わせて RACI を定義する。</li>
+</ul>
+
+<h2>継続監査のワークフロー観点</h2>
+
+<h2>フロー（観点）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>段階</th>
+<th>主なアクティビティ</th>
+<th>証跡の観点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>平常時</td>
+<td>ログ取得・申請・承認・例外の記録</td>
+<td>継続的に記録がたまる</td>
+</tr>
+<tr>
+<td>定期棚卸</td>
+<td>利用一覧の更新、方針との突合</td>
+<td>棚卸日・担当・結果</td>
+</tr>
+<tr>
+<td>証跡整備</td>
+<td>Evidence Pack 目次・中身の更新</td>
+<td>版・更新日</td>
+</tr>
+<tr>
+<td>監査前</td>
+<td>監査人要請に合わせた証跡の取りまとめ</td>
+<td>提出物リスト・形式確認</td>
+</tr>
+<tr>
+<td>監査後</td>
+<td>指摘・是正措置の記録、次回への反映</td>
+<td>是正計画・実施記録</td>
+</tr>
+</tbody></table></div>
+
+<h2>棚卸とレビューサイクル</h2>
+
+<h2>サイクル（観点。頻度は組織・規制による）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>アクティビティ</th>
+<th>内容の観点</th>
+<th>頻度の例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>棚卸</td>
+<td>利用中 AI・ツール・用途の一覧更新、ログとの突合</td>
+<td>四半期、年次等</td>
+</tr>
+<tr>
+<td>方針レビュー</td>
+<td>利用方針・手順の妥当性見直し、更新</td>
+<td>年次または重要変更時</td>
+</tr>
+<tr>
+<td>証跡の見直し</td>
+<td>Evidence Pack 目次・中身の充足度確認</td>
+<td>棚卸・監査周期に合わせる</td>
+</tr>
+<tr>
+<td>例外の一覧レビュー</td>
+<td>例外の有効期限、必要性の再確認</td>
+<td>四半期等</td>
+</tr>
+</tbody></table></div>
+
+<h2>よくある欠落と是正の観点</h2>
+
+<h2>欠落と是正の観点（例）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>よくある欠落の例</th>
+<th>是正の観点（例）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>証跡の頻度不足</td>
+<td>規制・監査要請に合わせた取得頻度の定義と記録</td>
+</tr>
+<tr>
+<td>形式・項目の不備</td>
+<td>目次・形式のテンプレート整備と運用での遵守</td>
+</tr>
+<tr>
+<td>責任者・承認者の不明確さ</td>
+<td>RACI の明文化、申請・承認ログの一貫した記録</td>
+</tr>
+<tr>
+<td>例外の記録漏れ</td>
+<td>例外申請・理由・有効期限・承認者を必ず記録する手順</td>
+</tr>
+<tr>
+<td>棚卸とログの突合不足</td>
+<td>棚卸周期とログ集計の紐づけ、突合結果の記録</td>
+</tr>
+<tr>
+<td>方針と実態の乖離</td>
+<td>棚卸・レビューで乖離を検知し、方針更新または運用是正</td>
+</tr>
+<tr>
+<td>更新サイクルの未定義</td>
+<td>方針・リスト・証跡の更新頻度を定義し記録</td>
+</tr>
+</tbody></table></div>
+
+<h2>監査で聞かれる質問と必要証跡の対応表</h2>
+
+<h2>質問と証跡の観点（例）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>監査で聞かれやすい質問（例）</th>
+<th>説明に使う証跡・記録の観点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>利用している AI は何か、どこで使っているか</td>
+<td>棚卸一覧、ログに基づく利用可視化</td>
+</tr>
+<tr>
+<td>方針はあるか、周知されているか</td>
+<td>方針文書、教育・同意の記録</td>
+</tr>
+<tr>
+<td>誰が承認しているか、例外はどう管理しているか</td>
+<td>申請・承認ログ、例外一覧・承認者</td>
+</tr>
+<tr>
+<td>変更は記録されているか</td>
+<td>変更履歴、版管理された手順</td>
+</tr>
+<tr>
+<td>定期的に見直しているか</td>
+<td>棚卸・レビュー記録、更新日付</td>
+</tr>
+</tbody></table></div>
+
+<h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">最小要件表</h2>
+  <p class="text-sm text-slate-600 mb-3">組織・規制により要否は異なる。頻度は例。</p>
+  <div class="overflow-x-auto">
+    <div class="table-wrap"><table class="min-w-full border border-slate-200 text-sm">
+      <thead>
+        <tr class="bg-slate-100">
+          <th class="border border-slate-200 px-3 py-2 text-left">統制項目</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">必要証跡の観点</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">ログ／運用記録</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">頻度の例</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">利用の可視化</td>
+          <td class="border border-slate-200 px-3 py-2">誰が・何を・いつ利用したかの説明可能性</td>
+          <td class="border border-slate-200 px-3 py-2">ログ、集計レポート</td>
+          <td class="border border-slate-200 px-3 py-2">継続または定期</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">方針の周知</td>
+          <td class="border border-slate-200 px-3 py-2">周知・同意の記録</td>
+          <td class="border border-slate-200 px-3 py-2">教育記録、同意ログ</td>
+          <td class="border border-slate-200 px-3 py-2">導入時・更新時</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">申請・承認</td>
+          <td class="border border-slate-200 px-3 py-2">申請と承認の記録</td>
+          <td class="border border-slate-200 px-3 py-2">申請ログ、承認者・日付</td>
+          <td class="border border-slate-200 px-3 py-2">事象ごと</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">例外管理</td>
+          <td class="border border-slate-200 px-3 py-2">例外の理由・期限・承認者</td>
+          <td class="border border-slate-200 px-3 py-2">例外一覧、承認記録</td>
+          <td class="border border-slate-200 px-3 py-2">事象ごと</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">変更管理</td>
+          <td class="border border-slate-200 px-3 py-2">変更内容・承認</td>
+          <td class="border border-slate-200 px-3 py-2">変更履歴、版管理</td>
+          <td class="border border-slate-200 px-3 py-2">変更ごと</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">棚卸</td>
+          <td class="border border-slate-200 px-3 py-2">実態の把握と方針との整合</td>
+          <td class="border border-slate-200 px-3 py-2">棚卸一覧、突合結果</td>
+          <td class="border border-slate-200 px-3 py-2">四半期等、組織で定義</td>
+        </tr>
+      </tbody>
+    </table></div></div>
+</section>
+<section class="pseo-artifact audit-questions-excerpt" data-artifact="audit-questions">
+  <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">監査質問集（抜粋）</h2>
+  <p class="text-sm text-slate-600 mb-3">観点の整理。保証・合格を約束するものではない。</p>
+  <div class="overflow-x-auto">
+    <table class="min-w-full border border-slate-200 text-sm">
+      <thead>
+        <tr class="bg-slate-100">
+          <th class="border border-slate-200 px-3 py-2 text-left">監査で聞かれやすい質問（例）</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">説明に使う証跡・記録の観点</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">利用している AI は何か、どこで使っているか</td>
+          <td class="border border-slate-200 px-3 py-2">棚卸一覧、ログに基づく利用可視化</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">方針はあるか、周知されているか</td>
+          <td class="border border-slate-200 px-3 py-2">方針文書、教育・同意の記録</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">誰が承認しているか、例外はどう管理しているか</td>
+          <td class="border border-slate-200 px-3 py-2">申請・承認ログ、例外一覧・承認者</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">変更は記録されているか</td>
+          <td class="border border-slate-200 px-3 py-2">変更履歴、版管理された手順</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">定期的に見直しているか</td>
+          <td class="border border-slate-200 px-3 py-2">棚卸・レビュー記録、更新日付</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">証跡は監査調書に貼付可能な形式か</td>
+          <td class="border border-slate-200 px-3 py-2">Evidence Pack 目次・形式の整備</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<section class="pseo-artifact raci-simple" data-artifact="raci">
+  <h2 class="text-xl font-bold text-slate-900 mt-8 mb-3">RACI（簡易）</h2>
+  <p class="text-sm text-slate-600 mb-3">組織の体制に合わせて定義する。</p>
+  <div class="overflow-x-auto">
+    <table class="min-w-full border border-slate-200 text-sm">
+      <thead>
+        <tr class="bg-slate-100">
+          <th class="border border-slate-200 px-3 py-2 text-left">アクティビティ</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">R（実行）</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">A（説明責任）</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">C（相談）</th>
+          <th class="border border-slate-200 px-3 py-2 text-left">I（報告）</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">新規利用の申請</td>
+          <td class="border border-slate-200 px-3 py-2">申請者（利用部門）</td>
+          <td class="border border-slate-200 px-3 py-2">部門責任者</td>
+          <td class="border border-slate-200 px-3 py-2">情シス・法務</td>
+          <td class="border border-slate-200 px-3 py-2">ガバナンス担当</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">リスク評価・審査</td>
+          <td class="border border-slate-200 px-3 py-2">情シス／ガバナンス</td>
+          <td class="border border-slate-200 px-3 py-2">審査責任者</td>
+          <td class="border border-slate-200 px-3 py-2">法務・リスク</td>
+          <td class="border border-slate-200 px-3 py-2">申請者</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">承認・却下</td>
+          <td class="border border-slate-200 px-3 py-2">承認権限者</td>
+          <td class="border border-slate-200 px-3 py-2">承認権限者</td>
+          <td class="border border-slate-200 px-3 py-2">—</td>
+          <td class="border border-slate-200 px-3 py-2">申請者・ガバナンス</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">例外の申請</td>
+          <td class="border border-slate-200 px-3 py-2">申請者</td>
+          <td class="border border-slate-200 px-3 py-2">部門責任者</td>
+          <td class="border border-slate-200 px-3 py-2">情シス</td>
+          <td class="border border-slate-200 px-3 py-2">ガバナンス</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">例外の承認</td>
+          <td class="border border-slate-200 px-3 py-2">例外承認権限者</td>
+          <td class="border border-slate-200 px-3 py-2">例外承認権限者</td>
+          <td class="border border-slate-200 px-3 py-2">法務・コンプラ</td>
+          <td class="border border-slate-200 px-3 py-2">ガバナンス</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-200 px-3 py-2">棚卸・レビュー</td>
+          <td class="border border-slate-200 px-3 py-2">ガバナンス／情シス</td>
+          <td class="border border-slate-200 px-3 py-2">ガバナンス責任者</td>
+          <td class="border border-slate-200 px-3 py-2">監査・法務</td>
+          <td class="border border-slate-200 px-3 py-2">経営層</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+        </div>
+      </section>
+
+      <!-- mid-cta: 同じ CTA を再掲（ボタン＋短い補足） -->
+      <section class="mid-cta my-10 py-8 border-y border-slate-200">
+        <!-- CTA partial: primary_cta に応じて文言・遷移を切替。謙虚に、伴走姿勢。 -->
+<!-- プレースホルダ: 1か月 BPR・証跡最小要件整備の相談を申し込む https://aimoaas.com/ja/#contact <p class="text-sm text-slate-600 mt-2">短期で証跡の棚卸と最小要件の整理を、伴走して支援します。</p>（mid 用の短い補足。空でも可） -->
+<section class="pseo-cta" aria-label="次のアクション">
+  <p class="mb-4">
+    <a href="https://aimoaas.com/ja/#contact" class="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition">
+      1か月 BPR・証跡最小要件整備の相談を申し込む
+    </a>
+  </p>
+  <p class="text-sm text-slate-600 mt-2">短期で証跡の棚卸と最小要件の整理を、伴走して支援します。</p>
+</section>
+
+      </section>
+
+      <!-- trust-block: 責任分界（Proof/Assurance）、断定しない -->
+      <!-- Trust block: 責任分界の整理。断定禁止。 -->
+<section class="pseo-trust-block border border-slate-200 rounded-lg bg-slate-50 p-6 my-8" aria-label="役割の整理">
+  <h2 class="text-xl font-bold text-slate-900 mb-3">役割分担の整理</h2>
+  <p class="text-slate-700 mb-3">
+    AIMOaaS は <strong>Proof（証跡の生成・整備支援）</strong>を提供します。監査で説明可能にするための証拠の目次や雛形、ログに基づく可視化を整えるお手伝いをします。
+  </p>
+  <p class="text-slate-700 mb-0">
+    <strong>保証判断（Assurance）</strong>は、御社および監査法人等の責任範囲です。当社は保証結論を出しません。役割分担を明確にしたうえで、証跡整備を伴走支援します。
+  </p>
+</section>
+
+
+      <!-- faq: 8問以上 -->
+      <section class="pseo-faq mb-10" aria-label="よくある質問">
+        <h2 class="text-2xl font-bold text-slate-900 mb-4">よくある質問</h2>
+        <div class="bg-white rounded-lg border border-slate-200 divide-y divide-slate-200">
+          <section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">RACIモデルをAI利用の統制に適用するメリットは何ですか？</h3><p class="mt-2 text-slate-700">RACIモデルを適用することで、AIシステム導入から運用、監査までの各フェーズにおける責任範囲が明確になり、属人化を防ぎ、効率的な意思決定とガバナンス強化に繋がります。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">AI利用の申請・承認プロセスはどの程度厳格にすべきですか？</h3><p class="mt-2 text-slate-700">AIシステムの重要性、リスクレベル、組織の規模、および適用される規制要件に基づいて、プロセスの厳格さを調整することが重要です。リスクが高いほど、より詳細な審査と承認が必要です。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">AIシステム利用の棚卸や更新の推奨頻度はありますか？</h3><p class="mt-2 text-slate-700">一般的には四半期または年次での棚卸と更新が推奨されますが、これは組織のポリシー、AI利用の変化の速度、および規制・監査要請によって調整されるべき観点です。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">監査対応において、特に注意すべき証跡や記録は何ですか？</h3><p class="mt-2 text-slate-700">申請・承認の記録、リスク評価、倫理レビュー、モデルの検証結果、変更管理記録、インシデント対応記録、そしてRACIに基づく責任分担の定義が特に重要です。これらはAI利用の透明性と説明責任を示す上で不可欠です。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">本ガイドラインに従えば、AI監査は必ず合格できますか？</h3><p class="mt-2 text-slate-700">本ガイドラインはAIガバナンス構築のための実践的な観点とフローを提供しますが、監査結果を保証するものではありません。監査の結論は監査人・保証提供者の責任であり、組織の具体的な状況と規制要件に応じた対策が必要です。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">シャドウAIへの対応はどのように考慮すれば良いですか？</h3><p class="mt-2 text-slate-700">シャドウAIは未承認のAI利用であり、ガバナンス上の大きなリスクとなります。本ガイドの申請・承認フローは、AI利用の早期発見と正規化を促すための観点を含んでおり、組織内でのAI利用状況の可視化から始めることが推奨されます。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">Human-in-the-LoopはAIガバナンスでどのような役割を果たしますか？</h3><p class="mt-2 text-slate-700">Human-in-the-Loopは、AIの判断を人間がレビュー・介入する仕組みであり、AIの誤判断や倫理的な逸脱を防ぐ上で重要です。RACIモデルにおいて、この人間によるレビュー・承認の責任を明確に位置づけるべきです。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">小規模な組織でも、この複雑なワークフローを導入する必要があるのでしょうか？</h3><p class="mt-2 text-slate-700">本ガイドは汎用的な観点を提供しており、組織の規模やAI利用の成熟度に応じて、プロセスを柔軟に調整・簡素化することが可能です。重要なのは、責任分担と主要な統制活動が明確であることです。</p></section>
+<section class="py-4 px-4 first:pt-4 last:pb-4"><h3 class="text-lg font-semibold text-slate-900">監査法人との連携はどのように進めれば良いですか？</h3><p class="mt-2 text-slate-700">監査法人の皆様には、AIガバナンスと統制の観点整理を支援するための資料も提供しています。早期に連携し、組織のAI利用実態と統制状況について透明性を持って情報共有することで、円滑な監査に繋がります。</p></section>
+        </div>
+      </section>
+
+      <!-- bottom-cta: CTA 再掲 -->
+      <section class="bottom-cta my-10">
+        <!-- CTA partial: primary_cta に応じて文言・遷移を切替。謙虚に、伴走姿勢。 -->
+<!-- プレースホルダ: 1か月 BPR・証跡最小要件整備の相談を申し込む https://aimoaas.com/ja/#contact （mid 用の短い補足。空でも可） -->
+<section class="pseo-cta" aria-label="次のアクション">
+  <p class="mb-4">
+    <a href="https://aimoaas.com/ja/#contact" class="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition">
+      1か月 BPR・証跡最小要件整備の相談を申し込む
+    </a>
+  </p>
+  
+</section>
+
+      </section>
+
+      <!-- internal-links: 次に読む（8本以上） -->
+      <section class="internal-links mb-10" aria-label="次に読む">
+        <h2 class="text-2xl font-bold text-slate-900 mb-4">次に読む</h2>
+        <div class="text-slate-700">
+          <a href="https://aimoaas.com/ja/resources/human-in-the-loop/" class="text-indigo-600 hover:underline">Human-in-the-Loopの重要性</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/aimo-standard/" class="text-indigo-600 hover:underline">AIMO StandardによるAIガバナンスフレームワーク</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/audit-firms/" class="text-indigo-600 hover:underline">監査法人の皆様へ：AI監査支援の観点</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/shadow-ai/" class="text-indigo-600 hover:underline">シャドウAIとそのリスク対応</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/ai-risk-management/" class="text-indigo-600 hover:underline">AIリスクマネジメントの実践</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/ai-ethics-governance/" class="text-indigo-600 hover:underline">AI倫理とガバナンスの基本</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/compliance-audit-guide/" class="text-indigo-600 hover:underline">AIコンプライアンス監査ガイド</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/responsible-ai-framework/" class="text-indigo-600 hover:underline">責任あるAIフレームワークの構築</a> <span class="text-slate-300" aria-hidden="true">/</span> <a href="https://aimoaas.com/ja/resources/ai-governance-trends/" class="text-indigo-600 hover:underline">AIガバナンスの最新動向</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-12 pt-6 border-t border-slate-200 text-sm text-slate-500">
+      <p>
+        <a href="https://aimoaas.com/ja/" class="text-indigo-600 hover:underline">ホーム</a>
+        <span class="mx-2">|</span>
+        <a href="https://aimoaas.com/ja/aimo-standard/" class="text-indigo-600 hover:underline">AIMO Standard</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- JSON-LD: FAQPage + Article -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"RACIモデルをAI利用の統制に適用するメリットは何ですか？","acceptedAnswer":{"@type":"Answer","text":"RACIモデルを適用することで、AIシステム導入から運用、監査までの各フェーズにおける責任範囲が明確になり、属人化を防ぎ、効率的な意思決定とガバナンス強化に繋がります。"}},{"@type":"Question","name":"AI利用の申請・承認プロセスはどの程度厳格にすべきですか？","acceptedAnswer":{"@type":"Answer","text":"AIシステムの重要性、リスクレベル、組織の規模、および適用される規制要件に基づいて、プロセスの厳格さを調整することが重要です。リスクが高いほど、より詳細な審査と承認が必要です。"}},{"@type":"Question","name":"AIシステム利用の棚卸や更新の推奨頻度はありますか？","acceptedAnswer":{"@type":"Answer","text":"一般的には四半期または年次での棚卸と更新が推奨されますが、これは組織のポリシー、AI利用の変化の速度、および規制・監査要請によって調整されるべき観点です。"}},{"@type":"Question","name":"監査対応において、特に注意すべき証跡や記録は何ですか？","acceptedAnswer":{"@type":"Answer","text":"申請・承認の記録、リスク評価、倫理レビュー、モデルの検証結果、変更管理記録、インシデント対応記録、そしてRACIに基づく責任分担の定義が特に重要です。これらはAI利用の透明性と説明責任を示す上で不可欠です。"}},{"@type":"Question","name":"本ガイドラインに従えば、AI監査は必ず合格できますか？","acceptedAnswer":{"@type":"Answer","text":"本ガイドラインはAIガバナンス構築のための実践的な観点とフローを提供しますが、監査結果を保証するものではありません。監査の結論は監査人・保証提供者の責任であり、組織の具体的な状況と規制要件に応じた対策が必要です。"}},{"@type":"Question","name":"シャドウAIへの対応はどのように考慮すれば良いですか？","acceptedAnswer":{"@type":"Answer","text":"シャドウAIは未承認のAI利用であり、ガバナンス上の大きなリスクとなります。本ガイドの申請・承認フローは、AI利用の早期発見と正規化を促すための観点を含んでおり、組織内でのAI利用状況の可視化から始めることが推奨されます。"}},{"@type":"Question","name":"Human-in-the-LoopはAIガバナンスでどのような役割を果たしますか？","acceptedAnswer":{"@type":"Answer","text":"Human-in-the-Loopは、AIの判断を人間がレビュー・介入する仕組みであり、AIの誤判断や倫理的な逸脱を防ぐ上で重要です。RACIモデルにおいて、この人間によるレビュー・承認の責任を明確に位置づけるべきです。"}},{"@type":"Question","name":"小規模な組織でも、この複雑なワークフローを導入する必要があるのでしょうか？","acceptedAnswer":{"@type":"Answer","text":"本ガイドは汎用的な観点を提供しており、組織の規模やAI利用の成熟度に応じて、プロセスを柔軟に調整・簡素化することが可能です。重要なのは、責任分担と主要な統制活動が明確であることです。"}},{"@type":"Question","name":"監査法人との連携はどのように進めれば良いですか？","acceptedAnswer":{"@type":"Answer","text":"監査法人の皆様には、AIガバナンスと統制の観点整理を支援するための資料も提供しています。早期に連携し、組織のAI利用実態と統制状況について透明性を持って情報共有することで、円滑な監査に繋がります。"}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"AI利用のRACI責任分担と申請・承認フロー：監査・統制実務ガイド","description":"AIシステム利用の申請・承認・例外処理から継続的な棚卸、監査対応まで、RACIモデルに基づいた責任分担とワークフローを詳細に解説。効果的なガバナンス構築と規制遵守を支援する実践的な観点を提供します。"}</script>
+</body>
+</html>
