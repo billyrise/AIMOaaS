@@ -1,0 +1,36 @@
+{
+  "description": "topic ごとの推奨内部リンク（4〜7本）。共通基幹は common で2本まで。",
+  "common": [
+    { "text": "AIMO Standard", "href": "/ja/aimo-standard/" },
+    { "text": "お問い合わせ", "href": "/ja/#contact" }
+  ],
+  "evidence-pack": [
+    { "text": "証跡の最小要件", "href": "/ja/resources/pseo/proof-assurance-boundary-controls-minimum-evidence-requirements/" },
+    { "text": "監査質問集", "href": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-audit-questions-pack/" },
+    { "text": "Evidence Bundle 構造", "href": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-bundle-structure/" },
+    { "text": "提出物チェックリスト", "href": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-intake-audit-submission-checklist/" }
+  ],
+  "responsibility-boundary": [
+    { "text": "Proof と Assurance", "href": "/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-proof-vs-assurance/" },
+    { "text": "RACI とガバナンス", "href": "/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/" },
+    { "text": "SLA と責任マトリクス", "href": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-sla-responsibility-matrix/" }
+  ],
+  "coverage-map": [
+    { "text": "Coverage Map 概要", "href": "/ja/resources/pseo/ai-governance-audit-evidence-controls-workflow-coverage-map/" },
+    { "text": "ISO 42001 観点", "href": "/ja/resources/pseo/proof-assurance-boundary-coverage-map-iso42001/" }
+  ],
+  "shadow-ai": [
+    { "text": "最小証拠とシャドーAI", "href": "/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai/" },
+    { "text": "棚卸・継続監査", "href": "/ja/resources/pseo/ai-audit-monitoring-inventory-inventory-review-cycle/" },
+    { "text": "申請・審査・例外", "href": "/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/" }
+  ],
+  "approval-exception": [
+    { "text": "申請・審査・例外", "href": "/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/" },
+    { "text": "RACI とガバナンス", "href": "/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/" },
+    { "text": "継続監査フロー", "href": "/ja/resources/pseo/ai-audit-controls-inventory-continuous-audit-workflow/" }
+  ],
+  "misc": [
+    { "text": "AIMO Standard", "href": "/ja/aimo-standard/" },
+    { "text": "お問い合わせ", "href": "/ja/#contact" }
+  ]
+}

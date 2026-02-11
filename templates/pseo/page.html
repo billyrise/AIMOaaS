@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>{{title}} | AIMOaaS™</title>
+  <meta name="description" content="{{description}}" />
+  <meta name="robots" content="{{pseo_robots}}" />
+  <link rel="canonical" href="{{canonical}}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{canonical}}" />
+  <meta property="og:title" content="{{og_title}}" />
+  <meta property="og:description" content="{{og_description}}" />
+  <meta property="og:image" content="{{og_image}}" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:site_name" content="AIMOaaS™" />
+  <meta name="twitter:card" content="{{twitter_card}}" />
+  <meta name="twitter:title" content="{{twitter_title}}" />
+  <meta name="twitter:description" content="{{twitter_description}}" />
+  <meta name="twitter:image" content="{{twitter_image}}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Noto Sans JP', sans-serif; }
+    /* PSEO 本文: 表の可読性・行間・見出し余白（Tailwind Typography に依存しない最小CSS） */
+    .pseo-prose table { width: 100%; border-collapse: collapse; }
+    .pseo-prose th, .pseo-prose td { border: 1px solid #e2e8f0; padding: 8px; vertical-align: top; }
+    .pseo-prose thead th { background: #f8fafc; }
+    .pseo-prose .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1rem 0; }
+    .pseo-prose h2 { margin-top: 2rem; margin-bottom: 0.75rem; }
+    .pseo-prose p, .pseo-prose li { line-height: 1.8; }
+    .pseo-prose code, .pseo-prose pre { overflow-wrap: break-word; }
+    .pseo-prose pre { overflow-x: auto; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <header class="mb-6 text-sm">
+      <a href="{{base_url}}/ja/" class="text-indigo-600 hover:underline">AIMOaaS™</a>
+      <span class="text-slate-400 mx-1">/</span>
+      <span class="text-slate-600">リソース</span>
+    </header>
+
+    <main>
+      <!-- above-the-fold: TL;DR + CTA（意思決定の入口） -->
+      <section class="above-the-fold mb-10" aria-label="要点とアクション">
+        <h1 class="text-3xl font-bold text-slate-900 mb-4">{{h1}}</h1>
+        <div class="tldr-box p-5 bg-white rounded-lg border border-slate-200 shadow-sm mb-6">
+          <p class="text-slate-700 leading-relaxed">{{tldr}}</p>
+        </div>
+        {{cta_above_fold}}
+      </section>
+
+      <!-- main: SSOT 本文（表・チェックリスト・フロー・RACI） -->
+      <section class="pseo-main mb-10" aria-label="本文">
+        <div class="prose prose-slate prose-lg max-w-none pseo-prose">
+          {{body_html}}
+        </div>
+      </section>
+
+      <!-- mid-cta: 同じ CTA を再掲（ボタン＋短い補足） -->
+      <section class="mid-cta my-10 py-8 border-y border-slate-200">
+        {{cta_mid}}
+      </section>
+
+      <!-- trust-block: 責任分界（Proof/Assurance）、断定しない -->
+      {{trust_block}}
+
+      <!-- faq: 8問以上 -->
+      <section class="pseo-faq mb-10" aria-label="よくある質問">
+        <h2 class="text-2xl font-bold text-slate-900 mb-4">よくある質問</h2>
+        <div class="bg-white rounded-lg border border-slate-200 divide-y divide-slate-200">
+          {{faq_html}}
+        </div>
+      </section>
+
+      <!-- bottom-cta: CTA 再掲 -->
+      <section class="bottom-cta my-10">
+        {{cta_bottom}}
+      </section>
+
+      <!-- internal-links: 次に読む（8本以上） -->
+      <section class="internal-links mb-10" aria-label="次に読む">
+        <h2 class="text-2xl font-bold text-slate-900 mb-4">次に読む</h2>
+        <div class="text-slate-700">
+          {{internal_links_html}}
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-12 pt-6 border-t border-slate-200 text-sm text-slate-500">
+      <p>
+        <a href="{{base_url}}/ja/" class="text-indigo-600 hover:underline">ホーム</a>
+        <span class="mx-2">|</span>
+        <a href="{{base_url}}/ja/aimo-standard/" class="text-indigo-600 hover:underline">AIMO Standard</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- JSON-LD: FAQPage + Article -->
+  {{json_ld_faq}}
+  {{json_ld_article}}
+</body>
+</html>
