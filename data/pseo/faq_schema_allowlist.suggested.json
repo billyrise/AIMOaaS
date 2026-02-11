@@ -1,0 +1,13 @@
+{
+  "allow": [
+    "evidence-pack-ai-audit-evidence-pack",
+    "evidence-pack-evidence-readiness-ai-audit-evidence-pack-formats",
+    "evidence-pack-proof-assurance-boundary-ai-evidence-pack-index",
+    "ai-audit-controls-evidence-pack-minimum",
+    "proof-assurance-boundary-ai-audit-evidence-bundle-structure",
+    "proof-assurance-boundary-ai-audit-intake-audit-submission-checklist",
+    "evidence-pack-ai-audit-controls-evidence-gaps-remediation",
+    "proof-assurance-boundary-ai-audit-evidence-formats-standards"
+  ],
+  "note": "FAQ schema for top candidates only"
+}

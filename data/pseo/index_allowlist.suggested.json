@@ -1,0 +1,25 @@
+{
+  "allow": [
+    "evidence-pack-ai-audit-evidence-pack",
+    "evidence-pack-evidence-readiness-ai-audit-evidence-pack-formats",
+    "evidence-pack-proof-assurance-boundary-ai-evidence-pack-index",
+    "ai-audit-controls-evidence-pack-minimum",
+    "proof-assurance-boundary-ai-audit-evidence-bundle-structure",
+    "proof-assurance-boundary-ai-audit-intake-audit-submission-checklist",
+    "evidence-pack-ai-audit-controls-evidence-gaps-remediation",
+    "proof-assurance-boundary-ai-audit-evidence-formats-standards",
+    "proof-assurance-boundary-controls-minimum-evidence-requirements",
+    "evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai",
+    "proof-assurance-boundary-ai-audit-evidence-audit-questions-pack",
+    "proof-assurance-boundary-ai-audit-controls-control-evidence-frequency",
+    "proof-assurance-boundary-ai-audit-controls-evidence-requirements-table",
+    "proof-assurance-boundary-controls-evidence-readiness-internal-audit-evidence",
+    "responsibility-boundary-intake-review-approve-ai-operating-workflow",
+    "intake-review-approve-ai-audit-inventory-operating-workflow-renewal",
+    "intake-review-approve-ai-audit-controls-request-review-exception",
+    "responsibility-boundary-intake-review-approve-ai-raci-governance",
+    "ai-audit-monitoring-inventory-inventory-review-cycle",
+    "ai-audit-controls-inventory-continuous-audit-workflow"
+  ],
+  "note": "Suggested only; copy to index_allowlist.json after review"
+}
