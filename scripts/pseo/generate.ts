@@ -304,6 +304,8 @@ async function main(): Promise<void> {
     if (artifactsHtml) bodyHtml = bodyHtml + artifactsHtml;
     const { html: dedupedHtml, fixups } = deduplicateH2Sections(bodyHtml);
     bodyHtml = dedupedHtml;
+    if (!bodyHtml.includes("table-wrap"))
+      bodyHtml = bodyHtml.replace(/<table([^>]*)>([\s\S]*?)<\/table>/gi, '<div class="table-wrap"><table$1>$2</table></div>');
     if (fixups.length > 0) h2FixupsByPage.set(page.id, fixups);
 
     const geminiInput = {
