@@ -40,21 +40,25 @@ function loadCatalog(): Catalog {
   return yaml.load(raw) as Catalog;
 }
 
-/** URL 移行後: pseo_pages.json があれば final_slug / final_url / legacy_url を返す */
-function loadPseoPagesMap(): Map<string, { final_slug: string; final_url: string; legacy_url?: string }> {
+/** URL 移行後: pseo_pages.json があれば final_slug / final_url / legacy_url / topic を返す。id と final_slug の両方で引けるようにする。 */
+function loadPseoPagesMap(): Map<string, { final_slug: string; final_url: string; legacy_url?: string; topic?: string[] }> {
   const fp = join(DATA_PSEO, "pseo_pages.json");
   if (!existsSync(fp)) return new Map();
   const { pages } = JSON.parse(readFileSync(fp, "utf-8")) as {
-    pages: Array<{ id: string; final_slug: string; final_url: string; legacy_url?: string }>;
+    pages: Array<{ id: string; final_slug: string; final_url: string; legacy_url?: string; topic?: string[] }>;
   };
-  const m = new Map<string, { final_slug: string; final_url: string; legacy_url?: string }>();
-  for (const p of pages) m.set(p.id, { final_slug: p.final_slug, final_url: p.final_url, legacy_url: p.legacy_url });
+  const m = new Map<string, { final_slug: string; final_url: string; legacy_url?: string; topic?: string[] }>();
+  for (const p of pages) {
+    const rec = { final_slug: p.final_slug, final_url: p.final_url, legacy_url: p.legacy_url, topic: p.topic };
+    m.set(p.id, rec);
+    m.set(p.final_slug, rec);
+  }
   return m;
 }
 
 function getFilePathForPage(
   page: CatalogPage,
-  pseoMap: Map<string, { final_slug: string; final_url: string; legacy_url?: string }>
+  pseoMap: Map<string, { final_slug: string; final_url: string; legacy_url?: string; topic?: string[] }>
 ): string {
   const segment = page.slug.replace(/^\//, "").replace(/\/$/, "").split("/").pop() ?? page.id;
   const record = pseoMap.get(segment);
@@ -66,7 +70,7 @@ function getFilePathForPage(
 function getReportUrlForPage(
   page: CatalogPage,
   baseUrl: string,
-  pseoMap: Map<string, { final_slug: string; final_url: string; legacy_url?: string }>
+  pseoMap: Map<string, { final_slug: string; final_url: string; legacy_url?: string; topic?: string[] }>
 ): string {
   const segment = page.slug.replace(/^\//, "").replace(/\/$/, "").split("/").pop() ?? page.id;
   const record = pseoMap.get(segment);
@@ -233,7 +237,7 @@ function validatePage(
   html: string,
   catalog: Catalog,
   baseUrl: string,
-  pseoMap: Map<string, { final_slug: string; final_url: string; legacy_url?: string }>,
+  pseoMap: Map<string, { final_slug: string; final_url: string; legacy_url?: string; topic?: string[] }>,
   indexAllowlist: Set<string>,
   redirectsSet: Set<string>,
   similarityByPage: Map<string, { content_max: number; content_with?: string }> | null
@@ -346,6 +350,12 @@ function validatePage(
     fail: !pass,
     reasons,
     warns: warns.length ? warns : undefined,
+    fail_reasons: reasons.length ? reasons : undefined,
+    warn_reasons: warns.length ? warns : undefined,
+    unique_sections: [...dataUniqueTypes],
+    cta_present: ctaLinks.length >= 1,
+    claims_lint: { pass: claimsResult.pass, violations: claimsResult.violations },
+    topic: record?.topic,
     content_similarity: contentMax > 0 ? contentMax : undefined,
     content_similarity_with: simInfo?.content_with,
     references_count: uniqueRefUrls.size,
@@ -431,8 +441,14 @@ async function main(): Promise<void> {
       fail: r.fail,
       reasons: r.reasons,
       warns: r.warns,
+      fail_reasons: r.fail_reasons,
+      warn_reasons: r.warn_reasons,
       content_similarity: r.content_similarity,
       content_similarity_with: r.content_similarity_with,
+      unique_sections: r.unique_sections,
+      cta_present: r.cta_present,
+      claims_lint: r.claims_lint,
+      topic: r.topic,
       artifact_types_count: r.artifact_types_count,
       references_count: r.references_count,
       faq_count: r.faq_count,
