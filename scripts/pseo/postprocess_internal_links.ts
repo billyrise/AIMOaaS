@@ -45,7 +45,9 @@ function buildSafeInternalLinksHtml(): string {
   const links = all
     .map((l) => `<a href="${BASE}${l.href}" class="text-indigo-600 hover:underline">${escapeHtml(l.text)}</a>`)
     .join(sep);
-  return `      <!-- internal-links: 次に読む（実在URLのみ） -->
+  return `
+
+      <!-- internal-links: 次に読む（実在URLのみ） -->
       <section class="internal-links mb-10" aria-label="次に読む">
         <h2 class="text-2xl font-bold text-slate-900 mb-4">次に読む</h2>
         <div class="text-slate-700">
@@ -58,7 +60,8 @@ function escapeHtml(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
-const INTERNAL_LINKS_SECTION_REG = /      <!-- internal-links: 次に読む[\s\S]*?<\/section>/;
+/** 次に読むセクション（コメントまたは h2 から直後の </section> まで）。インデント差に対応。 */
+const INTERNAL_LINKS_SECTION_REG = /\s*<!-- internal-links: 次に読む[\s\S]*?<\/section>/;
 
 function main(): void {
   if (!existsSync(PSEO_ROOT)) {

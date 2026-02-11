@@ -40,7 +40,10 @@
 ### 3. 実行順での組み込み
 
 - 既存 HTML を触る場合:  
-  `npm run postprocess:internal-links` で「次に読む」を実在 URL のみに揃えられる。
+  `npm run postprocess:internal-links` で「次に読む」を実在 URL のみに揃えられる。  
+  `npm run postprocess:fix-broken-urls` で本文・References 含む不正 URL（audit-logs, data-governance, compliance, ai-governance）を一括置換できる。
+- リンク検証:  
+  `npm run pseo:check-links` で PSEO 全ページの内部リンクを検証し、404 になる URL を報告する。
 - 新規 generate 時:  
   `link_map.json` と `pseo_pages.json`（topic 付き）があれば、generate 時点で実在 URL のみのリンクが入る。
 
@@ -58,6 +61,9 @@
 
 4. **postprocess の実行**  
    既存 100 ページを再生成せずに直す場合は、  
-   `npx tsx postprocess_internal_links.ts` を実行してからデプロイする。
+   `npm run postprocess:fix-broken-urls` と `npm run postprocess:internal-links` を実行してからデプロイする。
 
+5. **本番でまだ 404 が出る場合**  
+   リポジトリ上ではリンク修正済みでも、本番が古いビルドを配信していると 404 が残る。  
+   Cloudflare Pages 等で **該当ブランチ（または main）の最新コミットから再デプロイ** し、ビルド出力に修正済み HTML が含まれることを確認する。
 以上を守れば、同様のリンク切れの再発を防げる。
