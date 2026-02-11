@@ -1,0 +1,18 @@
+# 監査質問→必要証跡テンプレート（抜粋用。一次情報）
+meta:
+  title: 監査で聞かれる質問と必要証跡（抜粋）
+  note: "観点の整理。保証・合格を約束するものではない。"
+
+questions:
+  - question: 利用している AI は何か、どこで使っているか
+    evidence: 棚卸一覧、ログに基づく利用可視化
+  - question: 方針はあるか、周知されているか
+    evidence: 方針文書、教育・同意の記録
+  - question: 誰が承認しているか、例外はどう管理しているか
+    evidence: 申請・承認ログ、例外一覧・承認者
+  - question: 変更は記録されているか
+    evidence: 変更履歴、版管理された手順
+  - question: 定期的に見直しているか
+    evidence: 棚卸・レビュー記録、更新日付
+  - question: 証跡は監査調書に貼付可能な形式か
+    evidence: Evidence Pack 目次・形式の整備

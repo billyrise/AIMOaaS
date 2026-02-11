@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-02-11T02:48:14.474Z",
+  "by_page": {
+    "ai-governance-audit-evidence-controls-workflow-coverage-map": [
+      {
+        "pattern": "監査保証",
+        "count": 1
+      }
+    ],
+    "evidence-readiness-proof-assurance-boundary-ai-e-162": [
+      {
+        "pattern": "監査保証",
+        "count": 1
+      }
+    ],
+    "proof-assurance-boundary-ai-audit-controls-e-163": [
+      {
+        "pattern": "監査保証",
+        "count": 2
+      }
+    ],
+    "proof-assurance-boundary-ai-audit-controls-e-165": [
+      {
+        "pattern": "監査保証",
+        "count": 1
+      }
+    ],
+    "proof-assurance-boundary-ai-audit-controls-e-166": [
+      {
+        "pattern": "監査保証",
+        "count": 1
+      }
+    ],
+    "proof-assurance-boundary-ai-audit-controls-e-173": [
+      {
+        "pattern": "監査保証",
+        "count": 1
+      }
+    ],
+    "proof-assurance-boundary-evidence-pack-ai-a-106": [
+      {
+        "pattern": "監査保証",
+        "count": 4
+      }
+    ],
+    "responsibility-boundary-proof-assurance-boundary-ai-d-156": [
+      {
+        "pattern": "監査保証",
+        "count": 1
+      }
+    ]
+  },
+  "still_failing": [
+    "responsibility-boundary-proof-assurance-boundary-ai-sla-responsibility-matrix: assertion_pattern: /100%カバー|すべての規制に対応|漏れなし/"
+  ]
+}

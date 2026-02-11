@@ -1,0 +1,422 @@
+{
+  "period": {
+    "start_date": "2026-01-13",
+    "end_date": "2026-02-10",
+    "days": 28
+  },
+  "by_page": [
+    {
+      "id": "pseo-evidence-pack",
+      "lang": "ja",
+      "page_type": "A",
+      "slug": "/ja/resources/pseo/evidence-pack/",
+      "intent_keywords": [
+        "Evidence Pack",
+        "証拠パック",
+        "監査提出物",
+        "証跡目次",
+        "証跡バンドル"
+      ],
+      "primary_cta": "tier1_free_log_analysis",
+      "module_refs": [
+        "evidence-bundle-structure-summary.md",
+        "evidence-pack-table-template.md",
+        "evidence-pack-index-requirements.md",
+        "common-gaps-and-remediation.md"
+      ],
+      "references": [
+        "https://aimoaas.com/ja/aimo-standard/",
+        "https://aimoaas.com/ja/"
+      ],
+      "related_pages": [
+        "pseo-minimum-evidence",
+        "pseo-operating-workflow",
+        "pseo-responsibility-boundary",
+        "pseo-coverage-map",
+        "pseo-evidence-pack-formats",
+        "pseo-minimum-evidence-shadow-ai",
+        "pseo-workflow-renewal",
+        "pseo-coverage-map-iso",
+        "pseo-audit-questions"
+      ],
+      "path_metrics": {
+        "pageviews": 0,
+        "cta_clicks": 0,
+        "form_submits": 0
+      },
+      "conversions": 0,
+      "cvr": 0
+    },
+    {
+      "id": "pseo-evidence-pack-formats",
+      "lang": "ja",
+      "page_type": "A",
+      "slug": "/ja/resources/pseo/evidence-pack-formats/",
+      "intent_keywords": [
+        "Evidence Pack 形式",
+        "証跡 形式",
+        "監査 提出 形式"
+      ],
+      "primary_cta": "tier2_bpr_sprint",
+      "module_refs": [
+        "evidence-pack-table-template.md",
+        "evidence-pack-common-formats.md",
+        "common-gaps-and-remediation.md"
+      ],
+      "references": [
+        "https://aimoaas.com/ja/aimo-standard/"
+      ],
+      "related_pages": [
+        "pseo-evidence-pack",
+        "pseo-minimum-evidence",
+        "pseo-operating-workflow",
+        "pseo-responsibility-boundary",
+        "pseo-coverage-map",
+        "pseo-minimum-evidence-shadow-ai",
+        "pseo-workflow-renewal",
+        "pseo-coverage-map-iso",
+        "pseo-audit-questions"
+      ],
+      "path_metrics": {
+        "pageviews": 0,
+        "cta_clicks": 0,
+        "form_submits": 0
+      },
+      "conversions": 0,
+      "cvr": 0
+    },
+    {
+      "id": "pseo-minimum-evidence",
+      "lang": "ja",
+      "page_type": "B",
+      "slug": "/ja/resources/pseo/minimum-evidence-requirements/",
+      "intent_keywords": [
+        "最小証拠要件",
+        "必要証跡",
+        "証拠 頻度",
+        "統制 証跡"
+      ],
+      "primary_cta": "tier1_free_log_analysis",
+      "module_refs": [
+        "minimum-evidence-requirements-table.md",
+        "minimum-evidence-checklist-shadow-ai.md",
+        "control-to-evidence-frequency.md",
+        "common-gaps-and-remediation.md"
+      ],
+      "references": [
+        "https://aimoaas.com/ja/aimo-standard/",
+        "https://aimoaas.com/ja/resources/shadow-ai/"
+      ],
+      "related_pages": [
+        "pseo-evidence-pack",
+        "pseo-operating-workflow",
+        "pseo-responsibility-boundary",
+        "pseo-coverage-map",
+        "pseo-evidence-pack-formats",
+        "pseo-minimum-evidence-shadow-ai",
+        "pseo-workflow-renewal",
+        "pseo-audit-questions",
+        "pseo-coverage-map-iso"
+      ],
+      "path_metrics": {
+        "pageviews": 0,
+        "cta_clicks": 0,
+        "form_submits": 0
+      },
+      "conversions": 0,
+      "cvr": 0
+    },
+    {
+      "id": "pseo-minimum-evidence-shadow-ai",
+      "lang": "ja",
+      "page_type": "B",
+      "slug": "/ja/resources/pseo/minimum-evidence-shadow-ai/",
+      "intent_keywords": [
+        "シャドーAI 証跡",
+        "シャドーAI 証拠要件",
+        "個人利用 ログ 証跡"
+      ],
+      "primary_cta": "tier2_bpr_sprint",
+      "module_refs": [
+        "minimum-evidence-checklist-shadow-ai.md",
+        "minimum-evidence-requirements-table.md",
+        "audit-questions-pack.md",
+        "common-gaps-and-remediation.md"
+      ],
+      "references": [
+        "https://aimoaas.com/ja/resources/shadow-ai/",
+        "https://aimoaas.com/ja/aimo-standard/"
+      ],
+      "related_pages": [
+        "pseo-evidence-pack",
+        "pseo-minimum-evidence",
+        "pseo-operating-workflow",
+        "pseo-responsibility-boundary",
+        "pseo-coverage-map",
+        "pseo-evidence-pack-formats",
+        "pseo-workflow-renewal",
+        "pseo-audit-questions",
+        "pseo-coverage-map-iso"
+      ],
+      "path_metrics": {
+        "pageviews": 0,
+        "cta_clicks": 0,
+        "form_submits": 0
+      },
+      "conversions": 0,
+      "cvr": 0
+    },
+    {
+      "id": "pseo-operating-workflow",
+      "lang": "ja",
+      "page_type": "C",
+      "slug": "/ja/resources/pseo/operating-workflow/",
+      "intent_keywords": [
+        "AI 利用 運用フロー",
+        "申請 審査 例外 更新",
+        "棚卸 継続監査",
+        "RACI ガバナンス"
+      ],
+      "primary_cta": "tier1_free_log_analysis",
+      "module_refs": [
+        "workflow-request-review-exception-renewal.md",
+        "raci-request-approval-exception.md",
+        "continuous-audit-workflow.md",
+        "common-gaps-and-remediation.md"
+      ],
+      "references": [
+        "https://aimoaas.com/ja/aimo-standard/",
+        "https://aimoaas.com/ja/resources/human-in-the-loop/"
+      ],
+      "related_pages": [
+        "pseo-evidence-pack",
+        "pseo-minimum-evidence",
+        "pseo-responsibility-boundary",
+        "pseo-coverage-map",
+        "pseo-evidence-pack-formats",
+        "pseo-minimum-evidence-shadow-ai",
+        "pseo-workflow-renewal",
+        "pseo-audit-questions",
+        "pseo-coverage-map-iso"
+      ],
+      "path_metrics": {
+        "pageviews": 0,
+        "cta_clicks": 0,
+        "form_submits": 0
+      },
+      "conversions": 0,
+      "cvr": 0
+    },
+    {
+      "id": "pseo-workflow-renewal",
+      "lang": "ja",
+      "page_type": "C",
+      "slug": "/ja/resources/pseo/operating-workflow-renewal/",
+      "intent_keywords": [
+        "ポリシー 更新 フロー",
+        "例外 申請 審査",
+        "継続監査 棚卸"
+      ],
+      "primary_cta": "exec_onepager_request",
+      "module_refs": [
+        "workflow-request-review-exception-renewal.md",
+        "inventory-and-review-cycle.md",
+        "raci-request-approval-exception.md",
+        "common-gaps-and-remediation.md"
+      ],
+      "references": [
+        "https://aimoaas.com/ja/resources/human-in-the-loop/"
+      ],
+      "related_pages": [
+        "pseo-evidence-pack",
+        "pseo-minimum-evidence",
+        "pseo-operating-workflow",
+        "pseo-responsibility-boundary",
+        "pseo-coverage-map",
+        "pseo-evidence-pack-formats",
+        "pseo-minimum-evidence-shadow-ai",
+        "pseo-audit-questions",
+        "pseo-coverage-map-iso"
+      ],
+      "path_metrics": {
+        "pageviews": 0,
+        "cta_clicks": 0,
+        "form_submits": 0
+      },
+      "conversions": 0,
+      "cvr": 0
+    },
+    {
+      "id": "pseo-responsibility-boundary",
+      "lang": "ja",
+      "page_type": "D",
+      "slug": "/ja/resources/pseo/responsibility-boundary/",
+      "intent_keywords": [
+        "責任分界",
+        "Proof Assurance",
+        "証憑 保証",
+        "誰が保証するか"
+      ],
+      "primary_cta": "exec_onepager_request",
+      "module_refs": [
+        "responsibility-boundary-proof-assurance.md",
+        "proof-vs-assurance-table.md",
+        "sla-and-responsibility-matrix.md",
+        "common-gaps-and-remediation.md"
+      ],
+      "references": [
+        "https://aimoaas.com/ja/aimo-standard/",
+        "https://aimoaas.com/ja/audit-firms/"
+      ],
+      "related_pages": [
+        "pseo-evidence-pack",
+        "pseo-minimum-evidence",
+        "pseo-operating-workflow",
+        "pseo-coverage-map",
+        "pseo-evidence-pack-formats",
+        "pseo-minimum-evidence-shadow-ai",
+        "pseo-workflow-renewal",
+        "pseo-audit-questions",
+        "pseo-coverage-map-iso"
+      ],
+      "path_metrics": {
+        "pageviews": 0,
+        "cta_clicks": 0,
+        "form_submits": 0
+      },
+      "conversions": 0,
+      "cvr": 0
+    },
+    {
+      "id": "pseo-coverage-map",
+      "lang": "ja",
+      "page_type": "E",
+      "slug": "/ja/resources/pseo/coverage-map/",
+      "intent_keywords": [
+        "Coverage Map",
+        "ISO 42001 対応観点",
+        "NIST AI RMF 対応",
+        "EU AI Act 対応観点"
+      ],
+      "primary_cta": "tier2_bpr_sprint",
+      "module_refs": [
+        "coverage-map-overview.md",
+        "coverage-map-iso42001-perspectives.md",
+        "coverage-map-nist-rmf-perspectives.md",
+        "coverage-map-eu-ai-act-perspectives.md",
+        "common-gaps-and-remediation.md"
+      ],
+      "references": [
+        "https://aimoaas.com/ja/aimo-standard/",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "https://www.nist.gov/itl/ai-risk-management-framework",
+        "https://www.iso.org/standard/81230.html"
+      ],
+      "related_pages": [
+        "pseo-evidence-pack",
+        "pseo-minimum-evidence",
+        "pseo-operating-workflow",
+        "pseo-responsibility-boundary",
+        "pseo-evidence-pack-formats",
+        "pseo-minimum-evidence-shadow-ai",
+        "pseo-workflow-renewal",
+        "pseo-audit-questions",
+        "pseo-coverage-map-iso"
+      ],
+      "path_metrics": {
+        "pageviews": 0,
+        "cta_clicks": 0,
+        "form_submits": 0
+      },
+      "conversions": 0,
+      "cvr": 0
+    },
+    {
+      "id": "pseo-coverage-map-iso",
+      "lang": "ja",
+      "page_type": "E",
+      "slug": "/ja/resources/pseo/coverage-map-iso42001/",
+      "intent_keywords": [
+        "ISO IEC 42001 対応",
+        "AI マネジメント 証跡",
+        "42001 証拠"
+      ],
+      "primary_cta": "exec_onepager_request",
+      "module_refs": [
+        "coverage-map-iso42001-perspectives.md",
+        "coverage-map-overview.md",
+        "minimum-evidence-requirements-table.md",
+        "common-gaps-and-remediation.md"
+      ],
+      "references": [
+        "https://www.iso.org/standard/81230.html",
+        "https://aimoaas.com/ja/aimo-standard/"
+      ],
+      "related_pages": [
+        "pseo-evidence-pack",
+        "pseo-minimum-evidence",
+        "pseo-operating-workflow",
+        "pseo-responsibility-boundary",
+        "pseo-coverage-map",
+        "pseo-evidence-pack-formats",
+        "pseo-minimum-evidence-shadow-ai",
+        "pseo-workflow-renewal",
+        "pseo-audit-questions"
+      ],
+      "path_metrics": {
+        "pageviews": 0,
+        "cta_clicks": 0,
+        "form_submits": 0
+      },
+      "conversions": 0,
+      "cvr": 0
+    },
+    {
+      "id": "pseo-audit-questions",
+      "lang": "ja",
+      "page_type": "B",
+      "slug": "/ja/resources/pseo/audit-questions-pack/",
+      "intent_keywords": [
+        "監査 質問 証跡",
+        "監査で聞かれる 証拠",
+        "内部監査 AI ガバナンス"
+      ],
+      "primary_cta": "tier1_free_log_analysis",
+      "module_refs": [
+        "audit-questions-pack.md",
+        "minimum-evidence-requirements-table.md",
+        "evidence-pack-table-template.md",
+        "common-gaps-and-remediation.md"
+      ],
+      "references": [
+        "https://aimoaas.com/ja/aimo-standard/",
+        "https://aimoaas.com/ja/audit-firms/"
+      ],
+      "related_pages": [
+        "pseo-evidence-pack",
+        "pseo-minimum-evidence",
+        "pseo-operating-workflow",
+        "pseo-responsibility-boundary",
+        "pseo-coverage-map",
+        "pseo-evidence-pack-formats",
+        "pseo-minimum-evidence-shadow-ai",
+        "pseo-workflow-renewal",
+        "pseo-coverage-map-iso"
+      ],
+      "path_metrics": {
+        "pageviews": 0,
+        "cta_clicks": 0,
+        "form_submits": 0
+      },
+      "conversions": 0,
+      "cvr": 0
+    }
+  ],
+  "by_page_type": [],
+  "by_industry": [],
+  "by_standard": [],
+  "candidate_recommendations": [
+    "十分な PV またはコンバージョンがまだありません。metrics.json を更新して再実行してください。"
+  ],
+  "generated_at": "2026-02-10T10:38:38.968Z"
+}

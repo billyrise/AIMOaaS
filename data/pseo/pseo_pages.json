@@ -1,0 +1,1286 @@
+{
+  "generated_at": "2026-02-11T01:03:02.621Z",
+  "pages": [
+    {
+      "id": "e-164",
+      "title": "AI監査・統制の実務ガイド：ISO 42001, NIST AI RMF, EU AI Act対応観点",
+      "topic": [
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "ai-audit-controls",
+      "final_slug": "ai-audit-controls-e-164",
+      "final_url": "/ja/resources/pseo/ai-audit-controls-e-164/",
+      "legacy_url": "/ja/resources/pseo/e-164/"
+    },
+    {
+      "id": "e-170",
+      "title": "AI監査・統制の対応観点：ISO/IEC 42001, NIST AI RMF, EU AI Act",
+      "topic": [
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "ai-audit-controls",
+      "final_slug": "ai-audit-controls-e-170",
+      "final_url": "/ja/resources/pseo/ai-audit-controls-e-170/",
+      "legacy_url": "/ja/resources/pseo/e-170/"
+    },
+    {
+      "id": "evidence-pack-minimum",
+      "title": "AIMOaaS 監査・統制向け：証拠提出の最小要件とEvidence Bundle",
+      "topic": [
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "ai-audit-controls",
+      "final_slug": "ai-audit-controls-evidence-pack-minimum",
+      "final_url": "/ja/resources/pseo/ai-audit-controls-evidence-pack-minimum/",
+      "legacy_url": "/ja/resources/pseo/evidence-pack-minimum/"
+    },
+    {
+      "id": "continuous-audit-workflow",
+      "title": "AI利用の継続監査フローと棚卸サイクル：効果的な統制実務",
+      "topic": [
+        "ai-audit",
+        "controls",
+        "inventory"
+      ],
+      "slug_base": "ai-audit-controls-inventory",
+      "final_slug": "ai-audit-controls-inventory-continuous-audit-workflow",
+      "final_url": "/ja/resources/pseo/ai-audit-controls-inventory-continuous-audit-workflow/",
+      "legacy_url": "/ja/resources/pseo/continuous-audit-workflow/"
+    },
+    {
+      "id": "a-102",
+      "title": "AI監査向け証拠パック・提出物目次と最小要件の観点",
+      "topic": [
+        "ai-audit",
+        "evidence-pack"
+      ],
+      "slug_base": "ai-audit-evidence-pack",
+      "final_slug": "ai-audit-evidence-pack-a-102",
+      "final_url": "/ja/resources/pseo/ai-audit-evidence-pack-a-102/",
+      "legacy_url": "/ja/resources/pseo/a-102/"
+    },
+    {
+      "id": "inventory-review-cycle",
+      "title": "AI利用の棚卸・継続監査・定期レビュー実践ガイド",
+      "topic": [
+        "ai-audit",
+        "monitoring",
+        "inventory"
+      ],
+      "slug_base": "ai-audit-monitoring-inventory",
+      "final_slug": "ai-audit-monitoring-inventory-inventory-review-cycle",
+      "final_url": "/ja/resources/pseo/ai-audit-monitoring-inventory-inventory-review-cycle/",
+      "legacy_url": "/ja/resources/pseo/inventory-review-cycle/"
+    },
+    {
+      "id": "coverage-map",
+      "title": "AI規制・標準対応Coverage Map: ISO 42001, NIST AI RMF, EU AI Act 観点",
+      "topic": [],
+      "slug_base": "ai-governance-audit-evidence-controls-workflow",
+      "final_slug": "ai-governance-audit-evidence-controls-workflow-coverage-map",
+      "final_url": "/ja/resources/pseo/ai-governance-audit-evidence-controls-workflow-coverage-map/",
+      "legacy_url": "/ja/resources/pseo/coverage-map/"
+    },
+    {
+      "id": "a-112",
+      "title": "AIMOaaSの監査提出物：Evidence Packの形式と構成観点",
+      "topic": [
+        "evidence-pack",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-pack-ai-audit",
+      "final_slug": "evidence-pack-ai-audit-a-112",
+      "final_url": "/ja/resources/pseo/evidence-pack-ai-audit-a-112/",
+      "legacy_url": "/ja/resources/pseo/a-112/"
+    },
+    {
+      "id": "a-110",
+      "title": "AIMOaaS 監査・統制実務：証拠パック提出物と目次ガイド",
+      "topic": [
+        "evidence-pack",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "evidence-pack-ai-audit-controls",
+      "final_slug": "evidence-pack-ai-audit-controls-a-110",
+      "final_url": "/ja/resources/pseo/evidence-pack-ai-audit-controls-a-110/",
+      "legacy_url": "/ja/resources/pseo/a-110/"
+    },
+    {
+      "id": "a-114",
+      "title": "AIMOaaS 監査・統制実務：証拠パックと提出物、目次の観点整理",
+      "topic": [
+        "evidence-pack",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "evidence-pack-ai-audit-controls",
+      "final_slug": "evidence-pack-ai-audit-controls-a-114",
+      "final_url": "/ja/resources/pseo/evidence-pack-ai-audit-controls-a-114/",
+      "legacy_url": "/ja/resources/pseo/a-114/"
+    },
+    {
+      "id": "evidence-gaps-remediation",
+      "title": "AIMOaaS 監査・統制のためのEvidence Pack構成と欠落対策ガイド",
+      "topic": [
+        "evidence-pack",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "evidence-pack-ai-audit-controls",
+      "final_slug": "evidence-pack-ai-audit-controls-evidence-gaps-remediation",
+      "final_url": "/ja/resources/pseo/evidence-pack-ai-audit-controls-evidence-gaps-remediation/",
+      "legacy_url": "/ja/resources/pseo/evidence-gaps-remediation/"
+    },
+    {
+      "id": "evidence-pack",
+      "title": "AIMOaaS監査のためのEvidence Packと証拠バンドル構築ガイド",
+      "topic": [
+        "evidence-pack",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-pack-ai-audit",
+      "final_slug": "evidence-pack-ai-audit-evidence-pack",
+      "final_url": "/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "legacy_url": "/ja/resources/pseo/evidence-pack/"
+    },
+    {
+      "id": "evidence-pack-formats",
+      "title": "AIMOaaS Evidence Pack 形式と監査提出物の整備観点",
+      "topic": [
+        "evidence-pack",
+        "evidence-readiness",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-pack-evidence-readiness-ai-audit",
+      "final_slug": "evidence-pack-evidence-readiness-ai-audit-evidence-pack-formats",
+      "final_url": "/ja/resources/pseo/evidence-pack-evidence-readiness-ai-audit-evidence-pack-formats/",
+      "legacy_url": "/ja/resources/pseo/evidence-pack-formats/"
+    },
+    {
+      "id": "a-101",
+      "title": "AIMOaaS 監査・統制 実務: Evidence Packと証跡整備の観点",
+      "topic": [
+        "evidence-pack",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "slug_base": "evidence-pack-evidence-readiness-proof-assurance",
+      "final_slug": "evidence-pack-evidence-readiness-proof-assurance-a-101",
+      "final_url": "/ja/resources/pseo/evidence-pack-evidence-readiness-proof-assurance-a-101/",
+      "legacy_url": "/ja/resources/pseo/a-101/"
+    },
+    {
+      "id": "a-105",
+      "title": "AIMO Standardに準拠する監査証跡：Evidence Pack実務ガイド",
+      "topic": [
+        "evidence-pack",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-pack-proof-assurance-boundary-ai",
+      "final_slug": "evidence-pack-proof-assurance-boundary-ai-a-105",
+      "final_url": "/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-105/",
+      "legacy_url": "/ja/resources/pseo/a-105/"
+    },
+    {
+      "id": "a-108",
+      "title": "AIMOaaS 監査提出物: 証跡の形式とEvidence Pack構成の観点",
+      "topic": [
+        "evidence-pack",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-pack-proof-assurance-boundary-ai",
+      "final_slug": "evidence-pack-proof-assurance-boundary-ai-a-108",
+      "final_url": "/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-108/",
+      "legacy_url": "/ja/resources/pseo/a-108/"
+    },
+    {
+      "id": "a-109",
+      "title": "AIMO Standard準拠：監査・統制 Evidence Packの構成と証跡実務",
+      "topic": [
+        "evidence-pack",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-pack-proof-assurance-boundary-ai",
+      "final_slug": "evidence-pack-proof-assurance-boundary-ai-a-109",
+      "final_url": "/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-109/",
+      "legacy_url": "/ja/resources/pseo/a-109/"
+    },
+    {
+      "id": "evidence-pack-index",
+      "title": "AIMOaaS 監査・統制実務：証跡目次とEvidence Pack構成の観点整理",
+      "topic": [
+        "evidence-pack",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-pack-proof-assurance-boundary-ai",
+      "final_slug": "evidence-pack-proof-assurance-boundary-ai-evidence-pack-index",
+      "final_url": "/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-evidence-pack-index/",
+      "legacy_url": "/ja/resources/pseo/evidence-pack-index/"
+    },
+    {
+      "id": "a-113",
+      "title": "AIMOaaS 監査・統制向け証跡 Evidence Pack 整備ガイド",
+      "topic": [
+        "evidence-pack",
+        "proof-assurance",
+        "evidence-readiness"
+      ],
+      "slug_base": "evidence-pack-proof-assurance-boundary-evidence",
+      "final_slug": "evidence-pack-proof-assurance-boundary-evidence-a-113",
+      "final_url": "/ja/resources/pseo/evidence-pack-proof-assurance-boundary-evidence-a-113/",
+      "legacy_url": "/ja/resources/pseo/a-113/"
+    },
+    {
+      "id": "c-134",
+      "title": "AI運用ワークフローにおける申請・承認・監査とHuman-in-the-Loop証跡整備",
+      "topic": [
+        "evidence-readiness",
+        "intake-review-approve",
+        "proof-assurance"
+      ],
+      "slug_base": "evidence-readiness-intake-review-approve-proof",
+      "final_slug": "evidence-readiness-intake-review-approve-proof-c-134",
+      "final_url": "/ja/resources/pseo/evidence-readiness-intake-review-approve-proof-c-134/",
+      "legacy_url": "/ja/resources/pseo/c-134/"
+    },
+    {
+      "id": "c-133",
+      "title": "AI利用の運用フロー、ポリシー更新、監査証跡整備の観点",
+      "topic": [
+        "evidence-readiness",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-readiness-proof-assurance-boundary-ai",
+      "final_slug": "evidence-readiness-proof-assurance-boundary-ai-c-133",
+      "final_url": "/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-c-133/",
+      "legacy_url": "/ja/resources/pseo/c-133/"
+    },
+    {
+      "id": "e-161",
+      "title": "AI監査・統制実務ガイド: ISO/IEC 42001, NIST AI RMF, EU AI Act対応観点と証跡整備",
+      "topic": [
+        "evidence-readiness",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-readiness-proof-assurance-boundary-ai",
+      "final_slug": "evidence-readiness-proof-assurance-boundary-ai-e-161",
+      "final_url": "/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-161/",
+      "legacy_url": "/ja/resources/pseo/e-161/"
+    },
+    {
+      "id": "e-162",
+      "title": "AIMOaaS: AI規制対応のCoverage MapとISMS監査・証跡整備",
+      "topic": [
+        "evidence-readiness",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-readiness-proof-assurance-boundary-ai",
+      "final_slug": "evidence-readiness-proof-assurance-boundary-ai-e-162",
+      "final_url": "/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-162/",
+      "legacy_url": "/ja/resources/pseo/e-162/"
+    },
+    {
+      "id": "e-175",
+      "title": "AIマネジメント監査・規制対応の証跡整備観点",
+      "topic": [
+        "evidence-readiness",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-readiness-proof-assurance-boundary-ai",
+      "final_slug": "evidence-readiness-proof-assurance-boundary-ai-e-175",
+      "final_url": "/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-175/",
+      "legacy_url": "/ja/resources/pseo/e-175/"
+    },
+    {
+      "id": "minimum-evidence-shadow-ai",
+      "title": "シャドーAI・個人利用AIの証跡整備：監査対応の最小要件とチェックリスト",
+      "topic": [
+        "evidence-readiness",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "evidence-readiness-proof-assurance-boundary-ai",
+      "final_slug": "evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai",
+      "final_url": "/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai/",
+      "legacy_url": "/ja/resources/pseo/minimum-evidence-shadow-ai/"
+    },
+    {
+      "id": "c-131",
+      "title": "AI利用の申請・審査・例外・更新・監査ワークフローと統制の実務",
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "intake-review-approve-ai-audit-controls",
+      "final_slug": "intake-review-approve-ai-audit-controls-c-131",
+      "final_url": "/ja/resources/pseo/intake-review-approve-ai-audit-controls-c-131/",
+      "legacy_url": "/ja/resources/pseo/c-131/"
+    },
+    {
+      "id": "c-139",
+      "title": "AIMOaaS監査・統制の実践：申請・審査・例外・更新・継続監査",
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "intake-review-approve-ai-audit-controls",
+      "final_slug": "intake-review-approve-ai-audit-controls-c-139",
+      "final_url": "/ja/resources/pseo/intake-review-approve-ai-audit-controls-c-139/",
+      "legacy_url": "/ja/resources/pseo/c-139/"
+    },
+    {
+      "id": "request-review-exception",
+      "title": "AI利用申請・審査・例外承認：監査・統制の実務ワークフロー",
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "intake-review-approve-ai-audit-controls",
+      "final_slug": "intake-review-approve-ai-audit-controls-request-review-exception",
+      "final_url": "/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "legacy_url": "/ja/resources/pseo/request-review-exception/"
+    },
+    {
+      "id": "c-135",
+      "title": "AIMOaaS: AI活用ワークフロー—申請・審査・例外・更新・継続監査",
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "exceptions"
+      ],
+      "slug_base": "intake-review-approve-ai-audit-exceptions",
+      "final_slug": "intake-review-approve-ai-audit-exceptions-c-135",
+      "final_url": "/ja/resources/pseo/intake-review-approve-ai-audit-exceptions-c-135/",
+      "legacy_url": "/ja/resources/pseo/c-135/"
+    },
+    {
+      "id": "c-143",
+      "title": "AI利用の申請・審査・例外・更新と継続監査ワークフローの実践",
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "exceptions"
+      ],
+      "slug_base": "intake-review-approve-ai-audit-exceptions",
+      "final_slug": "intake-review-approve-ai-audit-exceptions-c-143",
+      "final_url": "/ja/resources/pseo/intake-review-approve-ai-audit-exceptions-c-143/",
+      "legacy_url": "/ja/resources/pseo/c-143/"
+    },
+    {
+      "id": "operating-workflow-renewal",
+      "title": "AIポリシーの申請・審査・更新フローと継続監査・棚卸の観点",
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "inventory"
+      ],
+      "slug_base": "intake-review-approve-ai-audit-inventory",
+      "final_slug": "intake-review-approve-ai-audit-inventory-operating-workflow-renewal",
+      "final_url": "/ja/resources/pseo/intake-review-approve-ai-audit-inventory-operating-workflow-renewal/",
+      "legacy_url": "/ja/resources/pseo/operating-workflow-renewal/"
+    },
+    {
+      "id": "a-107",
+      "title": "監査証跡バンドルの最小要件：AIMO Standardに基づく構成ガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit",
+      "final_slug": "proof-assurance-boundary-ai-audit-a-107",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-107/",
+      "legacy_url": "/ja/resources/pseo/a-107/"
+    },
+    {
+      "id": "a-111",
+      "title": "AIMO Standardに準拠する証跡バンドル：監査の最小要件と実践ガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit",
+      "final_slug": "proof-assurance-boundary-ai-audit-a-111",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-111/",
+      "legacy_url": "/ja/resources/pseo/a-111/"
+    },
+    {
+      "id": "a-115",
+      "title": "AIMOaaS 監査証跡バンドルと最小要件：実践的ガイドライン",
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit",
+      "final_slug": "proof-assurance-boundary-ai-audit-a-115",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-115/",
+      "legacy_url": "/ja/resources/pseo/a-115/"
+    },
+    {
+      "id": "a-103",
+      "title": "AIMOaaS 監査・統制のための証跡バンドル最小要件ガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-a-103",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-a-103/",
+      "legacy_url": "/ja/resources/pseo/a-103/"
+    },
+    {
+      "id": "b-116",
+      "title": "AI監査と統制のための最小証拠要件・証跡整理ガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-116",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-116/",
+      "legacy_url": "/ja/resources/pseo/b-116/"
+    },
+    {
+      "id": "b-117",
+      "title": "AI統制と監査：証拠要件、証跡、頻度を整理する実務ガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-117",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-117/",
+      "legacy_url": "/ja/resources/pseo/b-117/"
+    },
+    {
+      "id": "b-118",
+      "title": "AI監査・統制実務：シャドーAIからログ・証跡まで網羅するガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-118",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-118/",
+      "legacy_url": "/ja/resources/pseo/b-118/"
+    },
+    {
+      "id": "b-119",
+      "title": "AIMOaaS 監査・統制の実務：必要証跡と質問・是正の観点",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-119",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-119/",
+      "legacy_url": "/ja/resources/pseo/b-119/"
+    },
+    {
+      "id": "b-120",
+      "title": "AI統制の監査と証跡：最小証拠要件とシャドーAI対策ガイドライン",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-120",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-120/",
+      "legacy_url": "/ja/resources/pseo/b-120/"
+    },
+    {
+      "id": "b-121",
+      "title": "AI監査・統制の実践：証拠要件、頻度、証跡管理のガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-121",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-121/",
+      "legacy_url": "/ja/resources/pseo/b-121/"
+    },
+    {
+      "id": "b-123",
+      "title": "AI利用の内部監査・統制実務：質問、必要証拠、証跡の管理ガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-123",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-123/",
+      "legacy_url": "/ja/resources/pseo/b-123/"
+    },
+    {
+      "id": "b-124",
+      "title": "AIMOaaS 監査・統制 最小証拠と証跡管理 実践ガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-124",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-124/",
+      "legacy_url": "/ja/resources/pseo/b-124/"
+    },
+    {
+      "id": "b-125",
+      "title": "AI利用の監査・統制実務：証拠要件、証跡、頻度を徹底解説",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-125",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-125/",
+      "legacy_url": "/ja/resources/pseo/b-125/"
+    },
+    {
+      "id": "b-126",
+      "title": "AI利用の監査・統制実務：シャドーAI対策と証跡・ログ管理の観点",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-126",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-126/",
+      "legacy_url": "/ja/resources/pseo/b-126/"
+    },
+    {
+      "id": "b-127",
+      "title": "AIMOaaS監査・統制実務：証跡、質問、欠落と是正の観点",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-127",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-127/",
+      "legacy_url": "/ja/resources/pseo/b-127/"
+    },
+    {
+      "id": "b-128",
+      "title": "AIMOaaS 監査・統制実務：最小証拠要件と証跡管理の観点",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-128",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-128/",
+      "legacy_url": "/ja/resources/pseo/b-128/"
+    },
+    {
+      "id": "b-129",
+      "title": "AIMOaaS監査・統制の証拠要件と証跡管理実務ガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-129",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-129/",
+      "legacy_url": "/ja/resources/pseo/b-129/"
+    },
+    {
+      "id": "b-130",
+      "title": "シャドーAI対策から監査証跡まで：AI利用のログと統制実務ガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-b-130",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-130/",
+      "legacy_url": "/ja/resources/pseo/b-130/"
+    },
+    {
+      "id": "c-141",
+      "title": "AI運用フローと監査証跡：ポリシー更新と継続的統制",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-c-141",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-c-141/",
+      "legacy_url": "/ja/resources/pseo/c-141/"
+    },
+    {
+      "id": "control-evidence-frequency",
+      "title": "AIMOaaS 監査・統制の実務：証跡、ログ保持、取得頻度の実践ガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-control-evidence-frequency",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "legacy_url": "/ja/resources/pseo/control-evidence-frequency/"
+    },
+    {
+      "id": "d-153",
+      "title": "AI監査・統制の実務：AIMOaaSによる証憑と証跡の整理支援",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-d-153",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-d-153/",
+      "legacy_url": "/ja/resources/pseo/d-153/"
+    },
+    {
+      "id": "e-163",
+      "title": "AIマネジメント監査・規制対応：証跡・統制の観点整理",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-e-163",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-163/",
+      "legacy_url": "/ja/resources/pseo/e-163/"
+    },
+    {
+      "id": "e-165",
+      "title": "AIシステム監査・統制の実践：ISMS対応観点とCoverage Mapによる証跡整理",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-e-165",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-165/",
+      "legacy_url": "/ja/resources/pseo/e-165/"
+    },
+    {
+      "id": "e-166",
+      "title": "AI監査・統制の証跡と規制対応：ISO, NIST, EU AI Act観点",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-e-166",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-166/",
+      "legacy_url": "/ja/resources/pseo/e-166/"
+    },
+    {
+      "id": "e-167",
+      "title": "AI監査・統制実務：ISO/IEC 42001, NIST AI RMF, EU AI Act対応の観点と証跡",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-e-167",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-167/",
+      "legacy_url": "/ja/resources/pseo/e-167/"
+    },
+    {
+      "id": "e-168",
+      "title": "AIMOaaS ISMS監査・統制実務：Coverage Mapで観点と証跡を整理",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-e-168",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-168/",
+      "legacy_url": "/ja/resources/pseo/e-168/"
+    },
+    {
+      "id": "e-169",
+      "title": "AIマネジメント・監査・規制対応のための証跡整理と統制観点",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-e-169",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-169/",
+      "legacy_url": "/ja/resources/pseo/e-169/"
+    },
+    {
+      "id": "e-171",
+      "title": "AI監査・統制の実務: Coverage MapでISMS対応観点と証跡を整理",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-e-171",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-171/",
+      "legacy_url": "/ja/resources/pseo/e-171/"
+    },
+    {
+      "id": "e-173",
+      "title": "AI監査・統制ガイド：ISO/IEC 42001, NIST, EU AI Act対応観点と証跡",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-e-173",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-173/",
+      "legacy_url": "/ja/resources/pseo/e-173/"
+    },
+    {
+      "id": "e-174",
+      "title": "AIシステム監査・統制のためのCoverage Map: ISMS・証跡対応観点",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-e-174",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-174/",
+      "legacy_url": "/ja/resources/pseo/e-174/"
+    },
+    {
+      "id": "evidence-requirements-table",
+      "title": "AIシステム監査のための証拠要件・統制証跡一覧と最小基準表",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-controls",
+      "final_slug": "proof-assurance-boundary-ai-audit-controls-evidence-requirements-table",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-evidence-requirements-table/",
+      "legacy_url": "/ja/resources/pseo/evidence-requirements-table/"
+    },
+    {
+      "id": "e-172",
+      "title": "AIマネジメント監査・規制対応のための証跡整理観点",
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit",
+      "final_slug": "proof-assurance-boundary-ai-audit-e-172",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-e-172/",
+      "legacy_url": "/ja/resources/pseo/e-172/"
+    },
+    {
+      "id": "audit-questions-pack",
+      "title": "AI監査・統制の実務：質問、証跡、AIガバナンスのための証拠整備",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "evidence-readiness"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-evidence",
+      "final_slug": "proof-assurance-boundary-ai-audit-evidence-audit-questions-pack",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-audit-questions-pack/",
+      "legacy_url": "/ja/resources/pseo/audit-questions-pack/"
+    },
+    {
+      "id": "evidence-bundle-structure",
+      "title": "AI監査向け証跡バンドル構成ガイド：AIMO Standardベースの観点",
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit",
+      "final_slug": "proof-assurance-boundary-ai-audit-evidence-bundle-structure",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-bundle-structure/",
+      "legacy_url": "/ja/resources/pseo/evidence-bundle-structure/"
+    },
+    {
+      "id": "evidence-formats-standards",
+      "title": "AIMOaaS 証跡・Evidence Bundle の形式と監査提出基準の観点",
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit",
+      "final_slug": "proof-assurance-boundary-ai-audit-evidence-formats-standards",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-formats-standards/",
+      "legacy_url": "/ja/resources/pseo/evidence-formats-standards/"
+    },
+    {
+      "id": "audit-submission-checklist",
+      "title": "AIMO Standard準拠 監査・申請用Evidence Bundle構成と証跡チェックリスト",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "intake-review-approve"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-intake",
+      "final_slug": "proof-assurance-boundary-ai-audit-intake-audit-submission-checklist",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-intake-audit-submission-checklist/",
+      "legacy_url": "/ja/resources/pseo/audit-submission-checklist/"
+    },
+    {
+      "id": "c-137",
+      "title": "AI利用の運用フロー、ポリシー更新、監査、証跡管理の実践的ガイド",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "policy-training-attestation"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-policy",
+      "final_slug": "proof-assurance-boundary-ai-audit-policy-c-137",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-policy-c-137/",
+      "legacy_url": "/ja/resources/pseo/c-137/"
+    },
+    {
+      "id": "c-145",
+      "title": "AI運用フロー：ポリシー更新、監査、証跡管理の実務",
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "policy-training-attestation"
+      ],
+      "slug_base": "proof-assurance-boundary-ai-audit-policy",
+      "final_slug": "proof-assurance-boundary-ai-audit-policy-c-145",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-ai-audit-policy-c-145/",
+      "legacy_url": "/ja/resources/pseo/c-145/"
+    },
+    {
+      "id": "internal-audit-evidence",
+      "title": "AIガバナンス監査のための証跡準備と内部統制の実務ガイド",
+      "topic": [
+        "proof-assurance",
+        "controls",
+        "evidence-readiness"
+      ],
+      "slug_base": "proof-assurance-boundary-controls-evidence-readiness",
+      "final_slug": "proof-assurance-boundary-controls-evidence-readiness-internal-audit-evidence",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-controls-evidence-readiness-internal-audit-evidence/",
+      "legacy_url": "/ja/resources/pseo/internal-audit-evidence/"
+    },
+    {
+      "id": "minimum-evidence-requirements",
+      "title": "AIMOaaSにおけるAI統制の最小証拠要件と必要証跡・頻度",
+      "topic": [
+        "proof-assurance",
+        "controls"
+      ],
+      "slug_base": "proof-assurance-boundary-controls",
+      "final_slug": "proof-assurance-boundary-controls-minimum-evidence-requirements",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-controls-minimum-evidence-requirements/",
+      "legacy_url": "/ja/resources/pseo/minimum-evidence-requirements/"
+    },
+    {
+      "id": "coverage-map-iso42001",
+      "title": "ISO/IEC 42001対応とAIマネジメント証跡の観点マップ",
+      "topic": [
+        "proof-assurance"
+      ],
+      "slug_base": "proof-assurance-boundary",
+      "final_slug": "proof-assurance-boundary-coverage-map-iso42001",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-coverage-map-iso42001/",
+      "legacy_url": "/ja/resources/pseo/coverage-map-iso42001/"
+    },
+    {
+      "id": "a-104",
+      "title": "AIMOaaS 監査提出物・証跡の形式とEvidence Bundle構造",
+      "topic": [
+        "proof-assurance",
+        "evidence-pack",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-evidence-pack-ai",
+      "final_slug": "proof-assurance-boundary-evidence-pack-ai-a-104",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-evidence-pack-ai-a-104/",
+      "legacy_url": "/ja/resources/pseo/a-104/"
+    },
+    {
+      "id": "a-106",
+      "title": "監査・統制のための証拠パックと証跡提出物：目次・形式・最小要件の観点",
+      "topic": [
+        "proof-assurance",
+        "evidence-pack",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-evidence-pack-ai",
+      "final_slug": "proof-assurance-boundary-evidence-pack-ai-a-106",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-evidence-pack-ai-a-106/",
+      "legacy_url": "/ja/resources/pseo/a-106/"
+    },
+    {
+      "id": "b-122",
+      "title": "シャドーAI対策と監査証跡：AIMOaaSでのログ・運用記録整備ガイド",
+      "topic": [
+        "proof-assurance",
+        "evidence-readiness",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-evidence-readiness-ai",
+      "final_slug": "proof-assurance-boundary-evidence-readiness-ai-b-122",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-ai-b-122/",
+      "legacy_url": "/ja/resources/pseo/b-122/"
+    },
+    {
+      "id": "d-147",
+      "title": "AIMOaaS 監査・統制実務：証憑・保証と証跡整備の観点",
+      "topic": [
+        "proof-assurance",
+        "evidence-readiness",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-evidence-readiness-ai",
+      "final_slug": "proof-assurance-boundary-evidence-readiness-ai-d-147",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-ai-d-147/",
+      "legacy_url": "/ja/resources/pseo/d-147/"
+    },
+    {
+      "id": "c-142",
+      "title": "AI運用におけるHuman-in-the-Loopと申請承認・監査証跡の整備",
+      "topic": [
+        "proof-assurance",
+        "evidence-readiness",
+        "intake-review-approve"
+      ],
+      "slug_base": "proof-assurance-boundary-evidence-readiness-intake",
+      "final_slug": "proof-assurance-boundary-evidence-readiness-intake-c-142",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-intake-c-142/",
+      "legacy_url": "/ja/resources/pseo/c-142/"
+    },
+    {
+      "id": "c-138",
+      "title": "AI利用の申請・承認と継続監査：Human-in-the-Loopによる証跡管理",
+      "topic": [
+        "proof-assurance",
+        "intake-review-approve",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-intake-review-approve",
+      "final_slug": "proof-assurance-boundary-intake-review-approve-c-138",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-intake-review-approve-c-138/",
+      "legacy_url": "/ja/resources/pseo/c-138/"
+    },
+    {
+      "id": "d-159",
+      "title": "AIMOaaS監査・統制実務：証憑、保証、役割、証跡整理の観点",
+      "topic": [
+        "proof-assurance",
+        "responsibility-boundary",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-responsibility-boundary-ai",
+      "final_slug": "proof-assurance-boundary-responsibility-boundary-ai-d-159",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-d-159/",
+      "legacy_url": "/ja/resources/pseo/d-159/"
+    },
+    {
+      "id": "proof-vs-assurance",
+      "title": "AIMOaaSにおける監査・統制：証憑（Proof）と保証（Assurance）の責任分界",
+      "topic": [
+        "proof-assurance",
+        "responsibility-boundary",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-responsibility-boundary-ai",
+      "final_slug": "proof-assurance-boundary-responsibility-boundary-ai-proof-vs-assurance",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-proof-vs-assurance/",
+      "legacy_url": "/ja/resources/pseo/proof-vs-assurance/"
+    },
+    {
+      "id": "responsibility-boundary",
+      "title": "AI監査の責任分界：Proof（証憑）とAssurance（保証結論）の役割",
+      "topic": [
+        "proof-assurance",
+        "responsibility-boundary",
+        "ai-audit"
+      ],
+      "slug_base": "proof-assurance-boundary-responsibility-boundary-ai",
+      "final_slug": "proof-assurance-boundary-responsibility-boundary-ai-responsibility-boundary",
+      "final_url": "/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-responsibility-boundary/",
+      "legacy_url": "/ja/resources/pseo/responsibility-boundary/"
+    },
+    {
+      "id": "c-132",
+      "title": "AI利用の継続監査と統制：RACI、棚卸、証跡整備の実務観点",
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "slug_base": "responsibility-boundary-evidence-readiness-proof-assurance",
+      "final_slug": "responsibility-boundary-evidence-readiness-proof-assurance-c-132",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-132/",
+      "legacy_url": "/ja/resources/pseo/c-132/"
+    },
+    {
+      "id": "c-136",
+      "title": "AI利用の監査・統制ワークフロー：RACI、継続監査、棚卸と証跡整備の観点",
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "slug_base": "responsibility-boundary-evidence-readiness-proof-assurance",
+      "final_slug": "responsibility-boundary-evidence-readiness-proof-assurance-c-136",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-136/",
+      "legacy_url": "/ja/resources/pseo/c-136/"
+    },
+    {
+      "id": "c-140",
+      "title": "AI利用の継続監査・棚卸・RACIと証跡整備の実践的観点",
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "slug_base": "responsibility-boundary-evidence-readiness-proof-assurance",
+      "final_slug": "responsibility-boundary-evidence-readiness-proof-assurance-c-140",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-140/",
+      "legacy_url": "/ja/resources/pseo/c-140/"
+    },
+    {
+      "id": "d-148",
+      "title": "AIMOaaS監査・統制の実務：SLA、責任マトリクス、証跡整備の観点",
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "slug_base": "responsibility-boundary-evidence-readiness-proof-assurance",
+      "final_slug": "responsibility-boundary-evidence-readiness-proof-assurance-d-148",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-148/",
+      "legacy_url": "/ja/resources/pseo/d-148/"
+    },
+    {
+      "id": "d-151",
+      "title": "AIMOaaS監査・統制実務：証跡整備、SLA、責任分界マトリクス観点",
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "slug_base": "responsibility-boundary-evidence-readiness-proof-assurance",
+      "final_slug": "responsibility-boundary-evidence-readiness-proof-assurance-d-151",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-151/",
+      "legacy_url": "/ja/resources/pseo/d-151/"
+    },
+    {
+      "id": "d-160",
+      "title": "AIMOaaS監査・統制の実務：SLA、責任マトリクス、証跡整備の観点",
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "slug_base": "responsibility-boundary-evidence-readiness-proof-assurance",
+      "final_slug": "responsibility-boundary-evidence-readiness-proof-assurance-d-160",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-160/",
+      "legacy_url": "/ja/resources/pseo/d-160/"
+    },
+    {
+      "id": "operating-workflow",
+      "title": "AI利用の運用フロー：申請・審査・例外・更新、棚卸、継続監査、RACIによるガバナンス実践",
+      "topic": [
+        "responsibility-boundary",
+        "intake-review-approve",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-intake-review-approve-ai",
+      "final_slug": "responsibility-boundary-intake-review-approve-ai-operating-workflow",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-operating-workflow/",
+      "legacy_url": "/ja/resources/pseo/operating-workflow/"
+    },
+    {
+      "id": "raci-governance",
+      "title": "AI利用のRACI責任分担と申請・承認フロー：監査・統制実務ガイド",
+      "topic": [
+        "responsibility-boundary",
+        "intake-review-approve",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-intake-review-approve-ai",
+      "final_slug": "responsibility-boundary-intake-review-approve-ai-raci-governance",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "legacy_url": "/ja/resources/pseo/raci-governance/"
+    },
+    {
+      "id": "c-144",
+      "title": "AI利用の棚卸と継続監査：RACIによる統制と証跡管理の実践",
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-proof-assurance-boundary-ai",
+      "final_slug": "responsibility-boundary-proof-assurance-boundary-ai-c-144",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-c-144/",
+      "legacy_url": "/ja/resources/pseo/c-144/"
+    },
+    {
+      "id": "d-146",
+      "title": "AIMOaaSにおける監査・統制の実務：責任分界、証跡と保証結論",
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-proof-assurance-boundary-ai",
+      "final_slug": "responsibility-boundary-proof-assurance-boundary-ai-d-146",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-146/",
+      "legacy_url": "/ja/resources/pseo/d-146/"
+    },
+    {
+      "id": "d-149",
+      "title": "AIMOaaS 監査・統制の実務: 責任分界と証跡・保証の整理",
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-proof-assurance-boundary-ai",
+      "final_slug": "responsibility-boundary-proof-assurance-boundary-ai-d-149",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-149/",
+      "legacy_url": "/ja/resources/pseo/d-149/"
+    },
+    {
+      "id": "d-152",
+      "title": "AIMOaaS 監査・統制実務：責任分界、証跡と保証の観点整理",
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-proof-assurance-boundary-ai",
+      "final_slug": "responsibility-boundary-proof-assurance-boundary-ai-d-152",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-152/",
+      "legacy_url": "/ja/resources/pseo/d-152/"
+    },
+    {
+      "id": "d-154",
+      "title": "AIMOaaS監査・統制の実務: SLA, 責任マトリクス, 証跡の観点",
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-proof-assurance-boundary-ai",
+      "final_slug": "responsibility-boundary-proof-assurance-boundary-ai-d-154",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-154/",
+      "legacy_url": "/ja/resources/pseo/d-154/"
+    },
+    {
+      "id": "d-155",
+      "title": "AIMOaaS監査・統制の実務：責任分界と証跡・保証の観点整理",
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-proof-assurance-boundary-ai",
+      "final_slug": "responsibility-boundary-proof-assurance-boundary-ai-d-155",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-155/",
+      "legacy_url": "/ja/resources/pseo/d-155/"
+    },
+    {
+      "id": "d-156",
+      "title": "AIMOaaS監査・統制実務：証憑と保証、責任分界の整理",
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-proof-assurance-boundary-ai",
+      "final_slug": "responsibility-boundary-proof-assurance-boundary-ai-d-156",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-156/",
+      "legacy_url": "/ja/resources/pseo/d-156/"
+    },
+    {
+      "id": "d-157",
+      "title": "AIMOaaS監査・統制実務：SLA、責任マトリクス、証跡の観点整理",
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-proof-assurance-boundary-ai",
+      "final_slug": "responsibility-boundary-proof-assurance-boundary-ai-d-157",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-157/",
+      "legacy_url": "/ja/resources/pseo/d-157/"
+    },
+    {
+      "id": "d-158",
+      "title": "AIMOaaS監査・統制の実務：責任分界と証跡・保証結論の観点",
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-proof-assurance-boundary-ai",
+      "final_slug": "responsibility-boundary-proof-assurance-boundary-ai-d-158",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-158/",
+      "legacy_url": "/ja/resources/pseo/d-158/"
+    },
+    {
+      "id": "sla-responsibility-matrix",
+      "title": "AIMOaaS 監査・統制：SLA・責任マトリクス・保証範囲を整理する観点",
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "slug_base": "responsibility-boundary-proof-assurance-boundary-ai",
+      "final_slug": "responsibility-boundary-proof-assurance-boundary-ai-sla-responsibility-matrix",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-sla-responsibility-matrix/",
+      "legacy_url": "/ja/resources/pseo/sla-responsibility-matrix/"
+    },
+    {
+      "id": "d-150",
+      "title": "AIMOaaSにおけるAI監査の証憑と保証：役割分界と証跡整備の観点",
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "evidence-readiness"
+      ],
+      "slug_base": "responsibility-boundary-proof-assurance-boundary-evidence",
+      "final_slug": "responsibility-boundary-proof-assurance-boundary-evidence-d-150",
+      "final_url": "/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-evidence-d-150/",
+      "legacy_url": "/ja/resources/pseo/d-150/"
+    }
+  ]
+}

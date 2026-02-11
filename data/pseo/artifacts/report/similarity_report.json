@@ -1,0 +1,1808 @@
+{
+  "generated_at": "2026-02-11T01:51:43.686Z",
+  "by_page": {
+    "evidence-pack": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-formats",
+      "content_max": 0.35871634484634213,
+      "content_with": "a-110"
+    },
+    "evidence-pack-formats": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack",
+      "content_max": 0.3473879607531159,
+      "content_with": "a-108"
+    },
+    "evidence-pack-index": {
+      "raw_max": 1,
+      "raw_with": "evidence-gaps-remediation",
+      "content_max": 0.3386034255599473,
+      "content_with": "a-105"
+    },
+    "evidence-pack-minimum": {
+      "raw_max": 1,
+      "raw_with": "evidence-formats-standards",
+      "content_max": 0.3863095238095238,
+      "content_with": "a-102"
+    },
+    "evidence-bundle-structure": {
+      "raw_max": 1,
+      "raw_with": "audit-submission-checklist",
+      "content_max": 0.37834691501746215,
+      "content_with": "a-107"
+    },
+    "audit-submission-checklist": {
+      "raw_max": 1,
+      "raw_with": "evidence-bundle-structure",
+      "content_max": 0.3486805165637282,
+      "content_with": "a-107"
+    },
+    "evidence-gaps-remediation": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-index",
+      "content_max": 0.3353159851301115,
+      "content_with": "a-113"
+    },
+    "evidence-formats-standards": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-minimum",
+      "content_max": 0.39976380277531737,
+      "content_with": "a-103"
+    },
+    "minimum-evidence-requirements": {
+      "raw_max": 1,
+      "raw_with": "minimum-evidence-shadow-ai",
+      "content_max": 0.37079345476999076,
+      "content_with": "b-119"
+    },
+    "minimum-evidence-shadow-ai": {
+      "raw_max": 1,
+      "raw_with": "minimum-evidence-requirements",
+      "content_max": 0.3419556566230813,
+      "content_with": "control-evidence-frequency"
+    },
+    "audit-questions-pack": {
+      "raw_max": 1,
+      "raw_with": "minimum-evidence-requirements",
+      "content_max": 0.36245857185899366,
+      "content_with": "b-119"
+    },
+    "control-evidence-frequency": {
+      "raw_max": 1,
+      "raw_with": "minimum-evidence-requirements",
+      "content_max": 0.37323279924599434,
+      "content_with": "b-124"
+    },
+    "evidence-requirements-table": {
+      "raw_max": 1,
+      "raw_with": "internal-audit-evidence",
+      "content_max": 0.3287747697460229,
+      "content_with": "b-129"
+    },
+    "internal-audit-evidence": {
+      "raw_max": 1,
+      "raw_with": "evidence-requirements-table",
+      "content_max": 0.3458286358511838,
+      "content_with": "b-129"
+    },
+    "operating-workflow": {
+      "raw_max": 1,
+      "raw_with": "continuous-audit-workflow",
+      "content_max": 0.31948120698782423,
+      "content_with": "c-134"
+    },
+    "operating-workflow-renewal": {
+      "raw_max": 1,
+      "raw_with": "request-review-exception",
+      "content_max": 0.32647226986849626,
+      "content_with": "request-review-exception"
+    },
+    "request-review-exception": {
+      "raw_max": 1,
+      "raw_with": "operating-workflow-renewal",
+      "content_max": 0.32647226986849626,
+      "content_with": "operating-workflow-renewal"
+    },
+    "raci-governance": {
+      "raw_max": 1,
+      "raw_with": "inventory-review-cycle",
+      "content_max": 0.33428327158734683,
+      "content_with": "c-137"
+    },
+    "inventory-review-cycle": {
+      "raw_max": 1,
+      "raw_with": "raci-governance",
+      "content_max": 0.35242548217416714,
+      "content_with": "c-137"
+    },
+    "continuous-audit-workflow": {
+      "raw_max": 1,
+      "raw_with": "operating-workflow",
+      "content_max": 0.33493227990970653,
+      "content_with": "c-138"
+    },
+    "responsibility-boundary": {
+      "raw_max": 1,
+      "raw_with": "sla-responsibility-matrix",
+      "content_max": 0.35456699131350355,
+      "content_with": "d-160"
+    },
+    "proof-vs-assurance": {
+      "raw_max": 1,
+      "raw_with": "d-146",
+      "content_max": 0.38240318906605925,
+      "content_with": "d-146"
+    },
+    "sla-responsibility-matrix": {
+      "raw_max": 1,
+      "raw_with": "responsibility-boundary",
+      "content_max": 0.3755681818181818,
+      "content_with": "d-154"
+    },
+    "coverage-map": {
+      "raw_max": 0.7454994705259442,
+      "raw_with": "coverage-map-iso42001",
+      "content_max": 0.23129251700680273,
+      "content_with": "e-171"
+    },
+    "coverage-map-iso42001": {
+      "raw_max": 1,
+      "raw_with": "e-161",
+      "content_max": 0.3247365501941209,
+      "content_with": "e-163"
+    },
+    "a-101": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack",
+      "content_max": 0.3376,
+      "content_with": "a-110"
+    },
+    "a-102": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-minimum",
+      "content_max": 0.3863095238095238,
+      "content_with": "evidence-pack-minimum"
+    },
+    "a-103": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-minimum",
+      "content_max": 0.39976380277531737,
+      "content_with": "evidence-formats-standards"
+    },
+    "a-104": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-minimum",
+      "content_max": 0.3618119266055046,
+      "content_with": "evidence-pack-minimum"
+    },
+    "a-105": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-index",
+      "content_max": 0.3386034255599473,
+      "content_with": "evidence-pack-index"
+    },
+    "a-106": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-minimum",
+      "content_max": 0.36321014892443465,
+      "content_with": "evidence-formats-standards"
+    },
+    "a-107": {
+      "raw_max": 1,
+      "raw_with": "evidence-bundle-structure",
+      "content_max": 0.37834691501746215,
+      "content_with": "evidence-bundle-structure"
+    },
+    "a-108": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack",
+      "content_max": 0.3742084052964882,
+      "content_with": "a-114"
+    },
+    "a-109": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-index",
+      "content_max": 0.3358208955223881,
+      "content_with": "evidence-pack-index"
+    },
+    "a-110": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack",
+      "content_max": 0.3705761918689675,
+      "content_with": "a-114"
+    },
+    "a-111": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-minimum",
+      "content_max": 0.3430200977729495,
+      "content_with": "a-102"
+    },
+    "a-112": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-index",
+      "content_max": 0.3274446379696442,
+      "content_with": "a-105"
+    },
+    "a-113": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-index",
+      "content_max": 0.3353159851301115,
+      "content_with": "evidence-gaps-remediation"
+    },
+    "a-114": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack",
+      "content_max": 0.3742084052964882,
+      "content_with": "a-108"
+    },
+    "a-115": {
+      "raw_max": 1,
+      "raw_with": "evidence-pack-minimum",
+      "content_max": 0.34169934640522875,
+      "content_with": "a-103"
+    },
+    "b-116": {
+      "raw_max": 1,
+      "raw_with": "evidence-requirements-table",
+      "content_max": 0.3333333333333333,
+      "content_with": "b-129"
+    },
+    "b-117": {
+      "raw_max": 1,
+      "raw_with": "minimum-evidence-requirements",
+      "content_max": 0.361810551558753,
+      "content_with": "control-evidence-frequency"
+    },
+    "b-118": {
+      "raw_max": 1,
+      "raw_with": "evidence-requirements-table",
+      "content_max": 0.36040914560770154,
+      "content_with": "b-129"
+    },
+    "b-119": {
+      "raw_max": 1,
+      "raw_with": "minimum-evidence-requirements",
+      "content_max": 0.37079345476999076,
+      "content_with": "minimum-evidence-requirements"
+    },
+    "b-120": {
+      "raw_max": 1,
+      "raw_with": "minimum-evidence-requirements",
+      "content_max": 0.3513986013986014,
+      "content_with": "b-117"
+    },
+    "b-121": {
+      "raw_max": 1,
+      "raw_with": "evidence-requirements-table",
+      "content_max": 0.35178316690442224,
+      "content_with": "b-118"
+    },
+    "b-122": {
+      "raw_max": 1,
+      "raw_with": "minimum-evidence-requirements",
+      "content_max": 0.3654485049833887,
+      "content_with": "b-119"
+    },
+    "b-123": {
+      "raw_max": 1,
+      "raw_with": "evidence-requirements-table",
+      "content_max": 0.3637447823494335,
+      "content_with": "b-129"
+    },
+    "b-124": {
+      "raw_max": 1,
+      "raw_with": "minimum-evidence-requirements",
+      "content_max": 0.37323279924599434,
+      "content_with": "control-evidence-frequency"
+    },
+    "b-125": {
+      "raw_max": 1,
+      "raw_with": "evidence-requirements-table",
+      "content_max": 0.3191603875134553,
+      "content_with": "b-129"
+    },
+    "b-126": {
+      "raw_max": 1,
+      "raw_with": "minimum-evidence-requirements",
+      "content_max": 0.35550996483001174,
+      "content_with": "b-119"
+    },
+    "b-127": {
+      "raw_max": 1,
+      "raw_with": "evidence-requirements-table",
+      "content_max": 0.3331452750352609,
+      "content_with": "b-129"
+    },
+    "b-128": {
+      "raw_max": 1,
+      "raw_with": "minimum-evidence-requirements",
+      "content_max": 0.3601543942992874,
+      "content_with": "b-119"
+    },
+    "b-129": {
+      "raw_max": 1,
+      "raw_with": "evidence-requirements-table",
+      "content_max": 0.3637447823494335,
+      "content_with": "b-123"
+    },
+    "b-130": {
+      "raw_max": 1,
+      "raw_with": "evidence-requirements-table",
+      "content_max": 0.3562980484920166,
+      "content_with": "b-129"
+    },
+    "c-131": {
+      "raw_max": 1,
+      "raw_with": "c-135",
+      "content_max": 0.30051150895140666,
+      "content_with": "c-135"
+    },
+    "c-132": {
+      "raw_max": 1,
+      "raw_with": "operating-workflow",
+      "content_max": 0.34762321376494604,
+      "content_with": "c-138"
+    },
+    "c-133": {
+      "raw_max": 1,
+      "raw_with": "raci-governance",
+      "content_max": 0.33730373578776396,
+      "content_with": "c-142"
+    },
+    "c-134": {
+      "raw_max": 1,
+      "raw_with": "operating-workflow",
+      "content_max": 0.32736063708759955,
+      "content_with": "c-138"
+    },
+    "c-135": {
+      "raw_max": 1,
+      "raw_with": "c-131",
+      "content_max": 0.3242499311863474,
+      "content_with": "c-139"
+    },
+    "c-136": {
+      "raw_max": 1,
+      "raw_with": "operating-workflow",
+      "content_max": 0.34577189286789045,
+      "content_with": "c-141"
+    },
+    "c-137": {
+      "raw_max": 1,
+      "raw_with": "raci-governance",
+      "content_max": 0.3572062740455756,
+      "content_with": "c-140"
+    },
+    "c-138": {
+      "raw_max": 1,
+      "raw_with": "operating-workflow",
+      "content_max": 0.359417652411283,
+      "content_with": "c-141"
+    },
+    "c-139": {
+      "raw_max": 1,
+      "raw_with": "c-131",
+      "content_max": 0.3242499311863474,
+      "content_with": "c-135"
+    },
+    "c-140": {
+      "raw_max": 1,
+      "raw_with": "raci-governance",
+      "content_max": 0.3572062740455756,
+      "content_with": "c-137"
+    },
+    "c-141": {
+      "raw_max": 1,
+      "raw_with": "operating-workflow",
+      "content_max": 0.359417652411283,
+      "content_with": "c-138"
+    },
+    "c-142": {
+      "raw_max": 1,
+      "raw_with": "raci-governance",
+      "content_max": 0.3401972157772622,
+      "content_with": "c-137"
+    },
+    "c-143": {
+      "raw_max": 1,
+      "raw_with": "operating-workflow-renewal",
+      "content_max": 0.2974025974025974,
+      "content_with": "operating-workflow-renewal"
+    },
+    "c-144": {
+      "raw_max": 1,
+      "raw_with": "operating-workflow",
+      "content_max": 0.33286516853932585,
+      "content_with": "c-138"
+    },
+    "c-145": {
+      "raw_max": 1,
+      "raw_with": "operating-workflow",
+      "content_max": 0.321996708721887,
+      "content_with": "c-136"
+    },
+    "d-146": {
+      "raw_max": 1,
+      "raw_with": "proof-vs-assurance",
+      "content_max": 0.38724773325533784,
+      "content_with": "d-159"
+    },
+    "d-147": {
+      "raw_max": 1,
+      "raw_with": "proof-vs-assurance",
+      "content_max": 0.39293785310734464,
+      "content_with": "d-159"
+    },
+    "d-148": {
+      "raw_max": 1,
+      "raw_with": "responsibility-boundary",
+      "content_max": 0.39959016393442626,
+      "content_with": "d-160"
+    },
+    "d-149": {
+      "raw_max": 1,
+      "raw_with": "responsibility-boundary",
+      "content_max": 0.3775422515038671,
+      "content_with": "d-152"
+    },
+    "d-150": {
+      "raw_max": 1,
+      "raw_with": "proof-vs-assurance",
+      "content_max": 0.3738342659205969,
+      "content_with": "d-159"
+    },
+    "d-151": {
+      "raw_max": 1,
+      "raw_with": "responsibility-boundary",
+      "content_max": 0.3699664429530201,
+      "content_with": "d-154"
+    },
+    "d-152": {
+      "raw_max": 1,
+      "raw_with": "responsibility-boundary",
+      "content_max": 0.41846446700507617,
+      "content_with": "d-154"
+    },
+    "d-153": {
+      "raw_max": 1,
+      "raw_with": "responsibility-boundary",
+      "content_max": 0.3863969510407505,
+      "content_with": "d-156"
+    },
+    "d-154": {
+      "raw_max": 1,
+      "raw_with": "responsibility-boundary",
+      "content_max": 0.41846446700507617,
+      "content_with": "d-152"
+    },
+    "d-155": {
+      "raw_max": 1,
+      "raw_with": "proof-vs-assurance",
+      "content_max": 0.35568360398114196,
+      "content_with": "d-146"
+    },
+    "d-156": {
+      "raw_max": 1,
+      "raw_with": "responsibility-boundary",
+      "content_max": 0.39677222898903775,
+      "content_with": "d-152"
+    },
+    "d-157": {
+      "raw_max": 1,
+      "raw_with": "proof-vs-assurance",
+      "content_max": 0.3489217978695765,
+      "content_with": "d-146"
+    },
+    "d-158": {
+      "raw_max": 1,
+      "raw_with": "responsibility-boundary",
+      "content_max": 0.3658129175946548,
+      "content_with": "d-152"
+    },
+    "d-159": {
+      "raw_max": 1,
+      "raw_with": "proof-vs-assurance",
+      "content_max": 0.39293785310734464,
+      "content_with": "d-147"
+    },
+    "d-160": {
+      "raw_max": 1,
+      "raw_with": "responsibility-boundary",
+      "content_max": 0.4165625,
+      "content_with": "d-154"
+    },
+    "e-161": {
+      "raw_max": 1,
+      "raw_with": "coverage-map-iso42001",
+      "content_max": 0.31639475795667293,
+      "content_with": "e-170"
+    },
+    "e-162": {
+      "raw_max": 1,
+      "raw_with": "e-164",
+      "content_max": 0.33164983164983164,
+      "content_with": "e-166"
+    },
+    "e-163": {
+      "raw_max": 1,
+      "raw_with": "coverage-map-iso42001",
+      "content_max": 0.3247365501941209,
+      "content_with": "coverage-map-iso42001"
+    },
+    "e-164": {
+      "raw_max": 1,
+      "raw_with": "e-162",
+      "content_max": 0.3050847457627119,
+      "content_with": "e-173"
+    },
+    "e-165": {
+      "raw_max": 1,
+      "raw_with": "coverage-map-iso42001",
+      "content_max": 0.2860727728983689,
+      "content_with": "e-163"
+    },
+    "e-166": {
+      "raw_max": 1,
+      "raw_with": "e-162",
+      "content_max": 0.33164983164983164,
+      "content_with": "e-162"
+    },
+    "e-167": {
+      "raw_max": 1,
+      "raw_with": "coverage-map-iso42001",
+      "content_max": 0.3170926517571885,
+      "content_with": "e-170"
+    },
+    "e-168": {
+      "raw_max": 1,
+      "raw_with": "e-162",
+      "content_max": 0.3274885352036687,
+      "content_with": "e-162"
+    },
+    "e-169": {
+      "raw_max": 1,
+      "raw_with": "coverage-map-iso42001",
+      "content_max": 0.2912210892812733,
+      "content_with": "coverage-map-iso42001"
+    },
+    "e-170": {
+      "raw_max": 1,
+      "raw_with": "coverage-map-iso42001",
+      "content_max": 0.317663421418637,
+      "content_with": "e-163"
+    },
+    "e-171": {
+      "raw_max": 1,
+      "raw_with": "e-162",
+      "content_max": 0.32161073825503356,
+      "content_with": "e-173"
+    },
+    "e-172": {
+      "raw_max": 1,
+      "raw_with": "e-162",
+      "content_max": 0.32622368061252394,
+      "content_with": "e-166"
+    },
+    "e-173": {
+      "raw_max": 1,
+      "raw_with": "e-162",
+      "content_max": 0.32436928195176046,
+      "content_with": "e-166"
+    },
+    "e-174": {
+      "raw_max": 1,
+      "raw_with": "coverage-map-iso42001",
+      "content_max": 0.2748447204968944,
+      "content_with": "e-165"
+    },
+    "e-175": {
+      "raw_max": 1,
+      "raw_with": "e-162",
+      "content_max": 0.3176440329218107,
+      "content_with": "e-172"
+    }
+  },
+  "pairs_over_threshold": [
+    {
+      "id_a": "evidence-pack",
+      "id_b": "evidence-pack-formats",
+      "raw_similarity": 1,
+      "content_similarity": 0.32492997198879553
+    },
+    {
+      "id_a": "evidence-pack",
+      "id_b": "a-101",
+      "raw_similarity": 1,
+      "content_similarity": 0.32103134479271994
+    },
+    {
+      "id_a": "evidence-pack",
+      "id_b": "a-108",
+      "raw_similarity": 1,
+      "content_similarity": 0.3260302556077204
+    },
+    {
+      "id_a": "evidence-pack",
+      "id_b": "a-110",
+      "raw_similarity": 1,
+      "content_similarity": 0.35871634484634213
+    },
+    {
+      "id_a": "evidence-pack",
+      "id_b": "a-114",
+      "raw_similarity": 1,
+      "content_similarity": 0.3443163097199341
+    },
+    {
+      "id_a": "evidence-pack-formats",
+      "id_b": "evidence-pack",
+      "raw_similarity": 1,
+      "content_similarity": 0.32492997198879553
+    },
+    {
+      "id_a": "evidence-pack-formats",
+      "id_b": "a-101",
+      "raw_similarity": 1,
+      "content_similarity": 0.31330148353029924
+    },
+    {
+      "id_a": "evidence-pack-formats",
+      "id_b": "a-108",
+      "raw_similarity": 1,
+      "content_similarity": 0.3473879607531159
+    },
+    {
+      "id_a": "evidence-pack-formats",
+      "id_b": "a-110",
+      "raw_similarity": 1,
+      "content_similarity": 0.3279255319148936
+    },
+    {
+      "id_a": "evidence-pack-formats",
+      "id_b": "a-114",
+      "raw_similarity": 1,
+      "content_similarity": 0.34719162995594716
+    },
+    {
+      "id_a": "evidence-pack-index",
+      "id_b": "evidence-gaps-remediation",
+      "raw_similarity": 1,
+      "content_similarity": 0.3327263267429761
+    },
+    {
+      "id_a": "evidence-pack-index",
+      "id_b": "a-105",
+      "raw_similarity": 1,
+      "content_similarity": 0.3386034255599473
+    },
+    {
+      "id_a": "evidence-pack-index",
+      "id_b": "a-109",
+      "raw_similarity": 1,
+      "content_similarity": 0.3358208955223881
+    },
+    {
+      "id_a": "evidence-pack-index",
+      "id_b": "a-112",
+      "raw_similarity": 1,
+      "content_similarity": 0.3193782902983204
+    },
+    {
+      "id_a": "evidence-pack-index",
+      "id_b": "a-113",
+      "raw_similarity": 1,
+      "content_similarity": 0.3232120451693852
+    },
+    {
+      "id_a": "evidence-pack-minimum",
+      "id_b": "evidence-formats-standards",
+      "raw_similarity": 1,
+      "content_similarity": 0.34452595936794583
+    },
+    {
+      "id_a": "evidence-pack-minimum",
+      "id_b": "a-102",
+      "raw_similarity": 1,
+      "content_similarity": 0.3863095238095238
+    },
+    {
+      "id_a": "evidence-pack-minimum",
+      "id_b": "a-103",
+      "raw_similarity": 1,
+      "content_similarity": 0.3511667615253273
+    },
+    {
+      "id_a": "evidence-pack-minimum",
+      "id_b": "a-104",
+      "raw_similarity": 1,
+      "content_similarity": 0.3618119266055046
+    },
+    {
+      "id_a": "evidence-pack-minimum",
+      "id_b": "a-106",
+      "raw_similarity": 1,
+      "content_similarity": 0.3353115727002967
+    },
+    {
+      "id_a": "evidence-pack-minimum",
+      "id_b": "a-111",
+      "raw_similarity": 1,
+      "content_similarity": 0.3344763914534424
+    },
+    {
+      "id_a": "evidence-pack-minimum",
+      "id_b": "a-115",
+      "raw_similarity": 1,
+      "content_similarity": 0.3217123814406562
+    },
+    {
+      "id_a": "evidence-bundle-structure",
+      "id_b": "audit-submission-checklist",
+      "raw_similarity": 1,
+      "content_similarity": 0.3322717622080679
+    },
+    {
+      "id_a": "evidence-bundle-structure",
+      "id_b": "a-107",
+      "raw_similarity": 1,
+      "content_similarity": 0.37834691501746215
+    },
+    {
+      "id_a": "audit-submission-checklist",
+      "id_b": "evidence-bundle-structure",
+      "raw_similarity": 1,
+      "content_similarity": 0.3322717622080679
+    },
+    {
+      "id_a": "audit-submission-checklist",
+      "id_b": "a-107",
+      "raw_similarity": 1,
+      "content_similarity": 0.3486805165637282
+    },
+    {
+      "id_a": "evidence-gaps-remediation",
+      "id_b": "evidence-pack-index",
+      "raw_similarity": 1,
+      "content_similarity": 0.3327263267429761
+    },
+    {
+      "id_a": "evidence-gaps-remediation",
+      "id_b": "a-105",
+      "raw_similarity": 1,
+      "content_similarity": 0.3195326390652781
+    },
+    {
+      "id_a": "evidence-gaps-remediation",
+      "id_b": "a-109",
+      "raw_similarity": 1,
+      "content_similarity": 0.326176927056389
+    },
+    {
+      "id_a": "evidence-gaps-remediation",
+      "id_b": "a-112",
+      "raw_similarity": 1,
+      "content_similarity": 0.3220255653883973
+    },
+    {
+      "id_a": "evidence-gaps-remediation",
+      "id_b": "a-113",
+      "raw_similarity": 1,
+      "content_similarity": 0.3353159851301115
+    },
+    {
+      "id_a": "evidence-formats-standards",
+      "id_b": "evidence-pack-minimum",
+      "raw_similarity": 1,
+      "content_similarity": 0.34452595936794583
+    },
+    {
+      "id_a": "evidence-formats-standards",
+      "id_b": "a-102",
+      "raw_similarity": 1,
+      "content_similarity": 0.354397204426325
+    },
+    {
+      "id_a": "evidence-formats-standards",
+      "id_b": "a-103",
+      "raw_similarity": 1,
+      "content_similarity": 0.39976380277531737
+    },
+    {
+      "id_a": "evidence-formats-standards",
+      "id_b": "a-104",
+      "raw_similarity": 1,
+      "content_similarity": 0.35436893203883496
+    },
+    {
+      "id_a": "evidence-formats-standards",
+      "id_b": "a-106",
+      "raw_similarity": 1,
+      "content_similarity": 0.36321014892443465
+    },
+    {
+      "id_a": "evidence-formats-standards",
+      "id_b": "a-111",
+      "raw_similarity": 1,
+      "content_similarity": 0.3252885624344176
+    },
+    {
+      "id_a": "evidence-formats-standards",
+      "id_b": "a-115",
+      "raw_similarity": 1,
+      "content_similarity": 0.3335923335923336
+    },
+    {
+      "id_a": "minimum-evidence-requirements",
+      "id_b": "minimum-evidence-shadow-ai",
+      "raw_similarity": 1,
+      "content_similarity": 0.3245515695067265
+    },
+    {
+      "id_a": "minimum-evidence-requirements",
+      "id_b": "audit-questions-pack",
+      "raw_similarity": 1,
+      "content_similarity": 0.35771158950162196
+    },
+    {
+      "id_a": "minimum-evidence-requirements",
+      "id_b": "control-evidence-frequency",
+      "raw_similarity": 1,
+      "content_similarity": 0.3495667762175082
+    },
+    {
+      "id_a": "minimum-evidence-requirements",
+      "id_b": "b-117",
+      "raw_similarity": 1,
+      "content_similarity": 0.3455621301775148
+    },
+    {
+      "id_a": "minimum-evidence-requirements",
+      "id_b": "b-119",
+      "raw_similarity": 1,
+      "content_similarity": 0.37079345476999076
+    },
+    {
+      "id_a": "minimum-evidence-requirements",
+      "id_b": "b-120",
+      "raw_similarity": 1,
+      "content_similarity": 0.33140877598152424
+    },
+    {
+      "id_a": "minimum-evidence-requirements",
+      "id_b": "b-122",
+      "raw_similarity": 1,
+      "content_similarity": 0.3474824355971897
+    },
+    {
+      "id_a": "minimum-evidence-requirements",
+      "id_b": "b-124",
+      "raw_similarity": 1,
+      "content_similarity": 0.35942839391115255
+    },
+    {
+      "id_a": "minimum-evidence-requirements",
+      "id_b": "b-126",
+      "raw_similarity": 1,
+      "content_similarity": 0.3218197135636057
+    },
+    {
+      "id_a": "minimum-evidence-requirements",
+      "id_b": "b-128",
+      "raw_similarity": 1,
+      "content_similarity": 0.35002895193977995
+    },
+    {
+      "id_a": "minimum-evidence-shadow-ai",
+      "id_b": "minimum-evidence-requirements",
+      "raw_similarity": 1,
+      "content_similarity": 0.3245515695067265
+    },
+    {
+      "id_a": "minimum-evidence-shadow-ai",
+      "id_b": "audit-questions-pack",
+      "raw_similarity": 1,
+      "content_similarity": 0.31798245614035087
+    },
+    {
+      "id_a": "minimum-evidence-shadow-ai",
+      "id_b": "control-evidence-frequency",
+      "raw_similarity": 1,
+      "content_similarity": 0.3419556566230813
+    },
+    {
+      "id_a": "minimum-evidence-shadow-ai",
+      "id_b": "b-117",
+      "raw_similarity": 1,
+      "content_similarity": 0.34123624047417445
+    },
+    {
+      "id_a": "minimum-evidence-shadow-ai",
+      "id_b": "b-119",
+      "raw_similarity": 1,
+      "content_similarity": 0.32685714285714285
+    },
+    {
+      "id_a": "minimum-evidence-shadow-ai",
+      "id_b": "b-120",
+      "raw_similarity": 1,
+      "content_similarity": 0.33149018523638374
+    },
+    {
+      "id_a": "minimum-evidence-shadow-ai",
+      "id_b": "b-122",
+      "raw_similarity": 1,
+      "content_similarity": 0.32133040131940627
+    },
+    {
+      "id_a": "minimum-evidence-shadow-ai",
+      "id_b": "b-124",
+      "raw_similarity": 1,
+      "content_similarity": 0.3387898275358082
+    },
+    {
+      "id_a": "minimum-evidence-shadow-ai",
+      "id_b": "b-126",
+      "raw_similarity": 1,
+      "content_similarity": 0.32407657050417904
+    },
+    {
+      "id_a": "minimum-evidence-shadow-ai",
+      "id_b": "b-128",
+      "raw_similarity": 1,
+      "content_similarity": 0.30833333333333335
+    },
+    {
+      "id_a": "audit-questions-pack",
+      "id_b": "minimum-evidence-requirements",
+      "raw_similarity": 1,
+      "content_similarity": 0.35771158950162196
+    },
+    {
+      "id_a": "audit-questions-pack",
+      "id_b": "minimum-evidence-shadow-ai",
+      "raw_similarity": 1,
+      "content_similarity": 0.31798245614035087
+    },
+    {
+      "id_a": "audit-questions-pack",
+      "id_b": "control-evidence-frequency",
+      "raw_similarity": 1,
+      "content_similarity": 0.3471001757469244
+    },
+    {
+      "id_a": "audit-questions-pack",
+      "id_b": "b-117",
+      "raw_similarity": 1,
+      "content_similarity": 0.3285509325681492
+    },
+    {
+      "id_a": "audit-questions-pack",
+      "id_b": "b-119",
+      "raw_similarity": 1,
+      "content_similarity": 0.36245857185899366
+    },
+    {
+      "id_a": "audit-questions-pack",
+      "id_b": "b-120",
+      "raw_similarity": 1,
+      "content_similarity": 0.32337186354665914
+    },
+    {
+      "id_a": "audit-questions-pack",
+      "id_b": "b-122",
+      "raw_similarity": 1,
+      "content_similarity": 0.34279163083978215
+    },
+    {
+      "id_a": "audit-questions-pack",
+      "id_b": "b-124",
+      "raw_similarity": 1,
+      "content_similarity": 0.3574908647990256
+    },
+    {
+      "id_a": "audit-questions-pack",
+      "id_b": "b-126",
+      "raw_similarity": 1,
+      "content_similarity": 0.3251245157719978
+    },
+    {
+      "id_a": "audit-questions-pack",
+      "id_b": "b-128",
+      "raw_similarity": 1,
+      "content_similarity": 0.33624331174317096
+    },
+    {
+      "id_a": "control-evidence-frequency",
+      "id_b": "minimum-evidence-requirements",
+      "raw_similarity": 1,
+      "content_similarity": 0.3495667762175082
+    },
+    {
+      "id_a": "control-evidence-frequency",
+      "id_b": "minimum-evidence-shadow-ai",
+      "raw_similarity": 1,
+      "content_similarity": 0.3419556566230813
+    },
+    {
+      "id_a": "control-evidence-frequency",
+      "id_b": "audit-questions-pack",
+      "raw_similarity": 1,
+      "content_similarity": 0.3471001757469244
+    },
+    {
+      "id_a": "control-evidence-frequency",
+      "id_b": "b-117",
+      "raw_similarity": 1,
+      "content_similarity": 0.361810551558753
+    },
+    {
+      "id_a": "control-evidence-frequency",
+      "id_b": "b-119",
+      "raw_similarity": 1,
+      "content_similarity": 0.36084688554771405
+    },
+    {
+      "id_a": "control-evidence-frequency",
+      "id_b": "b-120",
+      "raw_similarity": 1,
+      "content_similarity": 0.3482587064676617
+    },
+    {
+      "id_a": "control-evidence-frequency",
+      "id_b": "b-122",
+      "raw_similarity": 1,
+      "content_similarity": 0.33896330809551545
+    },
+    {
+      "id_a": "control-evidence-frequency",
+      "id_b": "b-124",
+      "raw_similarity": 1,
+      "content_similarity": 0.37323279924599434
+    },
+    {
+      "id_a": "control-evidence-frequency",
+      "id_b": "b-126",
+      "raw_similarity": 1,
+      "content_similarity": 0.3492109038737446
+    },
+    {
+      "id_a": "control-evidence-frequency",
+      "id_b": "b-128",
+      "raw_similarity": 1,
+      "content_similarity": 0.33237986270022885
+    },
+    {
+      "id_a": "evidence-requirements-table",
+      "id_b": "internal-audit-evidence",
+      "raw_similarity": 1,
+      "content_similarity": 0.296398891966759
+    },
+    {
+      "id_a": "evidence-requirements-table",
+      "id_b": "b-116",
+      "raw_similarity": 1,
+      "content_similarity": 0.3087383530596827
+    },
+    {
+      "id_a": "evidence-requirements-table",
+      "id_b": "b-118",
+      "raw_similarity": 1,
+      "content_similarity": 0.31692224912563893
+    },
+    {
+      "id_a": "evidence-requirements-table",
+      "id_b": "b-121",
+      "raw_similarity": 1,
+      "content_similarity": 0.3152748414376321
+    },
+    {
+      "id_a": "evidence-requirements-table",
+      "id_b": "b-123",
+      "raw_similarity": 1,
+      "content_similarity": 0.3125497479437517
+    },
+    {
+      "id_a": "evidence-requirements-table",
+      "id_b": "b-125",
+      "raw_similarity": 1,
+      "content_similarity": 0.3018262586377098
+    },
+    {
+      "id_a": "evidence-requirements-table",
+      "id_b": "b-127",
+      "raw_similarity": 1,
+      "content_similarity": 0.3014293006636039
+    },
+    {
+      "id_a": "evidence-requirements-table",
+      "id_b": "b-129",
+      "raw_similarity": 1,
+      "content_similarity": 0.3287747697460229
+    },
+    {
+      "id_a": "evidence-requirements-table",
+      "id_b": "b-130",
+      "raw_similarity": 1,
+      "content_similarity": 0.31390728476821195
+    },
+    {
+      "id_a": "internal-audit-evidence",
+      "id_b": "evidence-requirements-table",
+      "raw_similarity": 1,
+      "content_similarity": 0.296398891966759
+    },
+    {
+      "id_a": "internal-audit-evidence",
+      "id_b": "b-116",
+      "raw_similarity": 1,
+      "content_similarity": 0.2933730454206999
+    },
+    {
+      "id_a": "internal-audit-evidence",
+      "id_b": "b-118",
+      "raw_similarity": 1,
+      "content_similarity": 0.3182062298603652
+    },
+    {
+      "id_a": "internal-audit-evidence",
+      "id_b": "b-121",
+      "raw_similarity": 1,
+      "content_similarity": 0.31031766867944344
+    },
+    {
+      "id_a": "internal-audit-evidence",
+      "id_b": "b-123",
+      "raw_similarity": 1,
+      "content_similarity": 0.3243459690336359
+    },
+    {
+      "id_a": "internal-audit-evidence",
+      "id_b": "b-125",
+      "raw_similarity": 1,
+      "content_similarity": 0.29505386875612144
+    },
+    {
+      "id_a": "internal-audit-evidence",
+      "id_b": "b-127",
+      "raw_similarity": 1,
+      "content_similarity": 0.29969496695475345
+    },
+    {
+      "id_a": "internal-audit-evidence",
+      "id_b": "b-129",
+      "raw_similarity": 1,
+      "content_similarity": 0.3458286358511838
+    },
+    {
+      "id_a": "internal-audit-evidence",
+      "id_b": "b-130",
+      "raw_similarity": 1,
+      "content_similarity": 0.3103266596417281
+    },
+    {
+      "id_a": "operating-workflow",
+      "id_b": "continuous-audit-workflow",
+      "raw_similarity": 1,
+      "content_similarity": 0.29694323144104806
+    },
+    {
+      "id_a": "operating-workflow",
+      "id_b": "c-132",
+      "raw_similarity": 1,
+      "content_similarity": 0.3097321665340758
+    },
+    {
+      "id_a": "operating-workflow",
+      "id_b": "c-134",
+      "raw_similarity": 1,
+      "content_similarity": 0.31948120698782423
+    },
+    {
+      "id_a": "operating-workflow",
+      "id_b": "c-136",
+      "raw_similarity": 1,
+      "content_similarity": 0.3183082915971063
+    },
+    {
+      "id_a": "operating-workflow",
+      "id_b": "c-138",
+      "raw_similarity": 1,
+      "content_similarity": 0.31596452328159647
+    },
+    {
+      "id_a": "operating-workflow",
+      "id_b": "c-141",
+      "raw_similarity": 1,
+      "content_similarity": 0.31004366812227074
+    },
+    {
+      "id_a": "operating-workflow",
+      "id_b": "c-144",
+      "raw_similarity": 1,
+      "content_similarity": 0.29554759467758446
+    },
+    {
+      "id_a": "operating-workflow",
+      "id_b": "c-145",
+      "raw_similarity": 1,
+      "content_similarity": 0.29901589704769116
+    },
+    {
+      "id_a": "operating-workflow-renewal",
+      "id_b": "request-review-exception",
+      "raw_similarity": 1,
+      "content_similarity": 0.32647226986849626
+    },
+    {
+      "id_a": "operating-workflow-renewal",
+      "id_b": "c-143",
+      "raw_similarity": 1,
+      "content_similarity": 0.2974025974025974
+    },
+    {
+      "id_a": "request-review-exception",
+      "id_b": "operating-workflow-renewal",
+      "raw_similarity": 1,
+      "content_similarity": 0.32647226986849626
+    },
+    {
+      "id_a": "request-review-exception",
+      "id_b": "c-143",
+      "raw_similarity": 1,
+      "content_similarity": 0.2943936774512225
+    },
+    {
+      "id_a": "raci-governance",
+      "id_b": "inventory-review-cycle",
+      "raw_similarity": 1,
+      "content_similarity": 0.32641615255187884
+    },
+    {
+      "id_a": "raci-governance",
+      "id_b": "c-133",
+      "raw_similarity": 1,
+      "content_similarity": 0.305062630480167
+    },
+    {
+      "id_a": "raci-governance",
+      "id_b": "c-137",
+      "raw_similarity": 1,
+      "content_similarity": 0.33428327158734683
+    },
+    {
+      "id_a": "raci-governance",
+      "id_b": "c-140",
+      "raw_similarity": 1,
+      "content_similarity": 0.33106189664963087
+    },
+    {
+      "id_a": "raci-governance",
+      "id_b": "c-142",
+      "raw_similarity": 1,
+      "content_similarity": 0.33117249154453215
+    },
+    {
+      "id_a": "inventory-review-cycle",
+      "id_b": "raci-governance",
+      "raw_similarity": 1,
+      "content_similarity": 0.32641615255187884
+    },
+    {
+      "id_a": "inventory-review-cycle",
+      "id_b": "c-133",
+      "raw_similarity": 1,
+      "content_similarity": 0.30976965845909454
+    },
+    {
+      "id_a": "inventory-review-cycle",
+      "id_b": "c-137",
+      "raw_similarity": 1,
+      "content_similarity": 0.35242548217416714
+    },
+    {
+      "id_a": "inventory-review-cycle",
+      "id_b": "c-140",
+      "raw_similarity": 1,
+      "content_similarity": 0.3518086347724621
+    },
+    {
+      "id_a": "inventory-review-cycle",
+      "id_b": "c-142",
+      "raw_similarity": 1,
+      "content_similarity": 0.33285755067085354
+    },
+    {
+      "id_a": "continuous-audit-workflow",
+      "id_b": "operating-workflow",
+      "raw_similarity": 1,
+      "content_similarity": 0.29694323144104806
+    },
+    {
+      "id_a": "continuous-audit-workflow",
+      "id_b": "c-132",
+      "raw_similarity": 1,
+      "content_similarity": 0.33315276273022754
+    },
+    {
+      "id_a": "continuous-audit-workflow",
+      "id_b": "c-134",
+      "raw_similarity": 1,
+      "content_similarity": 0.313938111610685
+    },
+    {
+      "id_a": "continuous-audit-workflow",
+      "id_b": "c-136",
+      "raw_similarity": 1,
+      "content_similarity": 0.3176109405526095
+    },
+    {
+      "id_a": "continuous-audit-workflow",
+      "id_b": "c-138",
+      "raw_similarity": 1,
+      "content_similarity": 0.33493227990970653
+    },
+    {
+      "id_a": "continuous-audit-workflow",
+      "id_b": "c-141",
+      "raw_similarity": 1,
+      "content_similarity": 0.3264004437049362
+    },
+    {
+      "id_a": "continuous-audit-workflow",
+      "id_b": "c-144",
+      "raw_similarity": 1,
+      "content_similarity": 0.3168058455114823
+    },
+    {
+      "id_a": "continuous-audit-workflow",
+      "id_b": "c-145",
+      "raw_similarity": 1,
+      "content_similarity": 0.28919597989949747
+    },
+    {
+      "id_a": "responsibility-boundary",
+      "id_b": "sla-responsibility-matrix",
+      "raw_similarity": 1,
+      "content_similarity": 0.3141411708022163
+    },
+    {
+      "id_a": "responsibility-boundary",
+      "id_b": "d-148",
+      "raw_similarity": 1,
+      "content_similarity": 0.3357756442647802
+    },
+    {
+      "id_a": "responsibility-boundary",
+      "id_b": "d-149",
+      "raw_similarity": 1,
+      "content_similarity": 0.3250369640216856
+    },
+    {
+      "id_a": "responsibility-boundary",
+      "id_b": "d-151",
+      "raw_similarity": 1,
+      "content_similarity": 0.3211888782358581
+    },
+    {
+      "id_a": "responsibility-boundary",
+      "id_b": "d-152",
+      "raw_similarity": 1,
+      "content_similarity": 0.3424874570900449
+    },
+    {
+      "id_a": "responsibility-boundary",
+      "id_b": "d-153",
+      "raw_similarity": 1,
+      "content_similarity": 0.3348659003831418
+    },
+    {
+      "id_a": "responsibility-boundary",
+      "id_b": "d-154",
+      "raw_similarity": 1,
+      "content_similarity": 0.3520257579822914
+    },
+    {
+      "id_a": "responsibility-boundary",
+      "id_b": "d-156",
+      "raw_similarity": 1,
+      "content_similarity": 0.347360167276529
+    },
+    {
+      "id_a": "responsibility-boundary",
+      "id_b": "d-158",
+      "raw_similarity": 1,
+      "content_similarity": 0.319672131147541
+    },
+    {
+      "id_a": "responsibility-boundary",
+      "id_b": "d-160",
+      "raw_similarity": 1,
+      "content_similarity": 0.35456699131350355
+    },
+    {
+      "id_a": "proof-vs-assurance",
+      "id_b": "d-146",
+      "raw_similarity": 1,
+      "content_similarity": 0.38240318906605925
+    },
+    {
+      "id_a": "proof-vs-assurance",
+      "id_b": "d-147",
+      "raw_similarity": 1,
+      "content_similarity": 0.3688925081433225
+    },
+    {
+      "id_a": "proof-vs-assurance",
+      "id_b": "d-150",
+      "raw_similarity": 1,
+      "content_similarity": 0.3418237391747326
+    },
+    {
+      "id_a": "proof-vs-assurance",
+      "id_b": "d-155",
+      "raw_similarity": 1,
+      "content_similarity": 0.3500764915859256
+    },
+    {
+      "id_a": "proof-vs-assurance",
+      "id_b": "d-157",
+      "raw_similarity": 1,
+      "content_similarity": 0.3374464870309746
+    },
+    {
+      "id_a": "proof-vs-assurance",
+      "id_b": "d-159",
+      "raw_similarity": 1,
+      "content_similarity": 0.38125
+    },
+    {
+      "id_a": "sla-responsibility-matrix",
+      "id_b": "responsibility-boundary",
+      "raw_similarity": 1,
+      "content_similarity": 0.3141411708022163
+    },
+    {
+      "id_a": "sla-responsibility-matrix",
+      "id_b": "d-148",
+      "raw_similarity": 1,
+      "content_similarity": 0.34336236474003695
+    },
+    {
+      "id_a": "sla-responsibility-matrix",
+      "id_b": "d-149",
+      "raw_similarity": 1,
+      "content_similarity": 0.3248081841432225
+    },
+    {
+      "id_a": "sla-responsibility-matrix",
+      "id_b": "d-151",
+      "raw_similarity": 1,
+      "content_similarity": 0.33308251818409834
+    },
+    {
+      "id_a": "sla-responsibility-matrix",
+      "id_b": "d-152",
+      "raw_similarity": 1,
+      "content_similarity": 0.3639408317052749
+    },
+    {
+      "id_a": "sla-responsibility-matrix",
+      "id_b": "d-153",
+      "raw_similarity": 1,
+      "content_similarity": 0.36769105248844164
+    },
+    {
+      "id_a": "sla-responsibility-matrix",
+      "id_b": "d-154",
+      "raw_similarity": 1,
+      "content_similarity": 0.3755681818181818
+    },
+    {
+      "id_a": "sla-responsibility-matrix",
+      "id_b": "d-156",
+      "raw_similarity": 1,
+      "content_similarity": 0.3639614855570839
+    },
+    {
+      "id_a": "sla-responsibility-matrix",
+      "id_b": "d-158",
+      "raw_similarity": 1,
+      "content_similarity": 0.32587939698492463
+    },
+    {
+      "id_a": "sla-responsibility-matrix",
+      "id_b": "d-160",
+      "raw_similarity": 1,
+      "content_similarity": 0.3547768957021626
+    },
+    {
+      "id_a": "coverage-map-iso42001",
+      "id_b": "e-161",
+      "raw_similarity": 1,
+      "content_similarity": 0.2895010395010395
+    },
+    {
+      "id_a": "coverage-map-iso42001",
+      "id_b": "e-163",
+      "raw_similarity": 1,
+      "content_similarity": 0.3247365501941209
+    },
+    {
+      "id_a": "coverage-map-iso42001",
+      "id_b": "e-165",
+      "raw_similarity": 1,
+      "content_similarity": 0.2759891865323175
+    },
+    {
+      "id_a": "coverage-map-iso42001",
+      "id_b": "e-167",
+      "raw_similarity": 1,
+      "content_similarity": 0.29971331769611675
+    },
+    {
+      "id_a": "coverage-map-iso42001",
+      "id_b": "e-169",
+      "raw_similarity": 1,
+      "content_similarity": 0.2912210892812733
+    },
+    {
+      "id_a": "coverage-map-iso42001",
+      "id_b": "e-170",
+      "raw_similarity": 1,
+      "content_similarity": 0.30330982094411285
+    },
+    {
+      "id_a": "coverage-map-iso42001",
+      "id_b": "e-174",
+      "raw_similarity": 1,
+      "content_similarity": 0.2655883731833099
+    },
+    {
+      "id_a": "a-101",
+      "id_b": "evidence-pack",
+      "raw_similarity": 1,
+      "content_similarity": 0.32103134479271994
+    },
+    {
+      "id_a": "a-101",
+      "id_b": "evidence-pack-formats",
+      "raw_similarity": 1,
+      "content_similarity": 0.31330148353029924
+    },
+    {
+      "id_a": "a-101",
+      "id_b": "a-108",
+      "raw_similarity": 1,
+      "content_similarity": 0.31682146542827655
+    },
+    {
+      "id_a": "a-101",
+      "id_b": "a-110",
+      "raw_similarity": 1,
+      "content_similarity": 0.3376
+    },
+    {
+      "id_a": "a-101",
+      "id_b": "a-114",
+      "raw_similarity": 1,
+      "content_similarity": 0.3329718004338395
+    },
+    {
+      "id_a": "a-102",
+      "id_b": "evidence-pack-minimum",
+      "raw_similarity": 1,
+      "content_similarity": 0.3863095238095238
+    },
+    {
+      "id_a": "a-102",
+      "id_b": "evidence-formats-standards",
+      "raw_similarity": 1,
+      "content_similarity": 0.354397204426325
+    },
+    {
+      "id_a": "a-102",
+      "id_b": "a-103",
+      "raw_similarity": 1,
+      "content_similarity": 0.3738511710643344
+    },
+    {
+      "id_a": "a-102",
+      "id_b": "a-104",
+      "raw_similarity": 1,
+      "content_similarity": 0.3611274221961245
+    },
+    {
+      "id_a": "a-102",
+      "id_b": "a-106",
+      "raw_similarity": 1,
+      "content_similarity": 0.3500837520938023
+    },
+    {
+      "id_a": "a-102",
+      "id_b": "a-111",
+      "raw_similarity": 1,
+      "content_similarity": 0.3430200977729495
+    },
+    {
+      "id_a": "a-102",
+      "id_b": "a-115",
+      "raw_similarity": 1,
+      "content_similarity": 0.33034300791556725
+    },
+    {
+      "id_a": "a-103",
+      "id_b": "evidence-pack-minimum",
+      "raw_similarity": 1,
+      "content_similarity": 0.3511667615253273
+    },
+    {
+      "id_a": "a-103",
+      "id_b": "evidence-formats-standards",
+      "raw_similarity": 1,
+      "content_similarity": 0.39976380277531737
+    },
+    {
+      "id_a": "a-103",
+      "id_b": "a-102",
+      "raw_similarity": 1,
+      "content_similarity": 0.3738511710643344
+    },
+    {
+      "id_a": "a-103",
+      "id_b": "a-104",
+      "raw_similarity": 1,
+      "content_similarity": 0.3588269120184014
+    },
+    {
+      "id_a": "a-103",
+      "id_b": "a-106",
+      "raw_similarity": 1,
+      "content_similarity": 0.3607734806629834
+    },
+    {
+      "id_a": "a-103",
+      "id_b": "a-111",
+      "raw_similarity": 1,
+      "content_similarity": 0.3366073798778869
+    },
+    {
+      "id_a": "a-103",
+      "id_b": "a-115",
+      "raw_similarity": 1,
+      "content_similarity": 0.34169934640522875
+    },
+    {
+      "id_a": "a-104",
+      "id_b": "evidence-pack-minimum",
+      "raw_similarity": 1,
+      "content_similarity": 0.3618119266055046
+    },
+    {
+      "id_a": "a-104",
+      "id_b": "evidence-formats-standards",
+      "raw_similarity": 1,
+      "content_similarity": 0.35436893203883496
+    },
+    {
+      "id_a": "a-104",
+      "id_b": "a-102",
+      "raw_similarity": 1,
+      "content_similarity": 0.3611274221961245
+    },
+    {
+      "id_a": "a-104",
+      "id_b": "a-103",
+      "raw_similarity": 1,
+      "content_similarity": 0.3588269120184014
+    },
+    {
+      "id_a": "a-104",
+      "id_b": "a-106",
+      "raw_similarity": 1,
+      "content_similarity": 0.3304535637149028
+    },
+    {
+      "id_a": "a-104",
+      "id_b": "a-111",
+      "raw_similarity": 1,
+      "content_similarity": 0.33501192684866155
+    },
+    {
+      "id_a": "a-104",
+      "id_b": "a-115",
+      "raw_similarity": 1,
+      "content_similarity": 0.33108633653098263
+    },
+    {
+      "id_a": "a-105",
+      "id_b": "evidence-pack-index",
+      "raw_similarity": 1,
+      "content_similarity": 0.3386034255599473
+    },
+    {
+      "id_a": "a-105",
+      "id_b": "evidence-gaps-remediation",
+      "raw_similarity": 1,
+      "content_similarity": 0.3195326390652781
+    },
+    {
+      "id_a": "a-105",
+      "id_b": "a-109",
+      "raw_similarity": 1,
+      "content_similarity": 0.32051948051948054
+    },
+    {
+      "id_a": "a-105",
+      "id_b": "a-112",
+      "raw_similarity": 1,
+      "content_similarity": 0.3274446379696442
+    },
+    {
+      "id_a": "a-105",
+      "id_b": "a-113",
+      "raw_similarity": 1,
+      "content_similarity": 0.30716556615309365
+    },
+    {
+      "id_a": "a-106",
+      "id_b": "evidence-pack-minimum",
+      "raw_similarity": 1,
+      "content_similarity": 0.3353115727002967
+    },
+    {
+      "id_a": "a-106",
+      "id_b": "evidence-formats-standards",
+      "raw_similarity": 1,
+      "content_similarity": 0.36321014892443465
+    },
+    {
+      "id_a": "a-106",
+      "id_b": "a-102",
+      "raw_similarity": 1,
+      "content_similarity": 0.3500837520938023
+    },
+    {
+      "id_a": "a-106",
+      "id_b": "a-103",
+      "raw_similarity": 1,
+      "content_similarity": 0.3607734806629834
+    },
+    {
+      "id_a": "a-106",
+      "id_b": "a-104",
+      "raw_similarity": 1,
+      "content_similarity": 0.3304535637149028
+    },
+    {
+      "id_a": "a-106",
+      "id_b": "a-111",
+      "raw_similarity": 1,
+      "content_similarity": 0.3059850374064838
+    },
+    {
+      "id_a": "a-106",
+      "id_b": "a-115",
+      "raw_similarity": 1,
+      "content_similarity": 0.3154130702836005
+    },
+    {
+      "id_a": "a-107",
+      "id_b": "evidence-bundle-structure",
+      "raw_similarity": 1,
+      "content_similarity": 0.37834691501746215
+    },
+    {
+      "id_a": "a-107",
+      "id_b": "audit-submission-checklist",
+      "raw_similarity": 1,
+      "content_similarity": 0.3486805165637282
+    },
+    {
+      "id_a": "a-108",
+      "id_b": "evidence-pack",
+      "raw_similarity": 1,
+      "content_similarity": 0.3260302556077204
+    }
+  ],
+  "same_content_clusters": []
+}
