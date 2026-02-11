@@ -1,27 +1,20 @@
 # Cloudflare Pages での公開設定
 
-## 外部に公開しないパス
+## 既存記事を正常に公開する（推奨設定）
 
-リポジトリには PSEO 生成用の `data/`, `scripts/`, `_policy/`, `templates/` 等を含めますが、**本番では配信しません**。  
-ビルド時に `scripts/prepare-deploy.sh` で公開用ファイルだけを `dist/` にコピーし、その `dist/` をデプロイします。
+**既に作った PSEO 記事（100本）を本番で確実に表示する**ための設定です。
 
-- **配信しない（外部から参照不可）**: `data/`, `scripts/`, `_policy/`, `.github/`, `docs/`, `templates/`, `.env.example`
-
-## ビルド設定（ダッシュボード）
-
-Cloudflare Dashboard → **Workers & Pages** → プロジェクト → **Settings** → **Builds & deployments** で次を設定してください。
+Cloudflare Dashboard → **Workers & Pages** → プロジェクト → **Settings** → **Builds & deployments** で次にしてください。
 
 | 項目 | 設定値 |
 |------|--------|
 | **Framework preset** | None |
-| **Build command** | `bash scripts/prepare-deploy.sh` |
-| **Build output directory** | `dist` |
-| **Root directory** | （空欄のまま＝リポジトリルート） |
+| **Build command** | `exit 0`（または未入力のまま） |
+| **Build output directory** | `/` または `.`（リポジトリルート） |
+| **Root directory** | （空欄のまま） |
 
-### 補足
-
-- **Build command**: `prepare-deploy.sh` が公開用ファイルのみを `dist/` にコピーします。
-- **Build output directory**: `dist` を指定すると、`data/` や `scripts/` はアップロードされず、URL で参照できません。
+- **Production branch**: `main` のままにすると、`main` へ push するたびに本番（aimoaas.com）が更新されます。
+- この設定ならビルドが失敗しにくく、`ja/resources/pseo/` 以下がそのまま本番に含まれ、既存記事が正常に公開されます。
 
 ## プロジェクトの作成手順（Git 連携）
 
@@ -30,6 +23,15 @@ Cloudflare Dashboard → **Workers & Pages** → プロジェクト → **Settin
 3. **Build settings** で上記のとおり設定
 4. **Save and Deploy** で初回デプロイ
 5. カスタムドメイン（例: aimoaas.com）は **Custom domains** から追加
+
+## 既存記事が公開されているか確認する
+
+本番デプロイ後、次の URL が開けば既存記事は正常に公開されています。
+
+- トップ: `https://aimoaas.com/ja/`
+- 記事の例: `https://aimoaas.com/ja/resources/pseo/evidence-pack-evidence-readiness-proof-assurance-a-101/`
+
+**Settings** → **Builds & deployments** で **Production branch** が `main` になっていること、および **Build output directory** が上記のとおり **ルート**（`/` または `.`）になっていることを確認してください。別の設定（例: `dist`）のままでも、ビルドコマンドで `prepare-deploy.sh` を実行していれば `ja/` は配信されますが、**既存記事を確実に出すだけなら「exit 0 + ルート」が一番簡単**です。
 
 ## デプロイ後のURL
 

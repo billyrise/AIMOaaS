@@ -1,17 +1,16 @@
 # PSEO: 生成 → 検証 → sitemap 更新 → PR 作成のみ。main への直接 push は禁止。公開は human approval 必須。
-# Secrets: GOOGLE_API_KEY (Gemini), GH_TOKEN (repo + PR 用。Settings → Actions → Secrets)
+#
+# 必要な Secrets（リポジトリの Settings → Secrets and variables → Actions で追加）:
+#   - GH_TOKEN:    PR 作成・ブランチ push 用。GitHub → Settings → Developer settings → Personal access tokens で
+#                 repo + workflow スコープの PAT を発行し、値を登録。未設定だと Checkout で "token" エラーになる。
+#   - GOOGLE_API_KEY: Gemini API キー（記事生成に必須）。https://aistudio.google.com/apikey で発行。
+#   - CF_ZONE_ID, CF_API_TOKEN: （任意）Cloudflare Analytics 用。未設定でも analytics-pull はスキップされる。
+#
 name: PSEO Generate PR
 
+# 自動実行は無効。手動で「Run workflow」するときだけ実行。
 on:
-  schedule:
-    # 毎週月曜 09:00 JST (00:00 UTC)
-    - cron: "0 0 * * 1"
   workflow_dispatch: {}
-  push:
-    branches: [main]
-    paths:
-      - "data/pseo/**"
-      - "data/pseo/modules/**"
 
 env:
   TZ: Asia/Tokyo
@@ -27,7 +26,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          # GH_TOKEN 未設定時は default GITHUB_TOKEN を使用（PR 作成は可能。push が制限される場合あり）
+          token: ${{ secrets.GH_TOKEN || github.token }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
