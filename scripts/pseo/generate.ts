@@ -188,7 +188,7 @@ function renderPageHtml(
   bodyHtml: string,
   gemini: GeminiOutput,
   baseUrl: string,
-  options?: { canonicalUrl?: string; pseoRobots?: string; emitFaqSchema?: boolean }
+  options?: { canonicalUrl?: string; pseoRobots?: string; emitFaqSchema?: boolean; internalLinksHtml?: string }
 ): string {
   const canonical = (options?.canonicalUrl ?? `${baseUrl}${page.slug.replace(/\/$/, "")}`).replace(/\/?$/, "/");
   const ogImage = `${baseUrl}/assets/aimo-standard-unifying-regulations.png`;
@@ -209,12 +209,14 @@ function renderPageHtml(
     )
     .join("\n");
 
-  const internalLinksHtml = gemini.internal_links
-    .map((l) => {
-      const url = l.href.startsWith("http") ? l.href : baseUrl + l.href;
-      return `<a href="${escapeHtml(url)}" class="text-indigo-600 hover:underline">${escapeHtml(l.text)}</a>`;
-    })
-    .join(' <span class="text-slate-300" aria-hidden="true">/</span> ');
+  const internalLinksHtml =
+    options?.internalLinksHtml ??
+    gemini.internal_links
+      .map((l) => {
+        const url = l.href.startsWith("http") ? l.href : baseUrl + l.href;
+        return `<a href="${escapeHtml(url)}" class="text-indigo-600 hover:underline">${escapeHtml(l.text)}</a>`;
+      })
+      .join(' <span class="text-slate-300" aria-hidden="true">/</span> ');
 
   const ctaAbove = renderCtaPartial(page.primary_cta, baseUrl, "");
   const ctaMid = renderCtaPartial(page.primary_cta, baseUrl, CTA_CONFIG[page.primary_cta].mid_note);
@@ -271,6 +273,47 @@ function loadFaqSchemaAllowlist(): Set<string> {
   return new Set(allow || []);
 }
 
+type LinkItem = { text: string; href: string };
+function loadLinkMap(): { common: LinkItem[]; [topic: string]: LinkItem[] | undefined } | null {
+  const fp = join(DATA_PSEO, "link_map.json");
+  if (!existsSync(fp)) return null;
+  const data = JSON.parse(readFileSync(fp, "utf-8")) as { common?: LinkItem[]; [k: string]: LinkItem[] | undefined };
+  return data;
+}
+
+function loadSlugToTopic(): Map<string, string> {
+  const fp = join(DATA_PSEO, "pseo_pages.json");
+  if (!existsSync(fp)) return new Map();
+  const { pages } = JSON.parse(readFileSync(fp, "utf-8")) as {
+    pages: Array<{ final_slug: string; topic?: string[] }>;
+  };
+  const m = new Map<string, string>();
+  for (const p of pages) {
+    const t = p.topic?.[0] ?? "misc";
+    m.set(p.final_slug, t);
+    m.set(p.final_slug.replace(/^.*\//, ""), t);
+  }
+  return m;
+}
+
+function buildInternalLinksHtmlFromLinkMap(
+  baseUrl: string,
+  finalSlug: string,
+  linkMap: { common: LinkItem[]; [topic: string]: LinkItem[] | undefined },
+  slugToTopic: Map<string, string>
+): string {
+  const topic = linkMap[slugToTopic.get(finalSlug) ?? "misc"] ?? linkMap.misc ?? [];
+  const common = linkMap.common ?? [];
+  const links = [...common, ...(Array.isArray(topic) ? topic : [])];
+  const sep = ' <span class="text-slate-300" aria-hidden="true">/</span> ';
+  return links
+    .map((l) => {
+      const url = l.href.startsWith("http") ? l.href : baseUrl + l.href;
+      return `<a href="${escapeHtml(url)}" class="text-indigo-600 hover:underline">${escapeHtml(l.text)}</a>`;
+    })
+    .join(sep);
+}
+
 async function main(): Promise<void> {
   const baseUrl = process.env.BASE_URL || "https://aimoaas.com";
   const catalog = loadCatalog();
@@ -279,6 +322,8 @@ async function main(): Promise<void> {
   const pseoPagesMap = loadPseoPagesMap();
   const indexAllowlist = loadIndexAllowlist();
   const faqSchemaAllowlist = loadFaqSchemaAllowlist();
+  const linkMap = loadLinkMap();
+  const slugToTopic = loadSlugToTopic();
   const h2FixupsByPage = new Map<string, string[]>();
 
   /** Phase 1–4: ja のみ生成（i18n-policy.md） */
@@ -322,10 +367,15 @@ async function main(): Promise<void> {
       throw e;
     }
 
+    const internalLinksHtml =
+      linkMap != null
+        ? buildInternalLinksHtmlFromLinkMap(baseUrl, outDirSlug, linkMap, slugToTopic)
+        : undefined;
     let html = renderPageHtml(page, bodyHtml, geminiOutput, baseUrl, {
       canonicalUrl,
       pseoRobots,
       emitFaqSchema,
+      internalLinksHtml,
     });
     html = html
       .replace(/本ページでは/g, "ここでは")

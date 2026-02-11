@@ -32,7 +32,8 @@
     "build:pseo": "tsx generate.ts && npm run inject:assets && npm run postprocess:claims",
     "postprocess:h2-dedup": "tsx postprocess_h2_dedup.ts",
     "postprocess:robots": "tsx postprocess_inject_robots.ts",
-    "postprocess:table-wrap": "tsx postprocess_table_wrap.ts"
+    "postprocess:table-wrap": "tsx postprocess_table_wrap.ts",
+    "postprocess:internal-links": "tsx postprocess_internal_links.ts"
   },
   "dependencies": {
     "@google/genai": "^1.40.0",
