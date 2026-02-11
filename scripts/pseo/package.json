@@ -1,0 +1,43 @@
+{
+  "name": "pseo-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "tsx generate.ts",
+    "validate": "tsx validate.ts",
+    "sitemap": "tsx sitemap.ts",
+    "analytics-pull": "tsx analytics_pull.ts",
+    "prioritize": "tsx prioritize.ts",
+    "build-catalog-100": "tsx build-catalog-100.ts",
+    "slugger:smoke": "tsx slugger.smoke.ts",
+    "inventory": "tsx inventory.ts",
+    "pages:ssot": "tsx pages_ssot.ts",
+    "migrate-urls": "tsx migrate-urls.ts",
+    "redirects": "tsx redirects.ts",
+    "build": "tsc --noEmit",
+    "pseo:ssot-check": "tsx quality/ssot_check.ts",
+    "pseo:inventory": "tsx inventory.ts",
+    "pseo:validate": "tsx validate.ts",
+    "pseo:sitemap": "tsx sitemap.ts",
+    "pseo:similarity": "tsx quality/similarity.ts",
+    "release-candidates": "tsx release_candidates.ts",
+    "inject:assets": "tsx inject_assets.ts",
+    "postprocess:claims": "tsx postprocess_claims.ts",
+    "build:pseo": "tsx generate.ts && npm run inject:assets && npm run postprocess:claims",
+    "postprocess:h2-dedup": "tsx postprocess_h2_dedup.ts",
+    "postprocess:robots": "tsx postprocess_inject_robots.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.40.0",
+    "dotenv": "^17.2.4",
+    "js-yaml": "^4.1.0",
+    "marked": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
