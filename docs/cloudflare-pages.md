@@ -1,6 +1,11 @@
 # Cloudflare Pages での公開設定
 
-このサイトは静的 HTML のため、ビルド処理は不要です。
+## 外部に公開しないパス
+
+リポジトリには PSEO 生成用の `data/`, `scripts/`, `_policy/`, `templates/` 等を含めますが、**本番では配信しません**。  
+ビルド時に `scripts/prepare-deploy.sh` で公開用ファイルだけを `dist/` にコピーし、その `dist/` をデプロイします。
+
+- **配信しない（外部から参照不可）**: `data/`, `scripts/`, `_policy/`, `.github/`, `docs/`, `templates/`, `.env.example`
 
 ## ビルド設定（ダッシュボード）
 
@@ -9,14 +14,14 @@ Cloudflare Dashboard → **Workers & Pages** → プロジェクト → **Settin
 | 項目 | 設定値 |
 |------|--------|
 | **Framework preset** | None |
-| **Build command** | `exit 0`（または未入力のまま） |
-| **Build output directory** | `/` または `.`（リポジトリルート） |
+| **Build command** | `bash scripts/prepare-deploy.sh` |
+| **Build output directory** | `dist` |
 | **Root directory** | （空欄のまま＝リポジトリルート） |
 
 ### 補足
 
-- **Build command**: 静的サイトのためビルドは行いません。プリセット未使用時は `exit 0` を指定すると「成功」と判定され、そのままアップロードされます（[公式](https://developers.cloudflare.com/pages/configuration/build-configuration/)）。
-- **Build output directory**: 配信するファイルがリポジトリのルート（`index.html`, `ja/`, `aimo-standard/`, `assets/` など）にあるため、出力ディレクトリは **ルート** にします。
+- **Build command**: `prepare-deploy.sh` が公開用ファイルのみを `dist/` にコピーします。
+- **Build output directory**: `dist` を指定すると、`data/` や `scripts/` はアップロードされず、URL で参照できません。
 
 ## プロジェクトの作成手順（Git 連携）
 

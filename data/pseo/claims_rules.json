@@ -1,0 +1,45 @@
+{
+  "banned_patterns": [
+    { "pattern": "保証します", "replacement": "観点の整理・支援であり、保証は行いません" },
+    { "pattern": "保証する", "replacement": "観点の整理・支援であり、保証は行いません" },
+    { "pattern": "保証を提供する", "replacement": "観点の提供であり、保証は提供しません" },
+    { "pattern": "監査保証", "replacement": "保証結論は監査法人等の責任範囲です" },
+    { "pattern": "監査合格を保証", "replacement": "監査の合否は保証しません" },
+    { "pattern": "合格を保証", "replacement": "合格は保証しません" },
+    { "pattern": "合格を約束", "replacement": "合格は約束しません" },
+    { "pattern": "準拠を保証", "replacement": "準拠は保証しません" },
+    { "pattern": "準拠している", "replacement": "準拠の可否は組織・監査の範囲です" },
+    { "pattern": "適合している", "replacement": "適合の可否は組織・監査の範囲です" },
+    { "pattern": "完全準拠", "replacement": "準拠の可否は組織・監査の範囲です" },
+    { "pattern": "100%準拠", "replacement": "準拠の可否は組織・監査の範囲です" },
+    { "pattern": "完全適合", "replacement": "適合の可否は組織・監査の範囲です" },
+    { "pattern": "法的に問題ない", "replacement": "法的な判断は専門家・監査の範囲です" },
+    { "pattern": "監査に通る", "replacement": "監査の合否は提出物・運用に依存します" },
+    { "pattern": "監査で通る", "replacement": "監査の合否は提出物・運用に依存します" },
+    { "pattern": "合格する", "replacement": "合否は保証しません" },
+    { "pattern": "必ず合格", "replacement": "合否は保証しません" },
+    { "pattern": "必ず認められる", "replacement": "認可は保証しません" },
+    { "pattern": "監査に確実に合格", "replacement": "監査の合否は提出物・運用・監査人評価に依存します" },
+    { "pattern": "監査で必ず通る", "replacement": "監査の合否は提出物・運用に依存します" },
+    { "pattern": "確実に改善", "replacement": "結果は環境・運用に依存します" },
+    { "pattern": "失敗しない", "replacement": "結果は環境・運用に依存します" },
+    { "pattern": "100%カバー", "replacement": "網羅性は範囲・契約に依存します" },
+    { "pattern": "漏れなし", "replacement": "網羅性は範囲・契約に依存します" },
+    { "pattern": "すべての規制に対応", "replacement": "対応範囲は契約・監査の範囲によります" }
+  ],
+  "soft_bans": [
+    "確実に",
+    "必ず",
+    "保証",
+    "準拠を実現",
+    "連携"
+  ],
+  "allowed_negations": [
+    "保証を提供しません",
+    "保証は行いません",
+    "保証しません",
+    "合格を保証しません",
+    "準拠を保証するものではありません",
+    "観点の整理であり、準拠保証ではない"
+  ]
+}

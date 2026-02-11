@@ -1,0 +1,30 @@
+# 統制項目→必要証跡→ログ/運用記録→頻度（最小要件表用。一次情報）
+meta:
+  title: 最小要件（統制→証跡→頻度の観点）
+  note: "組織・規制により要否は異なる。頻度は例。"
+
+controls:
+  - control: 利用の可視化
+    evidence: 誰が・何を・いつ利用したかの説明可能性
+    log_or_record: ログ、集計レポート
+    frequency: 継続または定期
+  - control: 方針の周知
+    evidence: 周知・同意の記録
+    log_or_record: 教育記録、同意ログ
+    frequency: 導入時・更新時
+  - control: 申請・承認
+    evidence: 申請と承認の記録
+    log_or_record: 申請ログ、承認者・日付
+    frequency: 事象ごと
+  - control: 例外管理
+    evidence: 例外の理由・期限・承認者
+    log_or_record: 例外一覧、承認記録
+    frequency: 事象ごと
+  - control: 変更管理
+    evidence: 変更内容・承認
+    log_or_record: 変更履歴、版管理
+    frequency: 変更ごと
+  - control: 棚卸
+    evidence: 実態の把握と方針との整合
+    log_or_record: 棚卸一覧、突合結果
+    frequency: 四半期等、組織で定義

@@ -1,0 +1,145 @@
+{
+  "version": "2026-02-11",
+  "slug_policy": {
+    "forbid_english_summary": true,
+    "prefer_dictionary": true,
+    "require_id_suffix": true,
+    "final_slug_pattern": "{slug_base}-{id}",
+    "id_format": "[a-e]-\\d{1,5}|[a-z][a-z0-9-]*",
+    "lowercase": true,
+    "separator": "-",
+    "max_length": 80,
+    "min_tokens": 2,
+    "max_tokens": 6,
+    "stopwords": [
+      "and","or","the","a","an","of","to","for","in","on","with","by","from",
+      "guide","overview","introduction","best","practice","practices"
+    ],
+    "banned_terms": [
+      "guarantee","guaranteed","pass","approved","certified","compliance",
+      "assured","assurance-certified","audit-pass","perfect"
+    ],
+    "fallback_order": [
+      "dictionary",
+      "safe_generic",
+      "romaji_short"
+    ]
+  },
+  "topics": [
+    {
+      "key": "responsibility-boundary",
+      "slug": "responsibility-boundary",
+      "priority": 100,
+      "ja_keywords": ["責任分界","役割分界","分界","RACI","責任","役割","境界"],
+      "en_keywords": ["responsibility boundary","raci","role boundary"]
+    },
+    {
+      "key": "proof-assurance",
+      "slug": "proof-assurance-boundary",
+      "priority": 95,
+      "ja_keywords": ["証憑","証跡","Proof","Assurance","保証","保証判断","監査意見","保証結論"],
+      "en_keywords": ["proof","assurance"]
+    },
+    {
+      "key": "evidence-pack",
+      "slug": "evidence-pack",
+      "priority": 90,
+      "ja_keywords": ["Evidence Pack","エビデンスパック","証跡パック","監査添付","調書","提出物","目次化"],
+      "en_keywords": ["evidence pack","audit package"]
+    },
+    {
+      "key": "evidence-readiness",
+      "slug": "evidence-readiness",
+      "priority": 88,
+      "ja_keywords": ["evidence readiness","証跡整備","整備","準備","監査対応準備"],
+      "en_keywords": ["evidence readiness"]
+    },
+    {
+      "key": "ai-audit",
+      "slug": "ai-audit",
+      "priority": 85,
+      "ja_keywords": ["AI監査","監査","監査対応","内部監査","外部監査","監査手続","監査計画"],
+      "en_keywords": ["ai audit","audit"]
+    },
+    {
+      "key": "controls",
+      "slug": "controls",
+      "priority": 80,
+      "ja_keywords": ["内部統制","統制","コントロール","運用統制","統制設計","統制運用","KPI"],
+      "en_keywords": ["controls","internal controls"]
+    },
+    {
+      "key": "intake-review-approve",
+      "slug": "intake-review-approve",
+      "priority": 78,
+      "ja_keywords": ["申請","審査","承認","稟議","ワークフロー","申請フロー","審査フロー"],
+      "en_keywords": ["intake","review","approval","workflow"]
+    },
+    {
+      "key": "exceptions",
+      "slug": "exceptions",
+      "priority": 75,
+      "ja_keywords": ["例外","特例","例外管理","免除","猶予","期限","条件付き許可"],
+      "en_keywords": ["exception","exceptions"]
+    },
+    {
+      "key": "inventory",
+      "slug": "inventory",
+      "priority": 72,
+      "ja_keywords": ["棚卸","台帳","リスト","一覧","登録","登録簿"],
+      "en_keywords": ["inventory","register"]
+    },
+    {
+      "key": "monitoring",
+      "slug": "monitoring",
+      "priority": 70,
+      "ja_keywords": ["モニタリング","監視","継続監査","継続的","定期レビュー","アラート"],
+      "en_keywords": ["monitoring","continuous"]
+    },
+    {
+      "key": "shadow-ai",
+      "slug": "shadow-ai",
+      "priority": 68,
+      "ja_keywords": ["シャドーAI","Shadow AI","野良AI","無許可AI","未申請AI","隠れ利用"],
+      "en_keywords": ["shadow ai"]
+    },
+    {
+      "key": "logs-casb",
+      "slug": "logs-casb",
+      "priority": 65,
+      "ja_keywords": ["ログ","CASB","Netskope","Palo Alto","プロキシ","Firewall","通信ログ","SIEM"],
+      "en_keywords": ["logs","casb","netskope","palo alto","siem"]
+    },
+    {
+      "key": "policy-training-attestation",
+      "slug": "policy-training-attestation",
+      "priority": 60,
+      "ja_keywords": ["方針","ポリシー","教育","研修","同意","誓約","アテステーション","周知"],
+      "en_keywords": ["policy","training","attestation"]
+    },
+    {
+      "key": "retention",
+      "slug": "retention",
+      "priority": 55,
+      "ja_keywords": ["保持","保管","保存期間","アーカイブ","証跡保持","ログ保持"],
+      "en_keywords": ["retention","archive"]
+    },
+    {
+      "key": "change-management",
+      "slug": "change-management",
+      "priority": 50,
+      "ja_keywords": ["変更管理","変更履歴","版管理","バージョン","改訂","更新履歴"],
+      "en_keywords": ["change management","versioning"]
+    }
+  ],
+  "safe_generic_tokens": [
+    "ai-governance",
+    "audit",
+    "evidence",
+    "controls",
+    "workflow",
+    "risk",
+    "monitoring",
+    "documentation"
+  ]
+}

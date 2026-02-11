@@ -1,0 +1,3087 @@
+# SSOT 索引：Programmatic SEO ページの定義（100 件・ja のみ・高意図中心）
+# module_refs 5本以上・references に AIMO Standard 等 3本以上。
+
+pages:
+  - id: pseo-evidence-pack
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/evidence-pack/
+    intent_keywords:
+      - Evidence Pack
+      - 証拠パック
+      - 監査提出物
+      - 証跡目次
+      - 証跡バンドル
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-evidence-pack-formats
+      - pseo-evidence-pack-index
+      - pseo-evidence-pack-minimum
+      - pseo-evidence-bundle-structure
+      - pseo-audit-submission-checklist
+      - pseo-evidence-gaps-remediation
+      - pseo-evidence-formats-standards
+      - pseo-minimum-evidence
+  - id: pseo-evidence-pack-formats
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/evidence-pack-formats/
+    intent_keywords:
+      - Evidence Pack 形式
+      - 証跡 形式
+      - 監査 提出 形式
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-evidence-pack-index
+      - pseo-evidence-pack-minimum
+      - pseo-evidence-bundle-structure
+      - pseo-audit-submission-checklist
+      - pseo-evidence-gaps-remediation
+      - pseo-evidence-formats-standards
+      - pseo-minimum-evidence
+      - pseo-minimum-evidence-shadow-ai
+  - id: pseo-evidence-pack-index
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/evidence-pack-index/
+    intent_keywords:
+      - 証跡目次
+      - 監査 証拠 一覧
+      - Evidence Pack 目次
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-evidence-pack-minimum
+      - pseo-evidence-bundle-structure
+      - pseo-audit-submission-checklist
+      - pseo-evidence-gaps-remediation
+      - pseo-evidence-formats-standards
+      - pseo-minimum-evidence
+      - pseo-minimum-evidence-shadow-ai
+      - pseo-audit-questions-pack
+  - id: pseo-evidence-pack-minimum
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/evidence-pack-minimum/
+    intent_keywords:
+      - 証拠 最小要件
+      - 監査 提出 最小
+      - Evidence 最小
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-evidence-bundle-structure
+      - pseo-audit-submission-checklist
+      - pseo-evidence-gaps-remediation
+      - pseo-evidence-formats-standards
+      - pseo-minimum-evidence
+      - pseo-minimum-evidence-shadow-ai
+      - pseo-audit-questions-pack
+      - pseo-control-evidence-frequency
+  - id: pseo-evidence-bundle-structure
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/evidence-bundle-structure/
+    intent_keywords:
+      - 証跡バンドル 構成
+      - 監査 証拠 構成
+      - Evidence Bundle
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-audit-submission-checklist
+      - pseo-evidence-gaps-remediation
+      - pseo-evidence-formats-standards
+      - pseo-minimum-evidence
+      - pseo-minimum-evidence-shadow-ai
+      - pseo-audit-questions-pack
+      - pseo-control-evidence-frequency
+      - pseo-evidence-requirements-table
+  - id: pseo-audit-submission-checklist
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/audit-submission-checklist/
+    intent_keywords:
+      - 監査 提出 チェックリスト
+      - 証跡 提出物
+      - 申請 証拠
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-evidence-gaps-remediation
+      - pseo-evidence-formats-standards
+      - pseo-minimum-evidence
+      - pseo-minimum-evidence-shadow-ai
+      - pseo-audit-questions-pack
+      - pseo-control-evidence-frequency
+      - pseo-evidence-requirements-table
+      - pseo-internal-audit-evidence
+  - id: pseo-evidence-gaps-remediation
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/evidence-gaps-remediation/
+    intent_keywords:
+      - 証拠 欠落
+      - 監査 指摘 対策
+      - 証跡 ギャップ
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-evidence-formats-standards
+      - pseo-minimum-evidence
+      - pseo-minimum-evidence-shadow-ai
+      - pseo-audit-questions-pack
+      - pseo-control-evidence-frequency
+      - pseo-evidence-requirements-table
+      - pseo-internal-audit-evidence
+      - pseo-operating-workflow
+  - id: pseo-evidence-formats-standards
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/evidence-formats-standards/
+    intent_keywords:
+      - 証跡 形式 基準
+      - 監査 提出 形式
+      - Evidence 形式
+    primary_cta: exec_onepager_request
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-minimum-evidence
+      - pseo-minimum-evidence-shadow-ai
+      - pseo-audit-questions-pack
+      - pseo-control-evidence-frequency
+      - pseo-evidence-requirements-table
+      - pseo-internal-audit-evidence
+      - pseo-operating-workflow
+      - pseo-workflow-renewal
+  - id: pseo-minimum-evidence
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/minimum-evidence-requirements/
+    intent_keywords:
+      - 最小証拠要件
+      - 必要証跡
+      - 証拠 頻度
+      - 統制 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-minimum-evidence-shadow-ai
+      - pseo-audit-questions-pack
+      - pseo-control-evidence-frequency
+      - pseo-evidence-requirements-table
+      - pseo-internal-audit-evidence
+      - pseo-operating-workflow
+      - pseo-workflow-renewal
+      - pseo-request-review-exception
+  - id: pseo-minimum-evidence-shadow-ai
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/minimum-evidence-shadow-ai/
+    intent_keywords:
+      - シャドーAI 証跡
+      - シャドーAI 証拠要件
+      - 個人利用 ログ 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-audit-questions-pack
+      - pseo-control-evidence-frequency
+      - pseo-evidence-requirements-table
+      - pseo-internal-audit-evidence
+      - pseo-operating-workflow
+      - pseo-workflow-renewal
+      - pseo-request-review-exception
+      - pseo-raci-governance
+  - id: pseo-audit-questions-pack
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/audit-questions-pack/
+    intent_keywords:
+      - 監査 質問 証跡
+      - 監査で聞かれる 証拠
+      - 内部監査 AI ガバナンス
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-control-evidence-frequency
+      - pseo-evidence-requirements-table
+      - pseo-internal-audit-evidence
+      - pseo-operating-workflow
+      - pseo-workflow-renewal
+      - pseo-request-review-exception
+      - pseo-raci-governance
+      - pseo-inventory-review-cycle
+  - id: pseo-control-evidence-frequency
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/control-evidence-frequency/
+    intent_keywords:
+      - 統制 証跡 頻度
+      - 証拠 頻度 要件
+      - ログ 保持 頻度
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-evidence-requirements-table
+      - pseo-internal-audit-evidence
+      - pseo-operating-workflow
+      - pseo-workflow-renewal
+      - pseo-request-review-exception
+      - pseo-raci-governance
+      - pseo-inventory-review-cycle
+      - pseo-continuous-audit-workflow
+  - id: pseo-evidence-requirements-table
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/evidence-requirements-table/
+    intent_keywords:
+      - 証拠要件 表
+      - 統制 証跡 一覧
+      - 最小証拠 表
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-internal-audit-evidence
+      - pseo-operating-workflow
+      - pseo-workflow-renewal
+      - pseo-request-review-exception
+      - pseo-raci-governance
+      - pseo-inventory-review-cycle
+      - pseo-continuous-audit-workflow
+      - pseo-responsibility-boundary
+  - id: pseo-internal-audit-evidence
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/internal-audit-evidence/
+    intent_keywords:
+      - 内部監査 証跡
+      - 監査 証拠 準備
+      - AI ガバナンス 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-operating-workflow
+      - pseo-workflow-renewal
+      - pseo-request-review-exception
+      - pseo-raci-governance
+      - pseo-inventory-review-cycle
+      - pseo-continuous-audit-workflow
+      - pseo-responsibility-boundary
+      - pseo-proof-vs-assurance
+  - id: pseo-operating-workflow
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/operating-workflow/
+    intent_keywords:
+      - AI 利用 運用フロー
+      - 申請 審査 例外 更新
+      - 棚卸 継続監査
+      - RACI ガバナンス
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-workflow-renewal
+      - pseo-request-review-exception
+      - pseo-raci-governance
+      - pseo-inventory-review-cycle
+      - pseo-continuous-audit-workflow
+      - pseo-responsibility-boundary
+      - pseo-proof-vs-assurance
+      - pseo-sla-responsibility-matrix
+  - id: pseo-workflow-renewal
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/operating-workflow-renewal/
+    intent_keywords:
+      - ポリシー 更新 フロー
+      - 例外 申請 審査
+      - 継続監査 棚卸
+    primary_cta: exec_onepager_request
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-request-review-exception
+      - pseo-raci-governance
+      - pseo-inventory-review-cycle
+      - pseo-continuous-audit-workflow
+      - pseo-responsibility-boundary
+      - pseo-proof-vs-assurance
+      - pseo-sla-responsibility-matrix
+      - pseo-coverage-map
+  - id: pseo-request-review-exception
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/request-review-exception/
+    intent_keywords:
+      - 申請 審査
+      - 例外 申請
+      - AI 利用 申請
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-raci-governance
+      - pseo-inventory-review-cycle
+      - pseo-continuous-audit-workflow
+      - pseo-responsibility-boundary
+      - pseo-proof-vs-assurance
+      - pseo-sla-responsibility-matrix
+      - pseo-coverage-map
+      - pseo-coverage-map-iso
+  - id: pseo-raci-governance
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/raci-governance/
+    intent_keywords:
+      - RACI
+      - 責任 分担
+      - 申請 承認 責任
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-inventory-review-cycle
+      - pseo-continuous-audit-workflow
+      - pseo-responsibility-boundary
+      - pseo-proof-vs-assurance
+      - pseo-sla-responsibility-matrix
+      - pseo-coverage-map
+      - pseo-coverage-map-iso
+      - pseo-gen-a-101
+  - id: pseo-inventory-review-cycle
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/inventory-review-cycle/
+    intent_keywords:
+      - 棚卸
+      - 継続監査
+      - 定期 レビュー
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-continuous-audit-workflow
+      - pseo-responsibility-boundary
+      - pseo-proof-vs-assurance
+      - pseo-sla-responsibility-matrix
+      - pseo-coverage-map
+      - pseo-coverage-map-iso
+      - pseo-gen-a-101
+      - pseo-gen-a-102
+  - id: pseo-continuous-audit-workflow
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/continuous-audit-workflow/
+    intent_keywords:
+      - 継続監査 フロー
+      - 棚卸 サイクル
+      - 監査 継続
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-responsibility-boundary
+      - pseo-proof-vs-assurance
+      - pseo-sla-responsibility-matrix
+      - pseo-coverage-map
+      - pseo-coverage-map-iso
+      - pseo-gen-a-101
+      - pseo-gen-a-102
+      - pseo-gen-a-103
+  - id: pseo-responsibility-boundary
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/responsibility-boundary/
+    intent_keywords:
+      - 責任分界
+      - Proof Assurance
+      - 証憑 保証
+      - 誰が保証するか
+    primary_cta: exec_onepager_request
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-proof-vs-assurance
+      - pseo-sla-responsibility-matrix
+      - pseo-coverage-map
+      - pseo-coverage-map-iso
+      - pseo-gen-a-101
+      - pseo-gen-a-102
+      - pseo-gen-a-103
+      - pseo-gen-a-104
+  - id: pseo-proof-vs-assurance
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/proof-vs-assurance/
+    intent_keywords:
+      - Proof Assurance
+      - 証憑 保証
+      - 責任 分界
+    primary_cta: exec_onepager_request
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-sla-responsibility-matrix
+      - pseo-coverage-map
+      - pseo-coverage-map-iso
+      - pseo-gen-a-101
+      - pseo-gen-a-102
+      - pseo-gen-a-103
+      - pseo-gen-a-104
+      - pseo-gen-a-105
+  - id: pseo-sla-responsibility-matrix
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/sla-responsibility-matrix/
+    intent_keywords:
+      - SLA
+      - 責任 マトリクス
+      - 保証 範囲
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-coverage-map
+      - pseo-coverage-map-iso
+      - pseo-gen-a-101
+      - pseo-gen-a-102
+      - pseo-gen-a-103
+      - pseo-gen-a-104
+      - pseo-gen-a-105
+      - pseo-gen-a-106
+  - id: pseo-coverage-map
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/coverage-map/
+    intent_keywords:
+      - Coverage Map
+      - ISO 42001 対応観点
+      - NIST AI RMF 対応
+      - EU AI Act 対応観点
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-coverage-map-iso
+      - pseo-gen-a-101
+      - pseo-gen-a-102
+      - pseo-gen-a-103
+      - pseo-gen-a-104
+      - pseo-gen-a-105
+      - pseo-gen-a-106
+      - pseo-gen-a-107
+  - id: pseo-coverage-map-iso
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/coverage-map-iso42001/
+    intent_keywords:
+      - ISO IEC 42001 対応
+      - AI マネジメント 証跡
+      - 42001 証拠
+    primary_cta: exec_onepager_request
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-a-101
+      - pseo-gen-a-102
+      - pseo-gen-a-103
+      - pseo-gen-a-104
+      - pseo-gen-a-105
+      - pseo-gen-a-106
+      - pseo-gen-a-107
+      - pseo-gen-a-108
+  - id: pseo-gen-a-101
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-101/
+    intent_keywords:
+      - 監査
+      - 証跡
+      - 申請
+      - Evidence Pack
+      - 監査
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-102
+      - pseo-gen-a-103
+      - pseo-gen-a-104
+      - pseo-gen-a-105
+      - pseo-gen-a-106
+      - pseo-gen-a-107
+      - pseo-gen-a-108
+      - pseo-gen-a-109
+  - id: pseo-gen-a-102
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-102/
+    intent_keywords:
+      - 証拠パック
+      - 提出物
+      - 目次
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-103
+      - pseo-gen-a-104
+      - pseo-gen-a-105
+      - pseo-gen-a-106
+      - pseo-gen-a-107
+      - pseo-gen-a-108
+      - pseo-gen-a-109
+      - pseo-gen-a-110
+  - id: pseo-gen-a-103
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-103/
+    intent_keywords:
+      - 証跡バンドル
+      - 最小要件
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-104
+      - pseo-gen-a-105
+      - pseo-gen-a-106
+      - pseo-gen-a-107
+      - pseo-gen-a-108
+      - pseo-gen-a-109
+      - pseo-gen-a-110
+      - pseo-gen-a-111
+  - id: pseo-gen-a-104
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-104/
+    intent_keywords:
+      - 監査提出物
+      - 形式
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-105
+      - pseo-gen-a-106
+      - pseo-gen-a-107
+      - pseo-gen-a-108
+      - pseo-gen-a-109
+      - pseo-gen-a-110
+      - pseo-gen-a-111
+      - pseo-gen-a-112
+  - id: pseo-gen-a-105
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-105/
+    intent_keywords:
+      - 監査
+      - 証跡
+      - 申請
+      - Evidence Pack
+      - 監査
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-106
+      - pseo-gen-a-107
+      - pseo-gen-a-108
+      - pseo-gen-a-109
+      - pseo-gen-a-110
+      - pseo-gen-a-111
+      - pseo-gen-a-112
+      - pseo-gen-a-113
+  - id: pseo-gen-a-106
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-106/
+    intent_keywords:
+      - 証拠パック
+      - 提出物
+      - 目次
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-107
+      - pseo-gen-a-108
+      - pseo-gen-a-109
+      - pseo-gen-a-110
+      - pseo-gen-a-111
+      - pseo-gen-a-112
+      - pseo-gen-a-113
+      - pseo-gen-a-114
+  - id: pseo-gen-a-107
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-107/
+    intent_keywords:
+      - 証跡バンドル
+      - 最小要件
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-108
+      - pseo-gen-a-109
+      - pseo-gen-a-110
+      - pseo-gen-a-111
+      - pseo-gen-a-112
+      - pseo-gen-a-113
+      - pseo-gen-a-114
+      - pseo-gen-a-115
+  - id: pseo-gen-a-108
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-108/
+    intent_keywords:
+      - 監査提出物
+      - 形式
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-109
+      - pseo-gen-a-110
+      - pseo-gen-a-111
+      - pseo-gen-a-112
+      - pseo-gen-a-113
+      - pseo-gen-a-114
+      - pseo-gen-a-115
+      - pseo-gen-b-116
+  - id: pseo-gen-a-109
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-109/
+    intent_keywords:
+      - 監査
+      - 証跡
+      - 申請
+      - Evidence Pack
+      - 監査
+    primary_cta: exec_onepager_request
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-110
+      - pseo-gen-a-111
+      - pseo-gen-a-112
+      - pseo-gen-a-113
+      - pseo-gen-a-114
+      - pseo-gen-a-115
+      - pseo-gen-b-116
+      - pseo-gen-b-117
+  - id: pseo-gen-a-110
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-110/
+    intent_keywords:
+      - 証拠パック
+      - 提出物
+      - 目次
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-111
+      - pseo-gen-a-112
+      - pseo-gen-a-113
+      - pseo-gen-a-114
+      - pseo-gen-a-115
+      - pseo-gen-b-116
+      - pseo-gen-b-117
+      - pseo-gen-b-118
+  - id: pseo-gen-a-111
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-111/
+    intent_keywords:
+      - 証跡バンドル
+      - 最小要件
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-112
+      - pseo-gen-a-113
+      - pseo-gen-a-114
+      - pseo-gen-a-115
+      - pseo-gen-b-116
+      - pseo-gen-b-117
+      - pseo-gen-b-118
+      - pseo-gen-b-119
+  - id: pseo-gen-a-112
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-112/
+    intent_keywords:
+      - 監査提出物
+      - 形式
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-113
+      - pseo-gen-a-114
+      - pseo-gen-a-115
+      - pseo-gen-b-116
+      - pseo-gen-b-117
+      - pseo-gen-b-118
+      - pseo-gen-b-119
+      - pseo-gen-b-120
+  - id: pseo-gen-a-113
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-113/
+    intent_keywords:
+      - 監査
+      - 証跡
+      - 申請
+      - Evidence Pack
+      - 監査
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-114
+      - pseo-gen-a-115
+      - pseo-gen-b-116
+      - pseo-gen-b-117
+      - pseo-gen-b-118
+      - pseo-gen-b-119
+      - pseo-gen-b-120
+      - pseo-gen-b-121
+  - id: pseo-gen-a-114
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-114/
+    intent_keywords:
+      - 証拠パック
+      - 提出物
+      - 目次
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-a-115
+      - pseo-gen-b-116
+      - pseo-gen-b-117
+      - pseo-gen-b-118
+      - pseo-gen-b-119
+      - pseo-gen-b-120
+      - pseo-gen-b-121
+      - pseo-gen-b-122
+  - id: pseo-gen-a-115
+    lang: ja
+    page_type: A
+    slug: /ja/resources/pseo/a-115/
+    intent_keywords:
+      - 証跡バンドル
+      - 最小要件
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - evidence-bundle-structure-summary.md
+      - evidence-pack-table-template.md
+      - evidence-pack-index-requirements.md
+      - evidence-pack-common-formats.md
+      - common-gaps-and-remediation.md
+      - glossary-evidence-terms.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-116
+      - pseo-gen-b-117
+      - pseo-gen-b-118
+      - pseo-gen-b-119
+      - pseo-gen-b-120
+      - pseo-gen-b-121
+      - pseo-gen-b-122
+      - pseo-gen-b-123
+  - id: pseo-gen-b-116
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-116/
+    intent_keywords:
+      - 監査
+      - 証跡
+      - 最小証拠
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-117
+      - pseo-gen-b-118
+      - pseo-gen-b-119
+      - pseo-gen-b-120
+      - pseo-gen-b-121
+      - pseo-gen-b-122
+      - pseo-gen-b-123
+      - pseo-gen-b-124
+  - id: pseo-gen-b-117
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-117/
+    intent_keywords:
+      - 証拠要件
+      - 頻度
+      - 統制
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-118
+      - pseo-gen-b-119
+      - pseo-gen-b-120
+      - pseo-gen-b-121
+      - pseo-gen-b-122
+      - pseo-gen-b-123
+      - pseo-gen-b-124
+      - pseo-gen-b-125
+  - id: pseo-gen-b-118
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-118/
+    intent_keywords:
+      - シャドーAI
+      - ログ
+      - 証跡
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-119
+      - pseo-gen-b-120
+      - pseo-gen-b-121
+      - pseo-gen-b-122
+      - pseo-gen-b-123
+      - pseo-gen-b-124
+      - pseo-gen-b-125
+      - pseo-gen-b-126
+  - id: pseo-gen-b-119
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-119/
+    intent_keywords:
+      - 内部監査
+      - 質問
+      - 証拠
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-120
+      - pseo-gen-b-121
+      - pseo-gen-b-122
+      - pseo-gen-b-123
+      - pseo-gen-b-124
+      - pseo-gen-b-125
+      - pseo-gen-b-126
+      - pseo-gen-b-127
+  - id: pseo-gen-b-120
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-120/
+    intent_keywords:
+      - 監査
+      - 証跡
+      - 最小証拠
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-121
+      - pseo-gen-b-122
+      - pseo-gen-b-123
+      - pseo-gen-b-124
+      - pseo-gen-b-125
+      - pseo-gen-b-126
+      - pseo-gen-b-127
+      - pseo-gen-b-128
+  - id: pseo-gen-b-121
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-121/
+    intent_keywords:
+      - 証拠要件
+      - 頻度
+      - 統制
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-122
+      - pseo-gen-b-123
+      - pseo-gen-b-124
+      - pseo-gen-b-125
+      - pseo-gen-b-126
+      - pseo-gen-b-127
+      - pseo-gen-b-128
+      - pseo-gen-b-129
+  - id: pseo-gen-b-122
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-122/
+    intent_keywords:
+      - シャドーAI
+      - ログ
+      - 証跡
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-123
+      - pseo-gen-b-124
+      - pseo-gen-b-125
+      - pseo-gen-b-126
+      - pseo-gen-b-127
+      - pseo-gen-b-128
+      - pseo-gen-b-129
+      - pseo-gen-b-130
+  - id: pseo-gen-b-123
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-123/
+    intent_keywords:
+      - 内部監査
+      - 質問
+      - 証拠
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-124
+      - pseo-gen-b-125
+      - pseo-gen-b-126
+      - pseo-gen-b-127
+      - pseo-gen-b-128
+      - pseo-gen-b-129
+      - pseo-gen-b-130
+      - pseo-gen-c-131
+  - id: pseo-gen-b-124
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-124/
+    intent_keywords:
+      - 監査
+      - 証跡
+      - 最小証拠
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-125
+      - pseo-gen-b-126
+      - pseo-gen-b-127
+      - pseo-gen-b-128
+      - pseo-gen-b-129
+      - pseo-gen-b-130
+      - pseo-gen-c-131
+      - pseo-gen-c-132
+  - id: pseo-gen-b-125
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-125/
+    intent_keywords:
+      - 証拠要件
+      - 頻度
+      - 統制
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-126
+      - pseo-gen-b-127
+      - pseo-gen-b-128
+      - pseo-gen-b-129
+      - pseo-gen-b-130
+      - pseo-gen-c-131
+      - pseo-gen-c-132
+      - pseo-gen-c-133
+  - id: pseo-gen-b-126
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-126/
+    intent_keywords:
+      - シャドーAI
+      - ログ
+      - 証跡
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-127
+      - pseo-gen-b-128
+      - pseo-gen-b-129
+      - pseo-gen-b-130
+      - pseo-gen-c-131
+      - pseo-gen-c-132
+      - pseo-gen-c-133
+      - pseo-gen-c-134
+  - id: pseo-gen-b-127
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-127/
+    intent_keywords:
+      - 内部監査
+      - 質問
+      - 証拠
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-128
+      - pseo-gen-b-129
+      - pseo-gen-b-130
+      - pseo-gen-c-131
+      - pseo-gen-c-132
+      - pseo-gen-c-133
+      - pseo-gen-c-134
+      - pseo-gen-c-135
+  - id: pseo-gen-b-128
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-128/
+    intent_keywords:
+      - 監査
+      - 証跡
+      - 最小証拠
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-129
+      - pseo-gen-b-130
+      - pseo-gen-c-131
+      - pseo-gen-c-132
+      - pseo-gen-c-133
+      - pseo-gen-c-134
+      - pseo-gen-c-135
+      - pseo-gen-c-136
+  - id: pseo-gen-b-129
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-129/
+    intent_keywords:
+      - 証拠要件
+      - 頻度
+      - 統制
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-b-130
+      - pseo-gen-c-131
+      - pseo-gen-c-132
+      - pseo-gen-c-133
+      - pseo-gen-c-134
+      - pseo-gen-c-135
+      - pseo-gen-c-136
+      - pseo-gen-c-137
+  - id: pseo-gen-b-130
+    lang: ja
+    page_type: B
+    slug: /ja/resources/pseo/b-130/
+    intent_keywords:
+      - シャドーAI
+      - ログ
+      - 証跡
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - minimum-evidence-requirements-table.md
+      - minimum-evidence-checklist-shadow-ai.md
+      - control-to-evidence-frequency.md
+      - audit-questions-pack.md
+      - common-gaps-and-remediation.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-131
+      - pseo-gen-c-132
+      - pseo-gen-c-133
+      - pseo-gen-c-134
+      - pseo-gen-c-135
+      - pseo-gen-c-136
+      - pseo-gen-c-137
+      - pseo-gen-c-138
+  - id: pseo-gen-c-131
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-131/
+    intent_keywords:
+      - 申請
+      - 審査
+      - 例外
+      - 更新
+      - 監査
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-132
+      - pseo-gen-c-133
+      - pseo-gen-c-134
+      - pseo-gen-c-135
+      - pseo-gen-c-136
+      - pseo-gen-c-137
+      - pseo-gen-c-138
+      - pseo-gen-c-139
+  - id: pseo-gen-c-132
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-132/
+    intent_keywords:
+      - 棚卸
+      - 継続監査
+      - RACI
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-133
+      - pseo-gen-c-134
+      - pseo-gen-c-135
+      - pseo-gen-c-136
+      - pseo-gen-c-137
+      - pseo-gen-c-138
+      - pseo-gen-c-139
+      - pseo-gen-c-140
+  - id: pseo-gen-c-133
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-133/
+    intent_keywords:
+      - 運用フロー
+      - ポリシー更新
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-134
+      - pseo-gen-c-135
+      - pseo-gen-c-136
+      - pseo-gen-c-137
+      - pseo-gen-c-138
+      - pseo-gen-c-139
+      - pseo-gen-c-140
+      - pseo-gen-c-141
+  - id: pseo-gen-c-134
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-134/
+    intent_keywords:
+      - Human-in-the-Loop
+      - 申請 承認
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-135
+      - pseo-gen-c-136
+      - pseo-gen-c-137
+      - pseo-gen-c-138
+      - pseo-gen-c-139
+      - pseo-gen-c-140
+      - pseo-gen-c-141
+      - pseo-gen-c-142
+  - id: pseo-gen-c-135
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-135/
+    intent_keywords:
+      - 申請
+      - 審査
+      - 例外
+      - 更新
+      - 監査
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-136
+      - pseo-gen-c-137
+      - pseo-gen-c-138
+      - pseo-gen-c-139
+      - pseo-gen-c-140
+      - pseo-gen-c-141
+      - pseo-gen-c-142
+      - pseo-gen-c-143
+  - id: pseo-gen-c-136
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-136/
+    intent_keywords:
+      - 棚卸
+      - 継続監査
+      - RACI
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-137
+      - pseo-gen-c-138
+      - pseo-gen-c-139
+      - pseo-gen-c-140
+      - pseo-gen-c-141
+      - pseo-gen-c-142
+      - pseo-gen-c-143
+      - pseo-gen-c-144
+  - id: pseo-gen-c-137
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-137/
+    intent_keywords:
+      - 運用フロー
+      - ポリシー更新
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-138
+      - pseo-gen-c-139
+      - pseo-gen-c-140
+      - pseo-gen-c-141
+      - pseo-gen-c-142
+      - pseo-gen-c-143
+      - pseo-gen-c-144
+      - pseo-gen-c-145
+  - id: pseo-gen-c-138
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-138/
+    intent_keywords:
+      - Human-in-the-Loop
+      - 申請 承認
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-139
+      - pseo-gen-c-140
+      - pseo-gen-c-141
+      - pseo-gen-c-142
+      - pseo-gen-c-143
+      - pseo-gen-c-144
+      - pseo-gen-c-145
+      - pseo-gen-d-146
+  - id: pseo-gen-c-139
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-139/
+    intent_keywords:
+      - 申請
+      - 審査
+      - 例外
+      - 更新
+      - 監査
+    primary_cta: exec_onepager_request
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-140
+      - pseo-gen-c-141
+      - pseo-gen-c-142
+      - pseo-gen-c-143
+      - pseo-gen-c-144
+      - pseo-gen-c-145
+      - pseo-gen-d-146
+      - pseo-gen-d-147
+  - id: pseo-gen-c-140
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-140/
+    intent_keywords:
+      - 棚卸
+      - 継続監査
+      - RACI
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-141
+      - pseo-gen-c-142
+      - pseo-gen-c-143
+      - pseo-gen-c-144
+      - pseo-gen-c-145
+      - pseo-gen-d-146
+      - pseo-gen-d-147
+      - pseo-gen-d-148
+  - id: pseo-gen-c-141
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-141/
+    intent_keywords:
+      - 運用フロー
+      - ポリシー更新
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-142
+      - pseo-gen-c-143
+      - pseo-gen-c-144
+      - pseo-gen-c-145
+      - pseo-gen-d-146
+      - pseo-gen-d-147
+      - pseo-gen-d-148
+      - pseo-gen-d-149
+  - id: pseo-gen-c-142
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-142/
+    intent_keywords:
+      - Human-in-the-Loop
+      - 申請 承認
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-143
+      - pseo-gen-c-144
+      - pseo-gen-c-145
+      - pseo-gen-d-146
+      - pseo-gen-d-147
+      - pseo-gen-d-148
+      - pseo-gen-d-149
+      - pseo-gen-d-150
+  - id: pseo-gen-c-143
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-143/
+    intent_keywords:
+      - 申請
+      - 審査
+      - 例外
+      - 更新
+      - 監査
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-144
+      - pseo-gen-c-145
+      - pseo-gen-d-146
+      - pseo-gen-d-147
+      - pseo-gen-d-148
+      - pseo-gen-d-149
+      - pseo-gen-d-150
+      - pseo-gen-d-151
+  - id: pseo-gen-c-144
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-144/
+    intent_keywords:
+      - 棚卸
+      - 継続監査
+      - RACI
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-c-145
+      - pseo-gen-d-146
+      - pseo-gen-d-147
+      - pseo-gen-d-148
+      - pseo-gen-d-149
+      - pseo-gen-d-150
+      - pseo-gen-d-151
+      - pseo-gen-d-152
+  - id: pseo-gen-c-145
+    lang: ja
+    page_type: C
+    slug: /ja/resources/pseo/c-145/
+    intent_keywords:
+      - 運用フロー
+      - ポリシー更新
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - workflow-request-review-exception-renewal.md
+      - raci-request-approval-exception.md
+      - continuous-audit-workflow.md
+      - inventory-and-review-cycle.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-146
+      - pseo-gen-d-147
+      - pseo-gen-d-148
+      - pseo-gen-d-149
+      - pseo-gen-d-150
+      - pseo-gen-d-151
+      - pseo-gen-d-152
+      - pseo-gen-d-153
+  - id: pseo-gen-d-146
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-146/
+    intent_keywords:
+      - 責任分界
+      - Proof
+      - Assurance
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-147
+      - pseo-gen-d-148
+      - pseo-gen-d-149
+      - pseo-gen-d-150
+      - pseo-gen-d-151
+      - pseo-gen-d-152
+      - pseo-gen-d-153
+      - pseo-gen-d-154
+  - id: pseo-gen-d-147
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-147/
+    intent_keywords:
+      - 証憑
+      - 保証
+      - 誰が
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-148
+      - pseo-gen-d-149
+      - pseo-gen-d-150
+      - pseo-gen-d-151
+      - pseo-gen-d-152
+      - pseo-gen-d-153
+      - pseo-gen-d-154
+      - pseo-gen-d-155
+  - id: pseo-gen-d-148
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-148/
+    intent_keywords:
+      - SLA
+      - 責任マトリクス
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-149
+      - pseo-gen-d-150
+      - pseo-gen-d-151
+      - pseo-gen-d-152
+      - pseo-gen-d-153
+      - pseo-gen-d-154
+      - pseo-gen-d-155
+      - pseo-gen-d-156
+  - id: pseo-gen-d-149
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-149/
+    intent_keywords:
+      - 責任分界
+      - Proof
+      - Assurance
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-150
+      - pseo-gen-d-151
+      - pseo-gen-d-152
+      - pseo-gen-d-153
+      - pseo-gen-d-154
+      - pseo-gen-d-155
+      - pseo-gen-d-156
+      - pseo-gen-d-157
+  - id: pseo-gen-d-150
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-150/
+    intent_keywords:
+      - 証憑
+      - 保証
+      - 誰が
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-151
+      - pseo-gen-d-152
+      - pseo-gen-d-153
+      - pseo-gen-d-154
+      - pseo-gen-d-155
+      - pseo-gen-d-156
+      - pseo-gen-d-157
+      - pseo-gen-d-158
+  - id: pseo-gen-d-151
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-151/
+    intent_keywords:
+      - SLA
+      - 責任マトリクス
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-152
+      - pseo-gen-d-153
+      - pseo-gen-d-154
+      - pseo-gen-d-155
+      - pseo-gen-d-156
+      - pseo-gen-d-157
+      - pseo-gen-d-158
+      - pseo-gen-d-159
+  - id: pseo-gen-d-152
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-152/
+    intent_keywords:
+      - 責任分界
+      - Proof
+      - Assurance
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-153
+      - pseo-gen-d-154
+      - pseo-gen-d-155
+      - pseo-gen-d-156
+      - pseo-gen-d-157
+      - pseo-gen-d-158
+      - pseo-gen-d-159
+      - pseo-gen-d-160
+  - id: pseo-gen-d-153
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-153/
+    intent_keywords:
+      - 証憑
+      - 保証
+      - 誰が
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-154
+      - pseo-gen-d-155
+      - pseo-gen-d-156
+      - pseo-gen-d-157
+      - pseo-gen-d-158
+      - pseo-gen-d-159
+      - pseo-gen-d-160
+      - pseo-gen-e-161
+  - id: pseo-gen-d-154
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-154/
+    intent_keywords:
+      - SLA
+      - 責任マトリクス
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-155
+      - pseo-gen-d-156
+      - pseo-gen-d-157
+      - pseo-gen-d-158
+      - pseo-gen-d-159
+      - pseo-gen-d-160
+      - pseo-gen-e-161
+      - pseo-gen-e-162
+  - id: pseo-gen-d-155
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-155/
+    intent_keywords:
+      - 責任分界
+      - Proof
+      - Assurance
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-156
+      - pseo-gen-d-157
+      - pseo-gen-d-158
+      - pseo-gen-d-159
+      - pseo-gen-d-160
+      - pseo-gen-e-161
+      - pseo-gen-e-162
+      - pseo-gen-e-163
+  - id: pseo-gen-d-156
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-156/
+    intent_keywords:
+      - 証憑
+      - 保証
+      - 誰が
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-157
+      - pseo-gen-d-158
+      - pseo-gen-d-159
+      - pseo-gen-d-160
+      - pseo-gen-e-161
+      - pseo-gen-e-162
+      - pseo-gen-e-163
+      - pseo-gen-e-164
+  - id: pseo-gen-d-157
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-157/
+    intent_keywords:
+      - SLA
+      - 責任マトリクス
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-158
+      - pseo-gen-d-159
+      - pseo-gen-d-160
+      - pseo-gen-e-161
+      - pseo-gen-e-162
+      - pseo-gen-e-163
+      - pseo-gen-e-164
+      - pseo-gen-e-165
+  - id: pseo-gen-d-158
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-158/
+    intent_keywords:
+      - 責任分界
+      - Proof
+      - Assurance
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-159
+      - pseo-gen-d-160
+      - pseo-gen-e-161
+      - pseo-gen-e-162
+      - pseo-gen-e-163
+      - pseo-gen-e-164
+      - pseo-gen-e-165
+      - pseo-gen-e-166
+  - id: pseo-gen-d-159
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-159/
+    intent_keywords:
+      - 証憑
+      - 保証
+      - 誰が
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-d-160
+      - pseo-gen-e-161
+      - pseo-gen-e-162
+      - pseo-gen-e-163
+      - pseo-gen-e-164
+      - pseo-gen-e-165
+      - pseo-gen-e-166
+      - pseo-gen-e-167
+  - id: pseo-gen-d-160
+    lang: ja
+    page_type: D
+    slug: /ja/resources/pseo/d-160/
+    intent_keywords:
+      - SLA
+      - 責任マトリクス
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - responsibility-boundary-proof-assurance.md
+      - proof-vs-assurance-table.md
+      - sla-and-responsibility-matrix.md
+      - common-gaps-and-remediation.md
+      - audit-questions-pack.md
+      - evidence-pack-table-template.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+    related_pages:
+      - pseo-gen-e-161
+      - pseo-gen-e-162
+      - pseo-gen-e-163
+      - pseo-gen-e-164
+      - pseo-gen-e-165
+      - pseo-gen-e-166
+      - pseo-gen-e-167
+      - pseo-gen-e-168
+  - id: pseo-gen-e-161
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-161/
+    intent_keywords:
+      - ISO/IEC 42001
+      - NIST AI RMF
+      - EU AI Act
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-162
+      - pseo-gen-e-163
+      - pseo-gen-e-164
+      - pseo-gen-e-165
+      - pseo-gen-e-166
+      - pseo-gen-e-167
+      - pseo-gen-e-168
+      - pseo-gen-e-169
+  - id: pseo-gen-e-162
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-162/
+    intent_keywords:
+      - ISMS
+      - 対応観点
+      - Coverage Map
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-163
+      - pseo-gen-e-164
+      - pseo-gen-e-165
+      - pseo-gen-e-166
+      - pseo-gen-e-167
+      - pseo-gen-e-168
+      - pseo-gen-e-169
+      - pseo-gen-e-170
+  - id: pseo-gen-e-163
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-163/
+    intent_keywords:
+      - AI マネジメント
+      - 規制 対応
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-164
+      - pseo-gen-e-165
+      - pseo-gen-e-166
+      - pseo-gen-e-167
+      - pseo-gen-e-168
+      - pseo-gen-e-169
+      - pseo-gen-e-170
+      - pseo-gen-e-171
+  - id: pseo-gen-e-164
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-164/
+    intent_keywords:
+      - ISO/IEC 42001
+      - NIST AI RMF
+      - EU AI Act
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-165
+      - pseo-gen-e-166
+      - pseo-gen-e-167
+      - pseo-gen-e-168
+      - pseo-gen-e-169
+      - pseo-gen-e-170
+      - pseo-gen-e-171
+      - pseo-gen-e-172
+  - id: pseo-gen-e-165
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-165/
+    intent_keywords:
+      - ISMS
+      - 対応観点
+      - Coverage Map
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-166
+      - pseo-gen-e-167
+      - pseo-gen-e-168
+      - pseo-gen-e-169
+      - pseo-gen-e-170
+      - pseo-gen-e-171
+      - pseo-gen-e-172
+      - pseo-gen-e-173
+  - id: pseo-gen-e-166
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-166/
+    intent_keywords:
+      - AI マネジメント
+      - 規制 対応
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-167
+      - pseo-gen-e-168
+      - pseo-gen-e-169
+      - pseo-gen-e-170
+      - pseo-gen-e-171
+      - pseo-gen-e-172
+      - pseo-gen-e-173
+      - pseo-gen-e-174
+  - id: pseo-gen-e-167
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-167/
+    intent_keywords:
+      - ISO/IEC 42001
+      - NIST AI RMF
+      - EU AI Act
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-168
+      - pseo-gen-e-169
+      - pseo-gen-e-170
+      - pseo-gen-e-171
+      - pseo-gen-e-172
+      - pseo-gen-e-173
+      - pseo-gen-e-174
+      - pseo-gen-e-175
+  - id: pseo-gen-e-168
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-168/
+    intent_keywords:
+      - ISMS
+      - 対応観点
+      - Coverage Map
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-169
+      - pseo-gen-e-170
+      - pseo-gen-e-171
+      - pseo-gen-e-172
+      - pseo-gen-e-173
+      - pseo-gen-e-174
+      - pseo-gen-e-175
+      - pseo-evidence-pack
+  - id: pseo-gen-e-169
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-169/
+    intent_keywords:
+      - AI マネジメント
+      - 規制 対応
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-170
+      - pseo-gen-e-171
+      - pseo-gen-e-172
+      - pseo-gen-e-173
+      - pseo-gen-e-174
+      - pseo-gen-e-175
+      - pseo-evidence-pack
+      - pseo-evidence-pack-formats
+  - id: pseo-gen-e-170
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-170/
+    intent_keywords:
+      - ISO/IEC 42001
+      - NIST AI RMF
+      - EU AI Act
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-171
+      - pseo-gen-e-172
+      - pseo-gen-e-173
+      - pseo-gen-e-174
+      - pseo-gen-e-175
+      - pseo-evidence-pack
+      - pseo-evidence-pack-formats
+      - pseo-evidence-pack-index
+  - id: pseo-gen-e-171
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-171/
+    intent_keywords:
+      - ISMS
+      - 対応観点
+      - Coverage Map
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-172
+      - pseo-gen-e-173
+      - pseo-gen-e-174
+      - pseo-gen-e-175
+      - pseo-evidence-pack
+      - pseo-evidence-pack-formats
+      - pseo-evidence-pack-index
+      - pseo-evidence-pack-minimum
+  - id: pseo-gen-e-172
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-172/
+    intent_keywords:
+      - AI マネジメント
+      - 規制 対応
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-173
+      - pseo-gen-e-174
+      - pseo-gen-e-175
+      - pseo-evidence-pack
+      - pseo-evidence-pack-formats
+      - pseo-evidence-pack-index
+      - pseo-evidence-pack-minimum
+      - pseo-evidence-bundle-structure
+  - id: pseo-gen-e-173
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-173/
+    intent_keywords:
+      - ISO/IEC 42001
+      - NIST AI RMF
+      - EU AI Act
+      - 監査
+      - 証跡
+    primary_cta: tier1_free_log_analysis
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-174
+      - pseo-gen-e-175
+      - pseo-evidence-pack
+      - pseo-evidence-pack-formats
+      - pseo-evidence-pack-index
+      - pseo-evidence-pack-minimum
+      - pseo-evidence-bundle-structure
+      - pseo-audit-submission-checklist
+  - id: pseo-gen-e-174
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-174/
+    intent_keywords:
+      - ISMS
+      - 対応観点
+      - Coverage Map
+      - 監査
+      - 証跡
+    primary_cta: tier2_bpr_sprint
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-gen-e-175
+      - pseo-evidence-pack
+      - pseo-evidence-pack-formats
+      - pseo-evidence-pack-index
+      - pseo-evidence-pack-minimum
+      - pseo-evidence-bundle-structure
+      - pseo-audit-submission-checklist
+      - pseo-evidence-gaps-remediation
+  - id: pseo-gen-e-175
+    lang: ja
+    page_type: E
+    slug: /ja/resources/pseo/e-175/
+    intent_keywords:
+      - AI マネジメント
+      - 規制 対応
+      - 監査
+      - 証跡
+    primary_cta: exec_onepager_request
+    module_refs:
+      - coverage-map-overview.md
+      - coverage-map-iso42001-perspectives.md
+      - coverage-map-nist-rmf-perspectives.md
+      - coverage-map-eu-ai-act-perspectives.md
+      - common-gaps-and-remediation.md
+      - minimum-evidence-requirements-table.md
+    references:
+      - https://aimoaas.com/ja/aimo-standard/
+      - https://aimoaas.com/ja
+      - https://aimoaas.com/ja/resources/shadow-ai/
+      - https://www.iso.org/standard/81230.html
+      - https://www.nist.gov/itl/ai-risk-management-framework
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+    related_pages:
+      - pseo-evidence-pack
+      - pseo-evidence-pack-formats
+      - pseo-evidence-pack-index
+      - pseo-evidence-pack-minimum
+      - pseo-evidence-bundle-structure
+      - pseo-audit-submission-checklist
+      - pseo-evidence-gaps-remediation
+      - pseo-evidence-formats-standards

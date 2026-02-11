@@ -1,0 +1,5162 @@
+{
+  "generated_at": "2026-02-11T05:57:31.569Z",
+  "summary": {
+    "total": 100,
+    "passed": 100,
+    "failed": 0
+  },
+  "pages": [
+    {
+      "page_id": "pseo-evidence-pack",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.35871634484634213,
+      "content_similarity_with": "a-110",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-evidence-pack-formats",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-evidence-readiness-ai-audit-evidence-pack-formats/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "content_similarity": 0.3473879607531159,
+      "content_similarity_with": "a-108",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "evidence-readiness",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-evidence-pack-index",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-evidence-pack-index/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3386034255599473,
+      "content_similarity_with": "a-105",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-evidence-pack-minimum",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-evidence-pack-minimum/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.3863095238095238,
+      "content_similarity_with": "a-102",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 10,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-evidence-bundle-structure",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-bundle-structure/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "content_similarity": 0.37834691501746215,
+      "content_similarity_with": "a-107",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 10,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-audit-submission-checklist",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-intake-audit-submission-checklist/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.3486805165637282,
+      "content_similarity_with": "a-107",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "intake-review-approve"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 10,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-evidence-gaps-remediation",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-controls-evidence-gaps-remediation/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.3353159851301115,
+      "content_similarity_with": "a-113",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-evidence-formats-standards",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-formats-standards/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.39976380277531737,
+      "content_similarity_with": "a-103",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-minimum-evidence",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-controls-minimum-evidence-requirements/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.37079345476999076,
+      "content_similarity_with": "b-119",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 10,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-minimum-evidence-shadow-ai",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.3419556566230813,
+      "content_similarity_with": "control-evidence-frequency",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-readiness",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-audit-questions-pack",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-audit-questions-pack/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.36245857185899366,
+      "content_similarity_with": "b-119",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "evidence-readiness"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 6,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-control-evidence-frequency",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.37323279924599434,
+      "content_similarity_with": "b-124",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 8,
+      "faq_count": 1,
+      "internal_links_count": 4,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-evidence-requirements-table",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-evidence-requirements-table/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.3287747697460229,
+      "content_similarity_with": "b-129",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 4,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-internal-audit-evidence",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-controls-evidence-readiness-internal-audit-evidence/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.3458286358511838,
+      "content_similarity_with": "b-129",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "controls",
+        "evidence-readiness"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 13,
+      "faq_count": 1,
+      "internal_links_count": 11,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-operating-workflow",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-operating-workflow/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.31948120698782423,
+      "content_similarity_with": "c-134",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "intake-review-approve",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-workflow-renewal",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-inventory-operating-workflow-renewal/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.32647226986849626,
+      "content_similarity_with": "request-review-exception",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "inventory"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 10,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-request-review-exception",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.32647226986849626,
+      "content_similarity_with": "operating-workflow-renewal",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 4,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-raci-governance",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "content_similarity": 0.33428327158734683,
+      "content_similarity_with": "c-137",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "intake-review-approve",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-inventory-review-cycle",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-monitoring-inventory-inventory-review-cycle/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.35242548217416714,
+      "content_similarity_with": "c-137",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "ai-audit",
+        "monitoring",
+        "inventory"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 13,
+      "faq_count": 1,
+      "internal_links_count": 11,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-continuous-audit-workflow",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-inventory-continuous-audit-workflow/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.33493227990970653,
+      "content_similarity_with": "c-138",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "ai-audit",
+        "controls",
+        "inventory"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 13,
+      "faq_count": 1,
+      "internal_links_count": 11,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-responsibility-boundary",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-responsibility-boundary/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 3 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 3 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "content_similarity": 0.35456699131350355,
+      "content_similarity_with": "d-160",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "responsibility-boundary",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 3,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-proof-vs-assurance",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-proof-vs-assurance/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.38240318906605925,
+      "content_similarity_with": "d-146",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "responsibility-boundary",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-sla-responsibility-matrix",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-sla-responsibility-matrix/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 3 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 3 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "content_similarity": 0.3755681818181818,
+      "content_similarity_with": "d-154",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 3,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-coverage-map",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-governance-audit-evidence-controls-workflow-coverage-map/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 1 < 2"
+      ],
+      "content_similarity": 0.23129251700680273,
+      "content_similarity_with": "e-171",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-coverage-map-iso",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-coverage-map-iso42001/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3",
+        "intent_keywords_matched 0 < 2"
+      ],
+      "content_similarity": 0.3247365501941209,
+      "content_similarity_with": "e-163",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 4,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-101",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-evidence-readiness-proof-assurance-a-101/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3376,
+      "content_similarity_with": "a-110",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-102",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-evidence-pack-a-102/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3863095238095238,
+      "content_similarity_with": "evidence-pack-minimum",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "ai-audit",
+        "evidence-pack"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-103",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-a-103/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.39976380277531737,
+      "content_similarity_with": "evidence-formats-standards",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 10,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-104",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-pack-ai-a-104/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3618119266055046,
+      "content_similarity_with": "evidence-pack-minimum",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "evidence-pack",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-105",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-105/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3386034255599473,
+      "content_similarity_with": "evidence-pack-index",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 5,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-106",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-pack-ai-a-106/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.36321014892443465,
+      "content_similarity_with": "evidence-formats-standards",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "evidence-pack",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-107",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-107/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.37834691501746215,
+      "content_similarity_with": "evidence-bundle-structure",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 5,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-108",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-108/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3742084052964882,
+      "content_similarity_with": "a-114",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 10,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-109",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-109/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3358208955223881,
+      "content_similarity_with": "evidence-pack-index",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-110",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-controls-a-110/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3705761918689675,
+      "content_similarity_with": "a-114",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 6,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-111",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-111/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3430200977729495,
+      "content_similarity_with": "a-102",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-112",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-a-112/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3274446379696442,
+      "content_similarity_with": "a-105",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-113",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-evidence-a-113/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3353159851301115,
+      "content_similarity_with": "evidence-gaps-remediation",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "proof-assurance",
+        "evidence-readiness"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-114",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-controls-a-114/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3742084052964882,
+      "content_similarity_with": "a-108",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-pack",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-a-115",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-115/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 11 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.34169934640522875,
+      "content_similarity_with": "a-103",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 10,
+      "fixups": [
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-116",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-116/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3333333333333333,
+      "content_similarity_with": "b-129",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-117",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-117/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.361810551558753,
+      "content_similarity_with": "control-evidence-frequency",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-118",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-118/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.36040914560770154,
+      "content_similarity_with": "b-129",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 6,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-119",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-119/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.37079345476999076,
+      "content_similarity_with": "minimum-evidence-requirements",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 5,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-120",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-120/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 2 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 2 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3513986013986014,
+      "content_similarity_with": "b-117",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 2,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-121",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-121/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.35178316690442224,
+      "content_similarity_with": "b-118",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-122",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-ai-b-122/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3654485049833887,
+      "content_similarity_with": "b-119",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "evidence-readiness",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-123",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-123/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3637447823494335,
+      "content_similarity_with": "b-129",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-124",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-124/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.37323279924599434,
+      "content_similarity_with": "control-evidence-frequency",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 6,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-125",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-125/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3191603875134553,
+      "content_similarity_with": "b-129",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-126",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-126/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.35550996483001174,
+      "content_similarity_with": "b-119",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 5,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-127",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-127/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 2 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 2 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3331452750352609,
+      "content_similarity_with": "b-129",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 2,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-128",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-128/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3601543942992874,
+      "content_similarity_with": "b-119",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 6,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-129",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-129/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3637447823494335,
+      "content_similarity_with": "b-123",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-b-130",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-130/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3562980484920166,
+      "content_similarity_with": "b-129",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 5,
+      "fixups": [
+        "注意",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-131",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-c-131/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.30051150895140666,
+      "content_similarity_with": "c-135",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 4,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-132",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-132/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.34762321376494604,
+      "content_similarity_with": "c-138",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-133",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-c-133/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.33730373578776396,
+      "content_similarity_with": "c-142",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-readiness",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 10,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-134",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-intake-review-approve-proof-c-134/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.32736063708759955,
+      "content_similarity_with": "c-138",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-readiness",
+        "intake-review-approve",
+        "proof-assurance"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 13,
+      "faq_count": 1,
+      "internal_links_count": 11,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-135",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-exceptions-c-135/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3242499311863474,
+      "content_similarity_with": "c-139",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "exceptions"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 5,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-136",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-136/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.34577189286789045,
+      "content_similarity_with": "c-141",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-137",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-policy-c-137/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3572062740455756,
+      "content_similarity_with": "c-140",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "policy-training-attestation"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-138",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-intake-review-approve-c-138/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.359417652411283,
+      "content_similarity_with": "c-141",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "intake-review-approve",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 10,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-139",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-c-139/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3242499311863474,
+      "content_similarity_with": "c-135",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-140",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-140/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3572062740455756,
+      "content_similarity_with": "c-137",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 5,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-141",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-c-141/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.359417652411283,
+      "content_similarity_with": "c-138",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 13,
+      "faq_count": 1,
+      "internal_links_count": 11,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-142",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-intake-c-142/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3401972157772622,
+      "content_similarity_with": "c-137",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "evidence-readiness",
+        "intake-review-approve"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 13,
+      "faq_count": 1,
+      "internal_links_count": 11,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-143",
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-exceptions-c-143/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.2974025974025974,
+      "content_similarity_with": "operating-workflow-renewal",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "intake-review-approve",
+        "ai-audit",
+        "exceptions"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-144",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-c-144/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.33286516853932585,
+      "content_similarity_with": "c-138",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-c-145",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-policy-c-145/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.321996708721887,
+      "content_similarity_with": "c-136",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "policy-training-attestation"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-146",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-146/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.38724773325533784,
+      "content_similarity_with": "d-159",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-147",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-ai-d-147/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.39293785310734464,
+      "content_similarity_with": "d-159",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "evidence-readiness",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-148",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-148/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.39959016393442626,
+      "content_similarity_with": "d-160",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 12,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-149",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-149/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3775422515038671,
+      "content_similarity_with": "d-152",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 5,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-150",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-evidence-d-150/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3738342659205969,
+      "content_similarity_with": "d-159",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "evidence-readiness"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 6,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-151",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-151/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3699664429530201,
+      "content_similarity_with": "d-154",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 13,
+      "faq_count": 1,
+      "internal_links_count": 10,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-152",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-152/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.41846446700507617,
+      "content_similarity_with": "d-154",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 4,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-153",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-d-153/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3863969510407505,
+      "content_similarity_with": "d-156",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-154",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-154/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.41846446700507617,
+      "content_similarity_with": "d-152",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 6,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-155",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-155/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.35568360398114196,
+      "content_similarity_with": "d-146",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-156",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-156/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.39677222898903775,
+      "content_similarity_with": "d-152",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 6,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-157",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-157/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3489217978695765,
+      "content_similarity_with": "d-146",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 11,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-158",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-158/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 5 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3658129175946548,
+      "content_similarity_with": "d-152",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 9,
+      "faq_count": 1,
+      "internal_links_count": 5,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-159",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-d-159/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.39293785310734464,
+      "content_similarity_with": "d-147",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "responsibility-boundary",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-d-160",
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-160/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.4165625,
+      "content_similarity_with": "d-154",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "responsibility-boundary",
+        "evidence-readiness",
+        "proof-assurance"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 10,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "References",
+        "References",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-161",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-161/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.31639475795667293,
+      "content_similarity_with": "e-170",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-readiness",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 13,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-162",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-162/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.33164983164983164,
+      "content_similarity_with": "e-166",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-readiness",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 14,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-163",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-163/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 6 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3247365501941209,
+      "content_similarity_with": "coverage-map-iso42001",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 14,
+      "faq_count": 1,
+      "internal_links_count": 6,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-164",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-e-164/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 4 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3050847457627119,
+      "content_similarity_with": "e-173",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 14,
+      "faq_count": 1,
+      "internal_links_count": 4,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-165",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-165/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.2860727728983689,
+      "content_similarity_with": "e-163",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 14,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-166",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-166/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.33164983164983164,
+      "content_similarity_with": "e-162",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 14,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-167",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-167/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3170926517571885,
+      "content_similarity_with": "e-170",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 13,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-168",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-168/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3274885352036687,
+      "content_similarity_with": "e-162",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 14,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-169",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-169/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.2912210892812733,
+      "content_similarity_with": "coverage-map-iso42001",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 14,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-170",
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-e-170/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.317663421418637,
+      "content_similarity_with": "e-163",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 14,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-171",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-171/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "internal_links_count 7 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.32161073825503356,
+      "content_similarity_with": "e-173",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 13,
+      "faq_count": 1,
+      "internal_links_count": 7,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-172",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-e-172/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.32622368061252394,
+      "content_similarity_with": "e-166",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 16,
+      "faq_count": 1,
+      "internal_links_count": 11,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-173",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-173/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.32436928195176046,
+      "content_similarity_with": "e-166",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 13,
+      "faq_count": 1,
+      "internal_links_count": 8,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-174",
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-174/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.2748447204968944,
+      "content_similarity_with": "e-165",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "proof-assurance",
+        "ai-audit",
+        "controls"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 14,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    },
+    {
+      "page_id": "pseo-gen-e-175",
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-175/",
+      "pass": true,
+      "fail": false,
+      "reasons": [],
+      "warns": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "warn_reasons": [
+        "table: 10 tables, max 8 rows (warn: >= 10)",
+        "faq_count 1 < 8",
+        "page_types_in_links 0 < 3"
+      ],
+      "content_similarity": 0.3176440329218107,
+      "content_similarity_with": "e-172",
+      "unique_sections": [
+        "case-study",
+        "checklist",
+        "findings-fixes",
+        "artifact-block",
+        "audit-q"
+      ],
+      "cta_present": true,
+      "claims_lint": {
+        "pass": true,
+        "violations": []
+      },
+      "topic": [
+        "evidence-readiness",
+        "proof-assurance",
+        "ai-audit"
+      ],
+      "artifact_types_count": 2,
+      "references_count": 14,
+      "faq_count": 1,
+      "internal_links_count": 9,
+      "fixups": [
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References",
+        "注意",
+        "References"
+      ]
+    }
+  ]
+}
