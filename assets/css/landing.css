@@ -1,0 +1,140 @@
+/* ランディング共通: hero・モバイルメニュー・カード等（フォントは各ページで指定） */
+body {
+  scroll-behavior: smooth;
+}
+.hero-bg {
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+  position: relative;
+  overflow: hidden;
+}
+.hero-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(circle at 20% 30%, rgba(79, 70, 229, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(236, 72, 153, 0.15) 0%, transparent 50%);
+  z-index: 0;
+}
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.text-gradient {
+  background: linear-gradient(to right, #4f46e5, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.grid-bg {
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}
+#mobile-menu {
+  position: fixed !important;
+  left: 0;
+  right: 0;
+  top: 64px;
+  bottom: 0;
+  width: 100vw;
+  height: calc(100vh - 64px);
+  display: none !important;
+  flex-direction: column;
+  background: #ffffff;
+  border-top: 1px solid #e2e8f0;
+  z-index: 9999 !important;
+  overflow-y: auto;
+}
+#mobile-menu.is-open {
+  display: flex !important;
+}
+@media (min-width: 1280px) {
+  #mobile-menu {
+    display: none !important;
+  }
+}
+/* グローバルナビのみ固定（ページ内の <header> は対象外にする） */
+body > header {
+  position: fixed;
+  z-index: 1000;
+}
+#mobile-menu {
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 24px);
+}
+#mobile-menu .mobile-menu-inner {
+  flex: 1;
+  min-height: 0;
+  padding: 1.5rem 1.25rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+#mobile-menu .mobile-lang-label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: #64748b;
+  margin-bottom: 0.75rem;
+}
+#mobile-menu .mobile-lang-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+#mobile-menu .mobile-lang-grid a {
+  padding: 0.625rem 0.875rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.15s, color 0.15s;
+}
+#mobile-menu .mobile-nav-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #e2e8f0 8%, #e2e8f0 92%, transparent);
+  margin: 0.25rem 0 0;
+}
+#mobile-menu .mobile-nav-section {
+  padding-top: 0.25rem;
+}
+#mobile-menu .mobile-nav-link {
+  display: block;
+  padding: 0.875rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #334155;
+  border-radius: 0.5rem;
+  transition: background-color 0.15s, color 0.15s;
+}
+#mobile-menu .mobile-nav-link:hover,
+#mobile-menu .mobile-nav-link:focus {
+  background-color: #f1f5f9;
+  color: #4f46e5;
+}
+#mobile-menu .mobile-cta-wrap {
+  padding-top: 0.5rem;
+  border-top: 1px solid #e2e8f0;
+}
+#mobile-menu .mobile-cta {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 14px rgba(79, 70, 229, 0.35);
+  transition: box-shadow 0.2s, transform 0.1s;
+}
+#mobile-menu .mobile-cta:hover,
+#mobile-menu .mobile-cta:focus {
+  box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
+}
+#mobile-menu .mobile-cta:active {
+  transform: scale(0.98);
+}

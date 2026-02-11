@@ -324,6 +324,12 @@
         <priority>0.85</priority>
     </url>
     <url>
+        <loc>https://aimoaas.com/ja/resources/pseo/</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
         <loc>https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/</loc>
         <lastmod>2026-02-11</lastmod>
         <changefreq>weekly</changefreq>

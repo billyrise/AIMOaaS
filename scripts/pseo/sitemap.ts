@@ -103,7 +103,14 @@ function main(): void {
     nonPseoBlocks.push(block);
   }
 
-  const pseoBlocks = pseoPagesInSitemap.map((p) => {
+  const pseoIndexLoc = `${BASE_URL}/ja/resources/pseo/`;
+  const pseoIndexBlock = `    <url>
+        <loc>${pseoIndexLoc}</loc>
+        <lastmod>${today}</lastmod>
+        <changefreq>${CHANGEFREQ}</changefreq>
+        <priority>0.75</priority>
+    </url>`;
+  const pseoArticleBlocks = pseoPagesInSitemap.map((p) => {
     const loc = pseoLoc(p, pseoMap);
     const pri = pseoEntries.get(loc)!.priority;
     return `    <url>
@@ -113,6 +120,7 @@ function main(): void {
         <priority>${pri}</priority>
     </url>`;
   });
+  const pseoBlocks = [pseoIndexBlock, ...pseoArticleBlocks];
 
   const urlsetOpen = sitemap.match(/<urlset[^>]*>/)?.[0] ?? "<urlset>";
   const newBody = nonPseoBlocks.join("\n") + (nonPseoBlocks.length ? "\n" : "") + pseoBlocks.join("\n");

@@ -147,6 +147,7 @@ function validateGeminiOutput(o: unknown): asserts o is GeminiOutput {
   if (typeof r.description !== "string") throw new Error("Invalid Gemini output: missing or invalid description");
   if (typeof r.tldr !== "string") throw new Error("Invalid Gemini output: missing or invalid tldr");
   if (!Array.isArray(r.faqs)) throw new Error("Invalid Gemini output: faqs must be an array");
+  if (r.faqs.length < 8) throw new Error(`Invalid Gemini output: faqs must have at least 8 items (got ${r.faqs.length})`);
   if (!Array.isArray(r.objections)) throw new Error("Invalid Gemini output: objections must be an array");
   if (!Array.isArray(r.internal_links)) throw new Error("Invalid Gemini output: internal_links must be an array");
   if (!r.jsonld || typeof r.jsonld !== "object") throw new Error("Invalid Gemini output: jsonld must be an object");

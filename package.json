@@ -1,0 +1,12 @@
+{
+  "name": "aimoaas-site",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i src/input.css -o assets/css/main.css --minify",
+    "fetch:lucide": "node scripts/fetch-lucide.js",
+    "build": "npm run build:css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

@@ -14,6 +14,7 @@ import type { CatalogPage, Catalog, GeminiOutput, ModuleOutline } from "./types.
 import { generateEditingArtifacts } from "./gemini.js";
 import { renderArtifactsMinTwo } from "./render_artifacts.js";
 import { deduplicateH2Sections } from "./quality/dedup_headings.js";
+import { renderHeaderStatic, renderFooter } from "./layout.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..", "..");
@@ -183,6 +184,13 @@ function escapeHtml(s: string): string {
     .replace(/'/g, "&#39;");
 }
 
+/** page_type に応じた OGP 画像（現状は同一。トピック別画像追加時に差し替え可能） */
+function getOgImageForPageType(pageType: string | undefined, baseUrl: string): string {
+  const defaultImg = `${baseUrl}/assets/aimo-standard-unifying-regulations.png`;
+  // 将来: E=Coverage, A=Evidence Pack, B=統制, C=ワークフロー, D=責任分界 で別画像を返す
+  return defaultImg;
+}
+
 function renderPageHtml(
   page: CatalogPage,
   bodyHtml: string,
@@ -191,16 +199,41 @@ function renderPageHtml(
   options?: { canonicalUrl?: string; pseoRobots?: string; emitFaqSchema?: boolean; internalLinksHtml?: string }
 ): string {
   const canonical = (options?.canonicalUrl ?? `${baseUrl}${page.slug.replace(/\/$/, "")}`).replace(/\/?$/, "/");
-  const ogImage = `${baseUrl}/assets/aimo-standard-unifying-regulations.png`;
+  const ogImage = getOgImageForPageType(page.page_type, baseUrl);
   const pseoRobots = options?.pseoRobots ?? "noindex,follow";
   const emitFaqSchema = options?.emitFaqSchema ?? false;
 
   const faqSchema = emitFaqSchema && gemini.jsonld.faqPage
     ? `<script type="application/ld+json">${JSON.stringify(gemini.jsonld.faqPage)}</script>`
     : "";
-  const articleSchema = gemini.jsonld.article
-    ? `<script type="application/ld+json">${JSON.stringify(gemini.jsonld.article)}</script>`
+  // E-E-A-T: Article に datePublished/dateModified/author/publisher を付与（AI低価値シグナル軽減）
+  const buildDate = new Date().toISOString().slice(0, 10);
+  const articleEnriched = gemini.jsonld.article
+    ? {
+        ...gemini.jsonld.article,
+        datePublished: buildDate,
+        dateModified: buildDate,
+        author: { "@type": "Organization" as const, name: "RISEby inc.", url: "https://riseby.net" },
+        publisher: { "@id": `${baseUrl}/#organization` },
+      }
+    : null;
+  const articleSchema = articleEnriched
+    ? `<script type="application/ld+json">${JSON.stringify(articleEnriched)}</script>`
     : "";
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: `${baseUrl}/ja/` },
+      { "@type": "ListItem", position: 2, name: "監査・証跡（実務）", item: `${baseUrl}/ja/resources/pseo/` },
+      { "@type": "ListItem", position: 3, name: gemini.title, item: canonical },
+    ],
+  };
+  const jsonLdBreadcrumb = `<script type="application/ld+json">${JSON.stringify(breadcrumbSchema)}</script>`;
+
+  const [y, m, d] = buildDate.split("-").map(Number);
+  const dateModifiedDisplay = `${y}年${m}月${d}日`;
 
   const faqHtml = gemini.faqs
     .map(
@@ -222,6 +255,9 @@ function renderPageHtml(
   const ctaMid = renderCtaPartial(page.primary_cta, baseUrl, CTA_CONFIG[page.primary_cta].mid_note);
   const ctaBottom = renderCtaPartial(page.primary_cta, baseUrl, "");
   const trustBlock = readFileSync(join(PARTIALS_DIR, "trust.html"), "utf8");
+
+  const headerHtml = renderHeaderStatic("ja", "main_lp", baseUrl);
+  const footerHtml = renderFooter("ja", baseUrl, { showPracticeGuide: true });
 
   const pageTpl = loadTemplate("page.html");
   return pageTpl
@@ -247,7 +283,11 @@ function renderPageHtml(
     .replace(/\{\{cta_bottom\}\}/g, ctaBottom)
     .replace(/\{\{internal_links_html\}\}/g, internalLinksHtml)
     .replace(/\{\{json_ld_faq\}\}/g, faqSchema)
-    .replace(/\{\{json_ld_article\}\}/g, articleSchema);
+    .replace(/\{\{json_ld_article\}\}/g, articleSchema)
+    .replace(/\{\{json_ld_breadcrumb\}\}/g, jsonLdBreadcrumb)
+    .replace(/\{\{date_modified_display\}\}/g, dateModifiedDisplay)
+    .replace(/\{\{header_html\}\}/g, headerHtml)
+    .replace(/\{\{footer_html\}\}/g, footerHtml);
 }
 
 function loadPseoPagesMap(): Map<string, { final_url: string; final_slug: string }> {
@@ -296,15 +336,31 @@ function loadSlugToTopic(): Map<string, string> {
   return m;
 }
 
+/** 内部リンクのトピック多様性確保: common + 自トピック + 他トピックから2種を追加（page_types_in_links >= 3 に寄与） */
 function buildInternalLinksHtmlFromLinkMap(
   baseUrl: string,
   finalSlug: string,
   linkMap: { common: LinkItem[]; [topic: string]: LinkItem[] | undefined },
   slugToTopic: Map<string, string>
 ): string {
-  const topic = linkMap[slugToTopic.get(finalSlug) ?? "misc"] ?? linkMap.misc ?? [];
+  const currentTopic = slugToTopic.get(finalSlug) ?? "misc";
+  const topicLinks = linkMap[currentTopic] ?? linkMap.misc ?? [];
   const common = linkMap.common ?? [];
-  const links = [...common, ...(Array.isArray(topic) ? topic : [])];
+  const topicKeys = Object.keys(linkMap).filter((k) => k !== "common" && k !== "description" && Array.isArray(linkMap[k]) && (linkMap[k]?.length ?? 0) > 0);
+  const otherTopics = topicKeys.filter((k) => k !== currentTopic);
+  const added = new Set<string>();
+  const fromOthers: LinkItem[] = [];
+  for (const t of otherTopics) {
+    const arr = linkMap[t];
+    if (!Array.isArray(arr) || arr.length === 0) continue;
+    const first = arr[0];
+    if (first && !added.has(first.href)) {
+      added.add(first.href);
+      fromOthers.push(first);
+      if (fromOthers.length >= 2) break;
+    }
+  }
+  const links = [...common, ...(Array.isArray(topicLinks) ? topicLinks : []), ...fromOthers];
   const sep = ' <span class="text-slate-300" aria-hidden="true">/</span> ';
   return links
     .map((l) => {

@@ -19,29 +19,24 @@
   <meta name="twitter:title" content="{{twitter_title}}" />
   <meta name="twitter:description" content="{{twitter_description}}" />
   <meta name="twitter:image" content="{{twitter_image}}" />
+  {{json_ld_breadcrumb}}
+  <link rel="preload" href="/assets/css/main.css" as="style" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="preload" href="/assets/css/landing.css" as="style" />
+  <link rel="stylesheet" href="/assets/css/landing.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body { font-family: 'Noto Sans JP', sans-serif; }
-    /* PSEO 本文: 表の可読性・行間・見出し余白（Tailwind Typography に依存しない最小CSS） */
-    .pseo-prose table { width: 100%; border-collapse: collapse; }
-    .pseo-prose th, .pseo-prose td { border: 1px solid #e2e8f0; padding: 8px; vertical-align: top; }
-    .pseo-prose thead th { background: #f8fafc; }
-    .pseo-prose .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1rem 0; }
-    .pseo-prose h2 { margin-top: 2rem; margin-bottom: 0.75rem; }
-    .pseo-prose p, .pseo-prose li { line-height: 1.8; }
-    .pseo-prose code, .pseo-prose pre { overflow-wrap: break-word; }
-    .pseo-prose pre { overflow-x: auto; }
-  </style>
+  <style>body{font-family:'Noto Sans JP',sans-serif}</style>
 </head>
-<body class="bg-slate-50 text-slate-900 antialiased">
-  <div class="max-w-4xl mx-auto px-4 py-8">
-    <header class="mb-6 text-sm">
+<body class="bg-slate-50 text-slate-800 antialiased">
+  {{header_html}}
+  <div class="max-w-4xl mx-auto px-4 pt-24 pb-8">
+    <nav class="mb-6 text-sm text-slate-500" aria-label="パンくず">
       <a href="{{base_url}}/ja/" class="text-indigo-600 hover:underline">AIMOaaS™</a>
       <span class="text-slate-400 mx-1">/</span>
-      <span class="text-slate-600">リソース</span>
-    </header>
+      <a href="{{base_url}}/ja/resources/pseo/" class="text-indigo-600 hover:underline">監査・証跡（実務）</a>
+    </nav>
 
     <main>
       <!-- above-the-fold: TL;DR + CTA（意思決定の入口） -->
@@ -50,6 +45,7 @@
         <div class="tldr-box p-5 bg-white rounded-lg border border-slate-200 shadow-sm mb-6">
           <p class="text-slate-700 leading-relaxed">{{tldr}}</p>
         </div>
+        <p class="text-sm text-slate-500 mt-2">提供: RISEby inc. / AIMOaaS™　最終更新: {{date_modified_display}}</p>
         {{cta_above_fold}}
       </section>
 
@@ -90,17 +86,14 @@
       </section>
     </main>
 
-    <footer class="mt-12 pt-6 border-t border-slate-200 text-sm text-slate-500">
-      <p>
-        <a href="{{base_url}}/ja/" class="text-indigo-600 hover:underline">ホーム</a>
-        <span class="mx-2">|</span>
-        <a href="{{base_url}}/ja/aimo-standard/" class="text-indigo-600 hover:underline">AIMO Standard</a>
-      </p>
-    </footer>
+    {{footer_html}}
   </div>
 
   <!-- JSON-LD: FAQPage + Article -->
   {{json_ld_faq}}
   {{json_ld_article}}
+
+  <script src="/assets/js/lucide.min.js" defer></script>
+  <script>try { lucide.createIcons(); } catch (e) {}</script>
 </body>
 </html>

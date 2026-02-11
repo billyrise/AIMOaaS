@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PSEO 本文: 表の可読性・行間・見出し余白（全ページで共通）
+ * 監査・法人向け情報サイトを参考に、枠線・ヘッダー・ゼブラストライプで視認性を確保
+ * .prose .table-wrap も対象にし、pseo-prose のない既存静的HTMLでも表スタイルが効くようにする */
+@layer components {
+  /* 表ラッパー（pseo-prose 内 または .prose 内の両方に適用） */
+  .pseo-prose .table-wrap,
+  .prose .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 1.25rem 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.06);
+  }
+  .pseo-prose .table-wrap table,
+  .prose .table-wrap table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 0.5rem;
+  }
+  .pseo-prose .table-wrap th,
+  .pseo-prose .table-wrap td,
+  .prose .table-wrap th,
+  .prose .table-wrap td {
+    border: 1px solid #cbd5e1;
+    padding: 0.75rem 1rem;
+    vertical-align: top;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+  }
+  .pseo-prose .table-wrap thead th,
+  .prose .table-wrap thead th {
+    background: #f1f5f9;
+    font-weight: 600;
+    color: #334155;
+    border-bottom: 2px solid #94a3b8;
+    white-space: nowrap;
+  }
+  .pseo-prose .table-wrap tbody tr:nth-child(even),
+  .prose .table-wrap tbody tr:nth-child(even) {
+    background: #f8fafc;
+  }
+  .pseo-prose .table-wrap tbody tr:hover,
+  .prose .table-wrap tbody tr:hover {
+    background: #f1f5f9;
+  }
+  .pseo-prose .table-wrap td,
+  .prose .table-wrap td {
+    color: #475569;
+  }
+  /* 既存の .pseo-prose table 単体（table-wrap 外）にも同じ見た目を適用 */
+  .pseo-prose table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .pseo-prose table:not(.min-w-full) th,
+  .pseo-prose table:not(.min-w-full) td {
+    border: 1px solid #cbd5e1;
+    padding: 0.75rem 1rem;
+    vertical-align: top;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+  }
+  .pseo-prose table:not(.min-w-full) thead th {
+    background: #f1f5f9;
+    font-weight: 600;
+    color: #334155;
+    border-bottom: 2px solid #94a3b8;
+  }
+  .pseo-prose table:not(.min-w-full) tbody tr:nth-child(even) {
+    background: #f8fafc;
+  }
+  .pseo-prose table:not(.min-w-full) tbody tr:hover {
+    background: #f1f5f9;
+  }
+  .pseo-prose h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .pseo-prose p,
+  .pseo-prose li {
+    line-height: 1.8;
+  }
+  .pseo-prose code,
+  .pseo-prose pre {
+    overflow-wrap: break-word;
+  }
+  .pseo-prose pre {
+    overflow-x: auto;
+  }
+}

@@ -21,16 +21,105 @@
   <meta name="twitter:image" content="https://aimoaas.com/assets/aimo-standard-unifying-regulations.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
   <style>body { font-family: 'Noto Sans JP', sans-serif; }</style>
-</head>
-<body class="bg-slate-50 text-slate-900 antialiased">
-  <div class="max-w-4xl mx-auto px-4 py-8">
-    <header class="mb-6 text-sm">
+  <link rel="preload" href="/assets/css/main.css" as="style" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="preload" href="/assets/css/landing.css" as="style" />
+  <link rel="stylesheet" href="/assets/css/landing.css" />
+  </head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+<!-- Common header for static pages (main_lp, aimo_standard, audit_firms, resources) -->
+<header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+  <div class="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between gap-3">
+    <a href="https://aimoaas.com/ja/" class="flex items-center gap-2 flex-shrink-0">
+      <i data-lucide="shield-check" class="text-indigo-600 w-8 h-8"></i>
+      <span class="text-xl font-bold tracking-tight text-slate-900">AIMO<span class="text-indigo-600">aaS</span>™</span>
+    </a>
+    <nav class="hidden xl:flex items-center flex-1 min-w-0 justify-end gap-3 lg:gap-4 text-sm font-medium text-slate-600">
+      <div class="flex items-center gap-3 lg:gap-5 flex-shrink-0">
+        <a href="https://aimoaas.com/ja/#problem" class="hover:text-indigo-600 transition whitespace-nowrap">リスクとコスト</a>
+                        <a href="https://aimoaas.com/ja/#solution" class="hover:text-indigo-600 transition whitespace-nowrap">サービス概要</a>
+                        <a href="https://aimoaas.com/ja/aimo-standard/" class="hover:text-indigo-600 transition whitespace-nowrap">AIMO Standard</a>
+                        <a href="https://aimoaas.com/ja/resources/ai-governance-guide/" class="hover:text-indigo-600 transition whitespace-nowrap">リソース</a>
+                        <a href="https://aimoaas.com/ja/resources/pseo/" class="hover:text-indigo-600 transition whitespace-nowrap">実務ガイド</a>
+                        <a href="https://aimoaas.com/ja/audit-firms/" class="hover:text-indigo-600 transition whitespace-nowrap">監査法人の皆さまへ</a>
+                        <a href="https://aimoaas.com/ja/#features" class="hover:text-indigo-600 transition whitespace-nowrap">特徴</a>
+                        <a href="https://aimoaas.com/ja/#plans" class="hover:text-indigo-600 transition whitespace-nowrap">導入プラン</a>
+                        <a href="https://aimoaas.com/ja/#faq" class="hover:text-indigo-600 transition whitespace-nowrap">よくある質問</a>
+      </div>
+      <span class="text-slate-400 flex-shrink-0">|</span>
+                    <div class="relative flex-shrink-0" id="lang-dropdown-wrap">
+                        <button type="button" id="lang-dropdown-btn" class="flex items-center gap-1 rounded-md px-2.5 py-1.5 text-slate-600 hover:bg-slate-100 text-sm font-medium" aria-expanded="false" aria-haspopup="true" aria-label="Select language">
+                            <span id="lang-dropdown-label">日本語</span>
+                            <i data-lucide="chevron-down" class="w-4 h-4 text-slate-500"></i>
+                        </button>
+                        <div id="lang-dropdown-panel" class="absolute right-0 top-full mt-1 w-48 rounded-lg border border-slate-200 bg-white py-1 shadow-lg z-50 hidden" role="menu">
+                            <a href="https://aimoaas.com/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="en">English</a>
+                            <a href="https://aimoaas.com/ja/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="ja">日本語</a>
+                            <a href="https://aimoaas.com/es/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="es">Español</a>
+                            <a href="https://aimoaas.com/fr/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="fr">Français</a>
+                            <a href="https://aimoaas.com/de/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="de">Deutsch</a>
+                            <a href="https://aimoaas.com/pt/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="pt">Português</a>
+                            <a href="https://aimoaas.com/it/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="it">Italiano</a>
+                            <a href="https://aimoaas.com/zh-CN/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="zh-CN">简体中文</a>
+                            <a href="https://aimoaas.com/zh-TW/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="zh-TW">繁體中文</a>
+                            <a href="https://aimoaas.com/ko/" role="menuitem" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 lang-option" data-lang="ko">한국어</a>
+                        </div>
+                    </div>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="https://aimoaas.com/ja/#contact" class="hidden sm:inline-flex bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2.5 rounded-full text-sm font-bold transition shadow-lg hover:shadow-indigo-500/30 flex-shrink-0 whitespace-nowrap">無料相談</a>
+      <button type="button" id="hamburger-btn" data-testid="header-hamburger" class="xl:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 cursor-pointer inline-flex items-center justify-center border-0 bg-transparent" aria-label="メニューを開く" aria-controls="mobile-menu" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div id="mobile-menu" class="xl:hidden fixed inset-x-0 top-16 bottom-0 z-40 border-t border-slate-200/80 overflow-y-auto flex flex-col shadow-[0_-4px_24px_rgba(15,23,42,0.08)]" aria-hidden="true">
+  <div class="mobile-menu-inner" style="flex: 1; min-height: 0; padding: 1.5rem 1.25rem 1.75rem; display: flex; flex-direction: column; gap: 1.25rem;">
+    <nav class="mobile-nav-section" aria-label="Main menu">
+      <a href="https://aimoaas.com/ja/#problem" class="mobile-nav-link">リスクとコスト</a>
+                    <a href="https://aimoaas.com/ja/#solution" class="mobile-nav-link">サービス概要</a>
+                    <a href="https://aimoaas.com/ja/aimo-standard/" class="mobile-nav-link">AIMO Standard</a>
+                    <a href="https://aimoaas.com/ja/resources/ai-governance-guide/" class="mobile-nav-link">リソース</a>
+                    <a href="https://aimoaas.com/ja/resources/pseo/" class="mobile-nav-link">実務ガイド</a>
+                    <a href="https://aimoaas.com/ja/audit-firms/" class="mobile-nav-link">監査法人の皆さまへ</a>
+                    <a href="https://aimoaas.com/ja/#features" class="mobile-nav-link">特徴</a>
+                    <a href="https://aimoaas.com/ja/#plans" class="mobile-nav-link">導入プラン</a>
+                    <a href="https://aimoaas.com/ja/#faq" class="mobile-nav-link">よくある質問</a>
+    </nav>
+    <div class="mobile-cta-wrap" style="padding-top: 0.5rem; border-top: 1px solid #e2e8f0;"><a href="https://aimoaas.com/ja/#contact" class="mobile-cta" style="display: block; width: 100%; text-align: center; padding: 1rem 1.25rem; font-size: 1rem; font-weight: 700; color: #fff; background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%); border-radius: 0.75rem;">無料相談</a></div>
+    <div class="mobile-nav-divider" role="presentation" style="height: 1px; background: linear-gradient(90deg, transparent, #e2e8f0 8%, #e2e8f0 92%, transparent); margin: 0.25rem 0 0;"></div>
+    <div><p class="mobile-lang-label" style="font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.12em; color: #64748b; margin-bottom: 0.75rem;">Language</p><div class="mobile-lang-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem;"><a href="https://aimoaas.com/" class="bg-slate-100 text-slate-700 hover:bg-slate-200" style="padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500;">English</a>
+                        <a href="https://aimoaas.com/ja/" class="bg-indigo-100 text-indigo-700" style="padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500;">日本語</a>
+                        <a href="https://aimoaas.com/es/" class="bg-slate-100 text-slate-700 hover:bg-slate-200" style="padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500;">Español</a>
+                        <a href="https://aimoaas.com/fr/" class="bg-slate-100 text-slate-700 hover:bg-slate-200" style="padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500;">Français</a>
+                        <a href="https://aimoaas.com/de/" class="bg-slate-100 text-slate-700 hover:bg-slate-200" style="padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500;">Deutsch</a>
+                        <a href="https://aimoaas.com/pt/" class="bg-slate-100 text-slate-700 hover:bg-slate-200" style="padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500;">Português</a>
+                        <a href="https://aimoaas.com/it/" class="bg-slate-100 text-slate-700 hover:bg-slate-200" style="padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500;">Italiano</a>
+                        <a href="https://aimoaas.com/zh-CN/" class="bg-slate-100 text-slate-700 hover:bg-slate-200" style="padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500;">简体中文</a>
+                        <a href="https://aimoaas.com/zh-TW/" class="bg-slate-100 text-slate-700 hover:bg-slate-200" style="padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500;">繁體中文</a>
+                        <a href="https://aimoaas.com/ko/" class="bg-slate-100 text-slate-700 hover:bg-slate-200" style="padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500;">한국어</a></div></div>
+  </div>
+</div>
+<script>
+(function(){
+function init(){ var m=document.getElementById('mobile-menu'); var b=document.getElementById('hamburger-btn');
+if(!b||!m)return;
+m.style.setProperty('display','none','important');
+b.addEventListener('click',function(e){ e.preventDefault(); var open=m.classList.toggle('is-open'); m.style.setProperty('display',open?'flex':'none','important'); m.setAttribute('aria-hidden',open?'false':'true'); b.setAttribute('aria-expanded',open?'true':'false'); });
+window.addEventListener('resize',function(){ if(window.matchMedia('(min-width: 1280px)').matches){ m.classList.remove('is-open'); m.style.setProperty('display','none','important'); m.setAttribute('aria-hidden','true'); b.setAttribute('aria-expanded','false'); }});
+}
+if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded',init); }else{ init(); }
+})();
+</script>
+  
+  <div class="max-w-4xl mx-auto px-4 pt-24 pb-8">
+    <nav class="mb-6 text-sm text-slate-500" aria-label="パンくず">
       <a href="https://aimoaas.com/ja/" class="text-indigo-600 hover:underline">AIMOaaS™</a>
       <span class="text-slate-400 mx-1">/</span>
-      <span class="text-slate-600">リソース</span>
-    </header>
+      <a href="https://aimoaas.com/ja/resources/pseo/" class="text-indigo-600 hover:underline">監査・証跡（実務）</a>
+    </nav>
 
     <main>
       <!-- above-the-fold: TL;DR + CTA（意思決定の入口） -->
@@ -536,17 +625,37 @@
       </section>
     </main>
 
-    <footer class="mt-12 pt-6 border-t border-slate-200 text-sm text-slate-500">
-      <p>
-        <a href="https://aimoaas.com/ja/" class="text-indigo-600 hover:underline">ホーム</a>
-        <span class="mx-2">|</span>
-        <a href="https://aimoaas.com/ja/aimo-standard/" class="text-indigo-600 hover:underline">AIMO Standard</a>
-      </p>
+    <!-- 共通フッター（ダーク・ロゴ＋ナビ＋著作権） -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+          <a href="https://aimoaas.com/ja/" class="flex items-center gap-2 hover:text-white transition">
+            <i data-lucide="shield" class="w-6 h-6 text-slate-600"></i>
+            <span class="font-bold text-slate-200">AIMOaaS™</span>
+          </a>
+          <div class="flex flex-wrap gap-6 text-sm">
+            <a href="https://aimoaas.com/ja/" class="hover:text-white transition">ホーム</a>
+            <a href="https://aimoaas.com/ja/aimo-standard/" class="hover:text-white transition">AIMO Standard</a>
+            <a href="https://aimoaas.com/ja/resources/pseo/" class="hover:text-white transition">実務ガイド</a>
+            <a href="https://aimoaas.com/ja/#contact" class="hover:text-white transition">お問い合わせ</a>
+            <a href="https://riseby.net" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">運営会社</a>
+          </div>
+          <div class="text-xs text-slate-500">
+            AIMOは AI Management Office（AI管理オフィス）の略称です。AIMOaaS™ は <a href="https://riseby.net" target="_blank" rel="noopener noreferrer" class="hover:text-white transition underline">ライズバイ株式会社（RISEby inc.）</a> が提供しています。<br />
+            © 2025 AIMOaaS™. All rights reserved.
+          </div>
+        </div>
+      </div>
     </footer>
+    
   </div>
 
+  
   <!-- JSON-LD: FAQPage + Article -->
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"このページは、ISO/IEC 42001やNIST AI RMFへの「完全準拠」を保証しますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ、本ページは特定の規格への「完全準拠」や「認証取得」を保証するものではありません。ISO/IEC 42001、NIST AI RMF、EU AI Actなど主要なAI規制・標準に対する組織の対応観点と、監査に必要な証跡の準備に関する示唆を提供します。最終的な準拠性判断や認証は、各組織と認証機関、監督当局の判断に委ねられます。"}},{"@type":"Question","name":"EU AI Act の罰則リスクをこの情報で完全に回避できますか？","acceptedAnswer":{"@type":"Answer","text":"本ページは、EU AI Actの義務やリスク分類に対する証跡・運用の観点を提供しますが、罰則リスクの完全な回避を保証するものではありません。法律の解釈や適用範囲は法域・役割によって異なり、詳細は公式テキストと当局の解釈に従う必要があります。"}},{"@type":"Question","name":"提示されている統制項目や証跡は、自社のAI監査にそのまま適用できますか？","acceptedAnswer":{"@type":"Answer","text":"提示される統制項目、必要証跡、運用記録の頻度などは、あくまで「観点」や「例」としてご活用ください。組織の規模、事業内容、AIシステムの特性、適用される規制、そして契約や監査方針によって、要件は異なります。貴社の状況に合わせてカスタマイズし、専門家と相談することをお勧めします。"}},{"@type":"Question","name":"「よくある欠落と是正の観点」は、監査で指摘されないことを保証しますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ、保証するものではありません。監査・申請で指摘されやすい欠落項目とその是正に関する一般的な観点を整理していますが、すべてのケースに当てはまるわけではありません。組織の具体的な状況や審査基準により、必要な対策は異なります。"}},{"@type":"Question","name":"なぜAIMOaaSは「準拠保証」や「100%カバー」といった表現を使わないのですか？","acceptedAnswer":{"@type":"Answer","text":"AI規制・標準は常に進化しており、その解釈や適用は文脈に強く依存するため、一律の「完全準拠」や「100%カバー」を保証することは現実的ではないと考えているためです。私たちは、お客様が自身のAIガバナンスを強化し、監査対応に必要なEvidence readinessを高めるための実用的な観点と支援に焦点を当てています。"}},{"@type":"Question","name":"このページの情報は、AIガバナンス構築の第一歩としてどのように役立ちますか？","acceptedAnswer":{"@type":"Answer","text":"主要なAI規制・標準が求める主要な観点を一覧で示し、対応に必要な証跡や運用記録の準備に関する具体的な手引きを提供します。これにより、組織内のAIガバナンス体制構築や、監査に向けた準備状況の自己評価を効率的に進めるための出発点として役立ちます。"}},{"@type":"Question","name":"掲載されている情報に法的拘束力はありますか？","acceptedAnswer":{"@type":"Answer","text":"本ページに掲載されている情報は、法的助言や公式見解ではなく、一般的な情報提供および観点整理を目的としています。法的拘束力はなく、特定の規制・法律に関する詳細な判断や対応については、専門家にご相談ください。"}},{"@type":"Question","name":"AIMOaaSは、これらの規制・標準への対応に関して、具体的なコンサルティングやツールを提供しますか？","acceptedAnswer":{"@type":"Answer","text":"はい、AIMOaaSはAI統制の自動化やAIガバナンス強化を支援するプラットフォームと、関連する専門知識を提供しています。本ページで提示する観点に基づき、お客様の具体的な状況に応じた支援が可能です。詳細はAIMOaaSのサービスページをご参照ください。"}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"AI監査・統制実務：ISO/IEC 42001, NIST AI RMF, EU AI Act対応の観点と証跡","description":"ISO/IEC 42001, NIST AI RMF, EU AI Actなど主要なAI規制・標準への対応観点と、監査に必要な証跡・統制項目を整理。AIMOaaSがEvidence readinessを支援し、組織のAIガバナンス構築を促進します。"}</script>
+
+  <script src="/assets/js/lucide.min.js" defer></script>
+  <script>try { lucide.createIcons(); } catch (e) {}</script>
 </body>
 </html>

@@ -1,0 +1,42 @@
+<!-- Common header for static pages (main_lp, aimo_standard, audit_firms, resources) -->
+<header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+  <div class="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between gap-3">
+    <a href="{{home_url}}" class="flex items-center gap-2 flex-shrink-0">
+      <i data-lucide="shield-check" class="text-indigo-600 w-8 h-8"></i>
+      <span class="text-xl font-bold tracking-tight text-slate-900">AIMO<span class="text-indigo-600">aaS</span>™</span>
+    </a>
+    <nav class="hidden xl:flex items-center flex-1 min-w-0 justify-end gap-3 lg:gap-4 text-sm font-medium text-slate-600">
+      <div class="flex items-center gap-3 lg:gap-5 flex-shrink-0">
+        {{nav_links_desktop}}
+      </div>
+      {{lang_switcher_html}}
+    </nav>
+    <div class="flex items-center gap-2">
+      {{cta_html}}
+      <button type="button" id="hamburger-btn" data-testid="header-hamburger" class="xl:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 cursor-pointer inline-flex items-center justify-center border-0 bg-transparent" aria-label="{{aria_menu}}" aria-controls="mobile-menu" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div id="mobile-menu" class="xl:hidden fixed inset-x-0 top-16 bottom-0 z-40 border-t border-slate-200/80 overflow-y-auto flex flex-col shadow-[0_-4px_24px_rgba(15,23,42,0.08)]" aria-hidden="true">
+  <div class="mobile-menu-inner" style="flex: 1; min-height: 0; padding: 1.5rem 1.25rem 1.75rem; display: flex; flex-direction: column; gap: 1.25rem;">
+    <nav class="mobile-nav-section" aria-label="Main menu">
+      {{nav_links_mobile}}
+    </nav>
+    {{mobile_cta_html}}
+    <div class="mobile-nav-divider" role="presentation" style="height: 1px; background: linear-gradient(90deg, transparent, #e2e8f0 8%, #e2e8f0 92%, transparent); margin: 0.25rem 0 0;"></div>
+    {{mobile_lang_switcher_html}}
+  </div>
+</div>
+<script>
+(function(){
+function init(){ var m=document.getElementById('mobile-menu'); var b=document.getElementById('hamburger-btn');
+if(!b||!m)return;
+m.style.setProperty('display','none','important');
+b.addEventListener('click',function(e){ e.preventDefault(); var open=m.classList.toggle('is-open'); m.style.setProperty('display',open?'flex':'none','important'); m.setAttribute('aria-hidden',open?'false':'true'); b.setAttribute('aria-expanded',open?'true':'false'); });
+window.addEventListener('resize',function(){ if(window.matchMedia('(min-width: 1280px)').matches){ m.classList.remove('is-open'); m.style.setProperty('display','none','important'); m.setAttribute('aria-hidden','true'); b.setAttribute('aria-expanded','false'); }});
+}
+if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded',init); }else{ init(); }
+})();
+</script>

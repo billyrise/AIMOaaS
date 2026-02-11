@@ -35,7 +35,13 @@
     "postprocess:table-wrap": "tsx postprocess_table_wrap.ts",
     "postprocess:internal-links": "tsx postprocess_internal_links.ts",
     "postprocess:fix-broken-urls": "tsx postprocess_fix_broken_urls.ts",
-    "pseo:check-links": "tsx check_pseo_links.ts"
+    "pseo:check-links": "tsx check_pseo_links.ts",
+    "pseo:index": "tsx render_pseo_index.ts",
+    "postprocess:layout": "tsx postprocess_inject_layout.ts",
+    "apply-design": "tsx apply_pseo_design.ts",
+    "postprocess:static": "tsx postprocess_static_layout.ts",
+    "verify:static": "tsx verify_static_layout.ts",
+    "postprocess:pseo-header-main-lp": "tsx postprocess_pseo_header_to_main_lp.ts"
   },
   "dependencies": {
     "@google/genai": "^1.40.0",

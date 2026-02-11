@@ -36,22 +36,59 @@
         </script>
     </head>
     <body class="bg-slate-50 text-slate-800 antialiased">
-        <header class="fixed w-full z-50 bg-white/95 border-b border-slate-200">
-            <div class="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
-                <a href="../../" class="flex items-center gap-2 flex-shrink-0"><span class="font-bold tracking-tight text-slate-900">AIMO<span class="text-indigo-600">aaS</span>™</span></a>
-                <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
-                    <a href="../../#solution" class="hover:text-indigo-600">ソリューション</a>
-                    <a href="../../audit-firms/" class="hover:text-indigo-600">監査法人の皆さまへ</a>
-                    <a href="../../aimo-standard/" class="hover:text-indigo-600">AIMO Standard</a>
-                    <a href="../../#faq" class="hover:text-indigo-600">よくある質問</a>
-                    <a href="../ai-governance-guide/" class="hover:text-indigo-600">AIガバナンスガイド</a>
-                    <a href="../glossary/" class="hover:text-indigo-600">用語集</a>
-                    <span class="text-slate-400">|</span>
-                    <a href="../../../resources/case-studies/" class="hover:text-indigo-600">English</a>
-                </nav>
-                <a href="mailto:contact@aimoaas.com?subject=AIMOaaS%20お問い合わせ" class="hidden sm:inline-flex bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-bold hover:bg-indigo-700">お問い合わせ</a>
-            </div>
-        </header>
+        <!-- Common header for static pages (main_lp, aimo_standard, audit_firms, resources) -->
+<!-- Common header for static pages (main_lp, aimo_standard, audit_firms, resources) -->
+<!-- Common header for static pages (main_lp, aimo_standard, audit_firms, resources) -->
+<!-- Common header for static pages (main_lp, aimo_standard, audit_firms, resources) -->
+<header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+  <div class="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between gap-3">
+    <a href="https://aimoaas.com/ja/" class="flex items-center gap-2 flex-shrink-0">
+      <i data-lucide="shield-check" class="text-indigo-600 w-8 h-8"></i>
+      <span class="text-xl font-bold tracking-tight text-slate-900">AIMO<span class="text-indigo-600">aaS</span>™</span>
+    </a>
+    <nav class="hidden xl:flex items-center flex-1 min-w-0 justify-end gap-3 lg:gap-4 text-sm font-medium text-slate-600">
+      <div class="flex items-center gap-3 lg:gap-5 flex-shrink-0">
+        <a href="https://aimoaas.com/ja/#solution" class="hover:text-indigo-600 transition whitespace-nowrap">サービス概要</a>
+                        <a href="https://aimoaas.com/ja/aimo-standard/" class="hover:text-indigo-600 transition whitespace-nowrap">AIMO Standard</a>
+                        <a href="https://aimoaas.com/ja/#faq" class="hover:text-indigo-600 transition whitespace-nowrap">よくある質問</a>
+                        <a href="https://aimoaas.com/ja/resources/shadow-ai/" class="hover:text-indigo-600 transition whitespace-nowrap">シャドーAI</a>
+                        <a href="https://aimoaas.com/ja/resources/glossary/" class="hover:text-indigo-600 transition whitespace-nowrap">用語集</a>
+      </div>
+      <span class="text-slate-400 flex-shrink-0">|</span><a href="https://aimoaas.com/" class="hover:text-indigo-600 transition whitespace-nowrap text-sm font-medium">English</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="mailto:contact@aimoaas.com" class="hidden sm:inline-flex bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2.5 rounded-full text-sm font-bold transition shadow-lg hover:shadow-indigo-500/30 flex-shrink-0 whitespace-nowrap">お問い合わせ</a>
+      <button type="button" id="hamburger-btn" data-testid="header-hamburger" class="xl:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 cursor-pointer inline-flex items-center justify-center border-0 bg-transparent" aria-label="メニューを開く" aria-controls="mobile-menu" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div id="mobile-menu" class="xl:hidden fixed inset-x-0 top-16 bottom-0 z-40 border-t border-slate-200/80 overflow-y-auto flex flex-col shadow-[0_-4px_24px_rgba(15,23,42,0.08)]" aria-hidden="true">
+  <div class="mobile-menu-inner" style="flex: 1; min-height: 0; padding: 1.5rem 1.25rem 1.75rem; display: flex; flex-direction: column; gap: 1.25rem;">
+    <nav class="mobile-nav-section" aria-label="Main menu">
+      <a href="https://aimoaas.com/ja/#solution" class="mobile-nav-link">サービス概要</a>
+                    <a href="https://aimoaas.com/ja/aimo-standard/" class="mobile-nav-link">AIMO Standard</a>
+                    <a href="https://aimoaas.com/ja/#faq" class="mobile-nav-link">よくある質問</a>
+                    <a href="https://aimoaas.com/ja/resources/shadow-ai/" class="mobile-nav-link">シャドーAI</a>
+                    <a href="https://aimoaas.com/ja/resources/glossary/" class="mobile-nav-link">用語集</a>
+    </nav>
+    <div class="mobile-cta-wrap" style="padding-top: 0.5rem; border-top: 1px solid #e2e8f0;"><a href="mailto:contact@aimoaas.com" class="mobile-cta" style="display: block; width: 100%; text-align: center; padding: 1rem 1.25rem; font-size: 1rem; font-weight: 700; color: #fff; background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%); border-radius: 0.75rem;">お問い合わせ</a></div>
+    <div class="mobile-nav-divider" role="presentation" style="height: 1px; background: linear-gradient(90deg, transparent, #e2e8f0 8%, #e2e8f0 92%, transparent); margin: 0.25rem 0 0;"></div>
+    <div><p class="mobile-lang-label" style="font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.12em; color: #64748b; margin-bottom: 0.75rem;">Language</p><div class="mobile-lang-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem;"><a href="https://aimoaas.com/" style="padding: 0.625rem 0.875rem; border-radius: 0.5rem; font-size: 0.875rem; font-weight: 500;" class="bg-slate-100 text-slate-700 hover:bg-slate-200">English</a></div></div>
+  </div>
+</div>
+<script>
+(function(){
+function init(){ var m=document.getElementById('mobile-menu'); var b=document.getElementById('hamburger-btn');
+if(!b||!m)return;
+m.style.setProperty('display','none','important');
+b.addEventListener('click',function(e){ e.preventDefault(); var open=m.classList.toggle('is-open'); m.style.setProperty('display',open?'flex':'none','important'); m.setAttribute('aria-hidden',open?'false':'true'); b.setAttribute('aria-expanded',open?'true':'false'); });
+window.addEventListener('resize',function(){ if(window.matchMedia('(min-width: 1280px)').matches){ m.classList.remove('is-open'); m.style.setProperty('display','none','important'); m.setAttribute('aria-hidden','true'); b.setAttribute('aria-expanded','false'); }});
+}
+if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded',init); }else{ init(); }
+})();
+</script>
         <main class="pt-24 pb-16">
             <div class="container mx-auto px-6 max-w-3xl">
                 <nav class="text-sm text-slate-500 mb-8">
@@ -102,14 +139,33 @@
                 </div>
             </div>
         </main>
-        <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800">
-            <div class="container mx-auto px-6 flex flex-wrap justify-between items-center gap-4 text-sm">
-                <a href="../../" class="font-bold text-slate-200 hover:text-white">AIMOaaS™</a>
-                <div class="flex gap-6">
-                    <a href="../../aimo-standard/" class="hover:text-white">AIMO Standard</a>
-                    <a href="https://riseby.net" target="_blank" rel="noopener noreferrer" class="hover:text-white">ライズバイ株式会社</a>
-                </div>
-            </div>
-        </footer>
-    </body>
+        <!-- 共通フッター（ダーク・ロゴ＋ナビ＋著作権） -->
+<!-- 共通フッター（ダーク・ロゴ＋ナビ＋著作権） -->
+<!-- 共通フッター（ダーク・ロゴ＋ナビ＋著作権） -->
+<!-- 共通フッター（ダーク・ロゴ＋ナビ＋著作権） -->
+<footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900">
+  <div class="container mx-auto px-6">
+    <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+      <a href="https://aimoaas.com/ja/" class="flex items-center gap-2 hover:text-white transition">
+        <i data-lucide="shield" class="w-6 h-6 text-slate-600"></i>
+        <span class="font-bold text-slate-200">AIMOaaS™</span>
+      </a>
+      <div class="flex flex-wrap gap-6 text-sm">
+        <a href="https://aimoaas.com/ja/" class="hover:text-white transition">ホーム</a>
+        <a href="https://aimoaas.com/ja/aimo-standard/" class="hover:text-white transition">AIMO Standard</a>
+        <a href="https://aimoaas.com/ja/resources/pseo/" class="hover:text-white transition">実務ガイド</a>
+        <a href="https://aimoaas.com/ja/#contact" class="hover:text-white transition">お問い合わせ</a>
+        <a href="https://riseby.net" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">運営会社</a>
+      </div>
+      <div class="text-xs text-slate-500">
+        AIMOは AI Management Office（AI管理オフィス）の略称です。AIMOaaS™ は <a href="https://riseby.net" target="_blank" rel="noopener noreferrer" class="hover:text-white transition underline">ライズバイ株式会社（RISEby inc.）</a> が提供しています。<br />
+        © 2025 AIMOaaS™. All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+    
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script>try { lucide.createIcons(); } catch (e) {}</script>
+</body>
 </html>
