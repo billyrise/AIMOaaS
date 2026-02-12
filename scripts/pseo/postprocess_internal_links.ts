@@ -47,8 +47,8 @@ function buildSafeInternalLinksHtml(): string {
     .join(sep);
   return `
 
-      <!-- internal-links: 次に読む（実在URLのみ） -->
-      <section class="internal-links mb-10" aria-label="次に読む">
+      <!-- internal-links: 次に読む（実在URLのみ）・上部と同じ幅 -->
+      <section class="internal-links mb-10 w-full" aria-label="次に読む">
         <h2 class="text-2xl font-bold text-slate-900 mb-4">次に読む</h2>
         <div class="text-slate-700">
           ${links}
