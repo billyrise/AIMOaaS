@@ -1,0 +1,44 @@
+# Phase C: PSEO CI ゲート — SSOT の MECE / 参照数 / unique_value / タイトル重複をチェック。
+name: PSEO CI Gate
+
+on:
+  pull_request:
+    paths:
+      - "ssot/**"
+      - "data/pseo/**"
+      - "ja/resources/pseo/**"
+      - "scripts/pseo/quality/ci_pseo_gate.ts"
+  push:
+    branches: [main]
+    paths:
+      - "ssot/**"
+      - "data/pseo/**"
+      - "scripts/pseo/quality/ci_pseo_gate.ts"
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        working-directory: scripts/pseo
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+
+      - name: Build SSOT (if missing)
+        working-directory: scripts/pseo
+        run: |
+          if [ ! -f ../../ssot/pseo_pages.json ]; then
+            npm run ssot:build
+          fi
+
+      - name: CI Gate (MECE / references / unique_value / title overlap)
+        working-directory: scripts/pseo
+        run: npm run ci-gate
