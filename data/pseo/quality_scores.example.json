@@ -1,0 +1,12 @@
+{
+  "description": "Optional. Map final_slug -> unique_value_score (0-100). Used by npm run ci-gate. If absent, unique_value check is skipped.",
+  "scores": {
+    "evidence-pack-ai-audit-evidence-pack": 85,
+    "proof-assurance-boundary-ai-audit-evidence-bundle-structure": 80,
+    "ai-audit-controls-inventory-continuous-audit-workflow": 82,
+    "proof-assurance-boundary-ai-audit-controls-control-evidence-frequency": 88,
+    "intake-review-approve-ai-audit-controls-request-review-exception": 75,
+    "responsibility-boundary-intake-review-approve-ai-raci-governance": 78,
+    "evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai": 72
+  }
+}

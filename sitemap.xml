@@ -325,128 +325,50 @@
     </url>
     <url>
         <loc>https://aimoaas.com/ja/resources/pseo/</loc>
-        <lastmod>2026-02-11</lastmod>
+        <lastmod>2026-02-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/pseo/ai-audit-controls-inventory-continuous-audit-workflow/</loc>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/</loc>
-        <lastmod>2026-02-11</lastmod>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/evidence-pack-evidence-readiness-ai-audit-evidence-pack-formats/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-evidence-pack-index/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/ai-audit-controls-evidence-pack-minimum/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-bundle-structure/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-intake-audit-submission-checklist/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-controls-evidence-gaps-remediation/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-formats-standards/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-controls-minimum-evidence-requirements/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.75</priority>
     </url>
     <url>
         <loc>https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai/</loc>
-        <lastmod>2026-02-11</lastmod>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-audit-questions-pack/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-evidence-requirements-table/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-controls-evidence-readiness-internal-audit-evidence/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-operating-workflow/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-inventory-operating-workflow-renewal/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.65</priority>
     </url>
     <url>
         <loc>https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/</loc>
-        <lastmod>2026-02-11</lastmod>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/</loc>
+        <lastmod>2026-02-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-bundle-structure/</loc>
+        <lastmod>2026-02-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
     </url>
     <url>
         <loc>https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/</loc>
-        <lastmod>2026-02-11</lastmod>
+        <lastmod>2026-02-12</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/ai-audit-monitoring-inventory-inventory-review-cycle/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://aimoaas.com/ja/resources/pseo/ai-audit-controls-inventory-continuous-audit-workflow/</loc>
-        <lastmod>2026-02-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.75</priority>
     </url>
 </urlset>

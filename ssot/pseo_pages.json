@@ -1,0 +1,1647 @@
+{
+  "schema_version": "phase_a",
+  "generated_at": "2026-02-11T23:33:49.280Z",
+  "base_url": "https://aimoaas.com",
+  "pages": [
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-e-164/",
+      "title": "AI監査・統制の実務ガイド：ISO 42001, NIST AI RMF, EU AI Act対応観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_e_164",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査・統制の実務ガイド：ISO 42001, NIST AI RMF, EU AI Act対応観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-e-170/",
+      "title": "AI監査・統制の対応観点：ISO/IEC 42001, NIST AI RMF, EU AI Act",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_e_170",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査・統制の対応観点：ISO/IEC 42001, NIST AI RMF, EU AI Act",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-evidence-pack-minimum/",
+      "title": "AIMOaaS 監査・統制向け：証拠提出の最小要件とEvidence Bundle",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_vidence_pack_minimum",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制向け：証拠提出の最小要件とEvidence Bundle",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-inventory-continuous-audit-workflow/",
+      "title": "AI利用の継続監査フローと棚卸サイクル：効果的な統制実務",
+      "cluster_id": "Inventory",
+      "intent_id": "CONTINUOUS_AUDIT_WORKFLOW",
+      "is_pillar": true,
+      "robots": "index,follow",
+      "canonical_target": "",
+      "page_priority": 1,
+      "summary": "AI利用の継続監査フローと棚卸サイクル：効果的な統制実務",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 3
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-evidence-pack-a-102/",
+      "title": "AI監査向け証拠パック・提出物目次と最小要件の観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX__evidence_pack_a_102",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査向け証拠パック・提出物目次と最小要件の観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-audit-monitoring-inventory-inventory-review-cycle/",
+      "title": "AI利用の棚卸・継続監査・定期レビュー実践ガイド",
+      "cluster_id": "Inventory",
+      "intent_id": "Inventory_NOINDEX_ventory_review_cycle",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/ai-audit-controls-inventory-continuous-audit-workflow/",
+      "page_priority": 9,
+      "summary": "AI利用の棚卸・継続監査・定期レビュー実践ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/ai-governance-audit-evidence-controls-workflow-coverage-map/",
+      "title": "AI規制・標準対応Coverage Map: ISO 42001, NIST AI RMF, EU AI Act 観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_orkflow_coverage_map",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI規制・標準対応Coverage Map: ISO 42001, NIST AI RMF, EU AI Act 観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-a-112/",
+      "title": "AIMOaaSの監査提出物：Evidence Packの形式と構成観点",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX__pack_ai_audit_a_112",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMOaaSの監査提出物：Evidence Packの形式と構成観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-controls-a-110/",
+      "title": "AIMOaaS 監査・統制実務：証拠パック提出物と目次ガイド",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX_audit_controls_a_110",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制実務：証拠パック提出物と目次ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-controls-a-114/",
+      "title": "AIMOaaS 監査・統制実務：証拠パックと提出物、目次の観点整理",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX_audit_controls_a_114",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制実務：証拠パックと提出物、目次の観点整理",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-controls-evidence-gaps-remediation/",
+      "title": "AIMOaaS 監査・統制のためのEvidence Pack構成と欠落対策ガイド",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX_nce_gaps_remediation",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制のためのEvidence Pack構成と欠落対策ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "title": "AIMOaaS監査のためのEvidence Packと証拠バンドル構築ガイド",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EP_DECISION_GUIDE",
+      "is_pillar": true,
+      "robots": "index,follow",
+      "canonical_target": "",
+      "page_priority": 1,
+      "summary": "AIMOaaS監査のためのEvidence Packと証拠バンドル構築ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 3
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-evidence-readiness-ai-audit-evidence-pack-formats/",
+      "title": "AIMOaaS Evidence Pack 形式と監査提出物の整備観点",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX_vidence_pack_formats",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMOaaS Evidence Pack 形式と監査提出物の整備観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-evidence-readiness-proof-assurance-a-101/",
+      "title": "AIMOaaS 監査・統制 実務: Evidence Packと証跡整備の観点",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX_roof_assurance_a_101",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制 実務: Evidence Packと証跡整備の観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-105/",
+      "title": "AIMO Standardに準拠する監査証跡：Evidence Pack実務ガイド",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX_ce_boundary_ai_a_105",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMO Standardに準拠する監査証跡：Evidence Pack実務ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-108/",
+      "title": "AIMOaaS 監査提出物: 証跡の形式とEvidence Pack構成の観点",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX_ce_boundary_ai_a_108",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査提出物: 証跡の形式とEvidence Pack構成の観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-a-109/",
+      "title": "AIMO Standard準拠：監査・統制 Evidence Packの構成と証跡実務",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX_ce_boundary_ai_a_109",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMO Standard準拠：監査・統制 Evidence Packの構成と証跡実務",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-ai-evidence-pack-index/",
+      "title": "AIMOaaS 監査・統制実務：証跡目次とEvidence Pack構成の観点整理",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX__evidence_pack_index",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制実務：証跡目次とEvidence Pack構成の観点整理",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-pack-proof-assurance-boundary-evidence-a-113/",
+      "title": "AIMOaaS 監査・統制向け証跡 Evidence Pack 整備ガイド",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX_ndary_evidence_a_113",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制向け証跡 Evidence Pack 整備ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-intake-review-approve-proof-c-134/",
+      "title": "AI運用ワークフローにおける申請・承認・監査とHuman-in-the-Loop証跡整備",
+      "cluster_id": "Workflow",
+      "intent_id": "Workflow_NOINDEX__approve_proof_c_134",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "page_priority": 9,
+      "summary": "AI運用ワークフローにおける申請・承認・監査とHuman-in-the-Loop証跡整備",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-c-133/",
+      "title": "AI利用の運用フロー、ポリシー更新、監査証跡整備の観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_ce_boundary_ai_c_133",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI利用の運用フロー、ポリシー更新、監査証跡整備の観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-161/",
+      "title": "AI監査・統制実務ガイド: ISO/IEC 42001, NIST AI RMF, EU AI Act対応観点と証跡整備",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_ce_boundary_ai_e_161",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査・統制実務ガイド: ISO/IEC 42001, NIST AI RMF, EU AI Act対応観点と証跡整備",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-162/",
+      "title": "AIMOaaS: AI規制対応のCoverage MapとISMS監査・証跡整備",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_ce_boundary_ai_e_162",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS: AI規制対応のCoverage MapとISMS監査・証跡整備",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-e-175/",
+      "title": "AIマネジメント監査・規制対応の証跡整備観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_ce_boundary_ai_e_175",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIマネジメント監査・規制対応の証跡整備観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/evidence-readiness-proof-assurance-boundary-ai-minimum-evidence-shadow-ai/",
+      "title": "シャドーAI・個人利用AIの証跡整備：監査対応の最小要件とチェックリスト",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "SHADOW_AI_EVIDENCE_CHECKLIST",
+      "is_pillar": false,
+      "robots": "index,follow",
+      "canonical_target": "",
+      "page_priority": 2,
+      "summary": "シャドーAI・個人利用AIの証跡整備：監査対応の最小要件とチェックリスト",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-c-131/",
+      "title": "AI利用の申請・審査・例外・更新・監査ワークフローと統制の実務",
+      "cluster_id": "Workflow",
+      "intent_id": "Workflow_NOINDEX_audit_controls_c_131",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "page_priority": 9,
+      "summary": "AI利用の申請・審査・例外・更新・監査ワークフローと統制の実務",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-c-139/",
+      "title": "AIMOaaS監査・統制の実践：申請・審査・例外・更新・継続監査",
+      "cluster_id": "Workflow",
+      "intent_id": "Workflow_NOINDEX_audit_controls_c_139",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制の実践：申請・審査・例外・更新・継続監査",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "title": "AI利用申請・審査・例外承認：監査・統制の実務ワークフロー",
+      "cluster_id": "Workflow",
+      "intent_id": "INTAKE_REVIEW_EXCEPTION_WORKFLOW",
+      "is_pillar": true,
+      "robots": "index,follow",
+      "canonical_target": "",
+      "page_priority": 1,
+      "summary": "AI利用申請・審査・例外承認：監査・統制の実務ワークフロー",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 3
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-exceptions-c-135/",
+      "title": "AIMOaaS: AI活用ワークフロー—申請・審査・例外・更新・継続監査",
+      "cluster_id": "Workflow",
+      "intent_id": "Workflow_NOINDEX_dit_exceptions_c_135",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "page_priority": 9,
+      "summary": "AIMOaaS: AI活用ワークフロー—申請・審査・例外・更新・継続監査",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-exceptions-c-143/",
+      "title": "AI利用の申請・審査・例外・更新と継続監査ワークフローの実践",
+      "cluster_id": "Workflow",
+      "intent_id": "Workflow_NOINDEX_dit_exceptions_c_143",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "page_priority": 9,
+      "summary": "AI利用の申請・審査・例外・更新と継続監査ワークフローの実践",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-inventory-operating-workflow-renewal/",
+      "title": "AIポリシーの申請・審査・更新フローと継続監査・棚卸の観点",
+      "cluster_id": "Workflow",
+      "intent_id": "Workflow_NOINDEX_ing_workflow_renewal",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "page_priority": 9,
+      "summary": "AIポリシーの申請・審査・更新フローと継続監査・棚卸の観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-107/",
+      "title": "監査証跡バンドルの最小要件：AIMO Standardに基づく構成ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_ndary_ai_audit_a_107",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "監査証跡バンドルの最小要件：AIMO Standardに基づく構成ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-111/",
+      "title": "AIMO Standardに準拠する証跡バンドル：監査の最小要件と実践ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_ndary_ai_audit_a_111",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMO Standardに準拠する証跡バンドル：監査の最小要件と実践ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-a-115/",
+      "title": "AIMOaaS 監査証跡バンドルと最小要件：実践的ガイドライン",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_ndary_ai_audit_a_115",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査証跡バンドルと最小要件：実践的ガイドライン",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-a-103/",
+      "title": "AIMOaaS 監査・統制のための証跡バンドル最小要件ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_a_103",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制のための証跡バンドル最小要件ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-116/",
+      "title": "AI監査と統制のための最小証拠要件・証跡整理ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_116",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査と統制のための最小証拠要件・証跡整理ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-117/",
+      "title": "AI統制と監査：証拠要件、証跡、頻度を整理する実務ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_117",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI統制と監査：証拠要件、証跡、頻度を整理する実務ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-118/",
+      "title": "AI監査・統制実務：シャドーAIからログ・証跡まで網羅するガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_118",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査・統制実務：シャドーAIからログ・証跡まで網羅するガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-119/",
+      "title": "AIMOaaS 監査・統制の実務：必要証跡と質問・是正の観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_119",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制の実務：必要証跡と質問・是正の観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-120/",
+      "title": "AI統制の監査と証跡：最小証拠要件とシャドーAI対策ガイドライン",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_120",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI統制の監査と証跡：最小証拠要件とシャドーAI対策ガイドライン",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-121/",
+      "title": "AI監査・統制の実践：証拠要件、頻度、証跡管理のガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_121",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査・統制の実践：証拠要件、頻度、証跡管理のガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-123/",
+      "title": "AI利用の内部監査・統制実務：質問、必要証拠、証跡の管理ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_123",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI利用の内部監査・統制実務：質問、必要証拠、証跡の管理ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-124/",
+      "title": "AIMOaaS 監査・統制 最小証拠と証跡管理 実践ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_124",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制 最小証拠と証跡管理 実践ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-125/",
+      "title": "AI利用の監査・統制実務：証拠要件、証跡、頻度を徹底解説",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_125",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI利用の監査・統制実務：証拠要件、証跡、頻度を徹底解説",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-126/",
+      "title": "AI利用の監査・統制実務：シャドーAI対策と証跡・ログ管理の観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_126",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI利用の監査・統制実務：シャドーAI対策と証跡・ログ管理の観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-127/",
+      "title": "AIMOaaS監査・統制実務：証跡、質問、欠落と是正の観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_127",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制実務：証跡、質問、欠落と是正の観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-128/",
+      "title": "AIMOaaS 監査・統制実務：最小証拠要件と証跡管理の観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_128",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制実務：最小証拠要件と証跡管理の観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-129/",
+      "title": "AIMOaaS監査・統制の証拠要件と証跡管理実務ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_129",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制の証拠要件と証跡管理実務ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-b-130/",
+      "title": "シャドーAI対策から監査証跡まで：AI利用のログと統制実務ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_b_130",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "シャドーAI対策から監査証跡まで：AI利用のログと統制実務ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-c-141/",
+      "title": "AI運用フローと監査証跡：ポリシー更新と継続的統制",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_c_141",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI運用フローと監査証跡：ポリシー更新と継続的統制",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "title": "AIMOaaS 監査・統制の実務：証跡、ログ保持、取得頻度の実践ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MIN_EVIDENCE_CATALOG",
+      "is_pillar": true,
+      "robots": "index,follow",
+      "canonical_target": "",
+      "page_priority": 1,
+      "summary": "AIMOaaS 監査・統制の実務：証跡、ログ保持、取得頻度の実践ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 3
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-d-153/",
+      "title": "AI監査・統制の実務：AIMOaaSによる証憑と証跡の整理支援",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_d_153",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査・統制の実務：AIMOaaSによる証憑と証跡の整理支援",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-163/",
+      "title": "AIマネジメント監査・規制対応：証跡・統制の観点整理",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_e_163",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIマネジメント監査・規制対応：証跡・統制の観点整理",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-165/",
+      "title": "AIシステム監査・統制の実践：ISMS対応観点とCoverage Mapによる証跡整理",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_e_165",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIシステム監査・統制の実践：ISMS対応観点とCoverage Mapによる証跡整理",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-166/",
+      "title": "AI監査・統制の証跡と規制対応：ISO, NIST, EU AI Act観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_e_166",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査・統制の証跡と規制対応：ISO, NIST, EU AI Act観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-167/",
+      "title": "AI監査・統制実務：ISO/IEC 42001, NIST AI RMF, EU AI Act対応の観点と証跡",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_e_167",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査・統制実務：ISO/IEC 42001, NIST AI RMF, EU AI Act対応の観点と証跡",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-168/",
+      "title": "AIMOaaS ISMS監査・統制実務：Coverage Mapで観点と証跡を整理",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_e_168",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS ISMS監査・統制実務：Coverage Mapで観点と証跡を整理",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-169/",
+      "title": "AIマネジメント・監査・規制対応のための証跡整理と統制観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_e_169",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIマネジメント・監査・規制対応のための証跡整理と統制観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-171/",
+      "title": "AI監査・統制の実務: Coverage MapでISMS対応観点と証跡を整理",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_e_171",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査・統制の実務: Coverage MapでISMS対応観点と証跡を整理",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-173/",
+      "title": "AI監査・統制ガイド：ISO/IEC 42001, NIST, EU AI Act対応観点と証跡",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_e_173",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査・統制ガイド：ISO/IEC 42001, NIST, EU AI Act対応観点と証跡",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-e-174/",
+      "title": "AIシステム監査・統制のためのCoverage Map: ISMS・証跡対応観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_controls_e_174",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIシステム監査・統制のためのCoverage Map: ISMS・証跡対応観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-evidence-requirements-table/",
+      "title": "AIシステム監査のための証拠要件・統制証跡一覧と最小基準表",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_e_requirements_table",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIシステム監査のための証拠要件・統制証跡一覧と最小基準表",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-e-172/",
+      "title": "AIマネジメント監査・規制対応のための証跡整理観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_ndary_ai_audit_e_172",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIマネジメント監査・規制対応のための証跡整理観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-audit-questions-pack/",
+      "title": "AI監査・統制の実務：質問、証跡、AIガバナンスのための証拠整備",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_audit_questions_pack",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI監査・統制の実務：質問、証跡、AIガバナンスのための証拠整備",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-bundle-structure/",
+      "title": "AI監査向け証跡バンドル構成ガイド：AIMO Standardベースの観点",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EB_STRUCTURE_GUIDE",
+      "is_pillar": true,
+      "robots": "index,follow",
+      "canonical_target": "",
+      "page_priority": 1,
+      "summary": "AI監査向け証跡バンドル構成ガイド：AIMO Standardベースの観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 3
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-evidence-formats-standards/",
+      "title": "AIMOaaS 証跡・Evidence Bundle の形式と監査提出基準の観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_ce_formats_standards",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 証跡・Evidence Bundle の形式と監査提出基準の観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-intake-audit-submission-checklist/",
+      "title": "AIMO Standard準拠 監査・申請用Evidence Bundle構成と証跡チェックリスト",
+      "cluster_id": "Workflow",
+      "intent_id": "Workflow_NOINDEX_submission_checklist",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "page_priority": 9,
+      "summary": "AIMO Standard準拠 監査・申請用Evidence Bundle構成と証跡チェックリスト",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-policy-c-137/",
+      "title": "AI利用の運用フロー、ポリシー更新、監査、証跡管理の実践的ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_i_audit_policy_c_137",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI利用の運用フロー、ポリシー更新、監査、証跡管理の実践的ガイド",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-policy-c-145/",
+      "title": "AI運用フロー：ポリシー更新、監査、証跡管理の実務",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_i_audit_policy_c_145",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AI運用フロー：ポリシー更新、監査、証跡管理の実務",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-controls-evidence-readiness-internal-audit-evidence/",
+      "title": "AIガバナンス監査のための証跡準備と内部統制の実務ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_ernal_audit_evidence",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIガバナンス監査のための証跡準備と内部統制の実務ガイド",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-controls-minimum-evidence-requirements/",
+      "title": "AIMOaaSにおけるAI統制の最小証拠要件と必要証跡・頻度",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_vidence_requirements",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaSにおけるAI統制の最小証拠要件と必要証跡・頻度",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-coverage-map-iso42001/",
+      "title": "ISO/IEC 42001対応とAIマネジメント証跡の観点マップ",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_overage_map_iso42001",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "ISO/IEC 42001対応とAIマネジメント証跡の観点マップ",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-pack-ai-a-104/",
+      "title": "AIMOaaS 監査提出物・証跡の形式とEvidence Bundle構造",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX_idence_pack_ai_a_104",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査提出物・証跡の形式とEvidence Bundle構造",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-pack-ai-a-106/",
+      "title": "監査・統制のための証拠パックと証跡提出物：目次・形式・最小要件の観点",
+      "cluster_id": "EvidencePack",
+      "intent_id": "EvidencePack_NOINDEX_idence_pack_ai_a_106",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/evidence-pack-ai-audit-evidence-pack/",
+      "page_priority": 9,
+      "summary": "監査・統制のための証拠パックと証跡提出物：目次・形式・最小要件の観点",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-ai-b-122/",
+      "title": "シャドーAI対策と監査証跡：AIMOaaSでのログ・運用記録整備ガイド",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_e_readiness_ai_b_122",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "シャドーAI対策と監査証跡：AIMOaaSでのログ・運用記録整備ガイド",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-ai-d-147/",
+      "title": "AIMOaaS 監査・統制実務：証憑・保証と証跡整備の観点",
+      "cluster_id": "MinimumEvidence",
+      "intent_id": "MinimumEvidence_NOINDEX_e_readiness_ai_d_147",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-ai-audit-controls-control-evidence-frequency/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制実務：証憑・保証と証跡整備の観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-evidence-readiness-intake-c-142/",
+      "title": "AI運用におけるHuman-in-the-Loopと申請承認・監査証跡の整備",
+      "cluster_id": "Workflow",
+      "intent_id": "Workflow_NOINDEX_adiness_intake_c_142",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "page_priority": 9,
+      "summary": "AI運用におけるHuman-in-the-Loopと申請承認・監査証跡の整備",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-intake-review-approve-c-138/",
+      "title": "AI利用の申請・承認と継続監査：Human-in-the-Loopによる証跡管理",
+      "cluster_id": "Workflow",
+      "intent_id": "Workflow_NOINDEX_review_approve_c_138",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/intake-review-approve-ai-audit-controls-request-review-exception/",
+      "page_priority": 9,
+      "summary": "AI利用の申請・承認と継続監査：Human-in-the-Loopによる証跡管理",
+      "audience_tags": [
+        "監査法人/内部監査"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-d-159/",
+      "title": "AIMOaaS監査・統制実務：証憑、保証、役割、証跡整理の観点",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ty_boundary_ai_d_159",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制実務：証憑、保証、役割、証跡整理の観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-proof-vs-assurance/",
+      "title": "AIMOaaSにおける監査・統制：証憑（Proof）と保証（Assurance）の責任分界",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_i_proof_vs_assurance",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaSにおける監査・統制：証憑（Proof）と保証（Assurance）の責任分界",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/proof-assurance-boundary-responsibility-boundary-ai-responsibility-boundary/",
+      "title": "AI監査の責任分界：Proof（証憑）とAssurance（保証結論）の役割",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ponsibility_boundary",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AI監査の責任分界：Proof（証憑）とAssurance（保証結論）の役割",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-132/",
+      "title": "AI利用の継続監査と統制：RACI、棚卸、証跡整備の実務観点",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_roof_assurance_c_132",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AI利用の継続監査と統制：RACI、棚卸、証跡整備の実務観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-136/",
+      "title": "AI利用の監査・統制ワークフロー：RACI、継続監査、棚卸と証跡整備の観点",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_roof_assurance_c_136",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AI利用の監査・統制ワークフロー：RACI、継続監査、棚卸と証跡整備の観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-c-140/",
+      "title": "AI利用の継続監査・棚卸・RACIと証跡整備の実践的観点",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_roof_assurance_c_140",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AI利用の継続監査・棚卸・RACIと証跡整備の実践的観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-148/",
+      "title": "AIMOaaS監査・統制の実務：SLA、責任マトリクス、証跡整備の観点",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_roof_assurance_d_148",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制の実務：SLA、責任マトリクス、証跡整備の観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-151/",
+      "title": "AIMOaaS監査・統制実務：証跡整備、SLA、責任分界マトリクス観点",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_roof_assurance_d_151",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制実務：証跡整備、SLA、責任分界マトリクス観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-evidence-readiness-proof-assurance-d-160/",
+      "title": "AIMOaaS監査・統制の実務：SLA、責任マトリクス、証跡整備の観点",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_roof_assurance_d_160",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制の実務：SLA、責任マトリクス、証跡整備の観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務",
+        "CISO/情シス"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-operating-workflow/",
+      "title": "AI利用の運用フロー：申請・審査・例外・更新、棚卸、継続監査、RACIによるガバナンス実践",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_i_operating_workflow",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AI利用の運用フロー：申請・審査・例外・更新、棚卸、継続監査、RACIによるガバナンス実践",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "title": "AI利用のRACI責任分担と申請・承認フロー：監査・統制実務ガイド",
+      "cluster_id": "Responsibility",
+      "intent_id": "RACI_GOVERNANCE_MODEL",
+      "is_pillar": true,
+      "robots": "index,follow",
+      "canonical_target": "",
+      "page_priority": 1,
+      "summary": "AI利用のRACI責任分担と申請・承認フロー：監査・統制実務ガイド",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 3
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-c-144/",
+      "title": "AI利用の棚卸と継続監査：RACIによる統制と証跡管理の実践",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ce_boundary_ai_c_144",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AI利用の棚卸と継続監査：RACIによる統制と証跡管理の実践",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-146/",
+      "title": "AIMOaaSにおける監査・統制の実務：責任分界、証跡と保証結論",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ce_boundary_ai_d_146",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaSにおける監査・統制の実務：責任分界、証跡と保証結論",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-149/",
+      "title": "AIMOaaS 監査・統制の実務: 責任分界と証跡・保証の整理",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ce_boundary_ai_d_149",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制の実務: 責任分界と証跡・保証の整理",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-152/",
+      "title": "AIMOaaS 監査・統制実務：責任分界、証跡と保証の観点整理",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ce_boundary_ai_d_152",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制実務：責任分界、証跡と保証の観点整理",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-154/",
+      "title": "AIMOaaS監査・統制の実務: SLA, 責任マトリクス, 証跡の観点",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ce_boundary_ai_d_154",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制の実務: SLA, 責任マトリクス, 証跡の観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-155/",
+      "title": "AIMOaaS監査・統制の実務：責任分界と証跡・保証の観点整理",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ce_boundary_ai_d_155",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制の実務：責任分界と証跡・保証の観点整理",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-156/",
+      "title": "AIMOaaS監査・統制実務：証憑と保証、責任分界の整理",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ce_boundary_ai_d_156",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制実務：証憑と保証、責任分界の整理",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-157/",
+      "title": "AIMOaaS監査・統制実務：SLA、責任マトリクス、証跡の観点整理",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ce_boundary_ai_d_157",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制実務：SLA、責任マトリクス、証跡の観点整理",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-d-158/",
+      "title": "AIMOaaS監査・統制の実務：責任分界と証跡・保証結論の観点",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ce_boundary_ai_d_158",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS監査・統制の実務：責任分界と証跡・保証結論の観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-ai-sla-responsibility-matrix/",
+      "title": "AIMOaaS 監査・統制：SLA・責任マトリクス・保証範囲を整理する観点",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_esponsibility_matrix",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaS 監査・統制：SLA・責任マトリクス・保証範囲を整理する観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    },
+    {
+      "url": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-proof-assurance-boundary-evidence-d-150/",
+      "title": "AIMOaaSにおけるAI監査の証憑と保証：役割分界と証跡整備の観点",
+      "cluster_id": "Responsibility",
+      "intent_id": "Responsibility_NOINDEX_ndary_evidence_d_150",
+      "is_pillar": false,
+      "robots": "noindex,follow",
+      "canonical_target": "https://aimoaas.com/ja/resources/pseo/responsibility-boundary-intake-review-approve-ai-raci-governance/",
+      "page_priority": 9,
+      "summary": "AIMOaaSにおけるAI監査の証憑と保証：役割分界と証跡整備の観点",
+      "audience_tags": [
+        "監査法人/内部監査",
+        "法務"
+      ],
+      "has_asset": false,
+      "references_min": 0
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 /**
- * PSEO ディレクトリトップ（/ja/resources/pseo/index.html）を生成する。
- * PR-D: ナビ＋ハブ。トピック別グループ・セクション要約・まず読むべき3本・フィルタ・ページネーション。
+ * PSEO 一覧（/ja/resources/pseo/index.html）を SSOT 駆動で生成する。Phase B ハブ化。
+ * - indexable（robots=index,follow）のみ公開一覧に表示
+ * - 「まず読むべき」は is_pillar=true かつ page_priority=1 を自動表示（ハードコード禁止）
+ * - 各カード: summary / 対象者タグ / 成果物ラベル / 読む順序
+ * - MECE: 同一 intent_id は1件のみ。カテゴリ内は Pillar→Cluster（最大3本）の順。
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
@@ -10,35 +13,53 @@ import { renderHeaderStatic, renderFooter } from "./layout.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..", "..");
+const SSOT_PATH = join(ROOT, "ssot", "pseo_pages.json");
 const DATA_PSEO = join(ROOT, "data", "pseo");
-const REPORT_DIR = join(DATA_PSEO, "artifacts", "report");
 const OUT_PATH = join(ROOT, "ja", "resources", "pseo", "index.html");
+const OUT_ALL_PATH = join(ROOT, "ja", "resources", "pseo", "_all", "index.html");
 const BASE_URL = process.env.BASE_URL || "https://aimoaas.com";
 
-interface PseoPage {
-  id: string;
+interface SsotPage {
+  url: string;
   title: string;
-  topic: string[];
-  final_slug: string;
-  final_url: string;
+  cluster_id: string;
+  intent_id: string;
+  is_pillar: boolean;
+  robots: string;
+  page_priority: number;
+  summary: string;
+  audience_tags: string[];
+  has_asset: boolean;
 }
 
-interface PseoPagesJson {
-  pages: PseoPage[];
-}
+const CLUSTER_ORDER: string[] = [
+  "EvidencePack",
+  "MinimumEvidence",
+  "Workflow",
+  "Inventory",
+  "Responsibility",
+];
+
+const PILLAR_READ_ORDER: string[] = [
+  "EP_DECISION_GUIDE",
+  "EB_STRUCTURE_GUIDE",
+  "CONTINUOUS_AUDIT_WORKFLOW",
+  "MIN_EVIDENCE_CATALOG",
+  "INTAKE_REVIEW_EXCEPTION_WORKFLOW",
+  "RACI_GOVERNANCE_MODEL",
+];
+
+const CLUSTER_TO_SECTION: Record<string, string> = {
+  EvidencePack: "証拠パック・Evidence Pack",
+  MinimumEvidence: "監査・統制・最小要件",
+  Workflow: "申請・審査・例外・ワークフロー",
+  Inventory: "棚卸・継続監査",
+  Responsibility: "責任分界・SLA・契約",
+};
 
 interface HubConfig {
   section_summaries?: Record<string, string>;
-  pillar_slugs?: string[];
   items_per_page?: number;
-}
-
-interface TaxonomyPage {
-  slug: string;
-  intent_id: string;
-  intent_label: string;
-  audience_tags?: string[];
-  scope_tags?: string[];
 }
 
 function loadHubConfig(): HubConfig {
@@ -46,47 +67,6 @@ function loadHubConfig(): HubConfig {
   if (!existsSync(fp)) return {};
   return JSON.parse(readFileSync(fp, "utf-8")) as HubConfig;
 }
-
-function loadTaxonomyBySlug(): Map<string, TaxonomyPage> {
-  const fp = join(REPORT_DIR, "search_intent_taxonomy.json");
-  if (!existsSync(fp)) return new Map();
-  const data = JSON.parse(readFileSync(fp, "utf-8")) as { pages?: TaxonomyPage[] };
-  const m = new Map<string, TaxonomyPage>();
-  if (data.pages) for (const p of data.pages) m.set(p.slug, p);
-  return m;
-}
-
-/** 掲載OK（index 許可）の final_slug 一覧。一覧ページにはこの slug のみ表示する。 */
-function loadIndexAllowlist(): Set<string> {
-  const fp = join(DATA_PSEO, "index_allowlist.json");
-  if (!existsSync(fp)) return new Set();
-  const data = JSON.parse(readFileSync(fp, "utf-8")) as { allow?: string[] };
-  return new Set(data.allow || []);
-}
-
-/** トピック配列から表示用セクション名を決定（順序は下の SECTION_ORDER で制御） */
-function sectionForPage(page: PseoPage): string {
-  const t = page.topic || [];
-  if (t.includes("evidence-pack")) return "証拠パック・Evidence Pack";
-  if (t.includes("coverage-map") || page.final_slug.includes("coverage-map")) return "Coverage Map";
-  if (t.includes("responsibility-boundary") || t.some((x) => x.includes("responsibility"))) return "責任分界・SLA・契約";
-  if (t.includes("shadow-ai")) return "シャドーAI・最小証拠";
-  if (t.some((x) => x.includes("intake") || x.includes("review") || x.includes("approval") || x.includes("workflow") || x.includes("exception"))) return "申請・審査・例外・ワークフロー";
-  if (t.includes("inventory") || t.includes("monitoring")) return "棚卸・継続監査";
-  if (t.includes("proof-assurance") || t.includes("controls") || t.includes("ai-audit")) return "監査・統制・最小要件";
-  return "その他";
-}
-
-const SECTION_ORDER = [
-  "証拠パック・Evidence Pack",
-  "監査・統制・最小要件",
-  "申請・審査・例外・ワークフロー",
-  "棚卸・継続監査",
-  "責任分界・SLA・契約",
-  "シャドーAI・最小証拠",
-  "Coverage Map",
-  "その他",
-];
 
 function escapeHtml(s: string): string {
   return s
@@ -98,53 +78,82 @@ function escapeHtml(s: string): string {
 }
 
 function main(): void {
-  const raw = readFileSync(join(DATA_PSEO, "pseo_pages.json"), "utf8");
-  const data = JSON.parse(raw) as PseoPagesJson;
-  const allPages = data.pages || [];
-  const indexAllowlist = loadIndexAllowlist();
-  const pages = allPages.filter((p) => indexAllowlist.has(p.final_slug));
+  if (!existsSync(SSOT_PATH)) {
+    console.error("SSOT not found. Run: npm run ssot:build");
+    process.exit(1);
+  }
+
+  const raw = readFileSync(SSOT_PATH, "utf-8");
+  const { pages: allPages } = JSON.parse(raw) as { pages: SsotPage[] };
+  const indexable = allPages.filter((p) => p.robots === "index,follow");
+
+  // MECE: 同一 intent_id は1件のみ（先勝ち）
+  const seenIntent = new Set<string>();
+  const mecePages = indexable.filter((p) => {
+    if (seenIntent.has(p.intent_id)) return false;
+    seenIntent.add(p.intent_id);
+    return true;
+  });
+
   const hubConfig = loadHubConfig();
-  const taxonomyBySlug = loadTaxonomyBySlug();
-  const sectionSummaries = hubConfig.section_summaries || {};
-  const pillarSlugs = hubConfig.pillar_slugs || [];
+  const sectionSummaries = hubConfig.section_summaries ?? {};
   const itemsPerPage = hubConfig.items_per_page ?? 20;
 
-  const bySection = new Map<string, PseoPage[]>();
-  for (const p of pages) {
-    const section = sectionForPage(p);
+  // まず読むべき: is_pillar && page_priority === 1、固定順
+  const pillars = mecePages
+    .filter((p) => p.is_pillar && p.page_priority === 1)
+    .sort((a, b) => {
+      const ia = PILLAR_READ_ORDER.indexOf(a.intent_id);
+      const ib = PILLAR_READ_ORDER.indexOf(b.intent_id);
+      if (ia !== -1 && ib !== -1) return ia - ib;
+      if (ia !== -1) return -1;
+      if (ib !== -1) return 1;
+      return a.title.localeCompare(b.title, "ja");
+    });
+
+  // カテゴリ別: Pillar 先、続いて Cluster 最大3本
+  const bySection = new Map<string, SsotPage[]>();
+  for (const p of mecePages) {
+    const section = CLUSTER_TO_SECTION[p.cluster_id] ?? "その他";
     if (!bySection.has(section)) bySection.set(section, []);
     bySection.get(section)!.push(p);
   }
-
   for (const arr of bySection.values()) {
-    arr.sort((a, b) => a.title.localeCompare(b.title, "ja"));
+    arr.sort((a, b) => {
+      if (a.page_priority !== b.page_priority) return a.page_priority - b.page_priority;
+      return a.title.localeCompare(b.title, "ja");
+    });
+    // B-2: カテゴリ内 Cluster は最大3本（Pillar は全部出し、そのあと Cluster 最大3）
+    const pillarsInSec = arr.filter((p) => p.page_priority === 1);
+    const clusterInSec = arr.filter((p) => p.page_priority === 2);
+    const capped = [...pillarsInSec, ...clusterInSec.slice(0, 3)];
+    arr.length = 0;
+    arr.push(...capped);
   }
 
-  const slugToPage = new Map<string, PseoPage>();
-  for (const p of pages) slugToPage.set(p.final_slug, p);
+  const sectionOrder = CLUSTER_ORDER.map((c) => CLUSTER_TO_SECTION[c]).filter(Boolean);
+  const sections = sectionOrder.filter((s) => bySection.has(s));
 
-  const pillarBlocks = pillarSlugs
-    .filter((slug) => slugToPage.has(slug))
-    .slice(0, 3)
-    .map((slug) => {
-      const p = slugToPage.get(slug)!;
-      return `<a href="${BASE_URL}${p.final_url}" class="block p-4 rounded-lg border border-indigo-200 bg-indigo-50/50 hover:bg-indigo-50 text-slate-800">${escapeHtml(p.title)}</a>`;
-    });
+  const pillarBlocks = pillars.map(
+    (p) =>
+      `<a href="${escapeHtml(p.url)}" class="block p-4 rounded-lg border border-indigo-200 bg-indigo-50/50 hover:bg-indigo-50 text-slate-800">${escapeHtml(p.title)}</a>`
+  );
 
-  const sections = SECTION_ORDER.filter((s) => bySection.has(s));
   const sectionBlocks = sections.map((sectionName, idx) => {
     const secId = `sec-${idx}`;
     const summary = sectionSummaries[sectionName];
     const items = bySection.get(sectionName) || [];
     const lis = items.map((p, itemIdx) => {
-      const tax = taxonomyBySlug.get(p.final_slug);
-      const intentId = tax?.intent_id ?? "";
-      const audience = (tax?.audience_tags ?? [])[0] ?? "";
+      const audience = (p.audience_tags || []).join(" / ");
       const labels: string[] = [];
-      if (intentId) labels.push(`<span class="text-xs text-slate-500">${escapeHtml(intentId)}</span>`);
+      labels.push(`<span class="text-xs text-slate-500">${escapeHtml(p.intent_id)}</span>`);
       if (audience) labels.push(`<span class="text-xs text-slate-500">${escapeHtml(audience)}</span>`);
-      const labelHtml = labels.length ? `<div class="flex gap-2 mt-1">${labels.join("")}</div>` : "";
-      return `        <li class="pseo-hub-item border-b border-slate-100 last:border-0" data-intent="${escapeHtml(intentId)}" data-audience="${escapeHtml(audience)}" data-page-index="${sections.slice(0, idx).reduce((acc, _, i) => acc + (bySection.get(SECTION_ORDER[i])?.length ?? 0), 0) + itemIdx}"><a href="${BASE_URL}${p.final_url}" class="block py-3 px-1 text-slate-700 hover:text-indigo-600 hover:bg-slate-50 rounded transition">${escapeHtml(p.title)}</a>${labelHtml}</li>`;
+      if (p.has_asset) labels.push(`<span class="text-xs text-indigo-600">成果物あり</span>`);
+      const readOrder = p.page_priority === 1 ? "まず読む" : "次に読む";
+      labels.push(`<span class="text-xs text-slate-500">${readOrder}</span>`);
+      const labelHtml = labels.length ? `<div class="flex flex-wrap gap-2 mt-1">${labels.join("")}</div>` : "";
+      const summaryHtml = p.summary ? `<p class="text-sm text-slate-600 mt-1">${escapeHtml(p.summary)}</p>` : "";
+      return `        <li class="pseo-hub-item border-b border-slate-100 last:border-0" data-intent="${escapeHtml(p.intent_id)}" data-audience="${escapeHtml(audience)}" data-page-index="${sections.slice(0, idx).reduce((acc, _, i) => acc + (bySection.get(sectionOrder[i])?.length ?? 0), 0) + itemIdx}"><a href="${escapeHtml(p.url)}" class="block py-3 px-1 text-slate-700 hover:text-indigo-600 hover:bg-slate-50 rounded transition font-medium">${escapeHtml(p.title)}</a>${summaryHtml}${labelHtml}</li>`;
     });
     const summaryHtml = summary ? `\n        <p class="text-sm text-slate-600 mb-3">${escapeHtml(summary)}</p>` : "";
     return `      <section class="mb-10 pseo-hub-section" aria-labelledby="${secId}" data-section="${escapeHtml(sectionName)}">
@@ -156,10 +165,7 @@ ${lis.join("\n")}
   });
 
   const navLinks = sections
-    .map(
-      (s, idx) =>
-        `<a href="#sec-${idx}" class="text-sm text-indigo-600 hover:underline">${escapeHtml(s)}</a>`
-    )
+    .map((s, idx) => `<a href="#sec-${idx}" class="text-sm text-indigo-600 hover:underline">${escapeHtml(s)}</a>`)
     .join(' <span class="text-slate-300" aria-hidden="true">|</span> ');
 
   const filterScript = `
@@ -191,19 +197,19 @@ ${lis.join("\n")}
 })();
 `;
 
-  const headerHtml = renderHeaderStatic("ja", "main_lp", BASE_URL);
-  const footerHtml = renderFooter("ja", BASE_URL, { showPracticeGuide: true });
-
   const pillarHtml =
     pillarBlocks.length > 0
       ? `
     <section class="mb-8 p-4 bg-slate-50 rounded-lg border border-slate-200" aria-label="まず読むべき">
       <h2 class="text-lg font-semibold text-slate-800 mb-3">まず読むべき</h2>
-      <div class="grid gap-2 sm:grid-cols-3">
+      <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
         ${pillarBlocks.join("\n        ")}
       </div>
     </section>`
       : "";
+
+  const headerHtml = renderHeaderStatic("ja", "main_lp", BASE_URL);
+  const footerHtml = renderFooter("ja", BASE_URL, { showPracticeGuide: true });
 
   const html = `<!doctype html>
 <html lang="ja">
@@ -272,8 +278,54 @@ ${sectionBlocks.join("\n\n")}
 `;
 
   mkdirSync(dirname(OUT_PATH), { recursive: true });
-  writeFileSync(OUT_PATH, html, "utf8");
-  console.log(`Wrote ${OUT_PATH} (${pages.length} pages, ${sections.length} sections, hub config: ${pillarBlocks.length} pillars)`);
+  writeFileSync(OUT_PATH, html, "utf-8");
+  console.log(`Wrote ${OUT_PATH} (${mecePages.length} indexable, ${pillars.length} pillars, ${sections.length} sections)`);
+
+  // 管理者用: 全件（noindex 含む）の _all ページを生成
+  const allSectionOrder = [...CLUSTER_ORDER, "その他"];
+  const allBySection = new Map<string, SsotPage[]>();
+  for (const p of allPages) {
+    const section = CLUSTER_TO_SECTION[p.cluster_id] ?? "その他";
+    if (!allBySection.has(section)) allBySection.set(section, []);
+    allBySection.get(section)!.push(p);
+  }
+  for (const arr of allBySection.values()) {
+    arr.sort((a, b) => {
+      if (a.page_priority !== b.page_priority) return a.page_priority - b.page_priority;
+      return a.title.localeCompare(b.title, "ja");
+    });
+  }
+  const allSections = allSectionOrder.filter((s) => allBySection.has(s));
+  const allSectionBlocks = allSections.map((sectionName, idx) => {
+    const items = allBySection.get(sectionName) || [];
+    const lis = items.map((p) => {
+      const audience = (p.audience_tags || []).join(" / ");
+      const indexLabel = p.robots === "index,follow" ? "index" : "noindex";
+      return `        <li class="border-b border-slate-100 last:border-0"><a href="${escapeHtml(p.url)}" class="block py-2 px-1 text-slate-700 hover:text-indigo-600">${escapeHtml(p.title)}</a><div class="flex gap-2 text-xs text-slate-500"><span>${escapeHtml(p.intent_id)}</span><span>${escapeHtml(audience)}</span><span>${indexLabel}</span></div></li>`;
+    });
+    return `      <section class="mb-8"><h2 class="text-lg font-semibold text-slate-800 mb-2">${escapeHtml(sectionName)}</h2><ul class="divide-y divide-slate-100">${lis.join("\n")}</ul></section>`;
+  });
+
+  const allHtml = `<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,follow" />
+  <title>監査・証跡（実務）全件一覧（管理者用） | AIMOaaS™</title>
+  <link rel="canonical" href="${BASE_URL}/ja/resources/pseo/_all/" />
+</head>
+<body class="bg-slate-50 text-slate-900 p-8 font-sans">
+  <h1 class="text-xl font-bold mb-4">監査・証跡（実務）全件一覧（管理者用）</h1>
+  <p class="text-sm text-slate-600 mb-6">index / noindex を問わず全ページ。公開一覧は <a href="${BASE_URL}/ja/resources/pseo/" class="text-indigo-600 underline">/ja/resources/pseo/</a>。</p>
+${allSectionBlocks.join("\n")}
+</body>
+</html>
+`;
+
+  mkdirSync(dirname(OUT_ALL_PATH), { recursive: true });
+  writeFileSync(OUT_ALL_PATH, allHtml, "utf-8");
+  console.log(`Wrote ${OUT_ALL_PATH} (${allPages.length} pages, admin only)`);
 }
 
 main();
