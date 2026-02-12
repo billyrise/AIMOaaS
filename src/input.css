@@ -93,4 +93,14 @@
   .pseo-prose pre {
     overflow-x: auto;
   }
+
+  /* PSEO 中程以降の3セクション: 上部本文と同じ幅（max-w-4xl エリア内）で表示 */
+  .pseo-trust-block,
+  section.pseo-faq,
+  section.internal-links {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
 }
