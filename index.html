@@ -1146,20 +1146,5 @@ if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded
                 initHeader();
             }
         </script>
-        <!-- Mobile Hamburger Menu: safe direct binding -->
-        <script>
-        (function () {
-          var btn = document.getElementById('hamburger-btn');
-          var menu = document.getElementById('mobile-menu');
-          if (!btn || !menu) return;
-
-          btn.addEventListener('click', function (e) {
-            e.preventDefault();
-            var open = menu.classList.toggle('is-open');
-            btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-            menu.setAttribute('aria-hidden', open ? 'false' : 'true');
-          });
-        })();
-        </script>
     </body>
 </html>
